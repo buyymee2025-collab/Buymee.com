@@ -6,7 +6,6 @@ import { ArrowUpRight, Check } from 'lucide-react'
 import { categories } from '../data/categories'
 import products from '../data/products'
 import { uploadedVideo, dressAssets, watchAssets } from '../data/assets'
-import { imageUrl } from '../lib/images'
 import ProductCard from '../components/ProductCard'
 import { AnimatedHeading, EditorialNumber, Reveal, ScrollAccent, ScrollImage, SectionLabel } from '../components/Primitives'
 
@@ -21,7 +20,7 @@ export default function Home() {
   return (
     <div className="home-redesign">
       <section className="hero-new">
-        <video ref={videoRef} autoPlay muted loop playsInline poster={imageUrl(dressAssets[1])}><source src={uploadedVideo} type="video/mp4" /></video>
+        <video ref={videoRef} autoPlay muted loop playsInline><source src={uploadedVideo} type="video/mp4" /></video>
         <div className="hero-new-overlay" />
         <div className="hero-new-grid" />
         <div className="hero-new-copy">

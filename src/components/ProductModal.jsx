@@ -110,7 +110,6 @@ export default function ProductModal({ product, onClose }) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         />
-        <div className="product-modal-brand"><Logo /></div>
         <button className="product-modal-close" type="button" onClick={onClose} aria-label="Close product details">
           <X size={20} />
         </button>
@@ -122,6 +121,7 @@ export default function ProductModal({ product, onClose }) {
           transition={{ duration: .34, ease: [.22, 1, .36, 1] }}
           onClick={(event) => event.stopPropagation()}
         >
+          <div className="product-modal-header"><Logo /></div>
           <div className="product-modal-media">
             <div
               className="product-modal-main"
@@ -130,31 +130,40 @@ export default function ProductModal({ product, onClose }) {
               onWheel={handleWheel}
             >
               {mediaLoading && <span className="product-modal-loader" aria-label="Loading media" />}
-              {activeMedia?.type === 'video' ? (
-                <video
-                  key={activeMedia.src}
-                  src={mediaSrc(activeMedia)}
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  controls={false}
-                  preload="auto"
-                  onLoadedData={() => setMediaLoading(false)}
-                  onCanPlay={() => setMediaLoading(false)}
-                  onError={() => setMediaLoading(false)}
-                />
-              ) : (
-                <img
-                  key={activeMedia?.src}
-                  src={mediaSrc(activeMedia) || product.image}
-                  alt={`${product.name} ${variant.color}`}
-                  fetchPriority="high"
-                  decoding="async"
-                  onLoad={() => setMediaLoading(false)}
-                  onError={() => setMediaLoading(false)}
-                />
-              )}
+              <motion.div
+                className="product-modal-media-track"
+                animate={{ x: `-${mediaIndex * 100}%` }}
+                transition={{ type: 'spring', stiffness: 260, damping: 30, mass: 0.72 }}
+              >
+                {media.map((item, index) => (
+                  <div className="product-modal-media-slide" key={`${item.src}-${index}`}>
+                    {item.type === 'video' ? (
+                      <video
+                        src={mediaSrc(item)}
+                        autoPlay={index === mediaIndex}
+                        muted
+                        loop
+                        playsInline
+                        controls={false}
+                        preload={index === mediaIndex ? 'auto' : 'metadata'}
+                        onLoadedData={() => index === mediaIndex && setMediaLoading(false)}
+                        onCanPlay={() => index === mediaIndex && setMediaLoading(false)}
+                        onError={() => index === mediaIndex && setMediaLoading(false)}
+                      />
+                    ) : (
+                      <img
+                        src={mediaSrc(item) || product.image}
+                        alt={`${product.name} ${variant.color} ${index + 1}`}
+                        fetchPriority={index === mediaIndex ? 'high' : 'auto'}
+                        loading={index === mediaIndex ? 'eager' : 'lazy'}
+                        decoding="async"
+                        onLoad={() => index === mediaIndex && setMediaLoading(false)}
+                        onError={() => index === mediaIndex && setMediaLoading(false)}
+                      />
+                    )}
+                  </div>
+                ))}
+              </motion.div>
               <span className="product-modal-counter">{String(mediaIndex + 1).padStart(2, '0')} / {String(media.length).padStart(2, '0')}</span>
             </div>
             {media.length > 1 && (
