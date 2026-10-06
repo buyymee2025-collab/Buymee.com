@@ -105,8 +105,8 @@ export default function Footer() {
       </div>
 
       <div className="footer-new-bottom">
-        <span>© 2026 BUYYMEE</span>
-        <span>LAGOS / LONDON / NEW YORK</span>
+        <span>© 2026 BUYYMEE.COM</span>
+        <span>UNITED STATES / UNITED KINGDOM / CANADA</span>
         <span>USD </span>
       </div>
     </footer>

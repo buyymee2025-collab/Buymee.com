@@ -50,6 +50,12 @@ export default function Home() {
   return (
     <div className="home-redesign">
       <style>{`
+        @media (max-width: 767px) {
+          .home-redesign .locations-new .location-logo {
+            transform: translateX(-16px);
+          }
+        }
+
         @media (min-width: 901px) {
           .home-redesign .hero-new .hero-new-rail {
             position: absolute;
@@ -420,6 +426,7 @@ export default function Home() {
       <section className="locations-new section-pad">
         <div className="location-copy">
           <img
+            className="location-logo"
             src="https://res.cloudinary.com/mdbhqnv7/image/upload/v1791228199/65efa3b8-253a-4101-949d-a5357341efc9.png"
             alt="Buyymee.com"
             width={2172}
