@@ -87,15 +87,15 @@ export default function Footer() {
           <span>STAY CLOSE</span>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
-          <a href="#">Instagram ↗</a>
+          <a href="https://www.instagram.com/buyymeestore?stkn=MTQyaXYwNGh2MzJ2eA%3D%3D&utm_source=qr">Instagram ↗</a>
           <a href="#">TikTok ↗</a>
         </div>
 
         <div>
           <span>DELIVERY</span>
-          <a href="#">UK / 3–5 days</a>
-          <a href="#">USA / 4–7 days</a>
-          <a href="#">Nigeria / 2–4 days</a>
+          <a href="#">USA / 5-10 days</a>
+          <a href="#">UK / 5-10 days</a>
+          <a href="#">Nigeria / 5-10 days</a>
           <a href="#">Worldwide / 7–14 days</a>
         </div>
       </div>
