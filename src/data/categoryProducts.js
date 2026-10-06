@@ -19,7 +19,7 @@ const makeProduct = ({
   name,
   category,
   subcategory,
-  brand: 'BUY Y MEE',
+  brand: 'BUYYMEE.com',
   price,
   compareAt: null,
   currency: 'USD',

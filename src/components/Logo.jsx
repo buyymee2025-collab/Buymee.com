@@ -4,8 +4,8 @@ import { uploadedLogo } from '../data/assets'
 
 export default function Logo({ light = false, onClick }) {
   return (
-    <Link to="/" onClick={onClick} className={`logo-image ${light ? 'logo-image-light' : ''}`} aria-label="BUY Y MEE home">
-      <SiteImage src={uploadedLogo} alt="BUY Y MEE" />
+    <Link to="/" onClick={onClick} className={`logo-image ${light ? 'logo-image-light' : ''}`} aria-label="BUYYMEE.com home">
+      <SiteImage src={uploadedLogo} alt="BUYYMEE.com" />
     </Link>
   )
 }

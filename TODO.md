@@ -1,4 +1,4 @@
-# Buy Y Mee — requested corrections
+# BUYYMEE.com — requested corrections
 
 - [x] Preserve the current uploaded design, content and page structure. Remove Women, Men and New In as top-level navigation links; place all three inside Shop on desktop and mobile. All eight homepage sections, four category tiles and four featured cards remain; all original products, names, prices, sizes and descriptions are retained.
 - [x] Smooth desktop Shop opening/closing and link transitions; smooth, responsive mobile menu and nested Shop accordion, with scrollable short-screen content, keyboard support, Escape, focus management and background scroll locking. Verified at desktop, 390 × 844 and 320 × 568.

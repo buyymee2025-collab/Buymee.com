@@ -1,6 +1,6 @@
-# BUY Y MEE — corrected visibility, navigation and motion
+# BUYYMEE.com — corrected visibility, navigation and motion
 
-This replacement corrects the hidden-content regression in the previous animation update. It continues from the supplied `buy-y-mee-redesigned-updated.zip`; no original homepage section, category, product, price, size or description has been removed.
+This replacement corrects the hidden-content regression in the previous animation update. It continues from the supplied `BUYYMEE website source`; no original homepage section, category, product, price, size or description has been removed.
 
 ## Visibility correction
 
