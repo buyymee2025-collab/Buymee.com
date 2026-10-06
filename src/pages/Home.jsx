@@ -419,11 +419,23 @@ export default function Home() {
 
       <section className="locations-new section-pad">
         <div className="location-copy">
+          <img
+            src="https://res.cloudinary.com/mdbhqnv7/image/upload/v1791228199/65efa3b8-253a-4101-949d-a5357341efc9.png"
+            alt="Buyymee.com"
+            width={2172}
+            height={724}
+            loading="lazy"
+            style={{
+              display: 'block',
+              width: '420px',
+              maxWidth: '100%',
+              height: 'auto',
+              marginBottom: '24px',
+            }}
+          />
+
           <AnimatedHeading
-            lines={[
-              'BUYMEE.COM',
-              <em key="world">To The World</em>,
-            ]}
+            lines={[<em key="world">To The World</em>]}
           />
 
           <p>
