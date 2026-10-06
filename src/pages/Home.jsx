@@ -112,7 +112,7 @@ export default function Home() {
           <p>Made with a local pulse and a global eye. Worldwide delivery, easy returns, and a little more room for discovery.</p>
           <Link to="/contact" className="arrow-link">Say hello <span>↗</span></Link>
         </div>
-        <div className="location-list">{[['USA','5–10 days'],['UK','5–10 days'],['WORLDWIDE','7–14 days']].map(([region, days], index) => <div key={region}><span>0{index + 1}</span><b>{region}</b><small>{days}</small><Check size={18} /></div>)}</div>
+        <div className="location-list">{[['USA','7–14 days'],['UK','7–14 days'],['WORLDWIDE','7–20 days']].map(([region, days], index) => <div key={region}><span>0{index + 1}</span><b>{region}</b><small>{days}</small><Check size={18} /></div>)}</div>
       </section>
 
       <section className="closing-new">

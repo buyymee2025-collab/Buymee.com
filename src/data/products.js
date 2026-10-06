@@ -545,8 +545,8 @@ const products = [
   },
   {
     "id": 11,
-    "slug": "rolex-oyster-perpetual-datejust-41",
-    "name": "Rolex Oyster Perpetual Datejust 41",
+    "slug": "richard-mille",
+    "name": "Richard Mille",
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
@@ -594,8 +594,8 @@ const products = [
   },
   {
     "id": 12,
-    "slug": "rolex-day-date-40",
-    "name": "Rolex Day-Date 40",
+    "slug": "hublot-black",
+    "name": "Hublot Black",
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
@@ -642,58 +642,9 @@ const products = [
     "sale": false
   },
   {
-    "id": 13,
-    "slug": "rolex-submariner-date",
-    "name": "Rolex Submariner Date",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208699/exec-4974bbc1-0522-4b90-b7b2-7b3d7590fbb5.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208701/exec-1842d8d0-14c1-436c-88e0-72e71167e456.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208701/exec-1842d8d0-14c1-436c-88e0-72e71167e456.png"
-    ],
-    "variants": [
-      {
-        "color": "Black",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208699/exec-4974bbc1-0522-4b90-b7b2-7b3d7590fbb5.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208699/exec-4974bbc1-0522-4b90-b7b2-7b3d7590fbb5.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208701/exec-1842d8d0-14c1-436c-88e0-72e71167e456.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Black"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
     "id": 14,
-    "slug": "rolex-cosmograph-daytona",
-    "name": "Rolex Cosmograph Daytona",
+    "slug": "breitlin-1884",
+    "name": "BREITLIN 1884",
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
@@ -712,6 +663,10 @@ const products = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208675/exec-267f5cd5-bc14-4cf9-a7d5-774975a36930.png"
+          },
+          {
+            "type": "video",
+            "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1791313609/1006_4.mp4"
           }
         ]
       }

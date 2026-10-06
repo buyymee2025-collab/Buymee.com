@@ -278,3 +278,14 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
   .product-modal-description{font-size:13px;margin-top:20px}
   .product-modal-option{margin-top:25px}
 }
+
+/* Product modal performance/navigation additions — isolated to the modal. */
+.product-modal-shell{overflow:auto;overscroll-behavior:contain;align-items:start;padding-top:82px;padding-bottom:28px}
+.product-modal-brand{position:fixed;top:24px;left:28px;z-index:6}
+.product-modal-brand .logo-image{width:150px}
+.product-modal-main{touch-action:pan-y;cursor:grab}
+.product-modal-main:active{cursor:grabbing}
+.product-modal-loader{position:absolute;left:50%;top:50%;width:34px;height:34px;margin:-17px 0 0 -17px;border:2px solid rgba(5,15,30,.14);border-top-color:var(--orange);border-radius:50%;animation:productModalSpin .7s linear infinite;z-index:2}
+@keyframes productModalSpin{to{transform:rotate(360deg)}}
+.product-modal-video-thumb i{display:none}
+@media(max-width:520px){.product-modal-shell{padding-top:76px;padding-bottom:0}.product-modal-brand{top:18px;left:18px}.product-modal-brand .logo-image{width:120px}.product-modal-close{top:18px;right:18px}}

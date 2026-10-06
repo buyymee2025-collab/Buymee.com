@@ -1,17 +1,23 @@
 import { imageUrl } from '../lib/images'
+import { optimizeImageUrl } from '../lib/media'
 
 export default function SiteImage({ src, alt, className = '', onError, ...props }) {
-  const isUnsplash = typeof src === 'string' && (src.includes('images.unsplash.com') || src.includes('/images/stock-') || src.includes('/images/accessory-gold-chain'))
+  const resolved = imageUrl(src)
+  const isUnsplash = typeof resolved === 'string' && (resolved.includes('images.unsplash.com') || resolved.includes('/images/stock-') || resolved.includes('/images/accessory-gold-chain'))
+  const optimized = optimizeImageUrl(resolved)
   return (
     <img
       {...props}
-      src={imageUrl(src)}
+      src={optimized}
       alt={alt}
-      data-image-source={src}
+      data-image-source={resolved}
       className={`${className}${isUnsplash ? ' image-unsplash' : ''}`.trim()}
       decoding="async"
       onError={(event) => {
-        if (imageUrl(src) !== src && event.currentTarget.dataset.triedOriginal !== 'true') {
+        if (event.currentTarget.dataset.triedOptimized !== 'true' && optimized !== resolved) {
+          event.currentTarget.dataset.triedOptimized = 'true'
+          event.currentTarget.src = resolved
+        } else if (imageUrl(src) !== src && event.currentTarget.dataset.triedOriginal !== 'true') {
           event.currentTarget.dataset.triedOriginal = 'true'
           event.currentTarget.src = src
         }

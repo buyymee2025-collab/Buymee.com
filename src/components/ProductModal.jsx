@@ -1,14 +1,20 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { ArrowUpRight, Check, X, Play } from 'lucide-react'
+import { ArrowUpRight, Check, X } from 'lucide-react'
 import SiteImage from './SiteImage'
+import Logo from './Logo'
 import { useStore } from '../context/StoreContext'
+import { optimizeImageUrl, optimizeVideoUrl } from '../lib/media'
 
 function mediaFor(product, variant) {
   if (variant?.media?.length) return variant.media
   const sources = [product.image, product.secondaryImage, ...(product.gallery || [])].filter(Boolean)
   return [...new Set(sources)].map((src) => ({ type: 'image', src }))
+}
+
+function mediaSrc(item, width = 1500) {
+  return item?.type === 'video' ? optimizeVideoUrl(item.src) : optimizeImageUrl(item.src, width)
 }
 
 export default function ProductModal({ product, onClose }) {
@@ -20,6 +26,7 @@ export default function ProductModal({ product, onClose }) {
   }]
   const [variantIndex, setVariantIndex] = useState(0)
   const [mediaIndex, setMediaIndex] = useState(0)
+  const [mediaLoading, setMediaLoading] = useState(true)
   const variant = variants[variantIndex]
   const media = useMemo(() => mediaFor(product, variant), [product, variant])
   const activeMedia = media[mediaIndex] || media[0]
@@ -30,17 +37,34 @@ export default function ProductModal({ product, onClose }) {
   }, [product])
 
   useEffect(() => {
+    setMediaLoading(true)
+    if (!activeMedia) return
+    // Warm the current image immediately and lightly prefetch the next image.
+    if (activeMedia.type === 'image') {
+      const image = new Image()
+      image.src = mediaSrc(activeMedia)
+    }
+    const next = media[(mediaIndex + 1) % media.length]
+    if (next?.type === 'image') {
+      const image = new Image()
+      image.src = mediaSrc(next)
+    }
+  }, [activeMedia, media, mediaIndex])
+
+  useEffect(() => {
     const previous = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     const onKeyDown = (event) => {
       if (event.key === 'Escape') onClose()
+      if (event.key === 'ArrowRight' && media.length > 1) setMediaIndex((i) => (i + 1) % media.length)
+      if (event.key === 'ArrowLeft' && media.length > 1) setMediaIndex((i) => (i - 1 + media.length) % media.length)
     }
     window.addEventListener('keydown', onKeyDown)
     return () => {
       document.body.style.overflow = previous
       window.removeEventListener('keydown', onKeyDown)
     }
-  }, [onClose])
+  }, [onClose, media.length])
 
   const selectVariant = (index) => {
     setVariantIndex(index)
@@ -48,6 +72,24 @@ export default function ProductModal({ product, onClose }) {
   }
 
   const selectMedia = (index) => setMediaIndex(index)
+  const moveMedia = (direction) => {
+    if (media.length < 2) return
+    setMediaIndex((index) => (index + direction + media.length) % media.length)
+  }
+
+  const touchStartX = useRef(null)
+  const handleTouchStart = (event) => { touchStartX.current = event.changedTouches[0]?.clientX ?? null }
+  const handleTouchEnd = (event) => {
+    if (touchStartX.current == null) return
+    const delta = event.changedTouches[0]?.clientX - touchStartX.current
+    if (Math.abs(delta) > 45) moveMedia(delta < 0 ? 1 : -1)
+    touchStartX.current = null
+  }
+  const handleWheel = (event) => {
+    if (Math.abs(event.deltaY) < 8 && Math.abs(event.deltaX) < 8) return
+    event.preventDefault()
+    moveMedia((event.deltaX || event.deltaY) > 0 ? 1 : -1)
+  }
 
   const content = (
     <AnimatePresence>
@@ -68,6 +110,7 @@ export default function ProductModal({ product, onClose }) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         />
+        <div className="product-modal-brand"><Logo /></div>
         <button className="product-modal-close" type="button" onClick={onClose} aria-label="Close product details">
           <X size={20} />
         </button>
@@ -80,11 +123,37 @@ export default function ProductModal({ product, onClose }) {
           onClick={(event) => event.stopPropagation()}
         >
           <div className="product-modal-media">
-            <div className="product-modal-main">
+            <div
+              className="product-modal-main"
+              onTouchStart={handleTouchStart}
+              onTouchEnd={handleTouchEnd}
+              onWheel={handleWheel}
+            >
+              {mediaLoading && <span className="product-modal-loader" aria-label="Loading media" />}
               {activeMedia?.type === 'video' ? (
-                <video src={activeMedia.src} autoPlay muted loop playsInline controls={false} />
+                <video
+                  key={activeMedia.src}
+                  src={mediaSrc(activeMedia)}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  controls={false}
+                  preload="auto"
+                  onLoadedData={() => setMediaLoading(false)}
+                  onCanPlay={() => setMediaLoading(false)}
+                  onError={() => setMediaLoading(false)}
+                />
               ) : (
-                <img src={activeMedia?.src || product.image} alt={`${product.name} ${variant.color}`} />
+                <img
+                  key={activeMedia?.src}
+                  src={mediaSrc(activeMedia) || product.image}
+                  alt={`${product.name} ${variant.color}`}
+                  fetchPriority="high"
+                  decoding="async"
+                  onLoad={() => setMediaLoading(false)}
+                  onError={() => setMediaLoading(false)}
+                />
               )}
               <span className="product-modal-counter">{String(mediaIndex + 1).padStart(2, '0')} / {String(media.length).padStart(2, '0')}</span>
             </div>
@@ -99,9 +168,9 @@ export default function ProductModal({ product, onClose }) {
                     aria-label={`View media ${index + 1}`}
                   >
                     {item.type === 'video' ? (
-                      <span className="product-modal-video-thumb"><video src={item.src} muted playsInline preload="metadata" /><i><Play size={12} fill="currentColor" /></i></span>
+                      <span className="product-modal-video-thumb"><video src={mediaSrc(item)} muted playsInline preload="metadata" /></span>
                     ) : (
-                      <img src={item.src} alt="" />
+                      <img src={mediaSrc(item, 300)} alt="" loading="lazy" decoding="async" />
                     )}
                   </button>
                 ))}
@@ -130,7 +199,7 @@ export default function ProductModal({ product, onClose }) {
                     aria-label={`Select ${item.color}`}
                     title={item.color}
                   >
-                    <img src={item.image} alt="" />
+                    <img src={optimizeImageUrl(item.image, 300)} alt="" loading="lazy" decoding="async" />
                   </button>
                 ))}
               </div>
@@ -142,7 +211,7 @@ export default function ProductModal({ product, onClose }) {
               <span>THE EDIT</span>
               <div><Check size={15} /> Carefully selected for the BUYYMEE.com watch edit.</div>
               <div><Check size={15} /> Worldwide delivery available.</div>
-              <div><Check size={15} /> USA / 5–10 days · UK / 5–10 days · Worldwide / 7–14 days.</div>
+              <div><Check size={15} /> USA / 7–14 days · UK / 7–14 days · Worldwide / 7–20 days.</div>
             </div>
 
             <div className="product-modal-actions">
