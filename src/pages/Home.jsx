@@ -421,7 +421,7 @@ export default function Home() {
         <div className="location-copy">
           <AnimatedHeading
             lines={[
-              'BUYMEE',
+              'BUYMEE.COM',
               <em key="world">To The World</em>,
             ]}
           />
