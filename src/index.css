@@ -323,3 +323,18 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 .product-modal-identity-code{font-size:15px;font-weight:900;letter-spacing:.12em;color:var(--ink);font-variant-numeric:tabular-nums}
 .product-modal-identity-dot{width:6px;height:6px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 4px rgba(221,89,44,.1)}
 @media(max-width:520px){.product-modal-identity{margin:-2px 0 18px}.product-modal-identity-code{font-size:13px}}
+
+/* Premium price emphasis — intentionally limited to product prices. */
+.product-price-box{display:inline-flex;align-items:center;gap:10px;width:max-content;min-height:34px;padding:7px 11px;border:1px solid rgba(10,22,40,.18);background:rgba(255,255,255,.72);box-shadow:0 7px 18px rgba(10,22,40,.06);font:800 13px var(--round);letter-spacing:.02em;}
+.product-price-box span,.product-modal-price span{font-size:8px;letter-spacing:.16em;text-transform:uppercase;color:var(--slate);font-weight:900;}
+.product-modal-price{display:flex;align-items:center;gap:11px;width:max-content;margin-top:22px;padding:10px 14px;border:1px solid rgba(240,96,32,.32);background:linear-gradient(135deg,rgba(240,96,32,.09),rgba(255,255,255,.72));box-shadow:0 10px 24px rgba(10,22,40,.08);font-size:15px;font-weight:900;letter-spacing:.03em;color:var(--ink);}
+.product-modal-price span{color:var(--orange);}
+@media(max-width:520px){.product-price-box{min-height:31px;padding:6px 9px;font-size:12px}.product-modal-price{font-size:14px;padding:9px 12px;}}
+
+/* Watches-only price emphasis: high contrast and readable on the dark catalogue. */
+.category-new-dark .product-price-box{background:#f06020;color:#fff;border:1px solid #ffae85;box-shadow:0 8px 0 rgba(0,0,0,.17),0 12px 28px rgba(240,96,32,.24);font-size:15px;font-weight:900;padding:10px 14px;min-height:42px;transition:transform .2s ease,box-shadow .2s ease}
+.category-new-dark .product-price-box span{color:#fff2e9;font-size:9px;letter-spacing:.14em}
+.category-new-dark .product-card:hover .product-price-box{transform:translateY(-2px);box-shadow:0 10px 0 rgba(0,0,0,.15),0 16px 30px rgba(240,96,32,.3)}
+/* Show complete product images in the modal, with breathing room; do not crop or zoom. */
+.product-modal-media-slide img,.product-modal-media-slide video{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain!important;object-position:center;transform:none!important;padding:clamp(12px,2.5vw,26px);box-sizing:border-box}
+@media(max-width:520px){.category-new-dark .product-price-box{font-size:13px;padding:8px 11px;min-height:36px}.product-modal-media-slide img,.product-modal-media-slide video{padding:12px}}

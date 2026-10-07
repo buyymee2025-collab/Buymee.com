@@ -685,7 +685,10 @@ const products = [
             "type": "image",
             "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208675/exec-267f5cd5-bc14-4cf9-a7d5-774975a36930.png"
           },
-
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208676/exec-5ea4c873-11fd-422c-acde-29d6144efa39.png"
+          }
         ]
       }
     ],

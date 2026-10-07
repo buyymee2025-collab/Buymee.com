@@ -345,9 +345,7 @@ export default function ProductModal({ product, onClose }) {
               </div>
             )}
             <h2>{product.name}</h2>
-            <div className="product-modal-price">
-              {product.priceOnRequest ? 'PRICE ON REQUEST' : formatPrice(product.price, currency)}
-            </div>
+            <div className="product-modal-price"><span>PRICE</span>{product.priceOnRequest ? 'PRICE ON REQUEST' : formatPrice(product.price, currency)}</div>
 
             <p className="product-modal-description">{product.description}</p>
 
