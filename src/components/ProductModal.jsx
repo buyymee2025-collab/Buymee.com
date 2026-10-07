@@ -17,9 +17,23 @@ function mediaSrc(item, width = 1500) {
   return item?.type === 'video' ? optimizeVideoUrl(item.src) : optimizeImageUrl(item.src, width)
 }
 
-function videoPosterSrc(src) {
-  if (typeof src !== 'string' || !src.includes('res.cloudinary.com/') || !src.includes('/video/upload/')) return undefined
-  return src.replace('/video/upload/', '/video/upload/so_0,f_jpg,q_auto,w_900/')
+const EXPLICIT_VIDEO_POSTERS = {
+  '1006_1_1.mp4': 'https://res.cloudinary.com/mdbhqnv7/video/upload/so_0,f_jpg,q_auto/v1791302424/1006_1_1.jpg',
+}
+
+const videoPosterKey = (src = '') => src.split('/').pop()?.split('?')[0] || ''
+
+function videoPosterSrc(src, width = 1200) {
+  if (typeof src !== 'string' || !src.includes('/video/upload/')) return undefined
+  const filename = src.split('/').pop()?.split('?')[0] || ''
+  const explicit = EXPLICIT_VIDEO_POSTERS[filename]
+  if (explicit) return explicit.replace('w_1200', `w_${width}`)
+  const clean = src.split('?')[0].replace(/\.mp4$/i, '')
+  const marker = '/video/upload/'
+  const index = clean.indexOf(marker)
+  if (index === -1) return undefined
+  const tail = clean.slice(index + marker.length)
+  return `${clean.slice(0, index + marker.length)}so_0,f_jpg,q_auto,w_${width}/${tail}.jpg`
 }
 
 export default function ProductModal({ product, onClose }) {
@@ -35,7 +49,12 @@ export default function ProductModal({ product, onClose }) {
   const [mediaLoading, setMediaLoading] = useState(true)
   const [snapWithoutAnimation, setSnapWithoutAnimation] = useState(false)
   const variant = variants[variantIndex]
-  const media = useMemo(() => mediaFor(product, variant), [product, variant])
+  // Keep every variant's media in one continuous gallery. A product with
+  // multiple colours therefore exposes every colour's images/videos in the
+  // same modal without requiring a colour click first.
+  const media = useMemo(() => variants.flatMap((item, colorIndex) => (
+    mediaFor(product, item).map((entry) => ({ ...entry, color: item.color, colorIndex }))
+  )), [product, variants])
   const activeMedia = media[mediaIndex] || media[0]
   const cycleCount = 9
   const centerCycle = 4
@@ -50,16 +69,16 @@ export default function ProductModal({ product, onClose }) {
   useLayoutEffect(() => {
     setVariantIndex(0)
     setMediaIndex(0)
+    setCarouselIndex(0)
     setSnapWithoutAnimation(true)
   }, [product])
 
   useLayoutEffect(() => {
-    setMediaIndex(0)
     setCarouselIndex(media.length ? centerCycle * media.length : 0)
     setSnapWithoutAnimation(true)
     const frame = requestAnimationFrame(() => setSnapWithoutAnimation(false))
     return () => cancelAnimationFrame(frame)
-  }, [product, variantIndex, media.length])
+  }, [product, media.length])
 
   useEffect(() => {
     setMediaLoading(Boolean(activeMedia))
@@ -75,7 +94,7 @@ export default function ProductModal({ product, onClose }) {
       // The Cloudinary poster is immediately visible while the video buffers.
       // Do not cover that poster with a loading state.
       setMediaLoading(false)
-      const poster = videoPosterSrc(activeMedia.src)
+      const poster = videoPosterSrc(activeMedia.src, 1200)
       if (poster) {
         const image = new Image()
         image.src = poster
@@ -91,7 +110,7 @@ export default function ProductModal({ product, onClose }) {
         const image = new Image()
         image.src = mediaSrc(next)
       } else {
-        const poster = videoPosterSrc(next.src)
+        const poster = videoPosterSrc(next.src, 900)
         if (poster) {
           const image = new Image()
           image.src = poster
@@ -117,7 +136,12 @@ export default function ProductModal({ product, onClose }) {
 
   const selectVariant = (index) => {
     setVariantIndex(index)
-    setMediaIndex(0)
+    const firstIndex = media.findIndex((item) => item.colorIndex === index)
+    const targetIndex = firstIndex >= 0 ? firstIndex : 0
+    setMediaIndex(targetIndex)
+    setCarouselIndex(centerCycle * media.length + targetIndex)
+    setSnapWithoutAnimation(true)
+    requestAnimationFrame(() => requestAnimationFrame(() => setSnapWithoutAnimation(false)))
   }
 
   const selectMedia = (index) => {
@@ -226,13 +250,13 @@ export default function ProductModal({ product, onClose }) {
                         isActiveSlide ? (
                           <video
                             src={mediaSrc(item)}
-                            poster={videoPosterSrc(item.src)}
+                            poster={videoPosterSrc(item.src, 1200)}
                             autoPlay
                             muted
                             loop
                             playsInline
                             controls={false}
-                            preload="auto"
+                            preload="metadata"
                             onLoadedMetadata={(event) => {
                               event.currentTarget.play().catch(() => {})
                             }}
@@ -242,7 +266,7 @@ export default function ProductModal({ product, onClose }) {
                           />
                         ) : (
                           <img
-                            src={videoPosterSrc(item.src)}
+                            src={videoPosterSrc(item.src, 360)}
                             alt={`${product.name} video preview`}
                             loading="eager"
                             decoding="async"
@@ -251,7 +275,7 @@ export default function ProductModal({ product, onClose }) {
                       ) : (
                         <img
                           src={mediaSrc(item) || product.image}
-                          alt={`${product.name} ${variant.color} ${logicalIndex + 1}`}
+                          alt={`${product.name} ${item.color || variant.color} ${logicalIndex + 1}`}
                           fetchPriority={isActiveSlide ? 'high' : 'auto'}
                           loading={isActiveSlide ? 'eager' : 'lazy'}
                           decoding="async"
@@ -276,7 +300,32 @@ export default function ProductModal({ product, onClose }) {
                     aria-label={`View media ${index + 1}`}
                   >
                     {item.type === 'video' ? (
-                      <span className="product-modal-video-thumb"><video src={mediaSrc(item)} poster={videoPosterSrc(item.src)} muted playsInline preload="metadata" /></span>
+                      <span className="product-modal-video-thumb">
+                        <img
+                          src={videoPosterSrc(item.src, 360)}
+                          alt=""
+                          loading="lazy"
+                          decoding="async"
+                          onError={(event) => {
+                            if (videoPosterKey(item.src) === '1006_1_1.mp4') {
+                              event.currentTarget.style.display = 'none'
+                              const video = event.currentTarget.parentElement?.querySelector('video')
+                              if (video) video.style.display = 'block'
+                            }
+                          }}
+                        />
+                        {videoPosterKey(item.src) === '1006_1_1.mp4' && (
+                          <video
+                            className="product-modal-video-thumb-fallback"
+                            src={mediaSrc(item)}
+                            muted
+                            playsInline
+                            preload="metadata"
+                            aria-hidden="true"
+                          />
+                        )}
+                        <i aria-hidden="true"><span>▶</span></i>
+                      </span>
                     ) : (
                       <img src={mediaSrc(item, 300)} alt="" loading="lazy" decoding="async" />
                     )}
@@ -303,14 +352,14 @@ export default function ProductModal({ product, onClose }) {
             <p className="product-modal-description">{product.description}</p>
 
             <div className="product-modal-option">
-              <div><span>COLOR</span><b>{variant.color}</b></div>
+              <div><span>COLORS</span><b>{variants.length > 1 ? 'ALL COLORS IN THIS EDIT' : variant.color}</b></div>
               {variants.length > 1 && (
                 <div className="product-modal-color-map" aria-label="All available colors">
                   {variants.map((item, index) => (
                     <button
                       key={`${item.color}-${index}`}
                       type="button"
-                      className={variantIndex === index ? 'active' : ''}
+                      className={media[mediaIndex]?.colorIndex === index ? 'active' : ''}
                       onClick={() => selectVariant(index)}
                       aria-label={`Select ${item.color}`}
                       title={item.color}
