@@ -1,6 +1,7 @@
 const products = [
   {
     "id": 1,
+    "productCode": "AP001",
     "slug": "audemars-piguet-royal-oak-offshore-diver-15720st",
     "name": "Audemars Piguet Royal Oak Offshore Diver 15720ST Style",
     "category": "Watches",
@@ -75,6 +76,7 @@ const products = [
   },
   {
     "id": 2,
+    "productCode": "RM002",
     "slug": "richard-mille-rm-65-01-style-skeleton-automatic",
     "name": "Richard Mille RM 65-01 Style Skeleton Automatic Watch",
     "category": "Watches",
@@ -139,6 +141,7 @@ const products = [
   },
   {
     "id": 3,
+    "productCode": "TT004",
     "slug": "tissot-1853-chronograph-silver",
     "name": "Tissot 1853 Chronograph",
     "category": "Watches",
@@ -193,6 +196,7 @@ const products = [
   },
   {
     "id": 4,
+    "productCode": "PP001",
     "slug": "patek-philippe-calatrava-silver-bronze",
     "name": "Patek Philippe Calatrava",
     "category": "Watches",
@@ -247,6 +251,7 @@ const products = [
   },
   {
     "id": 5,
+    "productCode": "00000",
     "slug": "hublot-spirit-of-big-bang-white-ceramic",
     "name": "Hublot Spirit of Big Bang White Ceramic 42mm — Ref. 642.HX.0170.RX",
     "category": "Watches",
@@ -301,6 +306,7 @@ const products = [
   },
   {
     "id": 6,
+    "productCode": "00000",
     "slug": "omega-constellation-co-axial-master-chronometer-41",
     "name": "OMEGA Constellation Co-Axial Master Chronometer 41 mm",
     "category": "Watches",
@@ -355,6 +361,7 @@ const products = [
   },
   {
     "id": 7,
+    "productCode": "TT002",
     "slug": "tissot-prc-200-chronograph",
     "name": "Tissot PRC 200 Chronograph",
     "category": "Watches",
@@ -404,6 +411,7 @@ const products = [
   },
   {
     "id": 8,
+    "productCode": "00000",
     "slug": "cartier-santos-de-cartier-chronograph",
     "name": "Cartier Santos de Cartier Chronograph",
     "category": "Watches",
@@ -453,6 +461,7 @@ const products = [
   },
   {
     "id": 9,
+    "productCode": "00000",
     "slug": "omega-de-ville-prestige-quartz",
     "name": "Omega De Ville Prestige Quartz 34.8mm",
     "category": "Watches",
@@ -496,6 +505,7 @@ const products = [
   },
   {
     "id": 10,
+    "productCode": "TT001",
     "slug": "tissot-1853-chronograph-silver-royal-blue",
     "name": "Tissot 1853 Chronograph",
     "category": "Watches",
@@ -545,6 +555,7 @@ const products = [
   },
   {
     "id": 11,
+    "productCode": "RM004",
     "slug": "richard-mille",
     "name": "Richard Mille",
     "category": "Watches",
@@ -594,6 +605,7 @@ const products = [
   },
   {
     "id": 12,
+    "productCode": "00000",
     "slug": "hublot-black",
     "name": "Hublot Black",
     "category": "Watches",
@@ -643,6 +655,7 @@ const products = [
   },
   {
     "id": 14,
+    "productCode": "BL001",
     "slug": "breitlin-1884",
     "name": "BREITLIN 1884",
     "category": "Watches",

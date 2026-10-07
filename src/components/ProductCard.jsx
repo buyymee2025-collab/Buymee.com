@@ -32,6 +32,9 @@ export default function ProductCard({ product, index = 0 }) {
         </div>
         <div className="product-meta">
           <span>{product.category} / {product.subcategory}</span>
+          {product.category === 'Watches' && product.productCode && (
+            <small className="watch-product-code">PRODUCT CODE / {product.productCode}</small>
+          )}
           <Link to={`/product/${product.slug}`} onClick={openProduct}>{product.name}</Link>
           <strong>{product.priceOnRequest ? 'PRICE ON REQUEST' : formatPrice(product.price, currency)}</strong>
           <Link className="product-view" to={`/product/${product.slug}`} onClick={openProduct}>VIEW DETAILS <span>↗</span></Link>
