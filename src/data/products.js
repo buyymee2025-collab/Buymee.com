@@ -218,7 +218,9 @@ const products = [
     "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208651/exec-305736ef-a23f-4b05-9c11-2d49ead357b3.png",
     "gallery": [
       "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208651/exec-305736ef-a23f-4b05-9c11-2d49ead357b3.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-5c34cdb0-7bb6-41af-8d78-574a1a02a450.png"
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-5c34cdb0-7bb6-41af-8d78-574a1a02a450.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398403/ChatGPT_Image_Oct_7_2026_11_33_18_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398076/ChatGPT_Image_Oct_7_2026_11_31_15_AM.png"
     ],
     "variants": [
       {
@@ -236,6 +238,14 @@ const products = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-5c34cdb0-7bb6-41af-8d78-574a1a02a450.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398403/ChatGPT_Image_Oct_7_2026_11_33_18_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398076/ChatGPT_Image_Oct_7_2026_11_31_15_AM.png"
           }
         ]
       }
@@ -258,28 +268,34 @@ const products = [
     "sale": false
   },
   {
-    "id": 5,
-    "productCode": "00000",
-    "slug": "hublot-spirit-of-big-bang-white-ceramic",
+    "id": 23,
+    "productCode": "HL009",
+    "slug": "hublot-spirit-of-big-bang-white-ceramic-42mm-ref-642-hx-0170-rx",
     "name": "Hublot Spirit of Big Bang White Ceramic 42mm — Ref. 642.HX.0170.RX",
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 540,
+    "price": 560,
     "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/IGSR6143.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/KAVV0170.png",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398502/ChatGPT_Image_Oct_7_2026_11_39_15_AM.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/IGSR6143.png",
     "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398502/ChatGPT_Image_Oct_7_2026_11_39_15_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/IGSR6143.png",
       "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/KAVV0170.png",
       "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791303740/0969f2ff-32ee-4d80-b6a0-5c768812403c.png"
     ],
     "variants": [
       {
-        "color": "White",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/IGSR6143.png",
+        "color": "White Ceramic",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398502/ChatGPT_Image_Oct_7_2026_11_39_15_AM.png",
         "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398502/ChatGPT_Image_Oct_7_2026_11_39_15_AM.png"
+          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/IGSR6143.png"
@@ -295,21 +311,23 @@ const products = [
         ]
       }
     ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
+    "description": "Hublot Spirit of Big Bang White Ceramic 42mm — Ref. 642.HX.0170.RX.",
     "sizes": [
       "OS"
     ],
     "colors": [
-      "White"
+      "White Ceramic"
     ],
     "tags": [
       "watch",
-      "luxury"
+      "luxury",
+      "hublot",
+      "white ceramic"
     ],
     "inStock": true,
     "placeholder": false,
     "featured": true,
-    "newArrival": false,
+    "newArrival": true,
     "sale": false
   },
   {
@@ -382,7 +400,9 @@ const products = [
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/exec-7a576ed2-7583-42c3-9273-6b66c5e3a57c.png",
     "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-97800666-9e44-468a-886a-b0f20a705189.png",
     "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-97800666-9e44-468a-886a-b0f20a705189.png"
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-97800666-9e44-468a-886a-b0f20a705189.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791399970/ChatGPT_Image_Oct_7_2026_11_48_12_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791399957/ChatGPT_Image_Oct_7_2026_12_05_17_PM.png"
     ],
     "variants": [
       {
@@ -396,6 +416,14 @@ const products = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-97800666-9e44-468a-886a-b0f20a705189.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791399970/ChatGPT_Image_Oct_7_2026_11_48_12_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791399957/ChatGPT_Image_Oct_7_2026_12_05_17_PM.png"
           }
         ]
       }
@@ -526,7 +554,9 @@ const products = [
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208658/tissot-chronograph-luxury-studio-ad-1920.png",
     "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/tissot-chronograph-luxury-studio-ad-1920_2.png",
     "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/tissot-chronograph-luxury-studio-ad-1920_2.png"
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/tissot-chronograph-luxury-studio-ad-1920_2.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400271/ChatGPT_Image_Oct_7_2026_12_09_55_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400278/ChatGPT_Image_Oct_7_2026_12_08_26_PM.png"
     ],
     "variants": [
       {
@@ -540,6 +570,14 @@ const products = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/tissot-chronograph-luxury-studio-ad-1920_2.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400271/ChatGPT_Image_Oct_7_2026_12_09_55_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400278/ChatGPT_Image_Oct_7_2026_12_08_26_PM.png"
           }
         ]
       }
@@ -626,7 +664,10 @@ const products = [
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208676/exec-e8a1d39f-9684-4989-8234-c1b2fc74430f.png",
     "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208673/IMG_1258-luxury-ad-concept.png",
     "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208673/IMG_1258-luxury-ad-concept.png"
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208673/IMG_1258-luxury-ad-concept.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400924/ChatGPT_Image_Oct_7_2026_12_15_51_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400923/ChatGPT_Image_Oct_7_2026_12_14_16_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400932/ChatGPT_Image_Oct_7_2026_12_17_40_PM.png"
     ],
     "variants": [
       {
@@ -640,6 +681,18 @@ const products = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208673/IMG_1258-luxury-ad-concept.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400924/ChatGPT_Image_Oct_7_2026_12_15_51_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400923/ChatGPT_Image_Oct_7_2026_12_14_16_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400932/ChatGPT_Image_Oct_7_2026_12_17_40_PM.png"
           }
         ]
       }
@@ -1025,20 +1078,43 @@ const products = [
       "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309473/ChatGPT_Image_Oct_6_2026_10_29_55_AM.png",
       "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png"
     ],
-    "variants": [{
-      "color": "Blue",
-      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png",
-      "media": [
-        {"type":"image","src":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png"},
-        {"type":"image","src":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309472/ChatGPT_Image_Oct_6_2026_10_27_14_AM.png"},
-        {"type":"image","src":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309473/ChatGPT_Image_Oct_6_2026_10_29_55_AM.png"},
-        {"type":"image","src":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png"}
-      ]
-    }],
+    "variants": [
+      {
+        "color": "Blue",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309472/ChatGPT_Image_Oct_6_2026_10_27_14_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309473/ChatGPT_Image_Oct_6_2026_10_29_55_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png"
+          }
+        ]
+      }
+    ],
     "description": "A blue Lamborghini-inspired wrist watch with a bold automotive character and a sharp, sporty presence.",
-    "sizes": ["OS"],
-    "colors": ["Blue"],
-    "tags": ["watch","luxury","lamborghini","blue"],
+    "sizes": [
+      "OS"
+    ],
+    "colors": [
+      "Blue"
+    ],
+    "tags": [
+      "watch",
+      "luxury",
+      "lamborghini",
+      "blue"
+    ],
     "inStock": true,
     "placeholder": false,
     "featured": true,
