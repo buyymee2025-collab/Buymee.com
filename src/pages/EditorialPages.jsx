@@ -11,7 +11,7 @@ const config={
  '/new-in':{label:'THE NEW EDIT / 01',title:<>New<br/><em>signal.</em></>,desc:'The newest pieces to enter the world.',image:watchAssets[9],filter:'new in'},
  '/women':{label:"WOMEN'S / 01",title:<>Make an<br/><em>entrance.</em></>,desc:'Dresses with somewhere to go.',image:dressAssets[1],filter:'women'},
  '/men':{label:"MEN'S / 01",title:<>The<br/><em>menswear edit.</em></>,desc:'Sharp layers, considered essentials, and a quieter point of view.',image:'https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=1800&q=85',filter:'men'},
- '/watches':{label:'WATCHES / 01',title:<>Time,<br/><em>reconsidered.</em></>,desc:'Exact lines. Quiet confidence.',image:watchAssets[13],video:'https://res.cloudinary.com/mdbhqnv7/video/upload/f_mp4/v1791208667/BHTB9771.mp4',filter:'watches',dark:true},
+ '/watches':{label:'WATCHES / 01',title:<>Time,<br/><em>reconsidered.</em></>,desc:'Exact lines. Quiet confidence.',image:watchAssets[13],video:'https://res.cloudinary.com/mdbhqnv7/video/upload/v1791313609/1006_4.mp4',filter:'watches',dark:true},
  '/sneakers':{label:'SNEAKERS / 01',title:<>Move<br/><em>different.</em></>,desc:'Everyday pairs with more energy and less noise.',image:'https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=1200&q=85',filter:'sneakers'},
  '/shoes':{label:'SHOES / 01',title:<>Step<br/><em>into it.</em></>,desc:'Heels and loafers selected for the full day.',image:'/images/stock-heels.webp',filter:'shoes'},
  '/bags':{label:'BAGS / 01',title:<>Carry<br/><em>the day.</em></>,desc:'Useful shapes, considered texture, and room for what matters.',image:'/images/stock-tote.webp',filter:'bags'},

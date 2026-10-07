@@ -45,22 +45,21 @@ export default function ProductModal({ product, onClose }) {
   }, [media])
 
   // Establish the first slide at the center of the repeated track before the
-  // browser paints the modal. This prevents the user from ever seeing the
-  // track travel through the duplicated slides when the modal opens.
+  // browser paints the modal. Keep variant selection independent so choosing
+  // another color never gets reset when that color has a different media count.
   useLayoutEffect(() => {
     setVariantIndex(0)
     setMediaIndex(0)
+    setSnapWithoutAnimation(true)
+  }, [product])
+
+  useLayoutEffect(() => {
+    setMediaIndex(0)
     setCarouselIndex(media.length ? centerCycle * media.length : 0)
     setSnapWithoutAnimation(true)
-  }, [product, media.length])
-
-  useEffect(() => {
-    if (!media.length) return
-    const frame = requestAnimationFrame(() => {
-      setSnapWithoutAnimation(false)
-    })
+    const frame = requestAnimationFrame(() => setSnapWithoutAnimation(false))
     return () => cancelAnimationFrame(frame)
-  }, [product, media.length])
+  }, [product, variantIndex, media.length])
 
   useEffect(() => {
     setMediaLoading(Boolean(activeMedia))
@@ -73,15 +72,32 @@ export default function ProductModal({ product, onClose }) {
       image.src = mediaSrc(activeMedia)
       if (image.complete) setMediaLoading(false)
     } else {
-      // The active video controls its own loading state through canplay/loadeddata.
-      setMediaLoading(true)
+      // The Cloudinary poster is immediately visible while the video buffers.
+      // Do not cover that poster with a loading state.
+      setMediaLoading(false)
+      const poster = videoPosterSrc(activeMedia.src)
+      if (poster) {
+        const image = new Image()
+        image.src = poster
+      }
     }
 
-    const next = media[(mediaIndex + 1) % media.length]
-    if (next?.type === 'image') {
-      const image = new Image()
-      image.src = mediaSrc(next)
-    }
+    const preloadTargets = [
+      media[(mediaIndex + 1) % media.length],
+      media[(mediaIndex - 1 + media.length) % media.length],
+    ].filter(Boolean)
+    preloadTargets.forEach((next) => {
+      if (next.type === 'image') {
+        const image = new Image()
+        image.src = mediaSrc(next)
+      } else {
+        const poster = videoPosterSrc(next.src)
+        if (poster) {
+          const image = new Image()
+          image.src = poster
+        }
+      }
+    })
   }, [activeMedia, media, mediaIndex])
 
   useEffect(() => {
@@ -102,9 +118,6 @@ export default function ProductModal({ product, onClose }) {
   const selectVariant = (index) => {
     setVariantIndex(index)
     setMediaIndex(0)
-    setCarouselIndex(centerCycle * media.length)
-    setSnapWithoutAnimation(true)
-    requestAnimationFrame(() => setSnapWithoutAnimation(false))
   }
 
   const selectMedia = (index) => {
@@ -210,19 +223,31 @@ export default function ProductModal({ product, onClose }) {
                   return (
                     <div className="product-modal-media-slide" key={`${item.src}-${renderIndex}`}>
                       {item.type === 'video' ? (
-                        <video
-                          src={mediaSrc(item)}
-                          poster={videoPosterSrc(item.src)}
-                          autoPlay={isActiveSlide}
-                          muted
-                          loop
-                          playsInline
-                          controls={false}
-                          preload={isActiveSlide ? 'auto' : 'metadata'}
-                          onLoadedData={() => isActiveSlide && setMediaLoading(false)}
-                          onCanPlay={() => isActiveSlide && setMediaLoading(false)}
-                          onError={() => isActiveSlide && setMediaLoading(false)}
-                        />
+                        isActiveSlide ? (
+                          <video
+                            src={mediaSrc(item)}
+                            poster={videoPosterSrc(item.src)}
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            controls={false}
+                            preload="auto"
+                            onLoadedMetadata={(event) => {
+                              event.currentTarget.play().catch(() => {})
+                            }}
+                            onLoadedData={() => setMediaLoading(false)}
+                            onCanPlay={() => setMediaLoading(false)}
+                            onError={() => setMediaLoading(false)}
+                          />
+                        ) : (
+                          <img
+                            src={videoPosterSrc(item.src)}
+                            alt={`${product.name} video preview`}
+                            loading="eager"
+                            decoding="async"
+                          />
+                        )
                       ) : (
                         <img
                           src={mediaSrc(item) || product.image}
@@ -263,6 +288,13 @@ export default function ProductModal({ product, onClose }) {
 
           <div className="product-modal-info">
             <div className="product-modal-kicker">{product.category} / {product.subcategory}</div>
+            {product.category === 'Watches' && product.productCode && (
+              <div className="product-modal-identity" aria-label={`Product identity ${product.productCode}`}>
+                <span className="product-modal-identity-label">IDENTITY</span>
+                <span className="product-modal-identity-code">{product.productCode}</span>
+                <span className="product-modal-identity-dot" aria-hidden="true" />
+              </div>
+            )}
             <h2>{product.name}</h2>
             <div className="product-modal-price">
               {product.priceOnRequest ? 'PRICE ON REQUEST' : formatPrice(product.price, currency)}
@@ -272,20 +304,28 @@ export default function ProductModal({ product, onClose }) {
 
             <div className="product-modal-option">
               <div><span>COLOR</span><b>{variant.color}</b></div>
-              <div className="product-modal-swatches">
-                {variants.map((item, index) => (
-                  <button
-                    key={`${item.color}-${index}`}
-                    type="button"
-                    className={variantIndex === index ? 'active' : ''}
-                    onClick={() => selectVariant(index)}
-                    aria-label={`Select ${item.color}`}
-                    title={item.color}
-                  >
-                    <img src={optimizeImageUrl(item.image, 300)} alt="" loading="lazy" decoding="async" />
-                  </button>
-                ))}
-              </div>
+              {variants.length > 1 && (
+                <div className="product-modal-color-map" aria-label="All available colors">
+                  {variants.map((item, index) => (
+                    <button
+                      key={`${item.color}-${index}`}
+                      type="button"
+                      className={variantIndex === index ? 'active' : ''}
+                      onClick={() => selectVariant(index)}
+                      aria-label={`Select ${item.color}`}
+                      title={item.color}
+                    >
+                      <span className="product-modal-color-map-image">
+                        <img src={optimizeImageUrl(item.image, 420)} alt={`${item.color} ${product.name}`} loading="eager" decoding="async" />
+                      </span>
+                      <span className="product-modal-color-map-meta">
+                        <small>COLOR {String(index + 1).padStart(2, '0')}</small>
+                        <b>{item.color}</b>
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
 
             <div className="product-modal-rule" />

@@ -7,8 +7,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 520,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208705/exec-4eb48c1e-6a91-4b33-99e8-dab38e811a95.png",
@@ -23,16 +23,24 @@ const products = [
         "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208705/exec-4eb48c1e-6a91-4b33-99e8-dab38e811a95.png",
         "media": [
           {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208705/exec-4eb48c1e-6a91-4b33-99e8-dab38e811a95.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791385575/009.png"
+          },
+          {
             "type": "video",
             "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1791302424/1006_1_1.mp4"
           },
           {
-            "type": "video",
-            "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1791302406/1006.mp4"
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208669/exec-61b303c2-6f80-4357-aa1b-9f2f69d2e237.png"
           },
           {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208705/exec-4eb48c1e-6a91-4b33-99e8-dab38e811a95.png"
+            "type": "video",
+            "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1791302406/1006.mp4"
           }
         ]
       },
@@ -82,8 +90,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 580,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208699/exec-4974bbc1-0522-4b90-b7b2-7b3d7590fbb5.png",
@@ -147,8 +155,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 460,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208679/exec-ade009c6-68e0-4750-b75a-9ad3d462c7c9.png",
@@ -202,8 +210,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 600,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208652/exec-8b36c980-6ead-4c13-84fc-6321af479c21.png",
@@ -257,8 +265,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 540,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/IGSR6143.png",
@@ -312,8 +320,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 490,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208684/UWGO9249.png",
@@ -367,8 +375,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 430,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/exec-7a576ed2-7583-42c3-9273-6b66c5e3a57c.png",
@@ -417,8 +425,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 570,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208658/OONU6969.png",
@@ -467,8 +475,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 445,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208666/ANIT3094.png",
@@ -511,8 +519,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 475,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208658/tissot-chronograph-luxury-studio-ad-1920.png",
@@ -561,8 +569,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 590,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208674/exec-dd1e9831-66d3-4dcf-9b7c-7628931345ed.png",
@@ -605,14 +613,14 @@ const products = [
   },
   {
     "id": 12,
-    "productCode": "00000",
+    "productCode": "HL007",
     "slug": "hublot-black",
     "name": "Hublot Black",
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 510,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208676/exec-e8a1d39f-9684-4989-8234-c1b2fc74430f.png",
@@ -661,8 +669,8 @@ const products = [
     "category": "Watches",
     "subcategory": "Luxury watch",
     "brand": "BUYYMEE.com",
-    "price": 0,
-    "priceOnRequest": true,
+    "price": 425,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208675/exec-267f5cd5-bc14-4cf9-a7d5-774975a36930.png",
@@ -677,10 +685,7 @@ const products = [
             "type": "image",
             "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208675/exec-267f5cd5-bc14-4cf9-a7d5-774975a36930.png"
           },
-          {
-            "type": "video",
-            "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1791313609/1006_4.mp4"
-          }
+
         ]
       }
     ],
@@ -996,6 +1001,47 @@ const products = [
     "featured": true,
     "newArrival": false,
     "sale": false
+  },
+  {
+    "id": 14,
+    "productCode": "LAMBO001",
+    "slug": "lamborghini-wrist-watch-blue",
+    "name": "Lamborghini Wrist Watch",
+    "category": "Watches",
+    "subcategory": "Luxury watch",
+    "brand": "BUYYMEE.com",
+    "price": 550,
+    "priceOnRequest": false,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309472/ChatGPT_Image_Oct_6_2026_10_27_14_AM.png",
+    "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309472/ChatGPT_Image_Oct_6_2026_10_27_14_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309473/ChatGPT_Image_Oct_6_2026_10_29_55_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png"
+    ],
+    "variants": [{
+      "color": "Blue",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png",
+      "media": [
+        {"type":"image","src":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png"},
+        {"type":"image","src":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309472/ChatGPT_Image_Oct_6_2026_10_27_14_AM.png"},
+        {"type":"image","src":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309473/ChatGPT_Image_Oct_6_2026_10_29_55_AM.png"},
+        {"type":"image","src":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png"}
+      ]
+    }],
+    "description": "A blue Lamborghini-inspired wrist watch with a bold automotive character and a sharp, sporty presence.",
+    "sizes": ["OS"],
+    "colors": ["Blue"],
+    "tags": ["watch","luxury","lamborghini","blue"],
+    "inStock": true,
+    "placeholder": false,
+    "featured": true,
+    "newArrival": true,
+    "sale": false
   }
 ]
+
 export default products
