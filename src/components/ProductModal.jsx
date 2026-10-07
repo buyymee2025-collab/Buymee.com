@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ArrowUpRight, Check, X } from 'lucide-react'
@@ -17,6 +17,11 @@ function mediaSrc(item, width = 1500) {
   return item?.type === 'video' ? optimizeVideoUrl(item.src) : optimizeImageUrl(item.src, width)
 }
 
+function videoPosterSrc(src) {
+  if (typeof src !== 'string' || !src.includes('res.cloudinary.com/') || !src.includes('/video/upload/')) return undefined
+  return src.replace('/video/upload/', '/video/upload/so_0,f_jpg,q_auto,w_900/')
+}
+
 export default function ProductModal({ product, onClose }) {
   const { currency, formatPrice, addToCart } = useStore()
   const variants = product.variants?.length ? product.variants : [{
@@ -26,24 +31,52 @@ export default function ProductModal({ product, onClose }) {
   }]
   const [variantIndex, setVariantIndex] = useState(0)
   const [mediaIndex, setMediaIndex] = useState(0)
+  const [carouselIndex, setCarouselIndex] = useState(0)
   const [mediaLoading, setMediaLoading] = useState(true)
+  const [snapWithoutAnimation, setSnapWithoutAnimation] = useState(false)
   const variant = variants[variantIndex]
   const media = useMemo(() => mediaFor(product, variant), [product, variant])
   const activeMedia = media[mediaIndex] || media[0]
+  const cycleCount = 9
+  const centerCycle = 4
+  const loopedMedia = useMemo(() => {
+    if (!media.length) return []
+    return Array.from({ length: cycleCount }, () => media).flat()
+  }, [media])
 
-  useEffect(() => {
+  // Establish the first slide at the center of the repeated track before the
+  // browser paints the modal. This prevents the user from ever seeing the
+  // track travel through the duplicated slides when the modal opens.
+  useLayoutEffect(() => {
     setVariantIndex(0)
     setMediaIndex(0)
-  }, [product])
+    setCarouselIndex(media.length ? centerCycle * media.length : 0)
+    setSnapWithoutAnimation(true)
+  }, [product, media.length])
 
   useEffect(() => {
-    setMediaLoading(true)
+    if (!media.length) return
+    const frame = requestAnimationFrame(() => {
+      setSnapWithoutAnimation(false)
+    })
+    return () => cancelAnimationFrame(frame)
+  }, [product, media.length])
+
+  useEffect(() => {
+    setMediaLoading(Boolean(activeMedia))
     if (!activeMedia) return
-    // Warm the current image immediately and lightly prefetch the next image.
+
     if (activeMedia.type === 'image') {
       const image = new Image()
+      image.onload = () => setMediaLoading(false)
+      image.onerror = () => setMediaLoading(false)
       image.src = mediaSrc(activeMedia)
+      if (image.complete) setMediaLoading(false)
+    } else {
+      // The active video controls its own loading state through canplay/loadeddata.
+      setMediaLoading(true)
     }
+
     const next = media[(mediaIndex + 1) % media.length]
     if (next?.type === 'image') {
       const image = new Image()
@@ -56,8 +89,8 @@ export default function ProductModal({ product, onClose }) {
     document.body.style.overflow = 'hidden'
     const onKeyDown = (event) => {
       if (event.key === 'Escape') onClose()
-      if (event.key === 'ArrowRight' && media.length > 1) setMediaIndex((i) => (i + 1) % media.length)
-      if (event.key === 'ArrowLeft' && media.length > 1) setMediaIndex((i) => (i - 1 + media.length) % media.length)
+      if (event.key === 'ArrowRight' && media.length > 1) moveMedia(1)
+      if (event.key === 'ArrowLeft' && media.length > 1) moveMedia(-1)
     }
     window.addEventListener('keydown', onKeyDown)
     return () => {
@@ -69,12 +102,34 @@ export default function ProductModal({ product, onClose }) {
   const selectVariant = (index) => {
     setVariantIndex(index)
     setMediaIndex(0)
+    setCarouselIndex(centerCycle * media.length)
+    setSnapWithoutAnimation(true)
+    requestAnimationFrame(() => setSnapWithoutAnimation(false))
   }
 
-  const selectMedia = (index) => setMediaIndex(index)
+  const selectMedia = (index) => {
+    setMediaIndex(index)
+    setCarouselIndex(centerCycle * media.length + index)
+    setSnapWithoutAnimation(true)
+    requestAnimationFrame(() => setSnapWithoutAnimation(false))
+  }
+
   const moveMedia = (direction) => {
     if (media.length < 2) return
     setMediaIndex((index) => (index + direction + media.length) % media.length)
+    setCarouselIndex((index) => index + direction)
+  }
+
+  const handleCarouselComplete = () => {
+    if (media.length < 2) return
+    const lower = centerCycle * media.length + 1
+    const upper = centerCycle * media.length + media.length * 2 - 1
+    if (carouselIndex <= lower || carouselIndex >= upper) {
+      const normalized = centerCycle * media.length + mediaIndex
+      setSnapWithoutAnimation(true)
+      setCarouselIndex(normalized)
+      requestAnimationFrame(() => requestAnimationFrame(() => setSnapWithoutAnimation(false)))
+    }
   }
 
   const touchStartX = useRef(null)
@@ -129,40 +184,59 @@ export default function ProductModal({ product, onClose }) {
               onTouchEnd={handleTouchEnd}
               onWheel={handleWheel}
             >
-              {mediaLoading && <span className="product-modal-loader" aria-label="Loading media" />}
+              <AnimatePresence>
+                {mediaLoading && (
+                  <motion.span
+                    className="product-modal-loader"
+                    aria-label="Loading media"
+                    initial={{ opacity: 0, scale: .92 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 1.04 }}
+                    transition={{ duration: .22, ease: 'easeOut' }}
+                  >
+                    <span />
+                  </motion.span>
+                )}
+              </AnimatePresence>
               <motion.div
                 className="product-modal-media-track"
-                animate={{ x: `-${mediaIndex * 100}%` }}
-                transition={{ type: 'spring', stiffness: 260, damping: 30, mass: 0.72 }}
+                animate={{ x: `-${carouselIndex * 100}%` }}
+                transition={snapWithoutAnimation ? { duration: 0 } : { type: 'spring', stiffness: 300, damping: 32, mass: .7 }}
+                onAnimationComplete={handleCarouselComplete}
               >
-                {media.map((item, index) => (
-                  <div className="product-modal-media-slide" key={`${item.src}-${index}`}>
-                    {item.type === 'video' ? (
-                      <video
-                        src={mediaSrc(item)}
-                        autoPlay={index === mediaIndex}
-                        muted
-                        loop
-                        playsInline
-                        controls={false}
-                        preload={index === mediaIndex ? 'auto' : 'metadata'}
-                        onLoadedData={() => index === mediaIndex && setMediaLoading(false)}
-                        onCanPlay={() => index === mediaIndex && setMediaLoading(false)}
-                        onError={() => index === mediaIndex && setMediaLoading(false)}
-                      />
-                    ) : (
-                      <img
-                        src={mediaSrc(item) || product.image}
-                        alt={`${product.name} ${variant.color} ${index + 1}`}
-                        fetchPriority={index === mediaIndex ? 'high' : 'auto'}
-                        loading={index === mediaIndex ? 'eager' : 'lazy'}
-                        decoding="async"
-                        onLoad={() => index === mediaIndex && setMediaLoading(false)}
-                        onError={() => index === mediaIndex && setMediaLoading(false)}
-                      />
-                    )}
-                  </div>
-                ))}
+                {loopedMedia.map((item, renderIndex) => {
+                  const logicalIndex = renderIndex % media.length
+                  const isActiveSlide = renderIndex === carouselIndex
+                  return (
+                    <div className="product-modal-media-slide" key={`${item.src}-${renderIndex}`}>
+                      {item.type === 'video' ? (
+                        <video
+                          src={mediaSrc(item)}
+                          poster={videoPosterSrc(item.src)}
+                          autoPlay={isActiveSlide}
+                          muted
+                          loop
+                          playsInline
+                          controls={false}
+                          preload={isActiveSlide ? 'auto' : 'metadata'}
+                          onLoadedData={() => isActiveSlide && setMediaLoading(false)}
+                          onCanPlay={() => isActiveSlide && setMediaLoading(false)}
+                          onError={() => isActiveSlide && setMediaLoading(false)}
+                        />
+                      ) : (
+                        <img
+                          src={mediaSrc(item) || product.image}
+                          alt={`${product.name} ${variant.color} ${logicalIndex + 1}`}
+                          fetchPriority={isActiveSlide ? 'high' : 'auto'}
+                          loading={isActiveSlide ? 'eager' : 'lazy'}
+                          decoding="async"
+                          onLoad={() => isActiveSlide && setMediaLoading(false)}
+                          onError={() => isActiveSlide && setMediaLoading(false)}
+                        />
+                      )}
+                    </div>
+                  )
+                })}
               </motion.div>
               <span className="product-modal-counter">{String(mediaIndex + 1).padStart(2, '0')} / {String(media.length).padStart(2, '0')}</span>
             </div>
@@ -177,7 +251,7 @@ export default function ProductModal({ product, onClose }) {
                     aria-label={`View media ${index + 1}`}
                   >
                     {item.type === 'video' ? (
-                      <span className="product-modal-video-thumb"><video src={mediaSrc(item)} muted playsInline preload="metadata" /></span>
+                      <span className="product-modal-video-thumb"><video src={mediaSrc(item)} poster={videoPosterSrc(item.src)} muted playsInline preload="metadata" /></span>
                     ) : (
                       <img src={mediaSrc(item, 300)} alt="" loading="lazy" decoding="async" />
                     )}
