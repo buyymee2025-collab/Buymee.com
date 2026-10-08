@@ -127,10 +127,13 @@ export default function ProductModal({ product, onClose }) {
       if (event.key === 'ArrowRight' && media.length > 1) moveMedia(1)
       if (event.key === 'ArrowLeft' && media.length > 1) moveMedia(-1)
     }
+    const onDeviceBack = () => onClose()
     window.addEventListener('keydown', onKeyDown)
+    window.addEventListener('buyymee:back-close-modal', onDeviceBack)
     return () => {
       document.body.style.overflow = previous
       window.removeEventListener('keydown', onKeyDown)
+      window.removeEventListener('buyymee:back-close-modal', onDeviceBack)
     }
   }, [onClose, media.length])
 
