@@ -358,7 +358,7 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 .hero-heading .heading-line{transform:none!important}
 .angle-carousel{width:100%;overflow:hidden;position:relative;--angle-carousel-gap:18px;--angle-carousel-half-gap:9px;contain:layout paint}
 .angle-carousel-track{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(245px,24vw,360px);gap:var(--angle-carousel-gap);width:max-content;align-items:stretch;animation:buyymee-angle-slide 46s linear infinite;-webkit-animation:buyymee-angle-slide 46s linear infinite;animation-play-state:running!important;-webkit-animation-play-state:running!important;animation-iteration-count:infinite!important;-webkit-animation-iteration-count:infinite!important;will-change:transform;transform:translateX(0);-webkit-transform:translateX(0);backface-visibility:hidden;-webkit-backface-visibility:hidden}
-.angle-carousel-card{position:relative;display:block;width:100%;height:430px;overflow:hidden;background:#d9e3e9;min-width:0}
+.angle-carousel-card{position:relative;display:block;width:100%;height:520px;overflow:hidden;background:#d9e3e9;min-width:0}
 .angle-carousel-card img{width:100%;height:100%;display:block;object-fit:cover;filter:saturate(.78);transition:transform .8s cubic-bezier(.22,1,.36,1)}
 .angle-carousel-card:hover img{transform:scale(1.045)}
 .angle-carousel-overlay{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:22px;color:#fff;background:linear-gradient(transparent 42%,#050f1ed0)}
@@ -368,7 +368,7 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 @keyframes buyymee-angle-slide{from{transform:translateX(0)}to{transform:translateX(calc(-50% - var(--angle-carousel-half-gap)))}}@-webkit-keyframes buyymee-angle-slide{from{-webkit-transform:translateX(0);transform:translateX(0)}to{-webkit-transform:translateX(calc(-50% - var(--angle-carousel-half-gap)));transform:translateX(calc(-50% - var(--angle-carousel-half-gap)))}}
 @media(prefers-reduced-motion:reduce){.hero-heading .heading-line{transform:none!important}}
 .product-modal-media-slide img,.product-modal-media-slide video{object-fit:contain!important;object-position:center center!important;transform:none!important;padding:clamp(22px,4vw,48px)!important;box-sizing:border-box}
-@media(max-width:520px){.angle-carousel{--angle-carousel-gap:12px;--angle-carousel-half-gap:6px}.angle-carousel-card{height:350px}.angle-carousel-track{grid-auto-columns:78vw}.angle-carousel-track{gap:var(--angle-carousel-gap)}.sneaker-size-badge{font-size:8px}.product-modal-size-highlight-grid b{font-size:12px}.product-modal-media-slide{padding:12px}.product-modal-media-slide img,.product-modal-media-slide video{padding:0!important}}
+@media(max-width:520px){.angle-carousel{--angle-carousel-gap:12px;--angle-carousel-half-gap:6px}.angle-carousel-card{height:430px}.angle-carousel-track{grid-auto-columns:78vw}.angle-carousel-track{gap:var(--angle-carousel-gap)}.sneaker-size-badge{font-size:8px}.product-modal-size-highlight-grid b{font-size:12px}.product-modal-media-slide{padding:12px}.product-modal-media-slide img,.product-modal-media-slide video{padding:0!important}}
 
 /* Final sneaker modal media fit: keep the complete source image visible, remove the flex-basis that was forcing oversized media, and lift the artwork slightly inside the viewport. */
 .product-modal-main .product-modal-media-slide {
