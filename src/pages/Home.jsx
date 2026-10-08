@@ -51,8 +51,8 @@ export default function Home() {
 
       <section className="manifesto-strip">
         <ScrollAccent className="manifesto-mark" rotation={8} distance={22}>
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path d="M4 4L20 20M11 20H20V11" />
+          <svg className="manifesto-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M4 4L20 20M11 20H20V11" vectorEffect="non-scaling-stroke" />
           </svg>
         </ScrollAccent>
         <div><span className="eyebrow">A SHARP POINT OF VIEW</span><AnimatedHeading lines={['Good style', <em key="travels">travels.</em>]} /></div>
@@ -67,7 +67,7 @@ export default function Home() {
           <p>Every side of the BUYYMEE edit, moving continuously.</p>
         </div>
         <div className="angle-carousel" aria-label="BUYYMEE shop categories">
-          <div className="angle-carousel-track">
+          <div className="angle-carousel-track" role="presentation">
             {[...shopAngleCards, ...shopAngleCards].map((cat, index) => (
               <Link className="angle-carousel-card" to={cat.path} key={`${cat.label}-${index}`}>
                 <SiteImage src={cat.image} alt={cat.label} loading="lazy" />
