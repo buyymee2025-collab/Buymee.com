@@ -1076,7 +1076,10 @@ const products = [
       "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png",
       "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309472/ChatGPT_Image_Oct_6_2026_10_27_14_AM.png",
       "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309473/ChatGPT_Image_Oct_6_2026_10_29_55_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png"
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449819/ChatGPT_Image_Oct_7_2026_12_51_28_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449812/ChatGPT_Image_Oct_7_2026_12_55_22_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449809/ChatGPT_Image_Oct_7_2026_12_48_39_PM.png"
     ],
     "variants": [
       {
@@ -1100,6 +1103,24 @@ const products = [
             "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png"
           }
         ]
+      },
+      {
+        "color": "Black",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449819/ChatGPT_Image_Oct_7_2026_12_51_28_PM.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449819/ChatGPT_Image_Oct_7_2026_12_51_28_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449812/ChatGPT_Image_Oct_7_2026_12_55_22_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449809/ChatGPT_Image_Oct_7_2026_12_48_39_PM.png"
+          }
+        ]
       }
     ],
     "description": "A blue Lamborghini-inspired wrist watch with a bold automotive character and a sharp, sporty presence.",
@@ -1107,7 +1128,8 @@ const products = [
       "OS"
     ],
     "colors": [
-      "Blue"
+      "Blue",
+      "Black"
     ],
     "tags": [
       "watch",
@@ -1120,7 +1142,342 @@ const products = [
     "featured": true,
     "newArrival": true,
     "sale": false
+  },
+  {
+    "id": 24,
+    "productCode": "AP002",
+    "slug": "audemars-piguet-royal-oak-offshore-selfwinding-chronograph",
+    "name": "Audemars Piguet Royal Oak Offshore Selfwinding Chronograph",
+    "category": "Watches",
+    "subcategory": "Luxury watch",
+    "brand": "BUYYMEE.com",
+    "price": 580,
+    "priceOnRequest": false,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_03_58_PM.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_00_20_PM.png",
+    "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_03_58_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_00_20_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449808/ChatGPT_Image_Oct_7_2026_01_06_55_PM.png"
+    ],
+    "variants": [
+      {
+        "color": "Blue",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_03_58_PM.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_03_58_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_00_20_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449808/ChatGPT_Image_Oct_7_2026_01_06_55_PM.png"
+          }
+        ]
+      }
+    ],
+    "description": "A considered watch from the BUYYMEE.com edit.",
+    "sizes": [
+      "OS"
+    ],
+    "colors": [
+      "Blue"
+    ],
+    "tags": [
+      "watch",
+      "luxury",
+      "audemars"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": true,
+    "newArrival": true,
+    "sale": false
+  },
+  {
+    "id": 25,
+    "productCode": "MB001",
+    "slug": "mercedeez-benz-wrist-watch",
+    "name": "Mercedeez Benz",
+    "category": "Watches",
+    "subcategory": "Luxury watch",
+    "brand": "BUYYMEE.com",
+    "price": 500,
+    "priceOnRequest": false,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_10_29_PM.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_13_16_PM.png",
+    "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_10_29_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_13_16_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451658/ChatGPT_Image_Oct_7_2026_01_09_05_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451658/ChatGPT_Image_Oct_7_2026_01_11_57_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451735/ChatGPT_Image_Oct_7_2026_01_30_53_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451732/ChatGPT_Image_Oct_7_2026_01_36_51_PM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451737/ChatGPT_Image_Oct_7_2026_01_38_02_PM.png"
+    ],
+    "variants": [
+      {
+        "color": "Blue",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_10_29_PM.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_10_29_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_13_16_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451658/ChatGPT_Image_Oct_7_2026_01_09_05_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451658/ChatGPT_Image_Oct_7_2026_01_11_57_PM.png"
+          }
+        ]
+      },
+      {
+        "color": "Black",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451735/ChatGPT_Image_Oct_7_2026_01_30_53_PM.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451735/ChatGPT_Image_Oct_7_2026_01_30_53_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451732/ChatGPT_Image_Oct_7_2026_01_36_51_PM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451737/ChatGPT_Image_Oct_7_2026_01_38_02_PM.png"
+          }
+        ]
+      }
+    ],
+    "description": "A considered watch from the BUYYMEE.com edit.",
+    "sizes": [
+      "OS"
+    ],
+    "colors": [
+      "Blue",
+      "Black"
+    ],
+    "tags": [
+      "watch",
+      "luxury",
+      "mercedes benz"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": true,
+    "newArrival": true,
+    "sale": false
+  },
+  {
+    "id": 26,
+    "productCode": "HL005",
+    "slug": "iwc-schaffhausen-portugieser",
+    "name": "IWC Schaffhausen Portugieser",
+    "category": "Watches",
+    "subcategory": "Luxury watch",
+    "brand": "BUYYMEE.com",
+    "price": 540,
+    "priceOnRequest": false,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_02_14_01_AM.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_15_08_AM.png",
+    "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_02_14_01_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_15_08_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452891/ChatGPT_Image_Oct_8_2026_02_19_17_AM.png"
+    ],
+    "variants": [
+      {
+        "color": "Brown",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_02_14_01_AM.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_02_14_01_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_15_08_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452891/ChatGPT_Image_Oct_8_2026_02_19_17_AM.png"
+          }
+        ]
+      }
+    ],
+    "description": "A considered watch from the BUYYMEE.com edit.",
+    "sizes": [
+      "OS"
+    ],
+    "colors": [
+      "Brown"
+    ],
+    "tags": [
+      "watch",
+      "luxury",
+      "iwc"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": true,
+    "newArrival": true,
+    "sale": false
+  },
+  {
+    "id": 27,
+    "productCode": "HL005",
+    "slug": "hublot-big-bang-vendome-paris-boutique-special-edition-red-magic-chronograph",
+    "name": "Hublot Big Bang Vendôme Paris Boutique Special Edition “Red Magic” Chronograph",
+    "category": "Watches",
+    "subcategory": "Luxury watch",
+    "brand": "BUYYMEE.com",
+    "price": 550,
+    "priceOnRequest": false,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452890/ChatGPT_Image_Oct_8_2026_01_49_10_AM.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_01_49_59_AM.png",
+    "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452890/ChatGPT_Image_Oct_8_2026_01_49_10_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_01_49_59_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452897/ChatGPT_Image_Oct_8_2026_01_47_40_AM.png"
+    ],
+    "variants": [
+      {
+        "color": "Light Brown",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452890/ChatGPT_Image_Oct_8_2026_01_49_10_AM.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452890/ChatGPT_Image_Oct_8_2026_01_49_10_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_01_49_59_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452897/ChatGPT_Image_Oct_8_2026_01_47_40_AM.png"
+          }
+        ]
+      }
+    ],
+    "description": "A considered watch from the BUYYMEE.com edit.",
+    "sizes": [
+      "OS"
+    ],
+    "colors": [
+      "Light Brown"
+    ],
+    "tags": [
+      "watch",
+      "luxury",
+      "hublot"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": true,
+    "newArrival": true,
+    "sale": false
+  },
+  {
+    "id": 28,
+    "productCode": "HL006",
+    "slug": "hublot-classic-fusion-chronograph-titanium",
+    "name": "Hublot Classic Fusion Chronograph Titanium",
+    "category": "Watches",
+    "subcategory": "Luxury watch",
+    "brand": "BUYYMEE.com",
+    "price": 525,
+    "priceOnRequest": false,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452894/ChatGPT_Image_Oct_8_2026_02_01_38_AM.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_01_54_37_AM.png",
+    "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452894/ChatGPT_Image_Oct_8_2026_02_01_38_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_01_54_37_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_03_15_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_02_09_00_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452887/ChatGPT_Image_Oct_8_2026_02_06_13_AM.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452886/ChatGPT_Image_Oct_8_2026_02_07_04_AM.png"
+    ],
+    "variants": [
+      {
+        "color": "Green",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452894/ChatGPT_Image_Oct_8_2026_02_01_38_AM.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452894/ChatGPT_Image_Oct_8_2026_02_01_38_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_01_54_37_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_03_15_AM.png"
+          }
+        ]
+      },
+      {
+        "color": "Blue",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_02_09_00_AM.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_02_09_00_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452887/ChatGPT_Image_Oct_8_2026_02_06_13_AM.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452886/ChatGPT_Image_Oct_8_2026_02_07_04_AM.png"
+          }
+        ]
+      }
+    ],
+    "description": "A considered watch from the BUYYMEE.com edit.",
+    "sizes": [
+      "OS"
+    ],
+    "colors": [
+      "Green",
+      "Blue"
+    ],
+    "tags": [
+      "watch",
+      "luxury",
+      "hublot"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": true,
+    "newArrival": true,
+    "sale": false
   }
 ]
 
-export default products
+
+export default products;
