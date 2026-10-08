@@ -1476,6 +1476,154 @@ const products = [
     "featured": true,
     "newArrival": true,
     "sale": false
+  },
+  {
+    "id": 29,
+    "productCode": "000",
+    "slug": "omega-seamaster-diver-300m-co-axial-master",
+    "name": "OMEGA Seamaster Diver 300M Co‑Axial Master",
+    "category": "Watches",
+    "subcategory": "Luxury watch",
+    "brand": "BUYYMEE.com",
+    "price": 500,
+    "priceOnRequest": false,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png",
+    "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png"
+    ],
+    "variants": [
+      {
+        "color": "Blue",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png"
+          }
+        ]
+      }
+    ],
+    "description": "A considered watch from the BUYYMEE.com edit.",
+    "sizes": [
+      "OS"
+    ],
+    "colors": [
+      "Blue"
+    ],
+    "tags": [
+      "watch",
+      "luxury",
+      "omega"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": true,
+    "newArrival": true,
+    "sale": false
+  },
+  {
+    "id": 30,
+    "productCode": "RM009",
+    "slug": "richard-mille-rm-11-03-automatic-flyback",
+    "name": "Richard Mille RM 11-03 Automatic Flyback",
+    "category": "Watches",
+    "subcategory": "Luxury watch",
+    "brand": "BUYYMEE.com",
+    "price": 590,
+    "priceOnRequest": false,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208703/exec-bc4849a3-1d3e-42dc-af75-b637f37ad22e.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208668/exec-8f836da7-3313-4872-b71b-766a5436f506.png",
+    "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208703/exec-bc4849a3-1d3e-42dc-af75-b637f37ad22e.png",
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208668/exec-8f836da7-3313-4872-b71b-766a5436f506.png"
+    ],
+    "variants": [
+      {
+        "color": "Blue",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208703/exec-bc4849a3-1d3e-42dc-af75-b637f37ad22e.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208703/exec-bc4849a3-1d3e-42dc-af75-b637f37ad22e.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208668/exec-8f836da7-3313-4872-b71b-766a5436f506.png"
+          }
+        ]
+      }
+    ],
+    "description": "A considered watch from the BUYYMEE.com edit.",
+    "sizes": [
+      "OS"
+    ],
+    "colors": [
+      "Blue"
+    ],
+    "tags": [
+      "watch",
+      "luxury",
+      "richard mille"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": true,
+    "newArrival": true,
+    "sale": false
+  },
+
+  {
+    "id": 31,
+    "productCode": "HL009",
+    "slug": "hublot-inspired-skeleton-flyback-chronograph",
+    "name": "Hublot-Inspired Skeleton Flyback Chronograph",
+    "category": "Watches",
+    "subcategory": "Luxury watch",
+    "brand": "BUYYMEE.com",
+    "price": 560,
+    "priceOnRequest": false,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png",
+    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png",
+    "gallery": [
+      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png"
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png"
+          }
+        ]
+      }
+    ],
+    "description": "A considered watch from the BUYYMEE.com edit.",
+    "sizes": [
+      "OS"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "tags": [
+      "watch",
+      "luxury",
+      "hublot",
+      "skeleton chronograph"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": true,
+    "newArrival": true,
+    "sale": false
   }
 ]
 

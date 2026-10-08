@@ -4,12 +4,25 @@ import { useReducedMotion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { ArrowUpRight, Check } from 'lucide-react'
 import { categories } from '../data/categories'
+import { categoryProducts } from '../data/categoryProducts'
 import products from '../data/products'
 import { uploadedVideo, dressAssets, watchAssets } from '../data/assets'
 import ProductCard from '../components/ProductCard'
 import { AnimatedHeading, EditorialNumber, Reveal, ScrollAccent, ScrollImage, SectionLabel } from '../components/Primitives'
 
 const editorialProducts = products.slice(0, 6)
+
+const shopAngleCards = [
+  { label: 'New In', path: '/new-in', image: products[0]?.image || watchAssets[8], number: '01' },
+  { label: 'Women', path: '/women', image: dressAssets[1], number: '02' },
+  { label: 'Men', path: '/men', image: categoryProducts.men[0]?.image || dressAssets[5], number: '03' },
+  { label: 'Watches', path: '/watches', image: watchAssets[2], number: '04' },
+  { label: 'Shoes', path: '/shoes', image: categoryProducts.shoes[0]?.image || dressAssets[9], number: '05' },
+  { label: 'Sneakers', path: '/sneakers', image: categoryProducts.sneakers[0]?.image || watchAssets[14], number: '06' },
+  { label: 'Bags', path: '/bags', image: categoryProducts.bags[0]?.image || dressAssets[9], number: '07' },
+  { label: 'Fragrance', path: '/fragrance', image: categoryProducts.fragrance[0]?.image || watchAssets[8], number: '08' },
+  { label: 'Accessories', path: '/accessories', image: categoryProducts.accessories[0]?.image || watchAssets[18], number: '09' },
+]
 
 export default function Home() {
   const reduced = useReducedMotion()
@@ -25,7 +38,7 @@ export default function Home() {
         <div className="hero-new-grid" />
         <div className="hero-new-copy">
           <span className="hero-index">/ 001 — THE FIRST EDIT</span>
-          <AnimatedHeading as="h1" delay={0.12} lines={['Find', <i key="your">your</i>, <>signal<span>.</span></>]} />
+          <AnimatedHeading className="hero-heading" as="h1" delay={0.12} lines={['Find', <i key="your">your</i>, <>signal<span>.</span></>]} />
           <p>Watches and dresses chosen for people with somewhere to go.</p>
           <div className="hero-new-actions">
             <Link to="/shop" className="button orange">ENTER THE EDIT <ArrowUpRight size={17} /></Link>
@@ -47,17 +60,17 @@ export default function Home() {
         <div className="asym-heading">
           <div><SectionLabel number="01">THE CURRENT WORLD</SectionLabel><AnimatedHeading lines={['Choose', <em key="angle">your angle.</em>]} /></div>
           <EditorialNumber>01</EditorialNumber>
-          <p>Two categories. Infinite ways to make them feel like you.</p>
+          <p>Every side of the BUYYMEE edit, moving continuously.</p>
         </div>
-        <div className="constellation-grid">
-          {categories.slice(0, 4).map((cat, index) => (
-            <Reveal className={`constellation-card c-${index + 1}`} variant="image" delay={index * 0.085} key={cat.name}>
-              <Link to={cat.path}>
-                <SiteImage src={cat.image} alt={cat.name} loading="lazy" />
-                <div className="constellation-overlay"><span>{cat.number} /</span><h3>{cat.name}</h3><b>Open the edit <ArrowUpRight size={15} /></b></div>
+        <div className="angle-carousel" aria-label="BUYYMEE shop categories">
+          <div className="angle-carousel-track">
+            {[...shopAngleCards, ...shopAngleCards].map((cat, index) => (
+              <Link className="angle-carousel-card" to={cat.path} key={`${cat.label}-${index}`}>
+                <SiteImage src={cat.image} alt={cat.label} loading="lazy" />
+                <div className="angle-carousel-overlay"><span>{cat.number} /</span><h3>{cat.label}</h3><b>Open the edit <ArrowUpRight size={15} /></b></div>
               </Link>
-            </Reveal>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 

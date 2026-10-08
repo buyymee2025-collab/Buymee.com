@@ -375,6 +375,17 @@ export default function ProductModal({ product, onClose }) {
               )}
             </div>
 
+            {product.category === 'Sneakers' && product.sizeAvailability && (
+              <div className="product-modal-size-highlight" aria-label={`Sizes for ${product.name}`}>
+                <div className="product-modal-size-highlight-title">AVAILABLE SIZES</div>
+                <div className="product-modal-size-highlight-grid">
+                  <div><span>UK</span><b>{product.sizeAvailability.uk}</b></div>
+                  <div><span>USA</span><b>{product.sizeAvailability.us}</b></div>
+                  <div><span>EUROPE</span><b>{product.sizeAvailability.eu}</b></div>
+                </div>
+              </div>
+            )}
+
             <div className="product-modal-rule" />
 
             <div className="product-modal-details">

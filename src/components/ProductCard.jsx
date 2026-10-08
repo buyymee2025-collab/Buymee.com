@@ -36,6 +36,13 @@ export default function ProductCard({ product, index = 0 }) {
             <small className="watch-product-code">PRODUCT CODE / {product.productCode}</small>
           )}
           <Link to={`/product/${product.slug}`} onClick={openProduct}>{product.name}</Link>
+          {product.category === 'Sneakers' && product.sizeAvailability && (
+            <div className="sneaker-size-badge" aria-label={`Sizes for ${product.name}`}>
+              <span>UK {product.sizeAvailability.uk}</span>
+              <span>USA {product.sizeAvailability.us}</span>
+              <span>EU {product.sizeAvailability.eu}</span>
+            </div>
+          )}
           <strong className="product-price-box"><span>PRICE</span>{product.priceOnRequest ? 'PRICE ON REQUEST' : formatPrice(product.price, currency)}</strong>
           <Link className="product-view" to={`/product/${product.slug}`} onClick={openProduct}>VIEW DETAILS <span>↗</span></Link>
         </div>
