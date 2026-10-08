@@ -189,3 +189,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .logo-image img { object-fit: cover; object-position: 50% 48%; }
 .logo-image-light { border-radius: 2px; }
 .logo-image-light img { filter: none; }
+
+/* The homepage category carousel is a continuously moving decorative control.
+   Keep it running across iOS/Android/desktop even when the global reduced-motion
+   rule shortens other animations. */
+.angle-carousel-track,
+.angle-carousel-track:hover {
+  animation-play-state: running !important;
+  -webkit-animation-play-state: running !important;
+  animation-duration: 46s !important;
+  -webkit-animation-duration: 46s !important;
+  animation-iteration-count: infinite !important;
+  -webkit-animation-iteration-count: infinite !important;
+}
