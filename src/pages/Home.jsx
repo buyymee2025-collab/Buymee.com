@@ -50,7 +50,11 @@ export default function Home() {
       </section>
 
       <section className="manifesto-strip">
-        <ScrollAccent className="manifesto-mark" rotation={8} distance={22}>↘</ScrollAccent>
+        <ScrollAccent className="manifesto-mark" rotation={8} distance={22}>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M4 4L20 20M11 20H20V11" />
+          </svg>
+        </ScrollAccent>
         <div><span className="eyebrow">A SHARP POINT OF VIEW</span><AnimatedHeading lines={['Good style', <em key="travels">travels.</em>]} /></div>
         <p>One tight edit of real watches and dresses. No noise, no filler — just pieces with enough presence to become yours.</p>
         <Link to="/about" className="circle-link">OUR<br />STORY <ArrowUpRight size={17} /></Link>
