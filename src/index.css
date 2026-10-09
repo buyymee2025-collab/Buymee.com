@@ -357,7 +357,7 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 .product-modal-size-highlight-grid b{font-size:14px;color:#fff;letter-spacing:-.02em}
 .hero-heading .heading-line{transform:none!important}
 .angle-carousel{width:100%;overflow:hidden;position:relative;--angle-carousel-gap:18px;--angle-carousel-half-gap:9px;contain:layout paint}
-.angle-carousel-track{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(245px,24vw,360px);gap:var(--angle-carousel-gap);width:max-content;align-items:stretch;animation:buyymee-angle-slide 46s linear infinite;-webkit-animation:buyymee-angle-slide 46s linear infinite;animation-play-state:running!important;-webkit-animation-play-state:running!important;animation-iteration-count:infinite!important;-webkit-animation-iteration-count:infinite!important;will-change:transform;transform:translateX(0);-webkit-transform:translateX(0);backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.angle-carousel-track{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(245px,24vw,360px);gap:var(--angle-carousel-gap);width:max-content;align-items:stretch;animation:buyymee-angle-slide 25s linear infinite;-webkit-animation:buyymee-angle-slide 25s linear infinite;animation-play-state:running!important;-webkit-animation-play-state:running!important;animation-iteration-count:infinite!important;-webkit-animation-iteration-count:infinite!important;will-change:transform;transform:translateX(0);-webkit-transform:translateX(0);backface-visibility:hidden;-webkit-backface-visibility:hidden}
 .angle-carousel-card{position:relative;display:block;width:100%;height:600px;overflow:hidden;background:#d9e3e9;min-width:0}
 .angle-carousel-card img{width:100%;height:100%;display:block;object-fit:cover;filter:saturate(.78);transition:transform .8s cubic-bezier(.22,1,.36,1)}
 .angle-carousel-card:hover img{transform:scale(1.045)}
@@ -414,8 +414,8 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 .angle-carousel-track, .angle-carousel-track:hover, .angle-carousel-track:focus-within {
   animation-name: buyymee-angle-slide !important;
   -webkit-animation-name: buyymee-angle-slide !important;
-  animation-duration: 46s !important;
-  -webkit-animation-duration: 46s !important;
+  animation-duration: 25s !important;
+  -webkit-animation-duration: 25s !important;
   animation-timing-function: linear !important;
   -webkit-animation-timing-function: linear !important;
   animation-iteration-count: infinite !important;
@@ -447,4 +447,16 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 @media (max-width: 520px) {
   .manifesto-mark { width: 70px; height: 70px; }
   .manifesto-arrow { width: 58px; height: 58px; }
+}
+
+/* Pointer-controlled carousel: one complete category cycle every 25 seconds. */
+.angle-carousel { touch-action: pan-y; cursor: grab; }
+.angle-carousel.is-dragging { cursor: grabbing; }
+.angle-carousel.is-dragging .angle-carousel-card { user-select: none; }
+.angle-carousel-card img { -webkit-user-drag: none; }
+.angle-carousel .angle-carousel-track,
+.angle-carousel .angle-carousel-track:hover,
+.angle-carousel .angle-carousel-track:focus-within {
+  animation: none !important;
+  -webkit-animation: none !important;
 }

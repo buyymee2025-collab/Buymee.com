@@ -29,31 +29,6 @@ export default function PageShell({ children, darkHeader = false, overlay = fals
     return () => { window.history.scrollRestoration = previous }
   }, [])
 
-  // Device Back should behave like a close action only while an overlay is
-  // open. Otherwise React Router must receive the event so normal navigation
-  // history continues to work.
-  useEffect(() => {
-    const handlePopState = (event) => {
-      const modalOpen = document.querySelector('.product-modal-shell')
-      const drawerOpen = document.querySelector('.drawer-backdrop')
-      if (!modalOpen && !drawerOpen) return
-
-      // The overlay opened a same-URL history entry. The browser has now
-      // popped that entry, so the URL remains on the current page. Stop the
-      // router from treating this as a page navigation and close the overlay.
-      event.preventDefault()
-      event.stopImmediatePropagation()
-      if (modalOpen) {
-        window.dispatchEvent(new Event('buyymee:back-close-modal'))
-      } else {
-        window.dispatchEvent(new Event('buyymee:back-close-drawer'))
-      }
-    }
-
-    window.addEventListener('popstate', handlePopState, true)
-    return () => window.removeEventListener('popstate', handlePopState, true)
-  }, [])
-
   useLayoutEffect(() => {
     // location.key also changes when a visitor selects the current page again.
     // Remount only page content, not StoreProvider: cart/currency/wishlist survive.

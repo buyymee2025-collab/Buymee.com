@@ -197,8 +197,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .angle-carousel-track:hover {
   animation-play-state: running !important;
   -webkit-animation-play-state: running !important;
-  animation-duration: 46s !important;
-  -webkit-animation-duration: 46s !important;
+  animation-duration: 25s !important;
+  -webkit-animation-duration: 25s !important;
   animation-iteration-count: infinite !important;
   -webkit-animation-iteration-count: infinite !important;
 }

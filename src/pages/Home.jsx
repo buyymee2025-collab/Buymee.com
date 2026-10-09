@@ -27,6 +27,97 @@ const shopAngleCards = [
 export default function Home() {
   const reduced = useReducedMotion()
   const videoRef = useRef(null)
+  const carouselRef = useRef(null)
+  const trackRef = useRef(null)
+  useEffect(() => {
+    const carousel = carouselRef.current
+    const track = trackRef.current
+    if (!carousel || !track) return
+    let offset = 0
+    let cycle = 0
+    let frame
+    let previous = null
+    let gesture = null
+    let suppressClick = false
+    let clickTimer
+    const measure = () => {
+      const first = track.children[0]
+      const duplicate = track.children[shopAngleCards.length]
+      cycle = duplicate.offsetLeft - first.offsetLeft
+      paint()
+    }
+    const paint = () => {
+      if (!cycle) return
+      offset = ((offset % cycle) + cycle) % cycle
+      track.style.transform = `translate3d(${-offset}px, 0, 0)`
+    }
+    const tick = (now) => {
+      if (previous !== null && !gesture) {
+        offset += cycle * Math.min(now - previous, 64) / 25000
+        paint()
+      }
+      previous = now
+      frame = requestAnimationFrame(tick)
+    }
+    const down = (event) => {
+      if (!event.isPrimary || event.button !== 0 || gesture) return
+      clearTimeout(clickTimer)
+      suppressClick = false
+      gesture = { id: event.pointerId, x: event.clientX, y: event.clientY, offset, dragging: false }
+    }
+    const move = (event) => {
+      if (!gesture || gesture.id !== event.pointerId) return
+      const dx = event.clientX - gesture.x
+      const dy = event.clientY - gesture.y
+      if (!gesture.dragging) {
+        if (Math.max(Math.abs(dx), Math.abs(dy)) < 8) return
+        if (Math.abs(dy) > Math.abs(dx)) { gesture = null; return }
+        gesture.dragging = true
+        suppressClick = true
+        carousel.setPointerCapture(event.pointerId)
+        carousel.classList.add('is-dragging')
+      }
+      event.preventDefault()
+      offset = gesture.offset - dx
+      paint()
+    }
+    const end = (event) => {
+      if (!gesture || gesture.id !== event.pointerId) return
+      const dragged = gesture.dragging
+      gesture = null
+      previous = null
+      carousel.classList.remove('is-dragging')
+      if (carousel.hasPointerCapture(event.pointerId)) carousel.releasePointerCapture(event.pointerId)
+      if (dragged) clickTimer = setTimeout(() => { suppressClick = false }, 0)
+    }
+    const click = (event) => {
+      if (suppressClick) { event.preventDefault(); event.stopPropagation() }
+    }
+    const preventDrag = (event) => event.preventDefault()
+    const observer = new ResizeObserver(measure)
+    observer.observe(track)
+    measure()
+    frame = requestAnimationFrame(tick)
+    carousel.addEventListener('pointerdown', down)
+    carousel.addEventListener('pointermove', move, { passive: false })
+    carousel.addEventListener('click', click, true)
+    carousel.addEventListener('dragstart', preventDrag)
+    window.addEventListener('pointerup', end)
+    window.addEventListener('pointercancel', end)
+    carousel.addEventListener('lostpointercapture', end)
+    return () => {
+      cancelAnimationFrame(frame)
+      clearTimeout(clickTimer)
+      observer.disconnect()
+      carousel.removeEventListener('pointerdown', down)
+      carousel.removeEventListener('pointermove', move)
+      carousel.removeEventListener('click', click, true)
+      carousel.removeEventListener('dragstart', preventDrag)
+      carousel.removeEventListener('lostpointercapture', end)
+      window.removeEventListener('pointerup', end)
+      window.removeEventListener('pointercancel', end)
+    }
+  }, [])
   useEffect(() => {
     videoRef.current?.play().catch(() => {})
   }, [reduced])
@@ -66,8 +157,8 @@ export default function Home() {
           <EditorialNumber>01</EditorialNumber>
           <p>Every side of the BUYYMEE edit, moving continuously.</p>
         </div>
-        <div className="angle-carousel" aria-label="BUYYMEE shop categories">
-          <div className="angle-carousel-track" role="presentation">
+        <div ref={carouselRef} className="angle-carousel" aria-label="BUYYMEE shop categories">
+          <div ref={trackRef} className="angle-carousel-track" role="presentation">
             {[...shopAngleCards, ...shopAngleCards].map((cat, index) => (
               <Link className="angle-carousel-card" to={cat.path} key={`${cat.label}-${index}`}>
                 <SiteImage src={cat.image} alt={cat.label} loading="lazy" />

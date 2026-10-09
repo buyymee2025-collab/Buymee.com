@@ -9,27 +9,9 @@ import ProductModal from './ProductModal'
 export default function ProductCard({ product, index = 0 }) {
   const { currency, formatPrice, addToCart } = useStore()
   const [open, setOpen] = useState(false)
-  const openModal = () => {
-    window.history.pushState(
-      { ...(window.history.state || {}), buyymeeOverlay: 'product-modal' },
-      '',
-      window.location.href
-    )
-    setOpen(true)
-  }
-  const closeModal = () => {
-    if (window.history.state?.buyymeeOverlay === 'product-modal') {
-      window.history.replaceState(
-        { ...(window.history.state || {}), buyymeeOverlay: undefined },
-        '',
-        window.location.href
-      )
-    }
-    setOpen(false)
-  }
   const openProduct = (event) => {
     event.preventDefault()
-    openModal()
+    setOpen(true)
   }
 
   return (
@@ -43,7 +25,7 @@ export default function ProductCard({ product, index = 0 }) {
           <button
             type="button"
             className="quick-add"
-            onClick={() => product.priceOnRequest ? openModal() : addToCart(product)}
+            onClick={() => product.priceOnRequest ? setOpen(true) : addToCart(product)}
           >
             <Plus size={16} /> {product.priceOnRequest ? 'VIEW PIECE' : 'ADD TO BAG'}
           </button>
@@ -65,7 +47,7 @@ export default function ProductCard({ product, index = 0 }) {
           <Link className="product-view" to={`/product/${product.slug}`} onClick={openProduct}>VIEW DETAILS <span>↗</span></Link>
         </div>
       </Reveal>
-      {open && <ProductModal product={product} onClose={closeModal} />}
+      {open && <ProductModal product={product} onClose={() => setOpen(false)} />}
     </>
   )
 }
