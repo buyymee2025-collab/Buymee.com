@@ -35,6 +35,10 @@ export default function Home() {
     if (!carousel || !track) return
     let offset = 0
     let cycle = 0
+    let direction = 1
+    // Velocity in category cycles per millisecond, independent of viewport width.
+    let velocity = 1 / 25000
+    const settleTime = 850
     let frame
     let previous = null
     let gesture = null
@@ -43,7 +47,9 @@ export default function Home() {
     const measure = () => {
       const first = track.children[0]
       const duplicate = track.children[shopAngleCards.length]
-      cycle = duplicate.offsetLeft - first.offsetLeft
+      const nextCycle = duplicate.offsetLeft - first.offsetLeft
+      if (cycle) offset = offset / cycle * nextCycle
+      cycle = nextCycle
       paint()
     }
     const paint = () => {
@@ -53,7 +59,12 @@ export default function Home() {
     }
     const tick = (now) => {
       if (previous !== null && !gesture) {
-        offset += cycle * Math.min(now - previous, 64) / 25000
+        const elapsed = Math.min(now - previous, 64)
+        const cruise = direction / 25000
+        const decay = Math.exp(-elapsed / settleTime)
+        // Integrate the decaying momentum so speed settles without a sudden jump.
+        offset += cycle * (cruise * elapsed + (velocity - cruise) * settleTime * (1 - decay))
+        velocity = cruise + (velocity - cruise) * decay
         paint()
       }
       previous = now
@@ -63,7 +74,8 @@ export default function Home() {
       if (!event.isPrimary || event.button !== 0 || gesture) return
       clearTimeout(clickTimer)
       suppressClick = false
-      gesture = { id: event.pointerId, x: event.clientX, y: event.clientY, offset, dragging: false }
+      gesture = { id: event.pointerId, x: event.clientX, y: event.clientY, offset, dragging: false,
+        lastX: event.clientX, lastTime: event.timeStamp, speed: 0, lastDirection: 0 }
     }
     const move = (event) => {
       if (!gesture || gesture.id !== event.pointerId) return
@@ -78,12 +90,30 @@ export default function Home() {
         carousel.classList.add('is-dragging')
       }
       event.preventDefault()
+      const elapsed = event.timeStamp - gesture.lastTime
+      const distance = gesture.lastX - event.clientX
+      if (distance !== 0 && elapsed > 0) {
+        const sample = distance / elapsed
+        // Reset the estimate when the finger changes direction.
+        gesture.speed = Math.sign(sample) !== Math.sign(gesture.speed)
+          ? sample : gesture.speed * 0.35 + sample * 0.65
+        gesture.lastDirection = Math.sign(distance)
+        gesture.lastX = event.clientX
+        gesture.lastTime = event.timeStamp
+      }
       offset = gesture.offset - dx
       paint()
     }
     const end = (event) => {
       if (!gesture || gesture.id !== event.pointerId) return
       const dragged = gesture.dragging
+      if (dragged && gesture.lastDirection) {
+        direction = gesture.lastDirection
+        const fresh = event.timeStamp - gesture.lastTime < 120
+        const releaseSpeed = fresh ? Math.abs(gesture.speed) / cycle : 0
+        // Continue in the user's direction, with a bounded flick boost.
+        velocity = direction * Math.max(1 / 25000, Math.min(releaseSpeed, 8 / 25000))
+      }
       gesture = null
       previous = null
       carousel.classList.remove('is-dragging')
