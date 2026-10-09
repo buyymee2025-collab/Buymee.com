@@ -29,42 +29,28 @@ export default function PageShell({ children, darkHeader = false, overlay = fals
     return () => { window.history.scrollRestoration = previous }
   }, [])
 
-  // Keep mobile Back from unexpectedly leaving the current route. Preserve
-  // React Router's history metadata so route transitions and Framer Motion stay
-  // smooth. When a product modal is open, restore the current route first and
-  // then close the modal through its normal close animation.
-  const currentHrefRef = useRef(window.location.href)
+  // Device Back should behave like a close action only while an overlay is
+  // open. Otherwise React Router must receive the event so normal navigation
+  // history continues to work.
   useEffect(() => {
-    currentHrefRef.current = window.location.href
-  }, [location.pathname, location.search, location.hash, location.key])
-
-  useEffect(() => {
-    const keepCurrentRoute = () => {
-      const existingState = window.history.state || {}
-      window.history.pushState(
-        { ...existingState, buyymeeStayOnPage: true },
-        '',
-        currentHrefRef.current
-      )
-    }
-
     const handlePopState = (event) => {
-      // React Router also listens for popstate; prevent it interpreting this
-      // device-back action as a route change, which would remount the page.
-      event.stopImmediatePropagation()
       const modalOpen = document.querySelector('.product-modal-shell')
-      keepCurrentRoute()
-      if (modalOpen) window.dispatchEvent(new Event('buyymee:back-close-modal'))
+      const drawerOpen = document.querySelector('.drawer-backdrop')
+      if (!modalOpen && !drawerOpen) return
+
+      // The overlay opened a same-URL history entry. The browser has now
+      // popped that entry, so the URL remains on the current page. Stop the
+      // router from treating this as a page navigation and close the overlay.
+      event.preventDefault()
+      event.stopImmediatePropagation()
+      if (modalOpen) {
+        window.dispatchEvent(new Event('buyymee:back-close-modal'))
+      } else {
+        window.dispatchEvent(new Event('buyymee:back-close-drawer'))
+      }
     }
 
     window.addEventListener('popstate', handlePopState, true)
-    if (!window.history.state?.buyymeeStayOnPage) {
-      window.history.replaceState(
-        { ...(window.history.state || {}), buyymeeStayOnPage: true },
-        '',
-        window.location.href
-      )
-    }
     return () => window.removeEventListener('popstate', handlePopState, true)
   }, [])
 
