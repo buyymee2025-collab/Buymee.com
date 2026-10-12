@@ -1,1631 +1,285 @@
+const mediaPaths = {
+  272: "video/upload/v1791807271/1006_1_1_onutvu.mp4",
+  273: "video/upload/v1791807251/1006_4_epa6ql.mp4",
+  274: "video/upload/v1791807236/KRQGE7064_rvm5l8.mp4",
+  275: "video/upload/v1791807224/1006_jq7afq.mp4",
+  276: "image/upload/v1791807208/ChatGPT_Image_Oct_6_2026_10_24_12_AM_opm693",
+  277: "image/upload/v1791807207/ChatGPT_Image_Oct_6_2026_10_35_52_AM_ydjjmk",
+  278: "image/upload/v1791807206/ChatGPT_Image_Oct_6_2026_10_31_24_AM_jfidxz",
+  279: "image/upload/v1791807204/ChatGPT_Image_Oct_7_2026_01_00_20_PM_vqhafc",
+  280: "image/upload/v1791807197/ChatGPT_Image_Oct_6_2026_10_29_55_AM_ekrlll",
+  281: "image/upload/v1791807197/ASDY4910_r0ea4d",
+  282: "image/upload/v1791807197/ChatGPT_Image_Oct_6_2026_10_27_14_AM_vwlilj",
+  283: "image/upload/v1791807197/ChatGPT_Image_Oct_6_2026_10_00_23_AM_sg0ksi",
+  284: "image/upload/v1791807195/8d41eb23-f6b6-4976-87ab-5020c9d2d66a_zmujsh",
+  286: "image/upload/v1791807192/009_xmhnut",
+  287: "image/upload/v1791807192/Tissot_PRX_2_knoyze",
+  288: "image/upload/v1791807191/XGWE0460_vveksy",
+  289: "image/upload/v1791807189/RM_003_ch4vqt",
+  290: "image/upload/v1791807189/UWGO9249_lhchnw",
+  291: "image/upload/v1791807189/Tissot_PRX_cghxqn",
+  292: "image/upload/v1791807187/Tissot_1853_rjtinw",
+  293: "image/upload/v1791807185/Richard_Mille_Style_Skeleton_Watch_Collage_ftxjyh",
+  294: "image/upload/v1791807184/RM_002_hz8stj",
+  295: "image/upload/v1791807184/NXYH4079_dnlyvj",
+  296: "image/upload/v1791807182/IMG_1258-luxury-ad-concept_a4a4ut",
+  297: "image/upload/v1791807182/Luxury_Skeleton_Watch_Product_Shot_yc2wxk",
+  299: "image/upload/v1791807177/OGGI7706_krygfd",
+  300: "image/upload/v1791807171/GFUI4637_nalx31",
+  301: "image/upload/v1791807169/HZED1223_v4v5ll",
+  302: "image/upload/v1791807169/GQOR4157_o7vms9",
+  303: "image/upload/v1791807166/exec-e0bf2b3d-4090-499a-8905-7d37470b203d_c6x1ll",
+  304: "image/upload/v1791807165/exec-e8a1d39f-9684-4989-8234-c1b2fc74430f_aukfwx",
+  305: "image/upload/v1791807164/exec-fc43e35e-8893-43c4-b528-dff16e8fe012_vyzqqg",
+  306: "image/upload/v1791807164/exec-dd1e9831-66d3-4dcf-9b7c-7628931345ed_bmjclz",
+  307: "image/upload/v1791807163/exec-ade009c6-68e0-4750-b75a-9ad3d462c7c9_ejbamh",
+  308: "image/upload/v1791807162/exec-bc4849a3-1d3e-42dc-af75-b637f37ad22e_yhusxc",
+  309: "image/upload/v1791807161/exec-4974bbc1-0522-4b90-b7b2-7b3d7590fbb5_oqvfgc",
+  310: "image/upload/v1791807159/exec-a7c6ac4e-3c1e-425f-9b74-cc05ca465621_dmcvvh",
+  311: "image/upload/v1791807158/exec-532215fd-58ef-409c-87dd-3595ffdc07e4_afqalb",
+  312: "image/upload/v1791807157/exec-1842d8d0-14c1-436c-88e0-72e71167e456_quuoub",
+  313: "image/upload/v1791807156/exec-147ac557-131e-4bc4-82fd-81ddec6b9691_qvztgl",
+  314: "image/upload/v1791807155/exec-2d4ea40b-0182-4c9f-99ce-1a2a9c746782_uenvdq",
+  315: "image/upload/v1791807155/exec-267f5cd5-bc14-4cf9-a7d5-774975a36930_otqprd",
+  316: "image/upload/v1791807152/exec-61b303c2-6f80-4357-aa1b-9f2f69d2e237_qg0n77",
+  317: "image/upload/v1791807152/exec-5ea4c873-11fd-422c-acde-29d6144efa39_lnc2xy",
+  318: "image/upload/v1791807150/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a_rvelaj",
+  319: "image/upload/v1791807150/exec-8d16f0df-6f80-4c0a-a04c-5e9457049834_hqplir",
+  320: "image/upload/v1791807150/exec-021ef2e7-5bfd-4dfd-8cb3-7047caced20d_py03pb",
+  321: "image/upload/v1791807146/exec-4eb48c1e-6a91-4b33-99e8-dab38e811a95_fgmp0p",
+  322: "image/upload/v1791807145/EDDB6519_lwah20",
+  323: "image/upload/v1791807145/dshgdgd_fje9zu",
+  324: "image/upload/v1791807145/EWLI9650_yowsd8",
+  325: "image/upload/v1791807142/ChatGPT_Image_Oct_8_2026_01_49_59_AM_t1ooos",
+  326: "image/upload/v1791807142/ChatGPT_Image_Oct_8_2026_02_19_17_AM_le5gyz",
+  327: "image/upload/v1791807141/ChatGPT_Image_Oct_8_2026_02_06_13_AM_lmjoyo",
+  328: "image/upload/v1791807141/ddd_dpwikt",
+  329: "image/upload/v1791807141/ChatGPT_Image_Oct_8_2026_02_09_00_AM_se52zi",
+  330: "image/upload/v1791807139/ChatGPT_Image_Oct_8_2026_02_03_15_AM_w2vela",
+  331: "image/upload/v1791807138/ChatGPT_Image_Oct_8_2026_02_15_08_AM_tz43aw",
+  332: "image/upload/v1791807136/ChatGPT_Image_Oct_7_2026_12_55_22_PM_sesuf7",
+  333: "image/upload/v1791807136/ChatGPT_Image_Oct_8_2026_02_01_38_AM_b0nxkd",
+  334: "image/upload/v1791807136/ChatGPT_Image_Oct_8_2026_01_43_37_AM_pe1t7r",
+  335: "image/upload/v1791807134/ChatGPT_Image_Oct_8_2026_01_54_37_AM_jq4qmr",
+  336: "image/upload/v1791807133/ChatGPT_Image_Oct_8_2026_01_47_40_AM_w8fkqe",
+  337: "image/upload/v1791807133/ChatGPT_Image_Oct_8_2026_01_49_10_AM_hzv94d",
+  338: "image/upload/v1791807130/ChatGPT_Image_Oct_8_2026_01_46_39_AM_gykmnd",
+  339: "image/upload/v1791807129/ChatGPT_Image_Oct_7_2026_12_56_37_PM_muomzz",
+  340: "image/upload/v1791807127/ChatGPT_Image_Oct_7_2026_12_48_39_PM_psifml",
+  341: "image/upload/v1791807126/ChatGPT_Image_Oct_8_2026_01_42_18_AM_h6vxya",
+  342: "image/upload/v1791807122/ChatGPT_Image_Oct_7_2026_12_51_28_PM_vjn3zx",
+  343: "image/upload/v1791807119/ChatGPT_Image_Oct_7_2026_12_39_38_PM_2_dfgtbz",
+  344: "image/upload/v1791807118/ChatGPT_Image_Oct_7_2026_12_14_16_PM_xmkvxu",
+  345: "image/upload/v1791807118/ChatGPT_Image_Oct_7_2026_12_17_40_PM_w5qkz4",
+  346: "image/upload/v1791807118/ChatGPT_Image_Oct_7_2026_12_09_55_PM_npuhkg",
+  347: "image/upload/v1791807114/ChatGPT_Image_Oct_7_2026_12_15_51_PM_xya8xd",
+  348: "image/upload/v1791807114/ChatGPT_Image_Oct_7_2026_12_14_16_PM_-_Copy_eugofh",
+  349: "image/upload/v1791807113/ChatGPT_Image_Oct_7_2026_12_39_38_PM_zlyf31",
+  350: "image/upload/v1791807111/ChatGPT_Image_Oct_7_2026_12_08_26_PM_-_Copy_f2wasa",
+  351: "image/upload/v1791807110/ChatGPT_Image_Oct_7_2026_12_09_55_PM_-_Copy_kyoci6",
+  352: "image/upload/v1791807108/ChatGPT_Image_Oct_7_2026_12_08_26_PM_aditqh",
+  353: "image/upload/v1791807108/ChatGPT_Image_Oct_7_2026_12_05_17_PM_dsj9bw",
+  354: "image/upload/v1791807108/ChatGPT_Image_Oct_7_2026_11_48_12_AM_-_Copy_z8724k",
+  355: "image/upload/v1791807106/ChatGPT_Image_Oct_7_2026_12_05_17_PM_-_Copy_b3ujd2",
+  356: "image/upload/v1791807106/ChatGPT_Image_Oct_7_2026_11_20_04_AM_2_qzp1gn",
+  357: "image/upload/v1791807104/ChatGPT_Image_Oct_7_2026_03_28_04_PM_kf9a7w",
+  358: "image/upload/v1791807104/ChatGPT_Image_Oct_7_2026_11_48_12_AM_n17xws",
+  359: "image/upload/v1791807103/ChatGPT_Image_Oct_7_2026_11_33_18_AM_ntv3at",
+  360: "image/upload/v1791807103/ChatGPT_Image_Oct_7_2026_11_31_15_AM_bclyln",
+  361: "image/upload/v1791807100/ChatGPT_Image_Oct_7_2026_03_32_06_PM_yu7fej",
+  362: "image/upload/v1791807099/ChatGPT_Image_Oct_7_2026_03_32_58_PM_qd5lwe",
+  363: "image/upload/v1791807099/ChatGPT_Image_Oct_7_2026_03_33_29_PM_yjcb5v",
+  364: "image/upload/v1791807099/ChatGPT_Image_Oct_7_2026_11_20_04_AM_fbcwhh",
+  365: "image/upload/v1791807098/ChatGPT_Image_Oct_7_2026_03_30_37_PM_ahgvbe",
+  366: "image/upload/v1791807096/ChatGPT_Image_Oct_7_2026_03_26_50_PM_xqf0aw",
+  367: "image/upload/v1791807096/ChatGPT_Image_Oct_7_2026_03_24_35_PM_s5kgtt",
+  368: "image/upload/v1791807095/ChatGPT_Image_Oct_7_2026_03_26_10_PM_puoe2d",
+  369: "image/upload/v1791807094/ChatGPT_Image_Oct_7_2026_03_18_17_PM_aididm",
+  370: "image/upload/v1791807093/ChatGPT_Image_Oct_7_2026_03_20_01_PM_vcsero",
+  371: "image/upload/v1791807092/ChatGPT_Image_Oct_7_2026_03_17_47_PM_jukag9",
+  372: "image/upload/v1791807092/ChatGPT_Image_Oct_7_2026_03_24_08_PM_cgnnmr",
+  373: "image/upload/v1791807087/ChatGPT_Image_Oct_7_2026_03_07_50_PM_msyosw",
+  374: "image/upload/v1791807086/ChatGPT_Image_Oct_7_2026_03_01_31_PM_mtiff8",
+  375: "image/upload/v1791807085/ChatGPT_Image_Oct_7_2026_03_10_55_PM_wcmvg4",
+  376: "image/upload/v1791807085/ChatGPT_Image_Oct_7_2026_03_02_23_PM_plmc8s",
+  377: "image/upload/v1791807085/ChatGPT_Image_Oct_7_2026_03_09_02_PM_m6qbqk",
+  378: "image/upload/v1791807082/ChatGPT_Image_Oct_7_2026_03_06_28_PM_p3r2c9",
+  379: "image/upload/v1791807080/ChatGPT_Image_Oct_7_2026_03_04_08_PM_i3fl3z",
+  380: "image/upload/v1791807078/ChatGPT_Image_Oct_7_2026_02_54_26_PM_voygvx",
+  381: "image/upload/v1791807077/ChatGPT_Image_Oct_7_2026_02_55_14_PM_u91wl5",
+  382: "image/upload/v1791807076/ChatGPT_Image_Oct_7_2026_02_23_58_PM_zf25oh",
+  383: "image/upload/v1791807075/ChatGPT_Image_Oct_7_2026_02_33_33_PM_outsio",
+  384: "image/upload/v1791807075/ChatGPT_Image_Oct_7_2026_02_32_27_PM_ixxo9z",
+  385: "image/upload/v1791807073/ChatGPT_Image_Oct_7_2026_02_26_49_PM_kubbmu",
+  386: "image/upload/v1791807072/ChatGPT_Image_Oct_7_2026_02_31_25_PM_tcxt75",
+  387: "image/upload/v1791807072/ChatGPT_Image_Oct_7_2026_02_27_46_PM_wynh7q",
+  388: "image/upload/v1791807072/ChatGPT_Image_Oct_7_2026_02_25_41_PM_hpzfxr",
+  389: "image/upload/v1791807070/ChatGPT_Image_Oct_7_2026_02_13_12_PM_b4npc2",
+  390: "image/upload/v1791807069/ChatGPT_Image_Oct_7_2026_02_22_54_PM_lz5ivx",
+  391: "image/upload/v1791807066/ChatGPT_Image_Oct_7_2026_02_20_44_PM_gf3jkw",
+  392: "image/upload/v1791807066/ChatGPT_Image_Oct_7_2026_02_10_15_PM_lnsshm",
+  393: "image/upload/v1791807066/ChatGPT_Image_Oct_7_2026_01_53_01_PM_uwhbvi",
+  394: "image/upload/v1791807066/ChatGPT_Image_Oct_7_2026_02_21_27_PM_dynwkh",
+  395: "image/upload/v1791807064/ChatGPT_Image_Oct_7_2026_02_03_20_PM_rip9bk",
+  396: "image/upload/v1791807063/ChatGPT_Image_Oct_7_2026_01_51_10_PM_j7b9zc",
+  397: "image/upload/v1791807062/ChatGPT_Image_Oct_7_2026_02_04_17_PM_ilg0uq",
+  398: "image/upload/v1791807062/ChatGPT_Image_Oct_7_2026_01_54_33_PM_e8indi",
+  399: "image/upload/v1791807060/ChatGPT_Image_Oct_7_2026_01_45_10_PM_z2gz89",
+  400: "image/upload/v1791807057/ChatGPT_Image_Oct_7_2026_01_47_40_PM_ch3yae",
+  401: "image/upload/v1791807057/ChatGPT_Image_Oct_7_2026_01_38_02_PM_h2edm7",
+  402: "image/upload/v1791807056/ChatGPT_Image_Oct_7_2026_01_41_02_PM_isgwfk",
+  403: "image/upload/v1791807056/ChatGPT_Image_Oct_7_2026_01_10_29_PM_lyaiio",
+  404: "image/upload/v1791807053/ChatGPT_Image_Oct_7_2026_01_42_13_PM_jigvxx",
+  405: "image/upload/v1791807052/ChatGPT_Image_Oct_7_2026_01_43_50_PM_isn5pv",
+  406: "image/upload/v1791807051/ChatGPT_Image_Oct_7_2026_01_36_51_PM_om6qmo",
+  407: "image/upload/v1791807048/ChatGPT_Image_Oct_7_2026_01_06_55_PM_eqrdt0",
+  408: "image/upload/v1791807047/ChatGPT_Image_Oct_7_2026_01_30_53_PM_whr7nj",
+  409: "image/upload/v1791807046/ChatGPT_Image_Oct_7_2026_01_09_05_PM_r2oet4",
+  410: "image/upload/v1791807046/ChatGPT_Image_Oct_7_2026_01_13_16_PM_ckovzn",
+  411: "image/upload/v1791807046/ChatGPT_Image_Oct_7_2026_01_11_57_PM_a7p5m2",
+  412: "image/upload/v1791807040/ChatGPT_Image_Oct_7_2026_01_03_58_PM_f5rlqv",
+  413: "image/upload/v1791807037/ANIT3094_vmw6v4",
+  414: "image/upload/v1791807036/tissot-chronograph-luxury-studio-ad-1920_2_zjcqre",
+  415: "image/upload/v1791807036/exec-4610708c-851d-45ab-9d8d-afdf85abb074_ts6hvv",
+  416: "image/upload/v1791807035/tissot-chronograph-luxury-studio-ad-1920_ivrrnv",
+  417: "video/upload/v1791807035/BHTB9771_y7aziu.mp4",
+  418: "image/upload/v1791807032/0969f2ff-32ee-4d80-b6a0-5c768812403c_burreo",
+  419: "image/upload/v1791807031/Tissot_1853_2_j8vc3v",
+  422: "image/upload/v1791807025/QDUS8459_uvjtqi",
+  423: "image/upload/v1791807025/exec-305736ef-a23f-4b05-9c11-2d49ead357b3_or3z9x",
+  424: "image/upload/v1791807024/OONU6969_pz5usk",
+  425: "image/upload/v1791807023/OSLN1253_rfj5jc",
+  426: "image/upload/v1791807022/exec-8f836da7-3313-4872-b71b-766a5436f506_g9lhrf",
+  427: "image/upload/v1791807022/exec-8b36c980-6ead-4c13-84fc-6321af479c21_yqoo8x",
+  428: "image/upload/v1791807021/exec-7a576ed2-7583-42c3-9273-6b66c5e3a57c_mrx7kg",
+  429: "image/upload/v1791807020/exec-5c34cdb0-7bb6-41af-8d78-574a1a02a450_rlgmor",
+  430: "image/upload/v1791807020/DCER5450_se2l6l",
+  431: "image/upload/v1791807020/KGLF7427_r0zisl",
+  433: "image/upload/v1791807019/ChatGPT_Image_Oct_8_2026_02_14_01_AM_monouh",
+  434: "image/upload/v1791807019/exec-97800666-9e44-468a-886a-b0f20a705189_ypk1q6",
+  435: "image/upload/v1791807018/KAVV0170_ly500c",
+  436: "image/upload/v1791807018/ChatGPT_Image_Oct_8_2026_02_07_04_AM_sdrvc2",
+  437: "image/upload/v1791807018/IGSR6143_jcxvo8",
+  438: "image/upload/v1791807016/ChatGPT_Image_Oct_7_2026_03_29_28_PM_qoaasx",
+  439: "image/upload/v1791807016/ChatGPT_Image_Oct_7_2026_11_39_15_AM_e9of27",
+  440: "image/upload/v1791807016/GYXZ7103_bdulho",
+  441: "image/upload/v1791807015/ChatGPT_Image_Oct_7_2026_03_05_44_PM_yvkhyk",
+  442: "image/upload/v1791807015/ChatGPT_Image_Oct_7_2026_11_39_15_AM_-_Copy_s8jore",
+  642: "image/upload/v1791826986/ChatGPT_Image_Oct_7_2026_03_05_44_PM_sx2fbw",
+  643: "image/upload/v1791826895/ChatGPT_Image_Oct_7_2026_03_20_01_PM_afg69w",
+  644: "image/upload/v1791826876/ChatGPT_Image_Oct_7_2026_03_06_28_PM_l09omv",
+  645: "image/upload/v1791826876/exec-8f836da7-3313-4872-b71b-766a5436f506_jrx9ss",
+  646: "image/upload/v1791826876/exec-305736ef-a23f-4b05-9c11-2d49ead357b3_nz9b0v",
+  647: "image/upload/v1791826875/Tissot_1853_2_rvpqnm",
+  648: "image/upload/v1791826875/ChatGPT_Image_Oct_8_2026_02_14_01_AM_ykk3z8",
+  649: "image/upload/v1791826874/1006_4_-Cover_zag2k0",
+  650: "image/upload/v1791826264/ChatGPT_Image_Oct_7_2026_11_39_15_AM_z92zge",
+};
+
+const mediaUrl = (id) =>
+  "https://res.cloudinary.com/dnvgl9k4i/" + mediaPaths[id];
+
+const watchDefaults = {
+  category: "Watches",
+  subcategory: "Luxury watch",
+  brand: "BUYYMEE.com",
+  priceOnRequest: false,
+  compareAt: null,
+  currency: "USD",
+  description: "A considered watch from the BUYYMEE.com edit.",
+  sizes: ["OS"],
+  tags: ["watch", "luxury"],
+  inStock: true,
+  placeholder: false,
+  featured: true,
+  newArrival: true,
+  sale: false,
+};
+
+function createWatch(details, groups) {
+  const variants = groups.map(([color, ids]) => {
+    const media = ids.map((id) => ({
+      type: mediaPaths[id].startsWith("video/") ? "video" : "image",
+      src: mediaUrl(id),
+    }));
+
+    return {
+      color,
+      image: media.find((item) => item.type === "image").src,
+      media,
+    };
+  });
+
+  const media = variants.flatMap((variant) => variant.media);
+  const gallery = media
+    .filter((item) => item.type === "image")
+    .map((item) => item.src);
+
+  return {
+    ...watchDefaults,
+    ...details,
+    image: gallery[0],
+    secondaryImage: gallery[1] || gallery[0],
+    gallery,
+    variants,
+    colors: variants.map((variant) => variant.color),
+    media,
+  };
+}
+
 const products = [
-  {
-    "id": 1,
-    "productCode": "AP001",
-    "slug": "audemars-piguet-royal-oak-offshore-diver-15720st",
-    "name": "Audemars Piguet Royal Oak Offshore Diver 15720ST Style",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 520,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208705/exec-4eb48c1e-6a91-4b33-99e8-dab38e811a95.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208671/exec-532215fd-58ef-409c-87dd-3595ffdc07e4.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208705/exec-4eb48c1e-6a91-4b33-99e8-dab38e811a95.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208669/exec-61b303c2-6f80-4357-aa1b-9f2f69d2e237.png"
-    ],
-    "variants": [
-      {
-        "color": "Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208705/exec-4eb48c1e-6a91-4b33-99e8-dab38e811a95.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208705/exec-4eb48c1e-6a91-4b33-99e8-dab38e811a95.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791385575/009.png"
-          },
-          {
-            "type": "video",
-            "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1791302424/1006_1_1.mp4"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208669/exec-61b303c2-6f80-4357-aa1b-9f2f69d2e237.png"
-          },
-          {
-            "type": "video",
-            "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1791302406/1006.mp4"
-          }
-        ]
-      },
-      {
-        "color": "Green",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208671/exec-532215fd-58ef-409c-87dd-3595ffdc07e4.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208671/exec-532215fd-58ef-409c-87dd-3595ffdc07e4.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208670/exec-2d4ea40b-0182-4c9f-99ce-1a2a9c746782.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208669/exec-61b303c2-6f80-4357-aa1b-9f2f69d2e237.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered dive-watch silhouette with a bold presence and precise detailing.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Blue",
-      "Green"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "audemars"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 2,
-    "productCode": "RM002",
-    "slug": "richard-mille-rm-65-01-style-skeleton-automatic",
-    "name": "Richard Mille RM 65-01 Style Skeleton Automatic Watch",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 580,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208699/exec-4974bbc1-0522-4b90-b7b2-7b3d7590fbb5.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791305675/RM_002.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208701/exec-1842d8d0-14c1-436c-88e0-72e71167e456.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791302363/Luxury_Skeleton_Watch_Product_Shot.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791302380/Richard_Mille_Style_Skeleton_Watch_Collage.png"
-    ],
-    "variants": [
-      {
-        "color": "Black",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208699/exec-4974bbc1-0522-4b90-b7b2-7b3d7590fbb5.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208699/exec-4974bbc1-0522-4b90-b7b2-7b3d7590fbb5.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791305675/RM_002.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208701/exec-1842d8d0-14c1-436c-88e0-72e71167e456.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791302363/Luxury_Skeleton_Watch_Product_Shot.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791302380/Richard_Mille_Style_Skeleton_Watch_Collage.png"
-          }
-        ]
-      }
-    ],
-    "description": "A dramatic skeleton-style automatic watch with a technical, architectural character.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Black"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "skeleton"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 3,
-    "productCode": "TT004",
-    "slug": "tissot-1853-chronograph-silver",
-    "name": "Tissot 1853 Chronograph",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 460,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208679/exec-ade009c6-68e0-4750-b75a-9ad3d462c7c9.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208678/exec-e0bf2b3d-4090-499a-8905-7d37470b203d.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208678/exec-e0bf2b3d-4090-499a-8905-7d37470b203d.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208677/exec-a7c6ac4e-3c1e-425f-9b74-cc05ca465621.png"
-    ],
-    "variants": [
-      {
-        "color": "Silver",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208679/exec-ade009c6-68e0-4750-b75a-9ad3d462c7c9.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208679/exec-ade009c6-68e0-4750-b75a-9ad3d462c7c9.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208678/exec-e0bf2b3d-4090-499a-8905-7d37470b203d.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208677/exec-a7c6ac4e-3c1e-425f-9b74-cc05ca465621.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Silver"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 4,
-    "productCode": "PP001",
-    "slug": "patek-philippe-calatrava-silver-bronze",
-    "name": "Patek Philippe Calatrava",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 600,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208652/exec-8b36c980-6ead-4c13-84fc-6321af479c21.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208651/exec-305736ef-a23f-4b05-9c11-2d49ead357b3.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208651/exec-305736ef-a23f-4b05-9c11-2d49ead357b3.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-5c34cdb0-7bb6-41af-8d78-574a1a02a450.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398403/ChatGPT_Image_Oct_7_2026_11_33_18_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398076/ChatGPT_Image_Oct_7_2026_11_31_15_AM.png"
-    ],
-    "variants": [
-      {
-        "color": "Silver / Bronze",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208652/exec-8b36c980-6ead-4c13-84fc-6321af479c21.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208652/exec-8b36c980-6ead-4c13-84fc-6321af479c21.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208651/exec-305736ef-a23f-4b05-9c11-2d49ead357b3.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-5c34cdb0-7bb6-41af-8d78-574a1a02a450.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398403/ChatGPT_Image_Oct_7_2026_11_33_18_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398076/ChatGPT_Image_Oct_7_2026_11_31_15_AM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Silver / Bronze"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 23,
-    "productCode": "HL009",
-    "slug": "hublot-spirit-of-big-bang-white-ceramic-42mm-ref-642-hx-0170-rx",
-    "name": "Hublot Spirit of Big Bang White Ceramic 42mm — Ref. 642.HX.0170.RX",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 560,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398502/ChatGPT_Image_Oct_7_2026_11_39_15_AM.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/IGSR6143.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398502/ChatGPT_Image_Oct_7_2026_11_39_15_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/IGSR6143.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/KAVV0170.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791303740/0969f2ff-32ee-4d80-b6a0-5c768812403c.png"
-    ],
-    "variants": [
-      {
-        "color": "White Ceramic",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398502/ChatGPT_Image_Oct_7_2026_11_39_15_AM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791398502/ChatGPT_Image_Oct_7_2026_11_39_15_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/IGSR6143.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/KAVV0170.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791303740/0969f2ff-32ee-4d80-b6a0-5c768812403c.png"
-          }
-        ]
-      }
-    ],
-    "description": "Hublot Spirit of Big Bang White Ceramic 42mm — Ref. 642.HX.0170.RX.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "White Ceramic"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "hublot",
-      "white ceramic"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 6,
-    "productCode": "00000",
-    "slug": "omega-constellation-co-axial-master-chronometer-41",
-    "name": "OMEGA Constellation Co-Axial Master Chronometer 41 mm",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 490,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208684/UWGO9249.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208698/EWLI9650.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208698/EWLI9650.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791303856/8d41eb23-f6b6-4976-87ab-5020c9d2d66a.png"
-    ],
-    "variants": [
-      {
-        "color": "Red",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208684/UWGO9249.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208684/UWGO9249.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208698/EWLI9650.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791303856/8d41eb23-f6b6-4976-87ab-5020c9d2d66a.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Red"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 7,
-    "productCode": "TT002",
-    "slug": "tissot-prc-200-chronograph",
-    "name": "Tissot PRC 200 Chronograph",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 430,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/exec-7a576ed2-7583-42c3-9273-6b66c5e3a57c.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-97800666-9e44-468a-886a-b0f20a705189.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-97800666-9e44-468a-886a-b0f20a705189.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791399970/ChatGPT_Image_Oct_7_2026_11_48_12_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791399957/ChatGPT_Image_Oct_7_2026_12_05_17_PM.png"
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/exec-7a576ed2-7583-42c3-9273-6b66c5e3a57c.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/exec-7a576ed2-7583-42c3-9273-6b66c5e3a57c.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/exec-97800666-9e44-468a-886a-b0f20a705189.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791399970/ChatGPT_Image_Oct_7_2026_11_48_12_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791399957/ChatGPT_Image_Oct_7_2026_12_05_17_PM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 8,
-    "productCode": "00000",
-    "slug": "cartier-santos-de-cartier-chronograph",
-    "name": "Cartier Santos de Cartier Chronograph",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 570,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208658/OONU6969.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208666/DCER5450.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208666/DCER5450.png"
-    ],
-    "variants": [
-      {
-        "color": "Black",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208658/OONU6969.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208658/OONU6969.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208666/DCER5450.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Black"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 9,
-    "productCode": "00000",
-    "slug": "omega-de-ville-prestige-quartz",
-    "name": "Omega De Ville Prestige Quartz 34.8mm",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 445,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208666/ANIT3094.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208666/ANIT3094.png",
-    "gallery": [],
-    "variants": [
-      {
-        "color": "Black / Gold",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208666/ANIT3094.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208666/ANIT3094.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Black / Gold"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 10,
-    "productCode": "TT001",
-    "slug": "tissot-1853-chronograph-silver-royal-blue",
-    "name": "Tissot 1853 Chronograph",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 475,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208658/tissot-chronograph-luxury-studio-ad-1920.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/tissot-chronograph-luxury-studio-ad-1920_2.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/tissot-chronograph-luxury-studio-ad-1920_2.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400271/ChatGPT_Image_Oct_7_2026_12_09_55_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400278/ChatGPT_Image_Oct_7_2026_12_08_26_PM.png"
-    ],
-    "variants": [
-      {
-        "color": "Silver / Royal Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208658/tissot-chronograph-luxury-studio-ad-1920.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208658/tissot-chronograph-luxury-studio-ad-1920.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208655/tissot-chronograph-luxury-studio-ad-1920_2.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400271/ChatGPT_Image_Oct_7_2026_12_09_55_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400278/ChatGPT_Image_Oct_7_2026_12_08_26_PM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Silver / Royal Blue"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 11,
-    "productCode": "RM004",
-    "slug": "richard-mille",
-    "name": "Richard Mille",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 590,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208674/exec-dd1e9831-66d3-4dcf-9b7c-7628931345ed.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208674/exec-fc43e35e-8893-43c4-b528-dff16e8fe012.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208674/exec-fc43e35e-8893-43c4-b528-dff16e8fe012.png"
-    ],
-    "variants": [
-      {
-        "color": "Silver / Royal Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208674/exec-dd1e9831-66d3-4dcf-9b7c-7628931345ed.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208674/exec-dd1e9831-66d3-4dcf-9b7c-7628931345ed.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208674/exec-fc43e35e-8893-43c4-b528-dff16e8fe012.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Silver / Royal Blue"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 12,
-    "productCode": "HL007",
-    "slug": "hublot-black",
-    "name": "Hublot Black",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 510,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208676/exec-e8a1d39f-9684-4989-8234-c1b2fc74430f.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208673/IMG_1258-luxury-ad-concept.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208673/IMG_1258-luxury-ad-concept.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400924/ChatGPT_Image_Oct_7_2026_12_15_51_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400923/ChatGPT_Image_Oct_7_2026_12_14_16_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400932/ChatGPT_Image_Oct_7_2026_12_17_40_PM.png"
-    ],
-    "variants": [
-      {
-        "color": "Silver / Black",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208676/exec-e8a1d39f-9684-4989-8234-c1b2fc74430f.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208676/exec-e8a1d39f-9684-4989-8234-c1b2fc74430f.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208673/IMG_1258-luxury-ad-concept.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400924/ChatGPT_Image_Oct_7_2026_12_15_51_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400923/ChatGPT_Image_Oct_7_2026_12_14_16_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791400932/ChatGPT_Image_Oct_7_2026_12_17_40_PM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Silver / Black"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 14,
-    "productCode": "BL001",
-    "slug": "breitlin-1884",
-    "name": "BREITLIN 1884",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 425,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208675/exec-267f5cd5-bc14-4cf9-a7d5-774975a36930.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208675/exec-267f5cd5-bc14-4cf9-a7d5-774975a36930.png",
-    "gallery": [],
-    "variants": [
-      {
-        "color": "Silver / Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208675/exec-267f5cd5-bc14-4cf9-a7d5-774975a36930.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208675/exec-267f5cd5-bc14-4cf9-a7d5-774975a36930.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208676/exec-5ea4c873-11fd-422c-acde-29d6144efa39.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Silver / Blue"
-    ],
-    "tags": [
-      "watch",
-      "luxury"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 15,
-    "slug": "dress-edit-1",
-    "name": "The Column Dress",
-    "category": "Women",
-    "subcategory": "Dresses",
-    "brand": "",
-    "price": 223,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208652/QWJW8577.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/TIUM5706.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg"
-    ],
-    "description": "A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "tags": [
-      "dress",
-      "women"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 16,
-    "slug": "dress-edit-2",
-    "name": "After Hours Dress",
-    "category": "Women",
-    "subcategory": "Dresses",
-    "brand": "",
-    "price": 91,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/TIUM5706.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png"
-    ],
-    "description": "A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "tags": [
-      "dress",
-      "women"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 17,
-    "slug": "dress-edit-3",
-    "name": "Soft Focus Dress",
-    "category": "Women",
-    "subcategory": "Dresses",
-    "brand": "",
-    "price": 197,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png"
-    ],
-    "description": "A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "tags": [
-      "dress",
-      "women"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 18,
-    "slug": "dress-edit-4",
-    "name": "Line Break Dress",
-    "category": "Women",
-    "subcategory": "Dresses",
-    "brand": "",
-    "price": 176,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png"
-    ],
-    "description": "A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "tags": [
-      "dress",
-      "women"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 19,
-    "slug": "dress-edit-5",
-    "name": "Sunday Dress",
-    "category": "Women",
-    "subcategory": "Dresses",
-    "brand": "",
-    "price": 205,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png"
-    ],
-    "description": "A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "tags": [
-      "dress",
-      "women"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 20,
-    "slug": "dress-edit-6",
-    "name": "The Long View",
-    "category": "Women",
-    "subcategory": "Dresses",
-    "brand": "",
-    "price": 201,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/XJLU4258.png"
-    ],
-    "description": "A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "tags": [
-      "dress",
-      "women"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 21,
-    "slug": "dress-edit-7",
-    "name": "City Light Dress",
-    "category": "Women",
-    "subcategory": "Dresses",
-    "brand": "",
-    "price": 124,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/XJLU4258.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208663/HKSS6302.png"
-    ],
-    "description": "A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "tags": [
-      "dress",
-      "women"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 22,
-    "slug": "dress-edit-8",
-    "name": "Open Air Dress",
-    "category": "Women",
-    "subcategory": "Dresses",
-    "brand": "",
-    "price": 188,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/XJLU4258.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208663/HKSS6302.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208664/WDTQ6474.png"
-    ],
-    "description": "A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "tags": [
-      "dress",
-      "women"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": false,
-    "sale": false
-  },
-  {
-    "id": 14,
-    "productCode": "LAMBO001",
-    "slug": "lamborghini-wrist-watch-blue",
-    "name": "Lamborghini Wrist Watch",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 550,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309472/ChatGPT_Image_Oct_6_2026_10_27_14_AM.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309472/ChatGPT_Image_Oct_6_2026_10_27_14_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309473/ChatGPT_Image_Oct_6_2026_10_29_55_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449819/ChatGPT_Image_Oct_7_2026_12_51_28_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449812/ChatGPT_Image_Oct_7_2026_12_55_22_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449809/ChatGPT_Image_Oct_7_2026_12_48_39_PM.png"
-    ],
-    "variants": [
-      {
-        "color": "Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309474/ChatGPT_Image_Oct_6_2026_10_31_24_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309472/ChatGPT_Image_Oct_6_2026_10_27_14_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309473/ChatGPT_Image_Oct_6_2026_10_29_55_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791309008/ChatGPT_Image_Oct_6_2026_10_24_12_AM.png"
-          }
-        ]
-      },
-      {
-        "color": "Black",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449819/ChatGPT_Image_Oct_7_2026_12_51_28_PM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449819/ChatGPT_Image_Oct_7_2026_12_51_28_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449812/ChatGPT_Image_Oct_7_2026_12_55_22_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449809/ChatGPT_Image_Oct_7_2026_12_48_39_PM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A blue Lamborghini-inspired wrist watch with a bold automotive character and a sharp, sporty presence.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Blue",
-      "Black"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "lamborghini",
-      "blue"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 24,
-    "productCode": "AP002",
-    "slug": "audemars-piguet-royal-oak-offshore-selfwinding-chronograph",
-    "name": "Audemars Piguet Royal Oak Offshore Selfwinding Chronograph",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 580,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_03_58_PM.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_00_20_PM.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_03_58_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_00_20_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449808/ChatGPT_Image_Oct_7_2026_01_06_55_PM.png"
-    ],
-    "variants": [
-      {
-        "color": "Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_03_58_PM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_03_58_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449810/ChatGPT_Image_Oct_7_2026_01_00_20_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791449808/ChatGPT_Image_Oct_7_2026_01_06_55_PM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Blue"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "audemars"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 25,
-    "productCode": "MB001",
-    "slug": "mercedeez-benz-wrist-watch",
-    "name": "Mercedeez Benz",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 500,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_10_29_PM.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_13_16_PM.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_10_29_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_13_16_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451658/ChatGPT_Image_Oct_7_2026_01_09_05_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451658/ChatGPT_Image_Oct_7_2026_01_11_57_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451735/ChatGPT_Image_Oct_7_2026_01_30_53_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451732/ChatGPT_Image_Oct_7_2026_01_36_51_PM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451737/ChatGPT_Image_Oct_7_2026_01_38_02_PM.png"
-    ],
-    "variants": [
-      {
-        "color": "Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_10_29_PM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_10_29_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451656/ChatGPT_Image_Oct_7_2026_01_13_16_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451658/ChatGPT_Image_Oct_7_2026_01_09_05_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451658/ChatGPT_Image_Oct_7_2026_01_11_57_PM.png"
-          }
-        ]
-      },
-      {
-        "color": "Black",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451735/ChatGPT_Image_Oct_7_2026_01_30_53_PM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451735/ChatGPT_Image_Oct_7_2026_01_30_53_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451732/ChatGPT_Image_Oct_7_2026_01_36_51_PM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791451737/ChatGPT_Image_Oct_7_2026_01_38_02_PM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Blue",
-      "Black"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "mercedes benz"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 26,
-    "productCode": "HL005",
-    "slug": "iwc-schaffhausen-portugieser",
-    "name": "IWC Schaffhausen Portugieser",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 540,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_02_14_01_AM.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_15_08_AM.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_02_14_01_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_15_08_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452891/ChatGPT_Image_Oct_8_2026_02_19_17_AM.png"
-    ],
-    "variants": [
-      {
-        "color": "Brown",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_02_14_01_AM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_02_14_01_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_15_08_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452891/ChatGPT_Image_Oct_8_2026_02_19_17_AM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Brown"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "iwc"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 27,
-    "productCode": "HL005",
-    "slug": "hublot-big-bang-vendome-paris-boutique-special-edition-red-magic-chronograph",
-    "name": "Hublot Big Bang Vendôme Paris Boutique Special Edition “Red Magic” Chronograph",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 550,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452890/ChatGPT_Image_Oct_8_2026_01_49_10_AM.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_01_49_59_AM.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452890/ChatGPT_Image_Oct_8_2026_01_49_10_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_01_49_59_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452897/ChatGPT_Image_Oct_8_2026_01_47_40_AM.png"
-    ],
-    "variants": [
-      {
-        "color": "Light Brown",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452890/ChatGPT_Image_Oct_8_2026_01_49_10_AM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452890/ChatGPT_Image_Oct_8_2026_01_49_10_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452888/ChatGPT_Image_Oct_8_2026_01_49_59_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452897/ChatGPT_Image_Oct_8_2026_01_47_40_AM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Light Brown"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "hublot"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 28,
-    "productCode": "HL006",
-    "slug": "hublot-classic-fusion-chronograph-titanium",
-    "name": "Hublot Classic Fusion Chronograph Titanium",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 525,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452894/ChatGPT_Image_Oct_8_2026_02_01_38_AM.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_01_54_37_AM.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452894/ChatGPT_Image_Oct_8_2026_02_01_38_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_01_54_37_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_03_15_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_02_09_00_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452887/ChatGPT_Image_Oct_8_2026_02_06_13_AM.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452886/ChatGPT_Image_Oct_8_2026_02_07_04_AM.png"
-    ],
-    "variants": [
-      {
-        "color": "Green",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452894/ChatGPT_Image_Oct_8_2026_02_01_38_AM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452894/ChatGPT_Image_Oct_8_2026_02_01_38_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_01_54_37_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452892/ChatGPT_Image_Oct_8_2026_02_03_15_AM.png"
-          }
-        ]
-      },
-      {
-        "color": "Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_02_09_00_AM.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452895/ChatGPT_Image_Oct_8_2026_02_09_00_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452887/ChatGPT_Image_Oct_8_2026_02_06_13_AM.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791452886/ChatGPT_Image_Oct_8_2026_02_07_04_AM.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Green",
-      "Blue"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "hublot"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 29,
-    "productCode": "000",
-    "slug": "omega-seamaster-diver-300m-co-axial-master",
-    "name": "OMEGA Seamaster Diver 300M Co‑Axial Master",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 500,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png"
-    ],
-    "variants": [
-      {
-        "color": "Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208665/GYXZ7103.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Blue"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "omega"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
-  {
-    "id": 30,
-    "productCode": "RM009",
-    "slug": "richard-mille-rm-11-03-automatic-flyback",
-    "name": "Richard Mille RM 11-03 Automatic Flyback",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 590,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208703/exec-bc4849a3-1d3e-42dc-af75-b637f37ad22e.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208668/exec-8f836da7-3313-4872-b71b-766a5436f506.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208703/exec-bc4849a3-1d3e-42dc-af75-b637f37ad22e.png",
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208668/exec-8f836da7-3313-4872-b71b-766a5436f506.png"
-    ],
-    "variants": [
-      {
-        "color": "Blue",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208703/exec-bc4849a3-1d3e-42dc-af75-b637f37ad22e.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208703/exec-bc4849a3-1d3e-42dc-af75-b637f37ad22e.png"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208668/exec-8f836da7-3313-4872-b71b-766a5436f506.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Blue"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "richard mille"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  },
+  createWatch({"id":1,"productCode":"AP001","slug":"audemars-piguet-royal-oak-offshore-diver-15720st","name":"Audemars Piguet Royal Oak Offshore Diver 15720ST Style","price":520,"description":"A considered dive-watch silhouette with a bold presence and precise detailing.","tags":["watch","luxury","audemars"]},[["Blue",[321,286,272,319,275]],["Green",[311,314,323,316,328]]]),
+  createWatch({"id":2,"productCode":"RM002","slug":"richard-mille-rm-65-01-style-skeleton-automatic","name":"Richard Mille RM 65-01 Style Skeleton Automatic Watch","price":580,"description":"A dramatic skeleton-style automatic watch with a technical, architectural character.","tags":["watch","luxury","skeleton"]},[["Black",[309,294,312,297,293]]]),
+  createWatch({"id":3,"productCode":"TT004","slug":"tissot-1853-chronograph-silver","name":"Tissot 1853 Chronograph","price":460,"newArrival":false},[["Silver",[307,303,310,356,364]]]),
+  createWatch({"id":4,"productCode":"PP001","slug":"patek-philippe-calatrava-silver-bronze","name":"Patek Philippe Calatrava","price":600,"newArrival":false},[["Silver / Bronze",[427,423,429,360,646]],["Black / Gold",[359]]]),
+  createWatch({"id":23,"productCode":"HL009","slug":"hublot-spirit-of-big-bang-white-ceramic-42mm-ref-642-hx-0170-rx","name":"Hublot Spirit of Big Bang White Ceramic 42mm — Ref. 642.HX.0170.RX","price":560,"description":"Hublot Spirit of Big Bang White Ceramic 42mm — Ref. 642.HX.0170.RX.","tags":["watch","luxury","hublot","white ceramic"]},[["White Ceramic",[435,437,274,439,418,442,650]],["Blue",[363,361,362]]]),
+  createWatch({"id":6,"productCode":"00000","slug":"omega-constellation-co-axial-master-chronometer-41","name":"OMEGA Constellation Co-Axial Master Chronometer 41 mm","price":490,"newArrival":false},[["Red",[290,324,417,284]],["Silver / Gold",[425]]]),
+  createWatch({"id":7,"productCode":"TT002","slug":"tissot-prc-200-chronograph","name":"Tissot PRC 200 Chronograph","price":430,"newArrival":false},[["As shown",[428,434,358,353,354,355]]]),
+  createWatch({"id":8,"productCode":"00000","slug":"cartier-santos-de-cartier-chronograph","name":"Hublot Bracelet Watch","price":570,"description":"Hublot bracelet wristwatch, available in black and silver / white.","tags":["watch","luxury","hublot"],"newArrival":false},[["Black",[424,430,438,357,365]],["Silver / White",[334,341,338]]]),
+  createWatch({"id":9,"productCode":"00000","slug":"omega-de-ville-prestige-quartz","name":"Omega De Ville","price":445,"newArrival":false},[["Black / Gold",[413]],["Silver / Gold",[295,431]]]),
+  createWatch({"id":10,"productCode":"TT001","slug":"tissot-1853-chronograph-silver-royal-blue","name":"Tissot 1853 Chronograph","price":475,"newArrival":false},[["Silver / Royal Blue",[416,414,346,352,350,351]]]),
+  createWatch({"id":11,"productCode":"RM004","slug":"richard-mille","name":"Richard Mille","price":590,"newArrival":false},[["Silver / Royal Blue",[306,305]]]),
+  createWatch({"id":12,"productCode":"HL007","slug":"hublot-black","name":"Hublot Black","price":510,"newArrival":false},[["Silver / Black",[304,296,347,344,345,348,302,422]]]),
+  createWatch({"id":14,"productCode":"BL001","slug":"breitlin-1884","name":"BREITLIN 1884","price":425,"newArrival":false},[["Silver / Blue",[315,317,415,343,349]]]),
 
-  {
-    "id": 31,
-    "productCode": "HL009",
-    "slug": "hublot-inspired-skeleton-flyback-chronograph",
-    "name": "Hublot-Inspired Skeleton Flyback Chronograph",
-    "category": "Watches",
-    "subcategory": "Luxury watch",
-    "brand": "BUYYMEE.com",
-    "price": 560,
-    "priceOnRequest": false,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png",
-    "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png",
-    "gallery": [
-      "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png"
-    ],
-    "variants": [
-      {
-        "color": "Black",
-        "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208672/exec-12e1d3d5-2cc8-4e7f-8543-92c56b33f96a.png"
-          }
-        ]
-      }
-    ],
-    "description": "A considered watch from the BUYYMEE.com edit.",
-    "sizes": [
-      "OS"
-    ],
-    "colors": [
-      "Black"
-    ],
-    "tags": [
-      "watch",
-      "luxury",
-      "hublot",
-      "skeleton chronograph"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": true,
-    "newArrival": true,
-    "sale": false
-  }
-]
+  {"id":15,"slug":"dress-edit-1","name":"The Column Dress","category":"Women","subcategory":"Dresses","brand":"","price":223,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208652/QWJW8577.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/TIUM5706.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
+  {"id":16,"slug":"dress-edit-2","name":"After Hours Dress","category":"Women","subcategory":"Dresses","brand":"","price":91,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/TIUM5706.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
+  {"id":17,"slug":"dress-edit-3","name":"Soft Focus Dress","category":"Women","subcategory":"Dresses","brand":"","price":197,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
+  {"id":18,"slug":"dress-edit-4","name":"Line Break Dress","category":"Women","subcategory":"Dresses","brand":"","price":176,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
+  {"id":19,"slug":"dress-edit-5","name":"Sunday Dress","category":"Women","subcategory":"Dresses","brand":"","price":205,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
+  {"id":20,"slug":"dress-edit-6","name":"The Long View","category":"Women","subcategory":"Dresses","brand":"","price":201,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/XJLU4258.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":false,"sale":false},
+  {"id":21,"slug":"dress-edit-7","name":"City Light Dress","category":"Women","subcategory":"Dresses","brand":"","price":124,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/XJLU4258.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208663/HKSS6302.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":false,"sale":false},
+  {"id":22,"slug":"dress-edit-8","name":"Open Air Dress","category":"Women","subcategory":"Dresses","brand":"","price":188,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/XJLU4258.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208663/HKSS6302.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208664/WDTQ6474.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":false,"sale":false},
 
+  createWatch({"id":32,"productCode":"LAMBO001","slug":"lamborghini-wrist-watch-blue","name":"Lamborghini Wrist Watch","price":550,"description":"A blue Lamborghini-inspired wrist watch with a bold automotive character and a sharp, sporty presence.","tags":["watch","luxury","lamborghini","blue"]},[["Blue",[282,278,276,280]],["Black",[342,332,340,339]]]),
+  createWatch({"id":24,"productCode":"AP002","slug":"audemars-piguet-royal-oak-offshore-selfwinding-chronograph","name":"Audemars Piguet Royal Oak Offshore Selfwinding Chronograph","price":580,"tags":["watch","luxury","audemars"]},[["Blue",[412,279,407]]]),
+  createWatch({"id":25,"productCode":"MB001","slug":"mercedeez-benz-wrist-watch","name":"Mercedeez Benz","price":500,"tags":["watch","luxury","mercedes benz"]},[["Blue",[403,410,409,411]],["Black",[408,406,401]]]),
+  createWatch({"id":26,"productCode":"HL005","slug":"iwc-schaffhausen-portugieser","name":"IWC Schaffhausen Portugieser","price":540,"tags":["watch","luxury","iwc"]},[["Brown",[433,331,326,648]]]),
+  createWatch({"id":27,"productCode":"HL005","slug":"hublot-big-bang-vendome-paris-boutique-special-edition-red-magic-chronograph","name":"Hublot Big Bang Vendôme Paris Boutique Special Edition “Red Magic” Chronograph","price":550,"tags":["watch","luxury","hublot"]},[["Light Brown",[337,325,336]],["Black",[366,367,368,372]]]),
+  createWatch({"id":28,"productCode":"HL006","slug":"hublot-classic-fusion-chronograph-titanium","name":"Hublot Classic Fusion Chronograph Titanium","price":525,"tags":["watch","luxury","hublot"]},[["Green",[333,335,330]],["Blue",[329,327,436]]]),
+  createWatch({"id":29,"productCode":"000","slug":"omega-seamaster-diver-300m-co-axial-master","name":"OMEGA Seamaster Diver 300M Co‑Axial Master","price":500,"tags":["watch","luxury","omega"]},[["Green",[440,288]]]),
+  createWatch({"id":30,"productCode":"RM009","slug":"richard-mille-rm-11-03-automatic-flyback","name":"Richard Mille RM 11-03 Automatic Flyback","price":590,"tags":["watch","luxury","richard mille"]},[["Blue",[308,426,645]]]),
+  createWatch({"id":31,"productCode":"00000","slug":"hublot-inspired-skeleton-flyback-chronograph","name":"Richard Mille Skeleton Chronograph — Blue","price":560,"description":"Blue-dial Richard Mille skeleton chronograph from the BUYYMEE.com watch collection.","tags":["watch","luxury","richard mille","skeleton chronograph"]},[["Blue / Black",[318,320,289]]]),
+
+  createWatch({"id":33,"productCode":"00000","slug":"richard-mille-black-skeleton-watch","name":"Richard Mille Skeleton Watch — Black","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Black",[283]]]),
+  createWatch({"id":34,"productCode":"00000","slug":"omega-seamaster-green-chronograph","name":"OMEGA Seamaster Chronograph — Green","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Green / Silver",[281,313]]]),
+  createWatch({"id":35,"productCode":"00000","slug":"tissot-1853-gold-dial","name":"Tissot 1853 — Gold Dial","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Gold / Silver",[292,277,419,647]]]),
+  createWatch({"id":36,"productCode":"00000","slug":"tissot-prx-green","name":"Tissot PRX — Green","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Green / Silver",[287,291]]]),
+  createWatch({"id":37,"productCode":"00000","slug":"hublot-black-round-skeleton-chronograph","name":"Hublot Skeleton Chronograph — Black","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Black",[299]]]),
+  createWatch({"id":38,"productCode":"00000","slug":"blue-square-skeleton-chronograph","name":"Blue Square Skeleton Chronograph","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Blue",[300]]]),
+  createWatch({"id":39,"productCode":"00000","slug":"hublot-blue-skeleton-chronograph","name":"Hublot Skeleton Chronograph — Light Blue","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Light Blue",[301,322]]]),
+  createWatch({"id":40,"productCode":"00000","slug":"emporio-armani-chronograph","name":"Emporio Armani Chronograph","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Grey / White",[370,371,369,643]],["Silver / White",[373,375,377]]]),
+  createWatch({"id":41,"productCode":"00000","slug":"diesel-green-chronograph","name":"Diesel Chronograph — Olive Green","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Olive Green",[378,441,379,644,642]]]),
+  createWatch({"id":42,"productCode":"00000","slug":"tag-heuer-carrera-chronograph","name":"TAG Heuer Carrera Chronograph","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Gold / Blue",[380,381]],["Silver / White",[383,386,384,389]],["Black",[385,388,387]],["Silver / Blue",[395,392,397]]]),
+  createWatch({"id":43,"productCode":"00000","slug":"orange-strap-racing-chronograph","name":"TAG Heuer Grand Carrera Racing Chronograph","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Orange / White",[391,382,390,394]]]),
+  createWatch({"id":44,"productCode":"00000","slug":"tag-heuer-blue-skeleton-chronograph","name":"TAG Heuer Carrera Skeleton Chronograph — Blue","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Blue",[396,400,398,393]]]),
+  createWatch({"id":45,"productCode":"00000","slug":"boss-orange-chronograph","name":"BOSS Chronograph — Orange","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Orange / Black",[405,399,404,402]]]),
+  createWatch({"id":46,"productCode":"00000","slug":"gold-bracelet-chronograph","name":"Gold Bracelet Chronograph","price":500,"description":"Wristwatch from the BUYYMEE.com collection.","featured":false},[["Gold",[374,376]]]),
+];
+
+export const WATCHES_BACKGROUND_MEDIA = {
+  video: mediaUrl(273),
+  poster: mediaUrl(649),
+};
 
 export default products;
