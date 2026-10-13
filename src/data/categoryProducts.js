@@ -3198,11 +3198,6 @@ export const categoryProducts = {
       "sale": false
     }
   ],
-  bags: [
-    makeProduct({ id: 131, slug: 'bag-edit-1', name: 'The Carryall', category: 'Bags', subcategory: 'Totes', price: 186, imageUrl: '/images/stock-tote.webp', description: 'A generous carryall for the full day and everything after it.', sizes: ['OS'] }),
-    makeProduct({ id: 132, slug: 'bag-edit-2', name: 'The Mini', category: 'Bags', subcategory: 'Shoulder bags', price: 154, imageUrl: 'photo-1584917865442-de89df76afd3', description: 'A compact shoulder bag with a considered point of view.', sizes: ['OS'] }),
-    makeProduct({ id: 133, slug: 'bag-edit-3', name: 'Soft Structure', category: 'Bags', subcategory: 'Handbags', price: 202, imageUrl: 'photo-1594223274512-ad4803739b7c', description: 'Soft structure, exact proportions, easy to carry.', sizes: ['OS'] }),
-  ],
   fragrance: [
     makeProduct({ id: 141, slug: 'fragrance-edit-1', name: 'First Light', category: 'Fragrance', subcategory: 'Eau de parfum', price: 96, imageUrl: 'photo-1541643600914-78b084683601', description: 'A quiet fragrance with a clear, memorable trail.', sizes: ['50ml'] }),
     makeProduct({ id: 142, slug: 'fragrance-edit-2', name: 'After Rain', category: 'Fragrance', subcategory: 'Eau de parfum', price: 112, imageUrl: '/images/stock-perfume.webp', description: 'Fresh, close, and designed to stay with you.', sizes: ['50ml'] }),

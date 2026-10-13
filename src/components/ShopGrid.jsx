@@ -11,7 +11,7 @@ const categories = [
   'watches',
   'sneakers',
   'shoes',
-  'bags',
+  'eye wears',
   'fragrance',
   'accessories',
 ]

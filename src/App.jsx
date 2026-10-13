@@ -7,7 +7,7 @@ import { ProductDetail, Wishlist, Cart, Contact, NotFound } from './pages/Commer
 import './index.css'
 import './motion.css'
 
-const categoryPaths = ['/new-in', '/women', '/men', '/watches', '/sneakers', '/shoes', '/bags', '/fragrance', '/accessories']
+const categoryPaths = ['/new-in', '/women', '/men', '/watches', '/sneakers', '/shoes', '/eye-wears', '/fragrance', '/accessories']
 
 export default function App() {
   return (

@@ -175,7 +175,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   object-position: center 48%;
 }
 .category-new[data-category="shoes"] .category-new-hero > img,
-.category-new[data-category="bags"] .category-new-hero > img,
+.category-new[data-category="eye wears"] .category-new-hero > img,
 .category-new[data-category="accessories"] .category-new-hero > img {
   object-position: 60% center;
 }

@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import baseProducts from '../data/products'
 import { categoryProducts } from '../data/categoryProducts'
 import { currencies, formatPrice } from '../data/currency'
-const products = [...baseProducts, ...Object.values(categoryProducts).flat()]
+const products = [...baseProducts, ...Object.values(categoryProducts).flat().filter(product => !baseProducts.some(base => base.category === product.category && (base.category === 'Sneakers' || base.category === 'Eye Wears')))]
 const StoreContext=createContext(null)
 export function StoreProvider({children}){
  const [currency,setCurrency]=useState(()=>localStorage.getItem('bym-currency')||'USD')

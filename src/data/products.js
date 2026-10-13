@@ -1,5 +1,5 @@
 // Replace the entire products.js file with this code.
-// 81 footwear cards, 50 verified watch cards, and 8 unchanged dresses.
+// 81 footwear cards, 50 watch cards, 8 dresses, and 61 eyewear groups / 122 photographs.
 const cloud = 'https://res.cloudinary.com/dnvgl9k4i/';
 const prefixes = ["ChatGPT_Image_Oct_12_2026_","ChatGPT_Image_Oct_7_2026_","ChatGPT_Image_Oct_6_2026_","ChatGPT_Image_Oct_8_2026_","exec-"];
 const assetRows = `1791807146 ~4|4eb48c1e-6a91-4b33-99e8-dab38e811a95_fgmp0p
@@ -825,5 +825,215 @@ export const WATCHES_BACKGROUND_MEDIA = {
   video: "https://res.cloudinary.com/dnvgl9k4i/video/upload/v1791807251/1006_4_epa6ql.mp4",
   poster: "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791826874/1006_4_-Cover_zag2k0"
 };
+
+
+// All 122 eyewear photographs from Cloudinary.
+const eyewearRows = `1791890327 13_2026_10_40_26_AM_n75c0s
+1791890327 13_2026_11_10_47_AM_ugutzs
+1791890325 13_2026_11_08_29_AM_mywudx
+1791890325 13_2026_10_55_43_AM_cfwym7
+1791890323 13_2026_10_58_04_AM_wakeen
+1791890321 13_2026_10_32_45_AM_az7ubp
+1791890321 13_2026_11_08_50_AM_fztuiw
+1791890319 13_2026_11_08_47_AM_gtahpk
+1791890318 13_2026_11_08_43_AM_d7in9o
+1791890317 13_2026_11_08_39_AM_h9fcl2
+1791890316 13_2026_11_08_33_AM_kqeryo
+1791890316 13_2026_10_42_47_AM_cgojoh
+1791890315 13_2026_10_54_08_AM_carbms
+1791890315 13_2026_10_51_55_AM_rhgpas
+1791890313 13_2026_10_51_51_AM_luwe6p
+1791890313 13_2026_10_48_04_AM_g7zaoe
+1791890312 13_2026_10_45_39_AM_dxertd
+1791890310 13_2026_10_37_30_AM_yg7qko
+1791890311 13_2026_10_41_29_AM_spcxwx
+1791890310 13_2026_10_38_45_AM_xxfbrf
+1791890310 13_2026_10_37_25_AM_hyno7v
+1791890309 13_2026_10_34_25_AM_fiyhbz
+1791890308 13_2026_10_35_23_AM_axio9z
+1791890307 13_2026_10_22_39_AM_hbm1ac
+1791890306 13_2026_10_24_04_AM_nhqfqc
+1791890305 13_2026_10_19_44_AM_l5nguw
+1791890304 13_2026_10_15_46_AM_q3ulmm
+1791890304 13_2026_10_17_19_AM_dtu9bv
+1791890302 13_2026_10_15_37_AM_vecvtu
+1791890302 13_2026_10_15_41_AM_tarxed
+1791890301 13_2026_10_11_06_AM_mqgrek
+1791890299 13_2026_10_11_02_AM_k4offu
+1791890300 13_2026_10_02_44_AM_dtf63r
+1791890299 13_2026_10_08_12_AM_cqka5g
+1791890296 13_2026_09_52_19_AM_tdm5h7
+1791890296 13_2026_10_02_28_AM_ivogqp
+1791890294 13_2026_09_52_04_AM_vnip87
+1791890294 13_2026_09_52_09_AM_jgwft8
+1791890291 13_2026_09_51_49_AM_cvmgyx
+1791890291 13_2026_09_51_58_AM_plot4x
+1791890290 13_2026_09_51_53_AM_cte6cq
+1791890289 13_2026_09_45_08_AM_p1kq5g
+1791890289 13_2026_09_39_22_AM_a5kyyp
+1791890288 13_2026_09_44_52_AM_aoxwtn
+1791890288 13_2026_09_51_43_AM_eicu9p
+1791890286 13_2026_09_38_57_AM_sxxq2m
+1791890286 13_2026_09_44_46_AM_vymea4
+1791890286 13_2026_09_44_39_AM_x2lajo
+1791890284 13_2026_09_37_24_AM_aud7nu
+1791890283 13_2026_09_36_39_AM_hbphvb
+1791890283 13_2026_09_36_26_AM_boplyz
+1791890281 13_2026_09_33_06_AM_crla0r
+1791890280 13_2026_09_29_01_AM_i05vlx
+1791890280 13_2026_09_33_02_AM_yrqjbq
+1791890279 13_2026_09_28_07_AM_homnme
+1791890278 13_2026_09_28_11_AM_pooekh
+1791890277 13_2026_09_28_00_AM_zl7fyw
+1791890275 12_2026_10_34_20_PM_ylqo1l
+1791890274 12_2026_10_22_29_PM_cdsehi
+1791890274 13_2026_09_26_16_AM_dccomv
+1791890273 13_2026_09_26_21_AM_yc94qg
+1791890273 12_2026_11_14_05_PM_cpcj6f
+1791890272 13_2026_09_26_25_AM_tljvcb
+1791890270 12_2026_10_31_46_PM_yhdlqx
+1791890269 12_2026_10_38_13_PM_xuibqm
+1791890269 12_2026_10_35_58_PM_v484tc
+1791890268 12_2026_11_49_23_PM_lptlym
+1791890267 12_2026_11_14_14_PM_mewwyh
+1791890266 12_2026_10_45_55_PM_t0pmwi
+1791890266 12_2026_11_04_34_PM_vk9x2o
+1791890265 12_2026_10_25_19_PM_usaauq
+1791890265 12_2026_10_22_35_PM_rmcvhp
+1791890264 12_2026_11_12_40_PM_kiq2r0
+1791890263 12_2026_11_07_14_PM_qffqja
+1791890262 13_2026_09_26_11_AM_rtgc6u
+1791890261 12_2026_11_17_27_PM_yfepfu
+1791890261 12_2026_10_27_54_PM_mth8jo
+1791890259 12_2026_11_05_01_PM_fc7mwr
+1791890257 12_2026_11_04_57_PM_yb0qtn
+1791890256 12_2026_10_25_24_PM_vdawzb
+1791890251 12_2026_10_53_59_PM_xy08iw
+1791890251 12_2026_11_16_35_PM_aonfw8
+1791890251 12_2026_11_04_51_PM_z0maoz
+1791890250 12_2026_10_18_06_PM_ii4f4g
+1791890248 12_2026_11_07_08_PM_ud58e4
+1791890247 12_2026_11_05_06_PM_gvlnj1
+1791890245 12_2026_11_16_21_PM_hnmjuz
+1791890245 12_2026_11_19_23_PM_v85jyo
+1791890245 12_2026_11_16_16_PM_jphyiw
+1791890243 12_2026_10_45_40_PM_zgslgo
+1791890242 12_2026_11_18_19_PM_tmzp0y
+1791890242 12_2026_10_53_54_PM_dolfdc
+1791890240 12_2026_10_53_35_PM_w7k61p
+1791890240 12_2026_11_05_11_PM_vlsay3
+1791890238 12_2026_11_32_55_PM_hiqffz
+1791890237 12_2026_10_16_09_PM_veivap
+1791890235 12_2026_11_04_45_PM_nh34is
+1791890235 12_2026_11_04_29_PM_clkyud
+1791890235 12_2026_10_16_28_PM_mw3o5b
+1791890235 12_2026_10_31_52_PM_pwlkyl
+1791890234 12_2026_10_16_24_PM_wsnjhz
+1791890233 12_2026_10_45_46_PM_g8mcig
+1791890233 12_2026_10_45_23_PM_gw1nv8
+1791890229 12_2026_10_13_11_PM_yfyhuk
+1791890228 12_2026_10_12_57_PM_t1wj8f
+1791890227 12_2026_10_54_05_PM_q2qmi0
+1791890226 12_2026_10_13_05_PM_gcolqj
+1791890225 12_2026_10_12_49_PM_cpqvkk
+1791890224 12_2026_10_45_31_PM_b2utno
+1791890223 12_2026_10_12_27_PM_p73nzs
+1791890222 12_2026_10_04_48_PM_rhtw3t
+1791890222 12_2026_10_12_43_PM_kn6l5c
+1791890221 12_2026_10_12_35_PM_tzm1pp
+1791890219 12_2026_10_01_09_PM_kbii9o
+1791890218 12_2026_10_01_01_PM_bkfzcy
+1791890217 12_2026_09_54_31_PM_gf1g9q
+1791890217 12_2026_10_00_53_PM_ngrtoh
+1791890215 12_2026_09_48_31_PM_ct2tc3
+1791890214 12_2026_09_51_19_PM_b5ddbh
+1791890214 12_2026_09_47_23_PM_uw7nh9
+1791890214 12_2026_09_47_18_PM_vxegqd
+1791890213 12_2026_09_43_37_PM_fg6onm`;
+export const EYEWEAR_ASSETS = eyewearRows.split('\n').map(row => {
+  const [version, name] = row.split(' ');
+  return cloud + 'image/upload/v' + version + '/ChatGPT_Image_Oct_' + name + '.png';
+});
+const eyewearGroups = [
+  ["Gold-Temple Aviator Sunglasses", "Aviator Sunglasses", [1, 19]],
+  ["Blue Square Sunglasses", "Square Sunglasses", [2, 7, 9]],
+  ["Black and Gold Square Sunglasses", "Square Sunglasses", [3, 5, 8]],
+  ["Black Thick-Frame Sunglasses", "Square Sunglasses", [4, 10, 11]],
+  ["Tortoiseshell Round Sunglasses", "Round Sunglasses", [6, 22]],
+  ["Black Oversized Round Sunglasses", "Round Sunglasses", [13, 14]],
+  ["Silver Aviator Sunglasses", "Aviator Sunglasses", [12, 17]],
+  ["Pink V-Bridge Sunglasses", "Rimless Sunglasses", [15, 16]],
+  ["Gold Aviator Sunglasses", "Aviator Sunglasses", [18, 20]],
+  ["Gradient Double-Bridge Aviator Sunglasses", "Aviator Sunglasses", [21, 23]],
+  ["Clear Chain-Temple Frames", "Optical Frames", [24, 25]],
+  ["Pink Shield Sunglasses", "Shield Sunglasses", [26, 27]],
+  ["Brown Geometric Aviator Sunglasses", "Aviator Sunglasses", [28, 30]],
+  ["Orange Thick-Frame Sunglasses", "Square Sunglasses", [29, 31]],
+  ["Rose Square Sunglasses", "Square Sunglasses", [32, 34]],
+  ["Silver Oval Frames", "Optical Frames", [33, 36]],
+  ["Gold Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [35]],
+  ["Pink Crystal Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [37, 39]],
+  ["Black Star-Temple Sunglasses", "Square Sunglasses", [38, 41, 47, 48]],
+  ["Black Sport Sunglasses", "Sports Eyewear", [40, 42]],
+  ["Turquoise Mirrored Shield Sunglasses", "Sports Eyewear", [43, 46]],
+  ["Black Wraparound Sunglasses", "Sports Eyewear", [44, 51]],
+  ["Clear-Frame Mirrored Sport Sunglasses", "Sports Eyewear", [49, 50, 63, 75]],
+  ["Blue Mirrored Sport Sunglasses", "Sports Eyewear", [52, 54]],
+  ["Orange Mirrored Sport Sunglasses", "Sports Eyewear", [53, 55]],
+  ["Silver Mirrored Shield Sunglasses", "Sports Eyewear", [56]],
+  ["Red-Temple Sport Sunglasses", "Sports Eyewear", [57]],
+  ["Rose Metal Geometric Sunglasses", "Geometric Sunglasses", [58, 62, 69]],
+  ["Brown Brow-Bar Sunglasses", "Square Sunglasses", [59]],
+  ["Pink and Blue Mirrored Shield Sunglasses", "Sports Eyewear", [60, 61]],
+  ["Letter-Temple Sunglasses", "Sunglasses", [64]],
+  ["Black and Red Sport Sunglasses", "Sports Eyewear", [65]],
+  ["Oversized Logo Square Sunglasses", "Square Sunglasses", [66, 96, 99]],
+  ["Clear Blue Shield Sunglasses", "Sports Eyewear", [67, 95]],
+  ["Black Angular Sunglasses", "Geometric Sunglasses", [68]],
+  ["Slim Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [70, 74, 88, 89, 97, 121]],
+  ["Translucent Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [71, 81, 100, 109]],
+  ["Pink Geometric Rimless Sunglasses", "Rimless Sunglasses", [72, 80, 101, 105]],
+  ["Rose Geometric Metal Sunglasses", "Geometric Sunglasses", [73]],
+  ["Gold Oval Sunglasses", "Oval Sunglasses", [76, 106]],
+  ["Decorative Half-Rim Frames", "Optical Frames", [77]],
+  ["Light-Tint Geometric Metal Sunglasses", "Geometric Sunglasses", [78]],
+  ["Gold-Temple Oval Sunglasses", "Oval Sunglasses", [79, 83]],
+  ["Gold Wire-Temple Sunglasses", "Sunglasses", [82]],
+  ["Gold Curved-Temple Sunglasses", "Sunglasses", [84]],
+  ["Tortoiseshell Geometric Sunglasses", "Geometric Sunglasses", [85, 94]],
+  ["Green Ornate-Temple Sunglasses", "Sunglasses", [86]],
+  ["Gold-Outline Square Sunglasses", "Square Sunglasses", [87, 91]],
+  ["Pink Hexagonal Rimless Sunglasses", "Rimless Sunglasses", [90, 102]],
+  ["Brown Gradient Rimless Sunglasses", "Rimless Sunglasses", [92, 111]],
+  ["Oversized Decorative Rimless Sunglasses", "Rimless Sunglasses", [93, 103, 104, 108, 113]],
+  ["Black and Gold Metal-Temple Sunglasses", "Sunglasses", [98]],
+  ["Pink Gold-Rim Sunglasses", "Round Sunglasses", [45, 107]],
+  ["Gold Soft-Square Sunglasses", "Square Sunglasses", [110, 112]],
+  ["Grey Chain-Temple Sunglasses", "Sunglasses", [114]],
+  ["Grey Square Sunglasses", "Square Sunglasses", [115]],
+  ["Brown Logo-Temple Sunglasses", "Sunglasses", [116]],
+  ["Purple Butterfly Sunglasses", "Butterfly Sunglasses", [117, 118]],
+  ["Brown Stripe-Temple Sunglasses", "Sunglasses", [119]],
+  ["Ornate Square Rimless Sunglasses", "Rimless Sunglasses", [120]],
+  ["Packaged Eyewear Set", "Eyewear Sets", [122]]
+];
+export const EYEWEAR_PRODUCTS = eyewearGroups.map(([familyName, subcategory, numbers], index) => {
+  const id = 25000 + index;
+  const gallery = numbers.map(number => EYEWEAR_ASSETS[number - 1]);
+  const image = gallery[0];
+  const media = gallery.map(src => ({type: 'image', src}));
+  return {
+    id, parentProductId: id,
+    slug: 'eye-wears-' + familyName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+    name: familyName, familyName, category: 'Eye Wears', subcategory, brand: '',
+    price: null, priceOnRequest: true, compareAt: null, currency: 'USD',
+    image, secondaryImage: gallery[1] || image, gallery, media,
+    variants: [{color: 'As shown', image, media}],
+    description: familyName + ' from the BUYYMEE.com eyewear collection. Contact us for availability and price.',
+    sizes: ['OS'], colors: ['As shown'], tags: ['eye wears', 'eyewear', subcategory.toLowerCase()],
+    inStock: true, placeholder: false, featured: false, newArrival: false, sale: false
+  };
+});
+products.push(...EYEWEAR_PRODUCTS);
 
 export default products;
