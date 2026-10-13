@@ -1,6 +1,7 @@
 import { useRef } from 'react'
 import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion'
 import { imageUrl } from '../lib/images'
+import { optimizeImageUrl } from '../lib/media'
 
 export const editorialEase = [0.22, 1, 0.36, 1]
 
@@ -52,7 +53,7 @@ export function ScrollImage({ src, alt, className = '', distance = 30, rotate = 
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] })
   const y = useTransform(scrollYProgress, [0, 1], [-distance, distance])
   const rotation = useTransform(scrollYProgress, [0, 1], [-rotate, rotate])
-  return <motion.img ref={ref} src={imageUrl(src)} data-image-source={src} alt={alt} className={className} style={reduced ? {} : { y, rotate: rotation, scale: rotate ? 1 : 1.08 }} {...props} />
+  return <motion.img ref={ref} src={optimizeImageUrl(imageUrl(src))} data-image-source={src} alt={alt} className={className} loading="lazy" decoding="async" style={reduced ? {} : { y, rotate: rotation, scale: rotate ? 1 : 1.08 }} {...props} />
 }
 
 export function ScrollAccent({ children, className = '', rotation = 0, distance = 50 }) {

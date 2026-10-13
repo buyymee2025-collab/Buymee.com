@@ -1,7 +1,7 @@
 export function optimizeImageUrl(src, width = 1200) {
   if (typeof src !== 'string' || !src.includes('res.cloudinary.com/') || !src.includes('/image/upload/')) return src
   if (src.includes('/f_auto') || src.includes('/q_auto')) return src
-  return src.replace('/image/upload/', `/image/upload/f_auto,q_auto,w_${width}/`)
+  return src.replace('/image/upload/', `/image/upload/f_auto,q_auto:good,c_limit,w_${width}/`)
 }
 
 export function optimizeVideoUrl(src) {

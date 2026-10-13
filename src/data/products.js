@@ -1,7 +1,18 @@
-// Replace the entire products.js file with this code.
-// 81 footwear cards, 50 watch cards, 8 dresses, and 61 eyewear groups / 122 photographs.
+// Complete products.js.
+// 81 footwear cards, 50 watch cards, 8 dresses,
+// 44 eyewear pairs and 21 men's wear products.
+// All 42 uploaded men's wear photographs are included.
+// Eyewear and men's wear prices remain on request.
+
 const cloud = 'https://res.cloudinary.com/dnvgl9k4i/';
-const prefixes = ["ChatGPT_Image_Oct_12_2026_","ChatGPT_Image_Oct_7_2026_","ChatGPT_Image_Oct_6_2026_","ChatGPT_Image_Oct_8_2026_","exec-"];
+const prefixes = [
+  "ChatGPT_Image_Oct_12_2026_",
+  "ChatGPT_Image_Oct_7_2026_",
+  "ChatGPT_Image_Oct_6_2026_",
+  "ChatGPT_Image_Oct_8_2026_",
+  "exec-"
+];
+
 const assetRows = `1791807146 ~4|4eb48c1e-6a91-4b33-99e8-dab38e811a95_fgmp0p
 1791807192 009_xmhnut
 !1791807271 1006_1_1_onutvu.mp4
@@ -518,14 +529,46 @@ const assetRows = `1791807146 ~4|4eb48c1e-6a91-4b33-99e8-dab38e811a95_fgmp0p
 const assetUrls = assetRows.split('\n').map(row => {
   const video = row.startsWith('!');
   if (video) row = row.slice(1);
+
   const space = row.indexOf(' ');
   const version = row.slice(0, space);
-  const id = row.slice(space + 1).replace(/^~(\d+)\|/, (_, n) => prefixes[Number(n)]);
-  return cloud + (video ? 'video' : 'image') + '/upload/v' + version + '/' + id;
+  const id = row.slice(space + 1).replace(
+    /^~(\d+)\|/,
+    (_, n) => prefixes[Number(n)]
+  );
+
+  return cloud + (video ? 'video' : 'image') +
+    '/upload/v' + version + '/' + id;
 });
 
-const watchDefaults = {"category":"Watches","subcategory":"Luxury watch","brand":"BUYYMEE.com","priceOnRequest":false,"compareAt":null,"currency":"USD","sizes":["OS"],"inStock":true,"placeholder":false,"sale":false};
-const sneakerDefaults = {"productCode":"00000","category":"Sneakers","brand":"BUYYMEE.com","price":null,"priceOnRequest":true,"compareAt":null,"currency":"USD","description":"Footwear from the BUYYMEE.com collection. Contact us for available sizes and price.","sizes":[],"inStock":true,"placeholder":false,"featured":false,"sale":false};
+const watchDefaults = {
+  "category": "Watches",
+  "subcategory": "Luxury watch",
+  "brand": "BUYYMEE.com",
+  "priceOnRequest": false,
+  "compareAt": null,
+  "currency": "USD",
+  "sizes": ["OS"],
+  "inStock": true,
+  "placeholder": false,
+  "sale": false
+};
+
+const sneakerDefaults = {
+  "productCode": "00000",
+  "category": "Sneakers",
+  "brand": "BUYYMEE.com",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "description": "Footwear from the BUYYMEE.com collection. Contact us for available sizes and price.",
+  "sizes": [],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "sale": false
+};
 
 const families = {
   1:{"kind":"W","slug":"audemars-piguet-royal-oak-offshore-diver-15720st","familyName":"Audemars Piguet Royal Oak Offshore Diver 15720ST Style","productCode":"AP001","price":520,"description":"A considered dive-watch silhouette with a bold presence and precise detailing.","tags":["watch","luxury","audemars"],"featured":true,"newArrival":true},
@@ -624,7 +667,7 @@ const families = {
   106:{"kind":"S","slug":"lv-white-grey-trainers","familyName":"Louis Vuitton Trainers","subcategory":"Sneakers","tags":["footwear","sneakers","sneakers"],"newArrival":false},
   107:{"kind":"S","slug":"lv-white-green-patterned","familyName":"Louis Vuitton Patterned Low-Top Sneakers","subcategory":"Sneakers","tags":["footwear","sneakers","sneakers"],"newArrival":false},
   108:{"kind":"S","slug":"nike-blue-purple-low-top","familyName":"Nike Low-Top Sneakers","subcategory":"Sneakers","tags":["footwear","sneakers","sneakers"],"newArrival":false},
-  109:{"kind":"S","slug":"lv-blue-purple-trainers","familyName":"Louis Vuitton Trainers","subcategory":"Sneakers","tags":["footwear","sneakers","sneakers"],"newArrival":false},
+  109:{"kind":"S","slug":"lv-blue-purple-trainers","familyName":"Louis Vuitton Trainers","subcategory":"Sneakers","tags":["footwear","sneakers","sneakers"],"newArrival":false}
 };
 
 const cardRows = [
@@ -758,57 +801,59 @@ const cardRows = [
   [106,106,"White / Grey",[498,499,500]],
   [107,107,"White / Green",[501,502,503,504,505]],
   [108,108,"Blue / Purple / White",[506,507,508,509]],
-  [109,109,"Blue / Purple",[510,511]],
+  [109,109,"Blue / Purple",[510,511]]
 ];
 
-const products = cardRows.map(([parentProductId, id, color, mediaIds, overrides = {}]) => {
-  const {kind, ...family} = families[parentProductId];
-  const defaults = kind === 'W' ? watchDefaults : sneakerDefaults;
+const products = cardRows.map(
+  ([parentProductId, id, color, mediaIds, overrides = {}]) => {
+    const {kind, ...family} = families[parentProductId];
+    const defaults = kind === 'W' ? watchDefaults : sneakerDefaults;
 
-  const media = mediaIds.map(i => {
-    const src = assetUrls[i];
-    const type = src.includes('/video/upload/') ? 'video' : 'image';
-    const item = {type, src};
+    const media = mediaIds.map(i => {
+      const src = assetUrls[i];
+      const type = src.includes('/video/upload/') ? 'video' : 'image';
+      const item = {type, src};
 
-    if (type === 'video' && kind === 'S') {
-      item.poster = src.replace(/\.mp4$/, '.jpg');
-    }
+      if (type === 'video' && kind === 'S') {
+        item.poster = src.replace(/\.mp4$/, '.jpg');
+      }
 
-    return item;
-  });
+      return item;
+    });
 
-  const gallery = [...new Set(
-    media.filter(m => m.type === 'image').map(m => m.src)
-  )];
+    const gallery = [...new Set(
+      media.filter(m => m.type === 'image').map(m => m.src)
+    )];
 
-  const image = gallery[0];
+    const image = gallery[0];
 
-  const slug = id === parentProductId
-    ? family.slug
-    : family.slug + '-' + color.toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-|-$/g, '');
+    const slug = id === parentProductId
+      ? family.slug
+      : family.slug + '-' + color.toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-|-$/g, '');
 
-  const name = family.familyName.endsWith(' — ' + color)
-    ? family.familyName
-    : family.familyName + ' — ' + color;
+    const name = family.familyName.endsWith(' — ' + color)
+      ? family.familyName
+      : family.familyName + ' — ' + color;
 
-  return {
-    ...defaults,
-    ...family,
-    id,
-    parentProductId,
-    name,
-    slug,
-    ...overrides,
-    image,
-    secondaryImage: gallery[1] || image,
-    gallery,
-    media,
-    variants: [{color, image, media}],
-    colors: [color]
-  };
-});
+    return {
+      ...defaults,
+      ...family,
+      id,
+      parentProductId,
+      name,
+      slug,
+      ...overrides,
+      image,
+      secondaryImage: gallery[1] || image,
+      gallery,
+      media,
+      variants: [{color, image, media}],
+      colors: [color]
+    };
+  }
+);
 
 products.push(
   {"id":15,"slug":"dress-edit-1","name":"The Column Dress","category":"Women","subcategory":"Dresses","brand":"","price":223,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208652/QWJW8577.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/TIUM5706.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
@@ -826,8 +871,8 @@ export const WATCHES_BACKGROUND_MEDIA = {
   poster: "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791826874/1006_4_-Cover_zag2k0"
 };
 
-
-// All 122 eyewear photographs from Cloudinary.
+// All 122 source eyewear URLs are retained.
+// Only the selected pairs below are displayed as products.
 const eyewearRows = `1791890327 13_2026_10_40_26_AM_n75c0s
 1791890327 13_2026_11_10_47_AM_ugutzs
 1791890325 13_2026_11_08_29_AM_mywudx
@@ -950,90 +995,237 @@ const eyewearRows = `1791890327 13_2026_10_40_26_AM_n75c0s
 1791890214 12_2026_09_47_23_PM_uw7nh9
 1791890214 12_2026_09_47_18_PM_vxegqd
 1791890213 12_2026_09_43_37_PM_fg6onm`;
+
 export const EYEWEAR_ASSETS = eyewearRows.split('\n').map(row => {
   const [version, name] = row.split(' ');
-  return cloud + 'image/upload/v' + version + '/ChatGPT_Image_Oct_' + name + '.png';
+  return cloud + 'image/upload/v' + version +
+    '/ChatGPT_Image_Oct_' + name + '.png';
 });
+
+// Two selected photographs per product.
+// Front image first, side or angled view second.
+// Pairing is based on visible frame, lens, temple details and color.
+// Physical frame measurements were not supplied.
+
 const eyewearGroups = [
-  ["Gold-Temple Aviator Sunglasses", "Aviator Sunglasses", [1, 19]],
-  ["Blue Square Sunglasses", "Square Sunglasses", [2, 7, 9]],
-  ["Black and Gold Square Sunglasses", "Square Sunglasses", [3, 5, 8]],
-  ["Black Thick-Frame Sunglasses", "Square Sunglasses", [4, 10, 11]],
-  ["Tortoiseshell Round Sunglasses", "Round Sunglasses", [6, 22]],
-  ["Black Oversized Round Sunglasses", "Round Sunglasses", [13, 14]],
-  ["Silver Aviator Sunglasses", "Aviator Sunglasses", [12, 17]],
-  ["Pink V-Bridge Sunglasses", "Rimless Sunglasses", [15, 16]],
-  ["Gold Aviator Sunglasses", "Aviator Sunglasses", [18, 20]],
+  ["Gold-Temple Aviator Sunglasses", "Aviator Sunglasses", [19, 1]],
+  ["Blue Square Sunglasses", "Square Sunglasses", [9, 7]],
+  ["Black and Gold Square Sunglasses", "Square Sunglasses", [3, 8]],
+  ["Black Thick-Frame Sunglasses", "Square Sunglasses", [11, 4]],
+  ["Tortoiseshell Round Sunglasses", "Round Sunglasses", [22, 6]],
+  ["Black Oversized Round Sunglasses", "Round Sunglasses", [14, 13]],
+  ["Silver Aviator Sunglasses", "Aviator Sunglasses", [17, 12]],
+  ["Pink V-Bridge Sunglasses", "Rimless Sunglasses", [16, 15]],
+  ["Gold Aviator Sunglasses", "Aviator Sunglasses", [20, 18]],
   ["Gradient Double-Bridge Aviator Sunglasses", "Aviator Sunglasses", [21, 23]],
   ["Clear Chain-Temple Frames", "Optical Frames", [24, 25]],
-  ["Pink Shield Sunglasses", "Shield Sunglasses", [26, 27]],
-  ["Brown Geometric Aviator Sunglasses", "Aviator Sunglasses", [28, 30]],
-  ["Orange Thick-Frame Sunglasses", "Square Sunglasses", [29, 31]],
+  ["Pink Shield Sunglasses", "Shield Sunglasses", [27, 26]],
+  ["Brown Geometric Aviator Sunglasses", "Aviator Sunglasses", [30, 28]],
+  ["Orange Thick-Frame Sunglasses", "Square Sunglasses", [31, 29]],
   ["Rose Square Sunglasses", "Square Sunglasses", [32, 34]],
   ["Silver Oval Frames", "Optical Frames", [33, 36]],
-  ["Gold Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [35]],
+  ["Gold Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [35, 84]],
   ["Pink Crystal Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [37, 39]],
-  ["Black Star-Temple Sunglasses", "Square Sunglasses", [38, 41, 47, 48]],
+  ["Black Star-Temple Sunglasses", "Square Sunglasses", [41, 38]],
   ["Black Sport Sunglasses", "Sports Eyewear", [40, 42]],
-  ["Turquoise Mirrored Shield Sunglasses", "Sports Eyewear", [43, 46]],
-  ["Black Wraparound Sunglasses", "Sports Eyewear", [44, 51]],
-  ["Clear-Frame Mirrored Sport Sunglasses", "Sports Eyewear", [49, 50, 63, 75]],
+  ["Turquoise Mirrored Shield Sunglasses", "Sports Eyewear", [46, 43]],
+  ["Clear-Frame Blue Mirrored Sport Sunglasses", "Sports Eyewear", [49, 50]],
+  ["Clear-Frame Orange Mirrored Sport Sunglasses", "Sports Eyewear", [75, 63]],
   ["Blue Mirrored Sport Sunglasses", "Sports Eyewear", [52, 54]],
-  ["Orange Mirrored Sport Sunglasses", "Sports Eyewear", [53, 55]],
-  ["Silver Mirrored Shield Sunglasses", "Sports Eyewear", [56]],
-  ["Red-Temple Sport Sunglasses", "Sports Eyewear", [57]],
-  ["Rose Metal Geometric Sunglasses", "Geometric Sunglasses", [58, 62, 69]],
-  ["Brown Brow-Bar Sunglasses", "Square Sunglasses", [59]],
-  ["Pink and Blue Mirrored Shield Sunglasses", "Sports Eyewear", [60, 61]],
-  ["Letter-Temple Sunglasses", "Sunglasses", [64]],
-  ["Black and Red Sport Sunglasses", "Sports Eyewear", [65]],
-  ["Oversized Logo Square Sunglasses", "Square Sunglasses", [66, 96, 99]],
-  ["Clear Blue Shield Sunglasses", "Sports Eyewear", [67, 95]],
-  ["Black Angular Sunglasses", "Geometric Sunglasses", [68]],
-  ["Slim Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [70, 74, 88, 89, 97, 121]],
-  ["Translucent Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [71, 81, 100, 109]],
-  ["Pink Geometric Rimless Sunglasses", "Rimless Sunglasses", [72, 80, 101, 105]],
-  ["Rose Geometric Metal Sunglasses", "Geometric Sunglasses", [73]],
-  ["Gold Oval Sunglasses", "Oval Sunglasses", [76, 106]],
-  ["Decorative Half-Rim Frames", "Optical Frames", [77]],
-  ["Light-Tint Geometric Metal Sunglasses", "Geometric Sunglasses", [78]],
-  ["Gold-Temple Oval Sunglasses", "Oval Sunglasses", [79, 83]],
-  ["Gold Wire-Temple Sunglasses", "Sunglasses", [82]],
-  ["Gold Curved-Temple Sunglasses", "Sunglasses", [84]],
-  ["Tortoiseshell Geometric Sunglasses", "Geometric Sunglasses", [85, 94]],
-  ["Green Ornate-Temple Sunglasses", "Sunglasses", [86]],
+  ["Orange Mirrored Sport Sunglasses", "Sports Eyewear", [55, 53]],
+  ["Rose Geometric Metal Sunglasses", "Geometric Sunglasses", [73, 58]],
+  ["Brown Logo-Temple Sunglasses", "Square Sunglasses", [59, 116]],
+  ["Pink and Blue Mirrored Shield Sunglasses", "Sports Eyewear", [61, 60]],
+  ["Pink Ornate Rimless Sunglasses", "Rimless Sunglasses", [69, 62]],
+  ["Green Oversized Logo Square Sunglasses", "Square Sunglasses", [96, 99]],
+  ["Clear Blue Shield Sunglasses", "Sports Eyewear", [95, 67]],
+  ["Burgundy Slim Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [88, 97]],
+  ["Pink Translucent Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [100, 109]],
+  ["Pink Geometric Rimless Sunglasses", "Rimless Sunglasses", [72, 80]],
+  ["Gold Wire-Temple Oval Sunglasses", "Oval Sunglasses", [76, 82]],
+  ["Gold-Temple Oval Sunglasses", "Oval Sunglasses", [83, 79]],
+  ["Tortoiseshell Geometric Sunglasses", "Geometric Sunglasses", [94, 85]],
   ["Gold-Outline Square Sunglasses", "Square Sunglasses", [87, 91]],
   ["Pink Hexagonal Rimless Sunglasses", "Rimless Sunglasses", [90, 102]],
-  ["Brown Gradient Rimless Sunglasses", "Rimless Sunglasses", [92, 111]],
-  ["Oversized Decorative Rimless Sunglasses", "Rimless Sunglasses", [93, 103, 104, 108, 113]],
-  ["Black and Gold Metal-Temple Sunglasses", "Sunglasses", [98]],
-  ["Pink Gold-Rim Sunglasses", "Round Sunglasses", [45, 107]],
-  ["Gold Soft-Square Sunglasses", "Square Sunglasses", [110, 112]],
-  ["Grey Chain-Temple Sunglasses", "Sunglasses", [114]],
-  ["Grey Square Sunglasses", "Square Sunglasses", [115]],
-  ["Brown Logo-Temple Sunglasses", "Sunglasses", [116]],
-  ["Purple Butterfly Sunglasses", "Butterfly Sunglasses", [117, 118]],
-  ["Brown Stripe-Temple Sunglasses", "Sunglasses", [119]],
-  ["Ornate Square Rimless Sunglasses", "Rimless Sunglasses", [120]],
-  ["Packaged Eyewear Set", "Eyewear Sets", [122]]
+  ["Pink Decorative Rimless Sunglasses", "Rimless Sunglasses", [103, 93]],
+  ["Black and Gold Metal-Temple Sunglasses", "Geometric Sunglasses", [106, 98]],
+  ["Pink Gold-Rim Sunglasses", "Round Sunglasses", [107, 45]],
+  ["Grey Chain-Temple Sunglasses", "Square Sunglasses", [115, 114]],
+  ["Purple Butterfly Sunglasses", "Butterfly Sunglasses", [118, 117]]
 ];
-export const EYEWEAR_PRODUCTS = eyewearGroups.map(([familyName, subcategory, numbers], index) => {
-  const id = 25000 + index;
-  const gallery = numbers.map(number => EYEWEAR_ASSETS[number - 1]);
-  const image = gallery[0];
-  const media = gallery.map(src => ({type: 'image', src}));
-  return {
-    id, parentProductId: id,
-    slug: 'eye-wears-' + familyName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
-    name: familyName, familyName, category: 'Eye Wears', subcategory, brand: '',
-    price: null, priceOnRequest: true, compareAt: null, currency: 'USD',
-    image, secondaryImage: gallery[1] || image, gallery, media,
-    variants: [{color: 'As shown', image, media}],
-    description: familyName + ' from the BUYYMEE.com eyewear collection. Contact us for availability and price.',
-    sizes: ['OS'], colors: ['As shown'], tags: ['eye wears', 'eyewear', subcategory.toLowerCase()],
-    inStock: true, placeholder: false, featured: false, newArrival: false, sale: false
-  };
-});
+
+export const EYEWEAR_EXCLUDED_IMAGE_NUMBERS = [
+  2, 5, 10, 44, 47, 48, 51, 56, 57, 64, 65, 66, 68, 70,
+  71, 74, 77, 78, 81, 86, 89, 92, 101, 104, 105, 108, 110,
+  111, 112, 113, 119, 120, 121, 122
+];
+
+export const EYEWEAR_UNPAIRED_IMAGE_NUMBERS = eyewearGroups
+  .filter(([, , numbers]) => numbers.length === 1)
+  .map(([, , numbers]) => numbers[0]);
+
+export const EYEWEAR_PRODUCTS = eyewearGroups.map(
+  ([familyName, subcategory, numbers], index) => {
+    const id = 25000 + index;
+    const gallery = numbers.map(number => EYEWEAR_ASSETS[number - 1]);
+    const image = gallery[0];
+    const media = gallery.map(src => ({type: 'image', src}));
+
+    return {
+      id,
+      parentProductId: id,
+      slug: 'eye-wears-' + familyName.toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, ''),
+      name: familyName,
+      familyName,
+      category: 'Eye Wears',
+      subcategory,
+      brand: '',
+      imageNumbers: numbers,
+      pairingReviewRequired: numbers.length === 1,
+      price: null,
+      priceOnRequest: true,
+      compareAt: null,
+      currency: 'USD',
+      image,
+      secondaryImage: gallery[1] || image,
+      gallery,
+      media,
+      variants: [{color: 'As shown', image, media}],
+      description: familyName +
+        ' from the BUYYMEE.com eyewear collection. Contact us for availability and price.',
+      sizes: ['OS'],
+      colors: ['As shown'],
+      tags: ['eye wears', 'eyewear', subcategory.toLowerCase()],
+      inStock: true,
+      placeholder: false,
+      featured: false,
+      newArrival: false,
+      sale: false
+    };
+  }
+);
+
 products.push(...EYEWEAR_PRODUCTS);
+
+// Latest 42 Cloudinary clothing uploads.
+const menswearRows = `1791902509 ChatGPT_Image_Oct_12_2026_07_14_06_PM_l3em0l
+1791902505 ChatGPT_Image_Oct_12_2026_07_29_46_PM_yfvcxp
+1791902504 ChatGPT_Image_Oct_12_2026_07_14_56_PM_c4h7us
+1791902476 ChatGPT_Image_Oct_12_2026_07_12_04_PM_rafeja
+1791902474 ChatGPT_Image_Oct_12_2026_07_05_37_PM_npizp2
+1791902474 ChatGPT_Image_Oct_12_2026_07_12_37_PM_gtfmll
+1791902472 ChatGPT_Image_Oct_12_2026_06_58_29_PM_zbuyni
+1791902471 ChatGPT_Image_Oct_12_2026_07_03_26_PM_qfuqfu
+1791902471 ChatGPT_Image_Oct_12_2026_07_09_09_PM_pctmgp
+1791902469 ChatGPT_Image_Oct_12_2026_07_00_58_PM_dcgkaz
+1791902469 ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy
+1791902467 ChatGPT_Image_Oct_12_2026_06_53_58_PM_rjnsza
+1791902466 ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m
+1791902464 ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi
+1791902464 ChatGPT_Image_Oct_12_2026_06_56_53_PM_fs2c6u
+1791902463 ChatGPT_Image_Oct_12_2026_06_48_40_PM_pnun5a
+1791902462 ChatGPT_Image_Oct_12_2026_06_57_53_PM_gfy7s1
+1791902462 ChatGPT_Image_Oct_12_2026_06_44_27_PM_whbh3f
+1791902460 ChatGPT_Image_Oct_12_2026_06_50_32_PM_ct50yq
+1791902459 ChatGPT_Image_Oct_12_2026_06_52_51_PM_zmhpcc
+1791902458 ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5
+1791902457 ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r
+1791902457 ChatGPT_Image_Oct_12_2026_06_38_42_PM_xi2edz
+1791902454 ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta
+1791902453 ChatGPT_Image_Oct_12_2026_07_40_14_PM_vwcyyx
+1791902452 ChatGPT_Image_Oct_13_2026_11_21_58_AM_ijmgvb
+1791902451 ChatGPT_Image_Oct_12_2026_07_26_42_PM_putmwo
+1791902450 ChatGPT_Image_Oct_12_2026_07_32_20_PM_dshljx
+1791902450 ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu
+1791902446 ChatGPT_Image_Oct_12_2026_07_10_19_PM_edo3k2
+1791902446 ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e
+1791902444 ChatGPT_Image_Oct_12_2026_06_59_27_PM_ryssj9
+1791902443 ChatGPT_Image_Oct_12_2026_06_47_20_PM_dlwbza
+1791902442 ChatGPT_Image_Oct_12_2026_07_53_52_PM_ecg5jq
+1791902442 ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc
+1791902442 ChatGPT_Image_Oct_12_2026_08_28_23_PM_xeerfd
+1791902440 ChatGPT_Image_Oct_12_2026_07_59_29_PM_l2gv0j
+1791902439 ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl
+1791902438 ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv
+1791902437 ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn
+1791902437 ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp
+1791902436 ChatGPT_Image_Oct_12_2026_07_49_27_PM_lqocg9`;
+
+export const MENSWEAR_ASSETS = menswearRows
+  .trim()
+  .split(/\r?\n/)
+  .map(row => {
+    const [version, publicId] = row.trim().split(/\s+/);
+    return cloud + 'image/upload/v' + version + '/' + publicId + '.png';
+  });
+
+const menswearGroups = [
+  ["White Fruit-Print Long-Sleeve Shirt", "Shirts", "White", [1, 3]],
+  ["Cream Chain-Print Shirt and Shorts Set", "Matching Sets", "Cream", [2, 28]],
+  ["Mint and Gold Baroque Shirt and Shorts Set", "Matching Sets", "Mint Green", [4, 6]],
+  ["Blue and Gold Baroque Shirt and Shorts Set", "Matching Sets", "Blue", [11, 5]],
+  ["White Line-Art Shirt and Shorts Set", "Matching Sets", "White", [7, 32]],
+  ["White and Yellow Diamond-Print Shirt and Shorts Set", "Matching Sets", "White and Yellow", [13, 8]],
+  ["White Tennis-Print Set with Orange Trim", "Matching Sets", "White and Orange", [9, 30]],
+  ["Mint Graphic Shirt and Shorts Set", "Matching Sets", "Mint Green", [14, 10]],
+  ["Black and White Geometric Shirt and Shorts Set", "Matching Sets", "Black and White", [12, 26]],
+  ["Navy Scarf-Print Shirt and Shorts Set", "Matching Sets", "Navy", [15, 17]],
+  ["Navy Medallion-Print Shirt and Shorts Set", "Matching Sets", "Navy", [16, 19]],
+  ["Yellow Baroque Short-Sleeve Shirt", "Shirts", "Yellow", [22, 18]],
+  ["Light Blue Ornamental Shirt and Shorts Set", "Matching Sets", "Light Blue", [21, 20]],
+  ["Black and Gold Baroque Shirt and Shorts Set", "Matching Sets", "Black and Gold", [24, 23]],
+  ["Pastel Architectural-Print Shirt and Shorts Set", "Matching Sets", "Pastel", [29, 25]],
+  ["White Tennis-Print Set with Green Trim", "Matching Sets", "White and Green", [31, 27]],
+  ["White Floral Short-Sleeve Shirt", "Shirts", "White", [35, 33]],
+  ["Blue Gradient Tennis-Print Shirt and Shorts Set", "Matching Sets", "Blue", [40, 34]],
+  ["White Floral Crest Shirt and Shorts Set", "Matching Sets", "White", [39, 36]],
+  ["Green Tennis-Graphic Shirt and Shorts Set", "Matching Sets", "Green", [38, 37]],
+  ["Multicolor Wave-Print Shirt and Shorts Set", "Matching Sets", "Multicolor", [41, 42]]
+];
+
+export const MENSWEAR_PRODUCTS = menswearGroups.map(
+  ([familyName, subcategory, color, numbers], index) => {
+    const id = 30000 + index;
+    const gallery = numbers.map(number => MENSWEAR_ASSETS[number - 1]);
+    const image = gallery[0];
+    const media = gallery.map(src => ({type: 'image', src}));
+
+    return {
+      id,
+      parentProductId: id,
+      slug: 'mens-wear-' + familyName.toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, ''),
+      name: familyName,
+      familyName,
+      category: 'Men',
+      subcategory,
+      brand: '',
+      price: null,
+      priceOnRequest: true,
+      compareAt: null,
+      currency: 'USD',
+      image,
+      secondaryImage: gallery[1],
+      gallery,
+      media,
+      variants: [{color, image, media}],
+      description: familyName +
+        ' from the BUYYMEE.com men\'s collection. Matching front and back photographs. Contact us for price, sizes, and availability.',
+      sizes: [],
+      colors: [color],
+      tags: ['men', 'menswear', subcategory.toLowerCase()],
+      inStock: true,
+      placeholder: false,
+      featured: false,
+      newArrival: true,
+      sale: false
+    };
+  }
+);
+
+products.push(...MENSWEAR_PRODUCTS);
 
 export default products;

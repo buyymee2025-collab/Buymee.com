@@ -13,7 +13,7 @@ function mediaFor(product, variant) {
   return [...new Set(sources)].map((src) => ({ type: 'image', src }))
 }
 
-function mediaSrc(item, width = 1500) {
+function mediaSrc(item, width = 1000) {
   return item?.type === 'video' ? optimizeVideoUrl(item.src) : optimizeImageUrl(item.src, width)
 }
 
@@ -244,6 +244,7 @@ export default function ProductModal({ product, onClose }) {
                 {loopedMedia.map((item, renderIndex) => {
                   const logicalIndex = renderIndex % media.length
                   const isActiveSlide = renderIndex === carouselIndex
+                  const shouldLoadSlide = Math.abs(renderIndex - carouselIndex) <= 1
                   return (
                     <div className="product-modal-media-slide" key={`${item.src}-${renderIndex}`}>
                       {item.type === 'video' ? (
@@ -266,15 +267,15 @@ export default function ProductModal({ product, onClose }) {
                           />
                         ) : (
                           <img
-                            src={videoPosterSrc(item.src, 360)}
+                            src={shouldLoadSlide ? videoPosterSrc(item.src, 360) : undefined}
                             alt={`${product.name} video preview`}
-                            loading="eager"
+                            loading="lazy"
                             decoding="async"
                           />
                         )
                       ) : (
                         <img
-                          src={mediaSrc(item) || product.image}
+                          src={shouldLoadSlide ? mediaSrc(item) || product.image : undefined}
                           alt={`${product.name} ${item.color || variant.color} ${logicalIndex + 1}`}
                           fetchPriority={isActiveSlide ? 'high' : 'auto'}
                           loading={isActiveSlide ? 'eager' : 'lazy'}
@@ -327,7 +328,7 @@ export default function ProductModal({ product, onClose }) {
                         <i aria-hidden="true"><span>▶</span></i>
                       </span>
                     ) : (
-                      <img src={mediaSrc(item, 300)} alt="" loading="lazy" decoding="async" />
+                      <img src={mediaSrc(item, 160)} alt="" loading="lazy" decoding="async" />
                     )}
                   </button>
                 ))}
