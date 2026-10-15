@@ -31,8 +31,8 @@ export default function ProductCard({ product, index = 0 }) {
             <SiteImage src={product.image} alt={product.name} imageWidth={640} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading={index > 3 ? 'lazy' : 'eager'} fetchPriority={index === 0 ? 'high' : 'auto'} />
           </Link>
           {product.sale && <span className="sale-tag">EDIT</span>}
-          <button className="quick-add" type="button" onClick={() => addToCart(product)}>
-            <Plus size={16} /> ADD TO CART
+          <button className="quick-add" type="button" disabled={product.inStock === false} onClick={() => addToCart(product)}>
+            <Plus size={16} /> {product.inStock === false ? 'SOLD OUT' : 'ADD TO CART'}
           </button>
         </div>
         <div className="product-meta">

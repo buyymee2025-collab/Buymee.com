@@ -10,6 +10,7 @@ import { optimizeImageUrl, optimizeVideoUrl } from '../lib/media'
 
 function mediaFor(product, variant) {
   if (variant?.media?.length) return variant.media
+  if (product.media?.length) return product.media
   const sources = [product.image, product.secondaryImage, ...(product.gallery || [])].filter(Boolean)
   return [...new Set(sources)].map((src) => ({ type: 'image', src }))
 }
@@ -398,8 +399,8 @@ export default function ProductModal({ product, onClose }) {
             </div>
 
             <div className="product-modal-actions">
-              <button className="button dark" type="button" onClick={() => { onClose(); addToCart(product) }}>ADD TO CART <ArrowUpRight size={17} /></button>
-              <a className="button orange" href={purchaseUrl(product, { color: activeMedia?.color || variant.color, origin: window.location.origin })} target="_blank" rel="noopener noreferrer">PURCHASE NOW <ArrowUpRight size={17} /></a>
+              <button className="button dark" type="button" disabled={product.inStock === false} onClick={() => { onClose(); addToCart(product) }}>{product.inStock === false ? 'SOLD OUT' : 'ADD TO CART'} <ArrowUpRight size={17} /></button>
+              {product.inStock !== false && <a className="button orange" href={purchaseUrl(product, { color: activeMedia?.color || variant.color, origin: window.location.origin })} target="_blank" rel="noopener noreferrer">PURCHASE NOW <ArrowUpRight size={17} /></a>}
             </div>
           </div>
         </motion.div>
