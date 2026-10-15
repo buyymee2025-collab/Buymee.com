@@ -16,7 +16,27 @@ const categories = [
   'accessories',
 ]
 
-export default function ShopGrid({ initial = 'all', limit, categoryOnly = false }) {
+// Cycle through categories without changing each category's internal order.
+function mixProductCategories(products) {
+  const groups = new Map()
+  for (const product of products) {
+    const key = product.category.toLowerCase()
+    if (!groups.has(key)) groups.set(key, [])
+    groups.get(key).push(product)
+  }
+  const preferred = ['watches', 'men', 'women', 'shoes', 'sneakers', 'eye wears', 'fragrance', 'accessories']
+  const order = [...preferred.filter(key => groups.has(key)), ...[...groups.keys()].filter(key => !preferred.includes(key))]
+  const mixed = []
+  for (let row = 0; mixed.length < products.length; row++) {
+    for (const key of order) {
+      const product = groups.get(key)[row]
+      if (product) mixed.push(product)
+    }
+  }
+  return mixed
+}
+
+export default function ShopGrid({ initial = 'all', limit, categoryOnly = false, mixCategories = false }) {
   const { products } = useStore()
   const [category, setCategory] = useState(initial)
   const [sort, setSort] = useState('featured')
@@ -45,8 +65,10 @@ export default function ShopGrid({ initial = 'all', limit, categoryOnly = false 
       filtered.sort((a, b) => Number(b.newArrival) - Number(a.newArrival))
     }
 
-    return limit ? filtered.slice(0, limit) : filtered
-  }, [category, initial, limit, products, query, sort])
+    const ordered = mixCategories && category === 'all' && sort === 'featured'
+      ? mixProductCategories(filtered) : filtered
+    return limit ? ordered.slice(0, limit) : ordered
+  }, [category, initial, limit, products, query, sort, mixCategories])
 
   return (
     <>
