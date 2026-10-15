@@ -78,3 +78,15 @@ for (const image of audit.images.filter(image => image.number >= 715)) {
   assert.ok(audit.products.find(product => product.id === outfit.id).selectedImageNumbers.includes(image.number))
 }
 console.log('Menswear checks passed: all 41 former model photos merged into the 21 existing outfit groups.')
+
+assert.equal(audit.menswearViewGroups.length, 21)
+for (const group of audit.menswearViewGroups) {
+  const outfit = menswear.find(product => product.id === group.productId)
+  assert.equal(outfit.gallery.length, 4, `${outfit.name}: all four views`)
+  assert.equal(new Set(outfit.gallery).size, 4)
+  assert.deepEqual(group.views.map(view => view.view), ['Model front', 'Model back', 'Outfit front without model', 'Outfit back without model'])
+  assert.deepEqual(outfit.gallery, group.views.map(view => view.url))
+  assert.deepEqual(outfit.variants[0].media.map(media => media.src), outfit.gallery)
+}
+assert.ok(menswear.find(product => product.id === 30020).gallery.includes(audit.supplementalImages[0].url))
+console.log('Four-view menswear checks passed: 21 matching outfits, 84 photos, model and garment front/back views.')

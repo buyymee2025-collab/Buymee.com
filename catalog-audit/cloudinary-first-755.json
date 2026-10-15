@@ -10,7 +10,8 @@
     "Eyewear re-reviewed by frame outline, lens colour, bridge, hinge and temple details. Matched colour variants share one listing; unrelated side views were reassigned.",
     "Black mannequin photographs are removed only when an equivalent white view exists. Both unique black crystal cat-eye views are retained.",
     "Repeated front and side renders are represented once. All 475 eyewear source images remain accounted for in this audit.",
-    "Men: former model photographs and recent garment photographs share the existing matching outfit listing and gallery."
+    "Men: former model photographs and recent garment photographs share the existing matching outfit listing and gallery.",
+    "One supplemental original menswear model-back photo immediately beyond the first 755 completes the multicolor set. All 21 outfit galleries are ordered model front/back, then garment front/back."
   ],
   "products": [
     {
@@ -1339,10 +1340,10 @@
         717
       ],
       "selectedImageNumbers": [
-        4,
-        39,
         715,
-        717
+        717,
+        4,
+        39
       ]
     },
     {
@@ -1356,10 +1357,10 @@
         742
       ],
       "selectedImageNumbers": [
-        6,
-        8,
         716,
-        742
+        742,
+        6,
+        8
       ]
     },
     {
@@ -1373,10 +1374,10 @@
         720
       ],
       "selectedImageNumbers": [
-        9,
-        10,
         718,
-        720
+        720,
+        9,
+        10
       ]
     },
     {
@@ -1390,10 +1391,10 @@
         725
       ],
       "selectedImageNumbers": [
-        7,
-        13,
+        725,
         719,
-        725
+        7,
+        13
       ]
     },
     {
@@ -1407,10 +1408,10 @@
         746
       ],
       "selectedImageNumbers": [
-        17,
-        21,
         721,
-        746
+        746,
+        17,
+        21
       ]
     },
     {
@@ -1424,10 +1425,10 @@
         727
       ],
       "selectedImageNumbers": [
-        12,
-        15,
+        727,
         722,
-        727
+        15,
+        12
       ]
     },
     {
@@ -1441,10 +1442,10 @@
         744
       ],
       "selectedImageNumbers": [
-        11,
-        46,
         723,
-        744
+        744,
+        46,
+        11
       ]
     },
     {
@@ -1458,10 +1459,10 @@
         728
       ],
       "selectedImageNumbers": [
-        14,
-        16,
+        728,
         724,
-        728
+        14,
+        16
       ]
     },
     {
@@ -1475,10 +1476,10 @@
         740
       ],
       "selectedImageNumbers": [
-        1,
-        25,
         726,
-        740
+        740,
+        25,
+        1
       ]
     },
     {
@@ -1492,10 +1493,10 @@
         731
       ],
       "selectedImageNumbers": [
-        18,
-        23,
         729,
-        731
+        731,
+        23,
+        18
       ]
     },
     {
@@ -1509,10 +1510,10 @@
         733
       ],
       "selectedImageNumbers": [
-        24,
-        27,
         730,
-        733
+        733,
+        24,
+        27
       ]
     },
     {
@@ -1526,10 +1527,10 @@
         736
       ],
       "selectedImageNumbers": [
-        47,
-        50,
+        736,
         732,
-        736
+        47,
+        50
       ]
     },
     {
@@ -1543,10 +1544,10 @@
         735
       ],
       "selectedImageNumbers": [
-        20,
-        22,
+        735,
         734,
-        735
+        22,
+        20
       ]
     },
     {
@@ -1560,10 +1561,10 @@
         738
       ],
       "selectedImageNumbers": [
-        3,
-        31,
+        738,
         737,
-        738
+        3,
+        31
       ]
     },
     {
@@ -1577,10 +1578,10 @@
         743
       ],
       "selectedImageNumbers": [
-        2,
-        5,
+        743,
         739,
-        743
+        5,
+        2
       ]
     },
     {
@@ -1594,10 +1595,10 @@
         745
       ],
       "selectedImageNumbers": [
-        42,
-        44,
+        745,
         741,
-        745
+        42,
+        44
       ]
     },
     {
@@ -1611,10 +1612,10 @@
         749
       ],
       "selectedImageNumbers": [
-        35,
-        45,
+        749,
         747,
-        749
+        35,
+        45
       ]
     },
     {
@@ -1628,10 +1629,10 @@
         754
       ],
       "selectedImageNumbers": [
-        37,
-        41,
+        754,
         748,
-        754
+        41,
+        37
       ]
     },
     {
@@ -1645,10 +1646,10 @@
         753
       ],
       "selectedImageNumbers": [
-        33,
-        38,
+        753,
         750,
-        753
+        38,
+        33
       ]
     },
     {
@@ -1662,10 +1663,10 @@
         752
       ],
       "selectedImageNumbers": [
-        34,
-        36,
+        752,
         751,
-        752
+        36,
+        34
       ]
     },
     {
@@ -1675,12 +1676,14 @@
       "sourceImageNumbers": [
         40,
         43,
-        755
+        755,
+        756
       ],
       "selectedImageNumbers": [
-        40,
+        755,
+        756,
         43,
-        755
+        40
       ]
     },
     {
@@ -11575,6 +11578,544 @@
       "productName": "Multicolor Wave-Print Shirt and Shorts Set",
       "status": "included",
       "representativeImage": 755
+    }
+  ],
+  "menswearViewGroups": [
+    {
+      "productId": 30000,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 715,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902509/ChatGPT_Image_Oct_12_2026_07_14_06_PM_l3em0l"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 717,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902504/ChatGPT_Image_Oct_12_2026_07_14_56_PM_c4h7us"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 4,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/ChatGPT_Image_Oct_12_2026_07_14_06_PM_gtzths"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 39,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_14_56_PM_kxtixw"
+        }
+      ]
+    },
+    {
+      "productId": 30001,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 716,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902505/ChatGPT_Image_Oct_12_2026_07_29_46_PM_yfvcxp"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 742,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_32_20_PM_dshljx"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 6,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063814/ChatGPT_Image_Oct_12_2026_07_29_46_PM_sbpdiy"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 8,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_32_20_PM_fxcjfe"
+        }
+      ]
+    },
+    {
+      "productId": 30002,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 718,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902476/ChatGPT_Image_Oct_12_2026_07_12_04_PM_rafeja"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 720,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_12_37_PM_gtfmll"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 9,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063812/ChatGPT_Image_Oct_12_2026_07_12_04_PM_kisvjy"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 10,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063811/ChatGPT_Image_Oct_12_2026_07_12_37_PM_oz52tx"
+        }
+      ]
+    },
+    {
+      "productId": 30003,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 725,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 719,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_05_37_PM_npizp2"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 7,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_04_36_PM_fsbjhc"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 13,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_05_37_PM_gpqrwh"
+        }
+      ]
+    },
+    {
+      "productId": 30004,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 721,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902472/ChatGPT_Image_Oct_12_2026_06_58_29_PM_zbuyni"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 746,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902444/ChatGPT_Image_Oct_12_2026_06_59_27_PM_ryssj9"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 17,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063805/ChatGPT_Image_Oct_12_2026_06_59_27_PM_hc3vip"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 21,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_58_29_PM_ym87cv"
+        }
+      ]
+    },
+    {
+      "productId": 30005,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 727,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 722,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_03_26_PM_qfuqfu"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 15,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063807/ChatGPT_Image_Oct_12_2026_07_02_23_PM_vemrul"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 12,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_03_26_PM_uq0j8t"
+        }
+      ]
+    },
+    {
+      "productId": 30006,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 723,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_09_09_PM_pctmgp"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 744,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_10_19_PM_edo3k2"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 46,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_07_09_09_PM_omhz59"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 11,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_10_19_PM_kclt4n"
+        }
+      ]
+    },
+    {
+      "productId": 30007,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 728,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 724,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_00_58_PM_dcgkaz"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 14,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_00_06_PM_tsggdu"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 16,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063806/ChatGPT_Image_Oct_12_2026_07_00_58_PM_qku7hf"
+        }
+      ]
+    },
+    {
+      "productId": 30008,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 726,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902467/ChatGPT_Image_Oct_12_2026_06_53_58_PM_rjnsza"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 740,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902452/ChatGPT_Image_Oct_13_2026_11_21_58_AM_ijmgvb"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 25,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063800/ChatGPT_Image_Oct_12_2026_06_53_58_PM_whzdeh"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 1,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063818/ChatGPT_Image_Oct_13_2026_11_21_58_AM_mtr0hr"
+        }
+      ]
+    },
+    {
+      "productId": 30009,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 729,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_06_56_53_PM_fs2c6u"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 731,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_57_53_PM_gfy7s1"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 23,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_56_53_PM_d1n6sf"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 18,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063804/ChatGPT_Image_Oct_12_2026_06_57_53_PM_nsabwp"
+        }
+      ]
+    },
+    {
+      "productId": 30010,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 730,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902463/ChatGPT_Image_Oct_12_2026_06_48_40_PM_pnun5a"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 733,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902460/ChatGPT_Image_Oct_12_2026_06_50_32_PM_ct50yq"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 24,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063801/ChatGPT_Image_Oct_12_2026_06_48_40_PM_qktufk"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 27,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063799/ChatGPT_Image_Oct_12_2026_06_50_32_PM_oxnl0h"
+        }
+      ]
+    },
+    {
+      "productId": 30011,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 736,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 732,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_44_27_PM_whbh3f"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 47,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_06_41_20_PM_ukyxhg"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 50,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063783/ChatGPT_Image_Oct_12_2026_06_44_27_PM_vjn6qa"
+        }
+      ]
+    },
+    {
+      "productId": 30012,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 735,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 734,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902459/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zmhpcc"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 22,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_52_18_PM_ui9fe2"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 20,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zvmnuk"
+        }
+      ]
+    },
+    {
+      "productId": 30013,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 738,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 737,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_38_42_PM_xi2edz"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 3,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/exec-6821d545-7ec0-44bc-bd61-57667e40c22e_wnzrej"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 31,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063797/ChatGPT_Image_Oct_12_2026_06_38_42_PM_dtrkkp"
+        }
+      ]
+    },
+    {
+      "productId": 30014,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 743,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 739,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902453/ChatGPT_Image_Oct_12_2026_07_40_14_PM_vwcyyx"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 5,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063815/ChatGPT_Image_Oct_12_2026_07_38_35_PM_iqpjne"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 2,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063817/ChatGPT_Image_Oct_12_2026_07_40_14_PM_g65azu"
+        }
+      ]
+    },
+    {
+      "productId": 30015,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 745,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 741,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902451/ChatGPT_Image_Oct_12_2026_07_26_42_PM_putmwo"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 42,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_21_56_PM_rcm9mm"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 44,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_26_42_PM_fgsrjb"
+        }
+      ]
+    },
+    {
+      "productId": 30016,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 749,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 747,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902443/ChatGPT_Image_Oct_12_2026_06_47_20_PM_dlwbza"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 35,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_06_46_32_PM_qm0ig4"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 45,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_06_47_20_PM_lhcgqt"
+        }
+      ]
+    },
+    {
+      "productId": 30017,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 754,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 748,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_07_53_52_PM_ecg5jq"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 41,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_52_34_PM_crfrrf"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 37,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_53_52_PM_qu52n2"
+        }
+      ]
+    },
+    {
+      "productId": 30018,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 753,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 750,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xeerfd"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 38,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_55_40_PM_vacoje"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 33,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xk3wot"
+        }
+      ]
+    },
+    {
+      "productId": 30019,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 752,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 751,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902440/ChatGPT_Image_Oct_12_2026_07_59_29_PM_l2gv0j"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 36,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_59_23_PM_vmnxgo"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 34,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_07_59_29_PM_p6b7kg"
+        }
+      ]
+    },
+    {
+      "productId": 30020,
+      "views": [
+        {
+          "view": "Model front",
+          "sourceImageNumber": 755,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp"
+        },
+        {
+          "view": "Model back",
+          "sourceImageNumber": 756,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902436/ChatGPT_Image_Oct_12_2026_07_49_27_PM_lqocg9"
+        },
+        {
+          "view": "Outfit front without model",
+          "sourceImageNumber": 43,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_46_40_PM_ttygjo"
+        },
+        {
+          "view": "Outfit back without model",
+          "sourceImageNumber": 40,
+          "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_49_27_PM_tjcgwk"
+        }
+      ]
+    }
+  ],
+  "supplementalImages": [
+    {
+      "number": 756,
+      "publicId": "ChatGPT_Image_Oct_12_2026_07_49_27_PM_lqocg9",
+      "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902436/ChatGPT_Image_Oct_12_2026_07_49_27_PM_lqocg9",
+      "productId": 30020,
+      "status": "included",
+      "productName": "Multicolor Wave-Print Shirt and Shorts Set",
+      "representativeImage": 756
     }
   ]
 }

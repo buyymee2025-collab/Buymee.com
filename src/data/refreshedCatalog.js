@@ -16098,23 +16098,15 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/ChatGPT_Image_Oct_12_2026_07_14_06_PM_gtzths",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_14_56_PM_kxtixw",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902509/ChatGPT_Image_Oct_12_2026_07_14_06_PM_l3em0l",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902504/ChatGPT_Image_Oct_12_2026_07_14_56_PM_c4h7us",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/ChatGPT_Image_Oct_12_2026_07_14_06_PM_gtzths",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_14_56_PM_kxtixw",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902509/ChatGPT_Image_Oct_12_2026_07_14_06_PM_l3em0l",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902504/ChatGPT_Image_Oct_12_2026_07_14_56_PM_c4h7us"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902504/ChatGPT_Image_Oct_12_2026_07_14_56_PM_c4h7us",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/ChatGPT_Image_Oct_12_2026_07_14_06_PM_gtzths",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_14_56_PM_kxtixw"
     ],
     "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/ChatGPT_Image_Oct_12_2026_07_14_06_PM_gtzths"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_14_56_PM_kxtixw"
-      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902509/ChatGPT_Image_Oct_12_2026_07_14_06_PM_l3em0l"
@@ -16122,21 +16114,21 @@ export const MENSWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902504/ChatGPT_Image_Oct_12_2026_07_14_56_PM_c4h7us"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/ChatGPT_Image_Oct_12_2026_07_14_06_PM_gtzths"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_14_56_PM_kxtixw"
       }
     ],
     "variants": [
       {
         "color": "White",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/ChatGPT_Image_Oct_12_2026_07_14_06_PM_gtzths",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902509/ChatGPT_Image_Oct_12_2026_07_14_06_PM_l3em0l",
         "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/ChatGPT_Image_Oct_12_2026_07_14_06_PM_gtzths"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_14_56_PM_kxtixw"
-          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902509/ChatGPT_Image_Oct_12_2026_07_14_06_PM_l3em0l"
@@ -16144,6 +16136,14 @@ export const MENSWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902504/ChatGPT_Image_Oct_12_2026_07_14_56_PM_c4h7us"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/ChatGPT_Image_Oct_12_2026_07_14_06_PM_gtzths"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_14_56_PM_kxtixw"
           }
         ]
       }
@@ -16176,23 +16176,15 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063814/ChatGPT_Image_Oct_12_2026_07_29_46_PM_sbpdiy",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_32_20_PM_fxcjfe",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902505/ChatGPT_Image_Oct_12_2026_07_29_46_PM_yfvcxp",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_32_20_PM_dshljx",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063814/ChatGPT_Image_Oct_12_2026_07_29_46_PM_sbpdiy",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_32_20_PM_fxcjfe",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902505/ChatGPT_Image_Oct_12_2026_07_29_46_PM_yfvcxp",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_32_20_PM_dshljx"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_32_20_PM_dshljx",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063814/ChatGPT_Image_Oct_12_2026_07_29_46_PM_sbpdiy",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_32_20_PM_fxcjfe"
     ],
     "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063814/ChatGPT_Image_Oct_12_2026_07_29_46_PM_sbpdiy"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_32_20_PM_fxcjfe"
-      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902505/ChatGPT_Image_Oct_12_2026_07_29_46_PM_yfvcxp"
@@ -16200,21 +16192,21 @@ export const MENSWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_32_20_PM_dshljx"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063814/ChatGPT_Image_Oct_12_2026_07_29_46_PM_sbpdiy"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_32_20_PM_fxcjfe"
       }
     ],
     "variants": [
       {
         "color": "Cream",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063814/ChatGPT_Image_Oct_12_2026_07_29_46_PM_sbpdiy",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902505/ChatGPT_Image_Oct_12_2026_07_29_46_PM_yfvcxp",
         "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063814/ChatGPT_Image_Oct_12_2026_07_29_46_PM_sbpdiy"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_32_20_PM_fxcjfe"
-          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902505/ChatGPT_Image_Oct_12_2026_07_29_46_PM_yfvcxp"
@@ -16222,6 +16214,14 @@ export const MENSWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_32_20_PM_dshljx"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063814/ChatGPT_Image_Oct_12_2026_07_29_46_PM_sbpdiy"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_32_20_PM_fxcjfe"
           }
         ]
       }
@@ -16254,23 +16254,15 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063812/ChatGPT_Image_Oct_12_2026_07_12_04_PM_kisvjy",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063811/ChatGPT_Image_Oct_12_2026_07_12_37_PM_oz52tx",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902476/ChatGPT_Image_Oct_12_2026_07_12_04_PM_rafeja",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_12_37_PM_gtfmll",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063812/ChatGPT_Image_Oct_12_2026_07_12_04_PM_kisvjy",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063811/ChatGPT_Image_Oct_12_2026_07_12_37_PM_oz52tx",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902476/ChatGPT_Image_Oct_12_2026_07_12_04_PM_rafeja",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_12_37_PM_gtfmll"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_12_37_PM_gtfmll",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063812/ChatGPT_Image_Oct_12_2026_07_12_04_PM_kisvjy",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063811/ChatGPT_Image_Oct_12_2026_07_12_37_PM_oz52tx"
     ],
     "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063812/ChatGPT_Image_Oct_12_2026_07_12_04_PM_kisvjy"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063811/ChatGPT_Image_Oct_12_2026_07_12_37_PM_oz52tx"
-      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902476/ChatGPT_Image_Oct_12_2026_07_12_04_PM_rafeja"
@@ -16278,21 +16270,21 @@ export const MENSWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_12_37_PM_gtfmll"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063812/ChatGPT_Image_Oct_12_2026_07_12_04_PM_kisvjy"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063811/ChatGPT_Image_Oct_12_2026_07_12_37_PM_oz52tx"
       }
     ],
     "variants": [
       {
         "color": "Mint Green",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063812/ChatGPT_Image_Oct_12_2026_07_12_04_PM_kisvjy",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902476/ChatGPT_Image_Oct_12_2026_07_12_04_PM_rafeja",
         "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063812/ChatGPT_Image_Oct_12_2026_07_12_04_PM_kisvjy"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063811/ChatGPT_Image_Oct_12_2026_07_12_37_PM_oz52tx"
-          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902476/ChatGPT_Image_Oct_12_2026_07_12_04_PM_rafeja"
@@ -16300,6 +16292,14 @@ export const MENSWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_12_37_PM_gtfmll"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063812/ChatGPT_Image_Oct_12_2026_07_12_04_PM_kisvjy"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063811/ChatGPT_Image_Oct_12_2026_07_12_37_PM_oz52tx"
           }
         ]
       }
@@ -16332,22 +16332,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_04_36_PM_fsbjhc",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_05_37_PM_gpqrwh",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_05_37_PM_npizp2",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_04_36_PM_fsbjhc",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_05_37_PM_gpqrwh",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_05_37_PM_npizp2",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_04_36_PM_fsbjhc",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_05_37_PM_gpqrwh"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_04_36_PM_fsbjhc"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_05_37_PM_gpqrwh"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy"
       },
       {
         "type": "image",
@@ -16355,21 +16351,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_04_36_PM_fsbjhc"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_05_37_PM_gpqrwh"
       }
     ],
     "variants": [
       {
         "color": "Blue",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_04_36_PM_fsbjhc",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_04_36_PM_fsbjhc"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_05_37_PM_gpqrwh"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy"
           },
           {
             "type": "image",
@@ -16377,7 +16373,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063813/ChatGPT_Image_Oct_12_2026_07_04_36_PM_fsbjhc"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_05_37_PM_gpqrwh"
           }
         ]
       }
@@ -16410,23 +16410,15 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063805/ChatGPT_Image_Oct_12_2026_06_59_27_PM_hc3vip",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_58_29_PM_ym87cv",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902472/ChatGPT_Image_Oct_12_2026_06_58_29_PM_zbuyni",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902444/ChatGPT_Image_Oct_12_2026_06_59_27_PM_ryssj9",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063805/ChatGPT_Image_Oct_12_2026_06_59_27_PM_hc3vip",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_58_29_PM_ym87cv",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902472/ChatGPT_Image_Oct_12_2026_06_58_29_PM_zbuyni",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902444/ChatGPT_Image_Oct_12_2026_06_59_27_PM_ryssj9"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902444/ChatGPT_Image_Oct_12_2026_06_59_27_PM_ryssj9",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063805/ChatGPT_Image_Oct_12_2026_06_59_27_PM_hc3vip",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_58_29_PM_ym87cv"
     ],
     "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063805/ChatGPT_Image_Oct_12_2026_06_59_27_PM_hc3vip"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_58_29_PM_ym87cv"
-      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902472/ChatGPT_Image_Oct_12_2026_06_58_29_PM_zbuyni"
@@ -16434,21 +16426,21 @@ export const MENSWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902444/ChatGPT_Image_Oct_12_2026_06_59_27_PM_ryssj9"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063805/ChatGPT_Image_Oct_12_2026_06_59_27_PM_hc3vip"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_58_29_PM_ym87cv"
       }
     ],
     "variants": [
       {
         "color": "White",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063805/ChatGPT_Image_Oct_12_2026_06_59_27_PM_hc3vip",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902472/ChatGPT_Image_Oct_12_2026_06_58_29_PM_zbuyni",
         "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063805/ChatGPT_Image_Oct_12_2026_06_59_27_PM_hc3vip"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_58_29_PM_ym87cv"
-          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902472/ChatGPT_Image_Oct_12_2026_06_58_29_PM_zbuyni"
@@ -16456,6 +16448,14 @@ export const MENSWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902444/ChatGPT_Image_Oct_12_2026_06_59_27_PM_ryssj9"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063805/ChatGPT_Image_Oct_12_2026_06_59_27_PM_hc3vip"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_58_29_PM_ym87cv"
           }
         ]
       }
@@ -16488,22 +16488,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_03_26_PM_uq0j8t",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063807/ChatGPT_Image_Oct_12_2026_07_02_23_PM_vemrul",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_03_26_PM_qfuqfu",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_03_26_PM_uq0j8t",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063807/ChatGPT_Image_Oct_12_2026_07_02_23_PM_vemrul",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_03_26_PM_qfuqfu",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063807/ChatGPT_Image_Oct_12_2026_07_02_23_PM_vemrul",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_03_26_PM_uq0j8t"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_03_26_PM_uq0j8t"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063807/ChatGPT_Image_Oct_12_2026_07_02_23_PM_vemrul"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m"
       },
       {
         "type": "image",
@@ -16511,21 +16507,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063807/ChatGPT_Image_Oct_12_2026_07_02_23_PM_vemrul"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_03_26_PM_uq0j8t"
       }
     ],
     "variants": [
       {
         "color": "White and Yellow",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_03_26_PM_uq0j8t",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_03_26_PM_uq0j8t"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063807/ChatGPT_Image_Oct_12_2026_07_02_23_PM_vemrul"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m"
           },
           {
             "type": "image",
@@ -16533,7 +16529,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063807/ChatGPT_Image_Oct_12_2026_07_02_23_PM_vemrul"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_03_26_PM_uq0j8t"
           }
         ]
       }
@@ -16566,23 +16566,15 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_10_19_PM_kclt4n",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_07_09_09_PM_omhz59",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_09_09_PM_pctmgp",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_10_19_PM_edo3k2",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_10_19_PM_kclt4n",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_07_09_09_PM_omhz59",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_09_09_PM_pctmgp",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_10_19_PM_edo3k2"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_10_19_PM_edo3k2",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_07_09_09_PM_omhz59",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_10_19_PM_kclt4n"
     ],
     "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_10_19_PM_kclt4n"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_07_09_09_PM_omhz59"
-      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_09_09_PM_pctmgp"
@@ -16590,21 +16582,21 @@ export const MENSWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_10_19_PM_edo3k2"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_07_09_09_PM_omhz59"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_10_19_PM_kclt4n"
       }
     ],
     "variants": [
       {
         "color": "White and Orange",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_10_19_PM_kclt4n",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_09_09_PM_pctmgp",
         "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_10_19_PM_kclt4n"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_07_09_09_PM_omhz59"
-          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_09_09_PM_pctmgp"
@@ -16612,6 +16604,14 @@ export const MENSWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_10_19_PM_edo3k2"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_07_09_09_PM_omhz59"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_10_19_PM_kclt4n"
           }
         ]
       }
@@ -16644,22 +16644,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_00_06_PM_tsggdu",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063806/ChatGPT_Image_Oct_12_2026_07_00_58_PM_qku7hf",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_00_58_PM_dcgkaz",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_00_06_PM_tsggdu",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063806/ChatGPT_Image_Oct_12_2026_07_00_58_PM_qku7hf",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_00_58_PM_dcgkaz",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_00_06_PM_tsggdu",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063806/ChatGPT_Image_Oct_12_2026_07_00_58_PM_qku7hf"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_00_06_PM_tsggdu"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063806/ChatGPT_Image_Oct_12_2026_07_00_58_PM_qku7hf"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi"
       },
       {
         "type": "image",
@@ -16667,21 +16663,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_00_06_PM_tsggdu"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063806/ChatGPT_Image_Oct_12_2026_07_00_58_PM_qku7hf"
       }
     ],
     "variants": [
       {
         "color": "Mint Green",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_00_06_PM_tsggdu",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_00_06_PM_tsggdu"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063806/ChatGPT_Image_Oct_12_2026_07_00_58_PM_qku7hf"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi"
           },
           {
             "type": "image",
@@ -16689,7 +16685,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063809/ChatGPT_Image_Oct_12_2026_07_00_06_PM_tsggdu"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063806/ChatGPT_Image_Oct_12_2026_07_00_58_PM_qku7hf"
           }
         ]
       }
@@ -16722,23 +16722,15 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063818/ChatGPT_Image_Oct_13_2026_11_21_58_AM_mtr0hr",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063800/ChatGPT_Image_Oct_12_2026_06_53_58_PM_whzdeh",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902467/ChatGPT_Image_Oct_12_2026_06_53_58_PM_rjnsza",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902452/ChatGPT_Image_Oct_13_2026_11_21_58_AM_ijmgvb",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063818/ChatGPT_Image_Oct_13_2026_11_21_58_AM_mtr0hr",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063800/ChatGPT_Image_Oct_12_2026_06_53_58_PM_whzdeh",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902467/ChatGPT_Image_Oct_12_2026_06_53_58_PM_rjnsza",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902452/ChatGPT_Image_Oct_13_2026_11_21_58_AM_ijmgvb"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902452/ChatGPT_Image_Oct_13_2026_11_21_58_AM_ijmgvb",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063800/ChatGPT_Image_Oct_12_2026_06_53_58_PM_whzdeh",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063818/ChatGPT_Image_Oct_13_2026_11_21_58_AM_mtr0hr"
     ],
     "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063818/ChatGPT_Image_Oct_13_2026_11_21_58_AM_mtr0hr"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063800/ChatGPT_Image_Oct_12_2026_06_53_58_PM_whzdeh"
-      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902467/ChatGPT_Image_Oct_12_2026_06_53_58_PM_rjnsza"
@@ -16746,21 +16738,21 @@ export const MENSWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902452/ChatGPT_Image_Oct_13_2026_11_21_58_AM_ijmgvb"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063800/ChatGPT_Image_Oct_12_2026_06_53_58_PM_whzdeh"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063818/ChatGPT_Image_Oct_13_2026_11_21_58_AM_mtr0hr"
       }
     ],
     "variants": [
       {
         "color": "Black and White",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063818/ChatGPT_Image_Oct_13_2026_11_21_58_AM_mtr0hr",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902467/ChatGPT_Image_Oct_12_2026_06_53_58_PM_rjnsza",
         "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063818/ChatGPT_Image_Oct_13_2026_11_21_58_AM_mtr0hr"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063800/ChatGPT_Image_Oct_12_2026_06_53_58_PM_whzdeh"
-          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902467/ChatGPT_Image_Oct_12_2026_06_53_58_PM_rjnsza"
@@ -16768,6 +16760,14 @@ export const MENSWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902452/ChatGPT_Image_Oct_13_2026_11_21_58_AM_ijmgvb"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063800/ChatGPT_Image_Oct_12_2026_06_53_58_PM_whzdeh"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063818/ChatGPT_Image_Oct_13_2026_11_21_58_AM_mtr0hr"
           }
         ]
       }
@@ -16800,23 +16800,15 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063804/ChatGPT_Image_Oct_12_2026_06_57_53_PM_nsabwp",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_56_53_PM_d1n6sf",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_06_56_53_PM_fs2c6u",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_57_53_PM_gfy7s1",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063804/ChatGPT_Image_Oct_12_2026_06_57_53_PM_nsabwp",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_56_53_PM_d1n6sf",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_06_56_53_PM_fs2c6u",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_57_53_PM_gfy7s1"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_57_53_PM_gfy7s1",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_56_53_PM_d1n6sf",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063804/ChatGPT_Image_Oct_12_2026_06_57_53_PM_nsabwp"
     ],
     "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063804/ChatGPT_Image_Oct_12_2026_06_57_53_PM_nsabwp"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_56_53_PM_d1n6sf"
-      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_06_56_53_PM_fs2c6u"
@@ -16824,21 +16816,21 @@ export const MENSWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_57_53_PM_gfy7s1"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_56_53_PM_d1n6sf"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063804/ChatGPT_Image_Oct_12_2026_06_57_53_PM_nsabwp"
       }
     ],
     "variants": [
       {
         "color": "Navy",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063804/ChatGPT_Image_Oct_12_2026_06_57_53_PM_nsabwp",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_06_56_53_PM_fs2c6u",
         "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063804/ChatGPT_Image_Oct_12_2026_06_57_53_PM_nsabwp"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_56_53_PM_d1n6sf"
-          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_06_56_53_PM_fs2c6u"
@@ -16846,6 +16838,14 @@ export const MENSWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_57_53_PM_gfy7s1"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_56_53_PM_d1n6sf"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063804/ChatGPT_Image_Oct_12_2026_06_57_53_PM_nsabwp"
           }
         ]
       }
@@ -16878,23 +16878,15 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063801/ChatGPT_Image_Oct_12_2026_06_48_40_PM_qktufk",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063799/ChatGPT_Image_Oct_12_2026_06_50_32_PM_oxnl0h",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902463/ChatGPT_Image_Oct_12_2026_06_48_40_PM_pnun5a",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902460/ChatGPT_Image_Oct_12_2026_06_50_32_PM_ct50yq",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063801/ChatGPT_Image_Oct_12_2026_06_48_40_PM_qktufk",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063799/ChatGPT_Image_Oct_12_2026_06_50_32_PM_oxnl0h",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902463/ChatGPT_Image_Oct_12_2026_06_48_40_PM_pnun5a",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902460/ChatGPT_Image_Oct_12_2026_06_50_32_PM_ct50yq"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902460/ChatGPT_Image_Oct_12_2026_06_50_32_PM_ct50yq",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063801/ChatGPT_Image_Oct_12_2026_06_48_40_PM_qktufk",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063799/ChatGPT_Image_Oct_12_2026_06_50_32_PM_oxnl0h"
     ],
     "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063801/ChatGPT_Image_Oct_12_2026_06_48_40_PM_qktufk"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063799/ChatGPT_Image_Oct_12_2026_06_50_32_PM_oxnl0h"
-      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902463/ChatGPT_Image_Oct_12_2026_06_48_40_PM_pnun5a"
@@ -16902,21 +16894,21 @@ export const MENSWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902460/ChatGPT_Image_Oct_12_2026_06_50_32_PM_ct50yq"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063801/ChatGPT_Image_Oct_12_2026_06_48_40_PM_qktufk"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063799/ChatGPT_Image_Oct_12_2026_06_50_32_PM_oxnl0h"
       }
     ],
     "variants": [
       {
         "color": "Navy",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063801/ChatGPT_Image_Oct_12_2026_06_48_40_PM_qktufk",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902463/ChatGPT_Image_Oct_12_2026_06_48_40_PM_pnun5a",
         "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063801/ChatGPT_Image_Oct_12_2026_06_48_40_PM_qktufk"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063799/ChatGPT_Image_Oct_12_2026_06_50_32_PM_oxnl0h"
-          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902463/ChatGPT_Image_Oct_12_2026_06_48_40_PM_pnun5a"
@@ -16924,6 +16916,14 @@ export const MENSWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902460/ChatGPT_Image_Oct_12_2026_06_50_32_PM_ct50yq"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063801/ChatGPT_Image_Oct_12_2026_06_48_40_PM_qktufk"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063799/ChatGPT_Image_Oct_12_2026_06_50_32_PM_oxnl0h"
           }
         ]
       }
@@ -16956,22 +16956,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_06_41_20_PM_ukyxhg",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063783/ChatGPT_Image_Oct_12_2026_06_44_27_PM_vjn6qa",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_44_27_PM_whbh3f",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_06_41_20_PM_ukyxhg",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063783/ChatGPT_Image_Oct_12_2026_06_44_27_PM_vjn6qa",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_44_27_PM_whbh3f",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_06_41_20_PM_ukyxhg",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063783/ChatGPT_Image_Oct_12_2026_06_44_27_PM_vjn6qa"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_06_41_20_PM_ukyxhg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063783/ChatGPT_Image_Oct_12_2026_06_44_27_PM_vjn6qa"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r"
       },
       {
         "type": "image",
@@ -16979,21 +16975,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_06_41_20_PM_ukyxhg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063783/ChatGPT_Image_Oct_12_2026_06_44_27_PM_vjn6qa"
       }
     ],
     "variants": [
       {
         "color": "Yellow",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_06_41_20_PM_ukyxhg",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_06_41_20_PM_ukyxhg"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063783/ChatGPT_Image_Oct_12_2026_06_44_27_PM_vjn6qa"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r"
           },
           {
             "type": "image",
@@ -17001,7 +16997,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063786/ChatGPT_Image_Oct_12_2026_06_41_20_PM_ukyxhg"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063783/ChatGPT_Image_Oct_12_2026_06_44_27_PM_vjn6qa"
           }
         ]
       }
@@ -17034,22 +17034,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zvmnuk",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_52_18_PM_ui9fe2",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902459/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zmhpcc",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zvmnuk",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_52_18_PM_ui9fe2",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902459/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zmhpcc",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_52_18_PM_ui9fe2",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zvmnuk"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zvmnuk"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_52_18_PM_ui9fe2"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5"
       },
       {
         "type": "image",
@@ -17057,21 +17053,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_52_18_PM_ui9fe2"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zvmnuk"
       }
     ],
     "variants": [
       {
         "color": "Light Blue",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zvmnuk",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zvmnuk"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_52_18_PM_ui9fe2"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5"
           },
           {
             "type": "image",
@@ -17079,7 +17075,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063802/ChatGPT_Image_Oct_12_2026_06_52_18_PM_ui9fe2"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063803/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zvmnuk"
           }
         ]
       }
@@ -17112,22 +17112,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/exec-6821d545-7ec0-44bc-bd61-57667e40c22e_wnzrej",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063797/ChatGPT_Image_Oct_12_2026_06_38_42_PM_dtrkkp",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_38_42_PM_xi2edz",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/exec-6821d545-7ec0-44bc-bd61-57667e40c22e_wnzrej",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063797/ChatGPT_Image_Oct_12_2026_06_38_42_PM_dtrkkp",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_38_42_PM_xi2edz",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/exec-6821d545-7ec0-44bc-bd61-57667e40c22e_wnzrej",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063797/ChatGPT_Image_Oct_12_2026_06_38_42_PM_dtrkkp"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/exec-6821d545-7ec0-44bc-bd61-57667e40c22e_wnzrej"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063797/ChatGPT_Image_Oct_12_2026_06_38_42_PM_dtrkkp"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta"
       },
       {
         "type": "image",
@@ -17135,21 +17131,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/exec-6821d545-7ec0-44bc-bd61-57667e40c22e_wnzrej"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063797/ChatGPT_Image_Oct_12_2026_06_38_42_PM_dtrkkp"
       }
     ],
     "variants": [
       {
         "color": "Black and Gold",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/exec-6821d545-7ec0-44bc-bd61-57667e40c22e_wnzrej",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/exec-6821d545-7ec0-44bc-bd61-57667e40c22e_wnzrej"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063797/ChatGPT_Image_Oct_12_2026_06_38_42_PM_dtrkkp"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta"
           },
           {
             "type": "image",
@@ -17157,7 +17153,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063816/exec-6821d545-7ec0-44bc-bd61-57667e40c22e_wnzrej"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063797/ChatGPT_Image_Oct_12_2026_06_38_42_PM_dtrkkp"
           }
         ]
       }
@@ -17190,22 +17190,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063817/ChatGPT_Image_Oct_12_2026_07_40_14_PM_g65azu",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063815/ChatGPT_Image_Oct_12_2026_07_38_35_PM_iqpjne",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902453/ChatGPT_Image_Oct_12_2026_07_40_14_PM_vwcyyx",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063817/ChatGPT_Image_Oct_12_2026_07_40_14_PM_g65azu",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063815/ChatGPT_Image_Oct_12_2026_07_38_35_PM_iqpjne",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902453/ChatGPT_Image_Oct_12_2026_07_40_14_PM_vwcyyx",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063815/ChatGPT_Image_Oct_12_2026_07_38_35_PM_iqpjne",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063817/ChatGPT_Image_Oct_12_2026_07_40_14_PM_g65azu"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063817/ChatGPT_Image_Oct_12_2026_07_40_14_PM_g65azu"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063815/ChatGPT_Image_Oct_12_2026_07_38_35_PM_iqpjne"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu"
       },
       {
         "type": "image",
@@ -17213,21 +17209,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063815/ChatGPT_Image_Oct_12_2026_07_38_35_PM_iqpjne"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063817/ChatGPT_Image_Oct_12_2026_07_40_14_PM_g65azu"
       }
     ],
     "variants": [
       {
         "color": "Pastel",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063817/ChatGPT_Image_Oct_12_2026_07_40_14_PM_g65azu",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063817/ChatGPT_Image_Oct_12_2026_07_40_14_PM_g65azu"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063815/ChatGPT_Image_Oct_12_2026_07_38_35_PM_iqpjne"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu"
           },
           {
             "type": "image",
@@ -17235,7 +17231,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063815/ChatGPT_Image_Oct_12_2026_07_38_35_PM_iqpjne"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063817/ChatGPT_Image_Oct_12_2026_07_40_14_PM_g65azu"
           }
         ]
       }
@@ -17268,22 +17268,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_21_56_PM_rcm9mm",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_26_42_PM_fgsrjb",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902451/ChatGPT_Image_Oct_12_2026_07_26_42_PM_putmwo",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_21_56_PM_rcm9mm",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_26_42_PM_fgsrjb",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902451/ChatGPT_Image_Oct_12_2026_07_26_42_PM_putmwo",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_21_56_PM_rcm9mm",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_26_42_PM_fgsrjb"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_21_56_PM_rcm9mm"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_26_42_PM_fgsrjb"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e"
       },
       {
         "type": "image",
@@ -17291,21 +17287,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_21_56_PM_rcm9mm"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_26_42_PM_fgsrjb"
       }
     ],
     "variants": [
       {
         "color": "White and Green",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_21_56_PM_rcm9mm",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_21_56_PM_rcm9mm"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_26_42_PM_fgsrjb"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e"
           },
           {
             "type": "image",
@@ -17313,7 +17309,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_21_56_PM_rcm9mm"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_26_42_PM_fgsrjb"
           }
         ]
       }
@@ -17346,22 +17346,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_06_46_32_PM_qm0ig4",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_06_47_20_PM_lhcgqt",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902443/ChatGPT_Image_Oct_12_2026_06_47_20_PM_dlwbza",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_06_46_32_PM_qm0ig4",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_06_47_20_PM_lhcgqt",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902443/ChatGPT_Image_Oct_12_2026_06_47_20_PM_dlwbza",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_06_46_32_PM_qm0ig4",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_06_47_20_PM_lhcgqt"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_06_46_32_PM_qm0ig4"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_06_47_20_PM_lhcgqt"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc"
       },
       {
         "type": "image",
@@ -17369,21 +17365,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_06_46_32_PM_qm0ig4"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_06_47_20_PM_lhcgqt"
       }
     ],
     "variants": [
       {
         "color": "White",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_06_46_32_PM_qm0ig4",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_06_46_32_PM_qm0ig4"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_06_47_20_PM_lhcgqt"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc"
           },
           {
             "type": "image",
@@ -17391,7 +17387,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_06_46_32_PM_qm0ig4"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_06_47_20_PM_lhcgqt"
           }
         ]
       }
@@ -17424,22 +17424,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_53_52_PM_qu52n2",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_52_34_PM_crfrrf",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_07_53_52_PM_ecg5jq",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_53_52_PM_qu52n2",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_52_34_PM_crfrrf",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_07_53_52_PM_ecg5jq",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_52_34_PM_crfrrf",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_53_52_PM_qu52n2"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_53_52_PM_qu52n2"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_52_34_PM_crfrrf"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn"
       },
       {
         "type": "image",
@@ -17447,21 +17443,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_52_34_PM_crfrrf"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_53_52_PM_qu52n2"
       }
     ],
     "variants": [
       {
         "color": "Blue",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_53_52_PM_qu52n2",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_53_52_PM_qu52n2"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_52_34_PM_crfrrf"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn"
           },
           {
             "type": "image",
@@ -17469,7 +17465,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_52_34_PM_crfrrf"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_53_52_PM_qu52n2"
           }
         ]
       }
@@ -17502,22 +17502,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xk3wot",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_55_40_PM_vacoje",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xeerfd",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xk3wot",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_55_40_PM_vacoje",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xeerfd",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_55_40_PM_vacoje",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xk3wot"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xk3wot"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_55_40_PM_vacoje"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv"
       },
       {
         "type": "image",
@@ -17525,21 +17521,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_55_40_PM_vacoje"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xk3wot"
       }
     ],
     "variants": [
       {
         "color": "White",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xk3wot",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xk3wot"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_55_40_PM_vacoje"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv"
           },
           {
             "type": "image",
@@ -17547,7 +17543,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063792/ChatGPT_Image_Oct_12_2026_07_55_40_PM_vacoje"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xk3wot"
           }
         ]
       }
@@ -17580,22 +17580,18 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_07_59_29_PM_p6b7kg",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_59_23_PM_vmnxgo",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902440/ChatGPT_Image_Oct_12_2026_07_59_29_PM_l2gv0j",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_07_59_29_PM_p6b7kg",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_59_23_PM_vmnxgo",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902440/ChatGPT_Image_Oct_12_2026_07_59_29_PM_l2gv0j",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_59_23_PM_vmnxgo",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_07_59_29_PM_p6b7kg"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_07_59_29_PM_p6b7kg"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_59_23_PM_vmnxgo"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl"
       },
       {
         "type": "image",
@@ -17603,21 +17599,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_59_23_PM_vmnxgo"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_07_59_29_PM_p6b7kg"
       }
     ],
     "variants": [
       {
         "color": "Green",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_07_59_29_PM_p6b7kg",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_07_59_29_PM_p6b7kg"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_59_23_PM_vmnxgo"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl"
           },
           {
             "type": "image",
@@ -17625,7 +17621,11 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063793/ChatGPT_Image_Oct_12_2026_07_59_23_PM_vmnxgo"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063794/ChatGPT_Image_Oct_12_2026_07_59_29_PM_p6b7kg"
           }
         ]
       }
@@ -17658,17 +17658,22 @@ export const MENSWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_49_27_PM_tjcgwk",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_46_40_PM_ttygjo",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902436/ChatGPT_Image_Oct_12_2026_07_49_27_PM_lqocg9",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_49_27_PM_tjcgwk",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902436/ChatGPT_Image_Oct_12_2026_07_49_27_PM_lqocg9",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063789/ChatGPT_Image_Oct_12_2026_07_46_40_PM_ttygjo",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_49_27_PM_tjcgwk"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_49_27_PM_tjcgwk"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902436/ChatGPT_Image_Oct_12_2026_07_49_27_PM_lqocg9"
       },
       {
         "type": "image",
@@ -17676,17 +17681,21 @@ export const MENSWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_49_27_PM_tjcgwk"
       }
     ],
     "variants": [
       {
         "color": "Multicolor",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_49_27_PM_tjcgwk",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_49_27_PM_tjcgwk"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902436/ChatGPT_Image_Oct_12_2026_07_49_27_PM_lqocg9"
           },
           {
             "type": "image",
@@ -17694,7 +17703,7 @@ export const MENSWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063791/ChatGPT_Image_Oct_12_2026_07_49_27_PM_tjcgwk"
           }
         ]
       }
