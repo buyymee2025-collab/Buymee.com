@@ -1260,3 +1260,7 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 /* Extend the white studio background to eyewear product-card edges. */
 [data-category="eye wears"] .product-image,
 [data-category="eye wears"] .product-image img{background:#fff}
+
+/* Match watch card image surrounds to the white product backgrounds. */
+[data-category="watches"] .product-image,
+[data-category="watches"] .product-image img{background:#fff}
