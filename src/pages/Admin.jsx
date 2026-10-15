@@ -6,6 +6,7 @@ import { saveProduct, uploadMedia } from '../lib/catalogService'
 import { originalProducts, useStore } from '../context/StoreContext'
 import '../admin.css'
 
+const ownerEmail = import.meta.env.VITE_ADMIN_EMAIL || 'buyymee2025@gmail.com'
 const blank = () => ({ id: crypto.randomUUID(), name: '', slug: '', category: 'Men', subcategory: '', price: 0, description: '', image: '', images: [], media: [], sizes: ['OS'], colors: ['Standard'], inStock: true, newArrival: false })
 const mediaOf = product => product.variants?.some(variant => variant.media?.length) ? product.variants.flatMap(variant => (variant.media || [{ type: 'image', src: variant.image }]).filter(item => item.src).map(item => ({ ...item, color: variant.color }))) : product.media?.length ? product.media : (product.images?.length ? product.images : [product.image]).filter(Boolean).map(src => ({ type: 'image', src }))
 
@@ -14,6 +15,8 @@ export default function Admin() {
   const [session, setSession] = useState(null)
   const [access, setAccess] = useState('checking')
   const [password, setPassword] = useState('')
+  const [confirmation, setConfirmation] = useState('')
+  const [recovering, setRecovering] = useState(false)
   const [query, setQuery] = useState('')
   const [filter, setFilter] = useState('All categories')
   const [draft, setDraft] = useState(null)
@@ -28,7 +31,7 @@ export default function Admin() {
     let alive = true
     const check = async current => {
       if (!alive) return
-      setSession(current); setAccess(current ? 'checking' : 'signed-out')
+      setSession(current); setRecovering(adminClient.auth.isPasswordRecovery()); setAccess(current ? 'checking' : 'signed-out')
       if (current) {
         try {
           const data = await backendRequest(`/rest/v1/admin_members?select=user_id&user_id=eq.${encodeURIComponent(current.user.id)}`, {}, true)
@@ -36,7 +39,7 @@ export default function Admin() {
         } catch { if (alive) setAccess('denied') }
       }
     }
-    adminClient.auth.getSession().then(({ data }) => check(data.session)).catch(() => { if(alive) setAccess('signed-out') })
+    adminClient.auth.getSession().then(({ data }) => check(data.session)).catch(error => { if (alive) { setAccess('signed-out'); setError(error.message) } })
     const { data } = adminClient.auth.onAuthStateChange((_event, current) => { setTimeout(() => check(current), 0) })
     return () => { alive = false; data.subscription.unsubscribe() }
   }, [])
@@ -49,9 +52,25 @@ export default function Admin() {
   const login = event => {
     event.preventDefault()
     run(async () => {
-      const { error } = await adminClient.auth.signInWithPassword({ email: import.meta.env.VITE_ADMIN_EMAIL || 'admin@buyymee.com', password })
+      const { error } = await adminClient.auth.signInWithPassword({ email: ownerEmail, password })
       setPassword('')
       if (error) throw error
+    })
+  }
+  const requestReset = () => run(async () => {
+    const { error } = await adminClient.auth.resetPasswordForEmail(ownerEmail)
+    if (error) throw error
+    setMessage('Check your admin Gmail inbox for the password reset link. Check Spam too.')
+  })
+  const resetPassword = event => {
+    event.preventDefault()
+    run(async () => {
+      if (password !== confirmation) throw new Error('The two passwords do not match.')
+      const { error } = await adminClient.auth.updatePassword(password)
+      setPassword(''); setConfirmation('')
+      if (error) throw error
+      setRecovering(false)
+      setMessage('Password updated. Your dashboard is ready.')
     })
   }
   const edit = product => { setDraft({ ...product, media: mediaOf(product) }); setError(''); setMessage(''); setMediaUrl(''); window.scrollTo(0, 0) }
@@ -83,7 +102,7 @@ export default function Admin() {
 
   return <main className="admin-page">
     <header className="admin-header"><Link to="/" className="admin-brand">BUYYMEE<span>OWNER STUDIO</span></Link><div><Link to="/shop">View store ↗</Link>{session && <button disabled={busy} onClick={() => run(async () => { const { error } = await adminClient.auth.signOut(); if (error) throw error; setDraft(null) })}>Sign out</button>}</div></header>
-    {!adminClient ? <section className="admin-login"><span className="admin-eyebrow">ADMIN SETUP</span><h1>Your store.<br/>In your hands.</h1><p>The dashboard is built. Connect the store database to activate owner login, media uploads and product updates.</p><p>Setup instructions are in <strong>docs/admin-setup.md</strong> in the repository.</p><Link to="/shop">Return to the store ↗</Link></section> : access === 'checking' ? <p role="status">Checking your access…</p> : access !== 'allowed' ? <section className="admin-login"><span className="admin-eyebrow">ENTER YOUR ADMIN PASSWORD</span><h1>Welcome<br/>behind the scenes.</h1>{access === 'denied' ? <p>Your account does not have owner access. Ask the website administrator to approve it.</p> : <form onSubmit={login}><label>Password<input type="password" autoComplete="current-password" required value={password} onChange={event => setPassword(event.target.value)} /></label><button className="admin-primary" disabled={busy}>{busy ? 'Signing in…' : 'Enter dashboard →'}</button></form>}</section> : <>
+    {!adminClient ? <section className="admin-login"><span className="admin-eyebrow">ADMIN SETUP</span><h1>Your store.<br/>In your hands.</h1><p>The dashboard is built. Connect the store database to activate owner login, media uploads and product updates.</p><p>Setup instructions are in <strong>docs/admin-setup.md</strong> in the repository.</p><Link to="/shop">Return to the store ↗</Link></section> : access === 'checking' ? <p role="status">Checking your access…</p> : access === 'allowed' && recovering ? <section className="admin-login"><span className="admin-eyebrow">SET YOUR ADMIN PASSWORD</span><h1>A fresh start.</h1><form onSubmit={resetPassword}><label>New password<input type="password" autoComplete="new-password" minLength={8} required value={password} onChange={event => setPassword(event.target.value)} /></label><label>Confirm new password<input type="password" autoComplete="new-password" minLength={8} required value={confirmation} onChange={event => setConfirmation(event.target.value)} /></label><button className="admin-primary" disabled={busy}>{busy ? 'Saving…' : 'Save password →'}</button></form></section> : access !== 'allowed' ? <section className="admin-login"><span className="admin-eyebrow">ENTER YOUR ADMIN PASSWORD</span><h1>Welcome<br/>behind the scenes.</h1>{access === 'denied' ? <p>Your account does not have owner access. Ask the website administrator to approve it.</p> : <form onSubmit={login}><label>Password<input type="password" autoComplete="current-password" required value={password} onChange={event => setPassword(event.target.value)} /></label><button className="admin-primary" disabled={busy}>{busy ? 'Signing in…' : 'Enter dashboard →'}</button><button type="button" disabled={busy} onClick={requestReset}>Forgot password?</button></form>}</section> : <>
       <section className="admin-heading"><div><span className="admin-eyebrow">THE CATALOGUE / OWNER STUDIO</span><h1>{draft ? 'Shape the details.' : 'Keep your store current.'}</h1><p>{draft ? 'Choose pictures from your device, enter the product details, then click Apply.' : `${products.length} products · Prices are entered in USD`}</p></div>{!draft && <button className="admin-primary" disabled={busy} onClick={() => edit(blank())}>＋ Upload product</button>}</section>
       {draft ? <form className="admin-editor" onSubmit={save}>
         <fieldset disabled={busy}><div className="admin-panel"><h2>Product details</h2><label>Product name<input required value={draft.name} onChange={event => { const name = event.target.value; setDraft(previous => ({ ...previous, name, slug: previous.slug })) }} /></label><label>Product link<input pattern="[a-z0-9]+(-[a-z0-9]+)*" value={draft.slug} onChange={event => change('slug', event.target.value)} /><small>/product/{draft.slug || 'your-product-name'}</small></label><div className="admin-columns"><label>Category<select value={draft.category} onChange={event => change('category', event.target.value)}>{productCategories.map(category => <option key={category}>{category}</option>)}</select></label><label>Subcategory<input value={draft.subcategory} onChange={event => change('subcategory', event.target.value)} /></label></div><div className="admin-columns"><label>Price (USD)<input required type="number" min="0" step="0.01" value={draft.price} onChange={event => change('price', event.target.value)} /></label><label>Product code<input value={draft.productCode || ''} onChange={event => change('productCode', event.target.value)} /></label></div><label>Description<textarea rows="5" value={draft.description} onChange={event => change('description', event.target.value)} /></label><div className="admin-columns"><label>Sizes, separated by commas<input value={(draft.sizes || []).join(',')} onChange={event => change('sizes', event.target.value.split(','))} /></label><label>Colours, separated by commas<input value={(draft.colors || []).join(',')} onChange={event => change('colors', event.target.value.split(','))} /></label></div><label className="admin-check"><input type="checkbox" checked={draft.inStock !== false} onChange={event => change('inStock', event.target.checked)} />Available in stock</label><label className="admin-check"><input type="checkbox" checked={!!draft.newArrival} onChange={event => change('newArrival', event.target.checked)} />Show in New In</label><label className="admin-check"><input type="checkbox" checked={!!draft.priceOnRequest} onChange={event => change('priceOnRequest', event.target.checked)} />Price on request</label></div></fieldset>
