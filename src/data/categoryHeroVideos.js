@@ -1,20 +1,174 @@
-// Remote-only footage: no video files are stored in the project.
-// Pexels licence: https://www.pexels.com/license/
-// Source pages and creators are retained here for maintenance and attribution.
-const pexels = (id, file, slug, creator) => ({
-  src: `https://videos.pexels.com/video-files/${id}/${file}.mp4`,
-  source: `https://www.pexels.com/video/${slug}-${id}/`,
-  creator,
-})
-
+// Remote streaming only. Published Pexels renditions and source metadata.
+// Licence: https://www.pexels.com/license/
 export const categoryHeroVideos = {
-  '/new-in': pexels(10558372, '10558372-uhd_4096_2160_25fps', 'a-man-hanging-a-white-t-shirt-on-a-clothing-rack', 'Ron Lach'),
-  '/men': pexels(8377877, '8377877-hd_1920_1080_24fps', 'a-man-posing-wearing-a-black-suit', 'PNW Production'),
-  '/women': pexels(5822803, '5822803-hd_1920_1080_25fps', 'woman-walking-and-modeling-in-a-train-station', 'cottonbro studio'),
-  '/shoes': pexels(18513397, '18513397-hd_1920_1080_24fps', 'a-woman-s-feet-in-high-heels-are-shown', 'Khanh Hoang Minh 2'),
-  '/sneakers': pexels(853820, '853820-hd_1920_1080_25fps', 'man-tying-shoelace', 'Coverr'),
-  '/eye-wears': pexels(5241167, '5241167-hd_1920_1080_25fps', 'close-up-video-of-sunglasses', 'Kaboompics'),
-  '/fragrance': pexels(8447362, '8447362-uhd_4096_2160_25fps', 'a-bottle-of-a-perfume', 'MART PRODUCTION'),
-  '/accessories': pexels(9583626, '9583626-hd_1920_1080_30fps', 'beautiful-necklace-of-a-woman', 'ALTECH Studio'),
-  '/watches': { src: 'https://res.cloudinary.com/mdbhqnv7/video/upload/v1791313609/1006_4.mp4', source: 'Existing BUYYMEE watch hero' },
+  "/new-in": {
+    "clips": [
+      {
+        "src": "https://videos.pexels.com/video-files/10558372/10558372-hd_1366_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/10558372/10558372-sd_640_338_25fps.mp4",
+        "duration": 39,
+        "source": "https://www.pexels.com/video/10558372/",
+        "description": "A man organizing clothes at home with a stylish rack setup."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/8580858/8580858-hd_1280_720_30fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/8580858/8580858-sd_640_360_30fps.mp4",
+        "duration": 12,
+        "source": "https://www.pexels.com/video/8580858/",
+        "description": "Neutral tone clothing rack with minimalist decor for a modern look."
+      }
+    ],
+    "src": "https://videos.pexels.com/video-files/10558372/10558372-hd_1366_720_25fps.mp4"
+  },
+  "/men": {
+    "clips": [
+      {
+        "src": "https://videos.pexels.com/video-files/8377877/8377877-hd_1280_720_24fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/8377877/8377877-sd_640_360_24fps.mp4",
+        "duration": 14,
+        "source": "https://www.pexels.com/video/8377877/",
+        "description": "Confident individual in a black suit striking poses indoors, expressing empowerment."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/8377784/8377784-hd_1280_720_24fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/8377784/8377784-sd_640_360_24fps.mp4",
+        "duration": 27,
+        "source": "https://www.pexels.com/video/8377784/",
+        "description": "Bearded man in casual attire posing indoors with a chair and plant."
+      }
+    ],
+    "src": "https://videos.pexels.com/video-files/8377877/8377877-hd_1280_720_24fps.mp4"
+  },
+  "/women": {
+    "clips": [
+      {
+        "src": "https://videos.pexels.com/video-files/8343223/8343223-hd_1366_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/8343223/8343223-sd_640_338_25fps.mp4",
+        "duration": 48,
+        "source": "https://www.pexels.com/video/8343223/",
+        "description": "A stylish woman posing outdoors in a trench coat with minimalistic nature elements."
+      }
+    ],
+    "src": "https://videos.pexels.com/video-files/8343223/8343223-hd_1366_720_25fps.mp4"
+  },
+  "/shoes": {
+    "clips": [
+      {
+        "src": "https://videos.pexels.com/video-files/7247035/7247035-hd_1366_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/7247035/7247035-sd_640_338_25fps.mp4",
+        "duration": 26,
+        "source": "https://www.pexels.com/video/7247035/",
+        "description": "Close-up of tattooed feet in stylish heels walking on flowers against white background."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/18513390/18513390-hd_1280_720_24fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/18513390/18513390-sd_640_360_24fps.mp4",
+        "duration": 6,
+        "source": "https://www.pexels.com/video/18513390/",
+        "description": "A stylish view of men's and women's shoes at a fashion exhibit indoors."
+      }
+    ],
+    "src": "https://videos.pexels.com/video-files/7247035/7247035-hd_1366_720_25fps.mp4"
+  },
+  "/sneakers": {
+    "clips": [
+      {
+        "src": "https://videos.pexels.com/video-files/853820/853820-hd_1280_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/853820/853820-sd_640_360_25fps.mp4",
+        "duration": 13,
+        "source": "https://www.pexels.com/video/853820/",
+        "description": "Close-up video of a man tying sneakers indoors on a smooth floor."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/2008513/2008513-hd_1280_720_60fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/2008513/2008513-sd_640_360_30fps.mp4",
+        "duration": 18,
+        "source": "https://www.pexels.com/video/2008513/",
+        "description": "Close-up video of trendy sneakers walking on urban pavement."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/5029481/5029481-hd_1280_720_30fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/5029481/5029481-sd_640_360_30fps.mp4",
+        "duration": 10,
+        "source": "https://www.pexels.com/video/5029481/",
+        "description": "Close-up of a man tying sneaker laces on a city sidewalk."
+      }
+    ],
+    "src": "https://videos.pexels.com/video-files/853820/853820-hd_1280_720_25fps.mp4"
+  },
+  "/eye-wears": {
+    "clips": [
+      {
+        "src": "https://videos.pexels.com/video-files/5241167/5241167-hd_1280_720_50fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/5241167/5241167-sd_640_360_25fps.mp4",
+        "duration": 9,
+        "source": "https://www.pexels.com/video/5241167/",
+        "description": "Stylish sunglasses elegantly displayed on a sleek surface in a modern setting."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/5241102/5241102-hd_1280_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/5241102/5241102-sd_640_360_25fps.mp4",
+        "duration": 8,
+        "source": "https://www.pexels.com/video/5241102/",
+        "description": "Close-up of sunglasses displayed on a rack in a shop."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/5241169/5241169-hd_1280_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/5241169/5241169-sd_640_360_25fps.mp4",
+        "duration": 11,
+        "source": "https://www.pexels.com/video/5241169/",
+        "description": "Hand selecting sunglasses from a wooden display indoors."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/4531408/4531408-hd_1280_720_30fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/4531408/4531408-sd_640_360_30fps.mp4",
+        "duration": 24,
+        "source": "https://www.pexels.com/video/4531408/",
+        "description": "Close-up of a hand moving eyeglasses on a desk in an office environment."
+      }
+    ],
+    "src": "https://videos.pexels.com/video-files/5241167/5241167-hd_1280_720_50fps.mp4"
+  },
+  "/fragrance": {
+    "clips": [
+      {
+        "src": "https://videos.pexels.com/video-files/8447362/8447362-hd_1366_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/8447362/8447362-sd_640_338_25fps.mp4",
+        "duration": 25,
+        "source": "https://www.pexels.com/video/8447362/",
+        "description": "A close-up of a stylish perfume bottle against a vibrant red background."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/8447668/8447668-hd_1366_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/8447668/8447668-sd_640_338_25fps.mp4",
+        "duration": 18,
+        "source": "https://www.pexels.com/video/8447668/",
+        "description": "Minimalistic display of white roses and perfume on a white pedestal."
+      }
+    ],
+    "src": "https://videos.pexels.com/video-files/8447362/8447362-hd_1366_720_25fps.mp4"
+  },
+  "/accessories": {
+    "clips": [
+      {
+        "src": "https://videos.pexels.com/video-files/11122340/11122340-hd_1280_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/11122340/11122340-sd_640_360_25fps.mp4",
+        "duration": 23,
+        "source": "https://www.pexels.com/video/11122340/",
+        "description": "Luxurious close-up of Indian bridal jewelry with intricate details."
+      },
+      {
+        "src": "https://videos.pexels.com/video-files/10737829/10737829-hd_1280_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/10737829/10737829-sd_640_360_25fps.mp4",
+        "duration": 13,
+        "source": "https://www.pexels.com/video/10737829/",
+        "description": "Close-up of an elegant necklace being touched by a manicured hand."
+      }
+    ],
+    "src": "https://videos.pexels.com/video-files/11122340/11122340-hd_1280_720_25fps.mp4"
+  },
+  "/watches": {
+    "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1791313609/1006_4.mp4",
+    "source": "Existing BUYYMEE watch hero"
+  }
 }

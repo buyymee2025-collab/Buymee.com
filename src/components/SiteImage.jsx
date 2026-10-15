@@ -2,7 +2,8 @@ import { imageUrl } from '../lib/images'
 import { optimizeImageUrl } from '../lib/media'
 
 export default function SiteImage({ src, alt, className = '', onError, imageWidth = 1200, sizes = '100vw', loading = 'lazy', ...props }) {
-  const resolved = imageUrl(src)
+  // Cloudinary sources can negotiate modern formats and exact viewport widths.
+  const resolved = typeof src === 'string' && src.includes('res.cloudinary.com/') ? src : imageUrl(src)
   const isUnsplash = typeof resolved === 'string' && (resolved.includes('images.unsplash.com') || resolved.includes('/images/stock-') || resolved.includes('/images/accessory-gold-chain'))
   const optimized = optimizeImageUrl(resolved, imageWidth)
   const widths = [320, 480, 640, 960, 1200].filter(width => width <= imageWidth)

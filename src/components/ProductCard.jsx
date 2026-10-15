@@ -28,7 +28,7 @@ export default function ProductCard({ product, index = 0 }) {
       <Reveal className="product-card" variant="card" index={index} delay={(index % 4) * 0.065}>
         <div className="product-image">
           <Link to={`/product/${product.slug}`} aria-label={`View ${product.name}`} onClick={openProduct}>
-            <SiteImage src={product.image} alt={product.name} imageWidth={960} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading={index > 3 ? 'lazy' : 'eager'} />
+            <SiteImage src={product.image} alt={product.name} imageWidth={640} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading={index > 3 ? 'lazy' : 'eager'} fetchPriority={index === 0 ? 'high' : 'auto'} />
           </Link>
           {product.sale && <span className="sale-tag">EDIT</span>}
           <button className="quick-add" type="button" onClick={() => addToCart(product)}>
