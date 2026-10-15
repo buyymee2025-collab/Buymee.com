@@ -1,0 +1,362 @@
+{
+  "reviewDate": "2026-10-15",
+  "sourceAssetCount": 74,
+  "productCount": 34,
+  "notes": [
+    "74 new glasses images reviewed by frame, lens, bridge, hinge and temple details.",
+    "Four repeated exports accounted for but omitted from galleries.",
+    "Only eight models have product-only photos in this batch; other models use their front mannequin photo.",
+    "New watches are not uploaded yet, confirmed by user; existing watch catalogue retained."
+  ],
+  "products": [
+    {
+      "productId": 25206,
+      "name": "Dolce & Gabbana Purple Rimless Sunglasses",
+      "selectedAssetIds": [
+        "ChatGPT_Image_Oct_15_2026_08_18_24_PM_imab5z",
+        "ChatGPT_Image_Oct_15_2026_08_18_02_PM_o6quya"
+      ],
+      "duplicateAssetIds": [
+        "ChatGPT_Image_Oct_15_2026_08_18_24_PM_cstg8f",
+        "ChatGPT_Image_Oct_15_2026_08_18_02_PM_xkltrd"
+      ],
+      "firstView": "Product-only front"
+    },
+    {
+      "productId": 26001,
+      "name": "Grey Gradient Panther-Detail Oval Sunglasses",
+      "selectedAssetIds": [
+        "ChatGPT_Image_Oct_15_2026_09_11_19_PM_qgnkkn",
+        "ChatGPT_Image_Oct_15_2026_09_11_40_PM_lletin"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Product-only front"
+    },
+    {
+      "productId": 26002,
+      "name": "Black Gradient Wide-Temple Shield Sunglasses",
+      "selectedAssetIds": [
+        "ChatGPT_Image_Oct_15_2026_09_06_44_PM_y9yt6x",
+        "ChatGPT_Image_Oct_15_2026_09_06_55_PM_ehlwex"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Product-only front"
+    },
+    {
+      "productId": 26003,
+      "name": "Black Gold-Monogram Wrap Sunglasses",
+      "selectedAssetIds": [
+        "ChatGPT_Image_Oct_15_2026_08_55_22_PM_n0xqe4",
+        "ChatGPT_Image_Oct_15_2026_09_00_26_PM_bwd82f"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Product-only front"
+    },
+    {
+      "productId": 26004,
+      "name": "Oversized Full-Shield Visor Sunglasses",
+      "selectedAssetIds": [
+        "ChatGPT_Image_Oct_15_2026_08_39_51_PM_dzpycv",
+        "ChatGPT_Image_Oct_15_2026_08_41_16_PM_stsgzq"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Product-only front"
+    },
+    {
+      "productId": 26005,
+      "name": "Brown Full-Shield Visor Sunglasses",
+      "selectedAssetIds": [
+        "ChatGPT_Image_Oct_15_2026_08_54_50_PM_n7emhi",
+        "ChatGPT_Image_Oct_15_2026_08_55_12_PM_i1u6y6"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Product-only front"
+    },
+    {
+      "productId": 26006,
+      "name": "Gold Decorative Rimless Shield Sunglasses",
+      "selectedAssetIds": [
+        "ChatGPT_Image_Oct_15_2026_08_45_26_PM_btwcw8",
+        "ChatGPT_Image_Oct_15_2026_08_45_39_PM_cnuujd"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Product-only front"
+    },
+    {
+      "productId": 26007,
+      "name": "Black Slim Rectangular Metal Sunglasses",
+      "selectedAssetIds": [
+        "ChatGPT_Image_Oct_15_2026_09_21_15_PM_hr4ric",
+        "ChatGPT_Image_Oct_15_2026_09_21_26_PM_tzgy1v"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Product-only front"
+    },
+    {
+      "productId": 26008,
+      "name": "Purple Gold-Chain Wing Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4067_xsvmbo",
+        "IMG_4068_neuazd"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26009,
+      "name": "Olive Oval Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4065_q2x0pc",
+        "IMG_4066_ucbavh"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26010,
+      "name": "Purple Gradient D-Temple Square Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4063_zjg4ws",
+        "IMG_4064_ji1dzw"
+      ],
+      "duplicateAssetIds": [
+        "IMG_4062_mjnt38"
+      ],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26011,
+      "name": "Brown Crystal Round Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4110_dunw7w",
+        "IMG_4111_mf4hov"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26012,
+      "name": "Brown Rimless Shield Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4108_whzglv",
+        "IMG_4109_fxd8pu"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26013,
+      "name": "Pink Gradient Oversized Square Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4112_b0liin",
+        "IMG_4113_gqazbr"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26014,
+      "name": "Rose Transparent Square Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4106_yvo1sz",
+        "IMG_4107_fgni5d"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26015,
+      "name": "Yellow Oval Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4105_b4sek5",
+        "IMG_4104_fkmtgg"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26016,
+      "name": "Brown Slim Logo-Temple Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4102_oneywn",
+        "IMG_4103_gndjdw"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26017,
+      "name": "Amber Oval Leopard-Temple Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4101_jdfhrb",
+        "IMG_4100_crc57g"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26018,
+      "name": "Blue Gradient Chain-Temple Square Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4099_ppkjlo",
+        "IMG_4098_lwuebl"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26019,
+      "name": "Black Square Gold-Hinge Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4096_apirjp",
+        "IMG_4097_n2tqex"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26020,
+      "name": "Rose Rimless Rectangular Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4092_glzsl3",
+        "IMG_4093_whjq9f"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26021,
+      "name": "Brown Slim Metal Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4090_k140tj",
+        "IMG_4091_wkk5lr"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26022,
+      "name": "Blue Gradient Patterned-Temple Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4086_hpcxtd",
+        "IMG_4087_bveruu"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26023,
+      "name": "Black Slim Sport Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4094_eg35sb",
+        "IMG_4095_uyvgul"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26024,
+      "name": "Brown Gradient Logo-Temple Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4083_bysdzl",
+        "IMG_4081_bzorw8"
+      ],
+      "duplicateAssetIds": [
+        "IMG_4082_bjbofy"
+      ],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26025,
+      "name": "Brown Gradient Gold-Temple Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4088_lpryjl",
+        "IMG_4089_flrm0g"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26026,
+      "name": "Purple Gradient Red-Temple Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4084_de7nhb",
+        "IMG_4085_pqreuy"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26027,
+      "name": "Gold Butterfly Crystal Aviator Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4078_rqrflq",
+        "IMG_4077_nqenvd"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26028,
+      "name": "Gradient D-Detail Patterned-Temple Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4071_nrutx7",
+        "IMG_4072_rrp3s7"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26029,
+      "name": "Pink Gradient Gold-Temple Shield Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4080_k4vujf",
+        "IMG_4079_f1gkqr"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26030,
+      "name": "Black Rounded Square Decorative-Hinge Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4073_y1twms",
+        "IMG_4074_vp7sxx"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26031,
+      "name": "Amber Oval Letter-Temple Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4075_xcog1g",
+        "IMG_4076_yop4ly"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26032,
+      "name": "Black Classic Square Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4070_qhsrbg",
+        "IMG_4069_alg6ar"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    },
+    {
+      "productId": 26033,
+      "name": "Gold Letter-Temple Shield Sunglasses",
+      "selectedAssetIds": [
+        "IMG_4118_n6r0yl",
+        "IMG_4117_y7jezj",
+        "IMG_4116_fthzid",
+        "IMG_4115_kzryg8"
+      ],
+      "duplicateAssetIds": [],
+      "firstView": "Mannequin front; no product-only image in new batch"
+    }
+  ]
+}

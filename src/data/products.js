@@ -887,8 +887,10 @@ export const WATCHES_BACKGROUND_MEDIA = {
 };
 
 // Category data refreshed from the audited first-755 Cloudinary selection.
-export { EYEWEAR_PRODUCTS, MENSWEAR_PRODUCTS, WOMENS_PRODUCTS } from './refreshedCatalog'
-import { EYEWEAR_PRODUCTS, MENSWEAR_PRODUCTS, WOMENS_PRODUCTS } from './refreshedCatalog'
+export { EYEWEAR_PRODUCTS } from './newEyewearCatalog'
+export { MENSWEAR_PRODUCTS, WOMENS_PRODUCTS } from './refreshedCatalog'
+import { EYEWEAR_PRODUCTS } from './newEyewearCatalog'
+import { MENSWEAR_PRODUCTS, WOMENS_PRODUCTS } from './refreshedCatalog'
 export const EYEWEAR_ASSETS = EYEWEAR_PRODUCTS.flatMap(product => product.gallery)
 export const MENSWEAR_ASSETS = MENSWEAR_PRODUCTS.flatMap(product => product.gallery)
 export const EYEWEAR_EXCLUDED_IMAGE_NUMBERS = []
