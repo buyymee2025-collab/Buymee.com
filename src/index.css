@@ -1256,3 +1256,7 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 .product-modal[data-category="Eye Wears"] .product-modal-media,
 .product-modal[data-category="Eye Wears"] .product-modal-main,
 .product-modal[data-category="Eye Wears"] .product-modal-thumbs button{background:#fff}
+
+/* Extend the white studio background to eyewear product-card edges. */
+[data-category="eye wears"] .product-image,
+[data-category="eye wears"] .product-image img{background:#fff}
