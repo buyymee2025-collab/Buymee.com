@@ -73,28 +73,28 @@ export const categoryHeroVideos = {
   "/sneakers": {
     "clips": [
       {
-        "src": "https://videos.pexels.com/video-files/853820/853820-hd_1280_720_25fps.mp4",
-        "lowSrc": "https://videos.pexels.com/video-files/853820/853820-sd_640_360_25fps.mp4",
-        "duration": 13,
-        "source": "https://www.pexels.com/video/853820/",
-        "description": "Close-up video of a man tying sneakers indoors on a smooth floor."
+        "src": "https://videos.pexels.com/video-files/3752450/3752450-hd_1280_720_24fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/3752450/3752450-sd_640_360_24fps.mp4",
+        "duration": 16,
+        "source": "https://www.pexels.com/video/3752450/",
+        "description": "Dynamic close-up of black sneakers, highlighting style and texture."
       },
       {
-        "src": "https://videos.pexels.com/video-files/2008513/2008513-hd_1280_720_60fps.mp4",
-        "lowSrc": "https://videos.pexels.com/video-files/2008513/2008513-sd_640_360_30fps.mp4",
-        "duration": 18,
-        "source": "https://www.pexels.com/video/2008513/",
-        "description": "Close-up video of trendy sneakers walking on urban pavement."
+        "src": "https://videos.pexels.com/video-files/8457029/8457029-hd_1280_720_25fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/8457029/8457029-sd_640_360_25fps.mp4",
+        "duration": 15,
+        "source": "https://www.pexels.com/video/8457029/",
+        "description": "Close-up of feet tapping in sneakers during outdoor exercise."
       },
       {
-        "src": "https://videos.pexels.com/video-files/5029481/5029481-hd_1280_720_30fps.mp4",
-        "lowSrc": "https://videos.pexels.com/video-files/5029481/5029481-sd_640_360_30fps.mp4",
-        "duration": 10,
-        "source": "https://www.pexels.com/video/5029481/",
-        "description": "Close-up of a man tying sneaker laces on a city sidewalk."
+        "src": "https://videos.pexels.com/video-files/7644257/7644257-hd_1280_720_24fps.mp4",
+        "lowSrc": "https://videos.pexels.com/video-files/7644257/7644257-sd_640_360_24fps.mp4",
+        "duration": 6,
+        "source": "https://www.pexels.com/video/7644257/",
+        "description": "Stylish sneakers and colorful socks in a close-up streetwear scene."
       }
     ],
-    "src": "https://videos.pexels.com/video-files/853820/853820-hd_1280_720_25fps.mp4"
+    "src": "https://videos.pexels.com/video-files/3752450/3752450-hd_1280_720_24fps.mp4"
   },
   "/eye-wears": {
     "clips": [
