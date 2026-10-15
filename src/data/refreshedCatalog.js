@@ -6140,8 +6140,6 @@ export const EYEWEAR_PRODUCTS = [
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063475/IMG_4007_ajyg0i",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063464/IMG_4008_ocy12z",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063474/IMG_4009_ofve6x",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063459/IMG_4010_eclevv",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063446/IMG_3988_bokxes",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063437/IMG_3989_eqfzyg"
     ],
@@ -6153,14 +6151,6 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063464/IMG_4008_ocy12z"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063474/IMG_4009_ofve6x"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063459/IMG_4010_eclevv"
       },
       {
         "type": "image",
@@ -6187,20 +6177,6 @@ export const EYEWEAR_PRODUCTS = [
         ]
       },
       {
-        "color": "Rose",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063474/IMG_4009_ofve6x",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063474/IMG_4009_ofve6x"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063459/IMG_4010_eclevv"
-          }
-        ]
-      },
-      {
         "color": "Purple",
         "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063446/IMG_3988_bokxes",
         "media": [
@@ -6217,7 +6193,6 @@ export const EYEWEAR_PRODUCTS = [
     ],
     "colors": [
       "Brown",
-      "Rose",
       "Purple"
     ],
     "sizes": [],
@@ -7691,7 +7666,9 @@ export const EYEWEAR_PRODUCTS = [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063410/IMG_3952_elk8yd",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063398/IMG_3953_nwonkw",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063383/IMG_3950_aacqzd",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063389/IMG_3951_znvsik"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063389/IMG_3951_znvsik",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063373/IMG_3935_ceyesi"
     ],
     "media": [
       {
@@ -7709,6 +7686,14 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063389/IMG_3951_znvsik"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063373/IMG_3935_ceyesi"
       }
     ],
     "variants": [
@@ -7739,11 +7724,26 @@ export const EYEWEAR_PRODUCTS = [
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063389/IMG_3951_znvsik"
           }
         ]
+      },
+      {
+        "color": "Dark blue",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063373/IMG_3935_ceyesi"
+          }
+        ]
       }
     ],
     "colors": [
       "Rose",
-      "Blue"
+      "Blue",
+      "Dark blue"
     ],
     "sizes": [],
     "tags": [
@@ -8178,66 +8178,6 @@ export const EYEWEAR_PRODUCTS = [
     "description": "Brown Sculpted-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
-    "id": 25041,
-    "parentProductId": 25041,
-    "slug": "eye-wears-blue-shield-chain-temple-sunglasses",
-    "name": "Blue Shield Chain-Temple Sunglasses",
-    "familyName": "Blue Shield Chain-Temple Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sunglasses",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063373/IMG_3935_ceyesi",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063373/IMG_3935_ceyesi"
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063373/IMG_3935_ceyesi"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063373/IMG_3935_ceyesi"
-          }
-        ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sunglasses"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Blue Shield Chain-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
     "id": 25042,
     "parentProductId": 25042,
     "slug": "eye-wears-blue-rimless-aviator-sunglasses",
@@ -8301,8 +8241,8 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25043,
     "parentProductId": 25043,
     "slug": "eye-wears-amber-angular-sport-sunglasses",
-    "name": "Amber Angular Sport Sunglasses",
-    "familyName": "Amber Angular Sport Sunglasses",
+    "name": "Amber Angular Wide-Temple Sunglasses",
+    "familyName": "Amber Angular Wide-Temple Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sports Eyewear",
     "brand": "",
@@ -8311,14 +8251,19 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063216/IMG_3930_hfk0io",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063216/IMG_3930_hfk0io",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063216/IMG_3930_hfk0io"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063216/IMG_3930_hfk0io",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063216/IMG_3930_hfk0io"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq"
       }
     ],
     "variants": [
@@ -8329,6 +8274,10 @@ export const EYEWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063216/IMG_3930_hfk0io"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq"
           }
         ]
       }
@@ -9944,8 +9893,8 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25072,
     "parentProductId": 25072,
     "slug": "eye-wears-peach-oversized-aviator-sunglasses",
-    "name": "Peach Oversized Aviator Sunglasses",
-    "familyName": "Peach Oversized Aviator Sunglasses",
+    "name": "Oversized Cage-Temple Aviator Sunglasses",
+    "familyName": "Oversized Cage-Temple Aviator Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
@@ -9957,7 +9906,11 @@ export const EYEWEAR_PRODUCTS = [
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063134/IMG_3873_zogmom",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063124/IMG_3872_bxfcmr",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063134/IMG_3873_zogmom"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063134/IMG_3873_zogmom",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063119/IMG_3867_g39lud",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063123/IMG_3869_n6s429"
     ],
     "media": [
       {
@@ -9967,11 +9920,27 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063134/IMG_3873_zogmom"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063119/IMG_3867_g39lud"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063123/IMG_3869_n6s429"
       }
     ],
     "variants": [
       {
-        "color": "As shown",
+        "color": "Peach",
         "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063124/IMG_3872_bxfcmr",
         "media": [
           {
@@ -9983,10 +9952,40 @@ export const EYEWEAR_PRODUCTS = [
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063134/IMG_3873_zogmom"
           }
         ]
+      },
+      {
+        "color": "Red",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063119/IMG_3867_g39lud"
+          }
+        ]
+      },
+      {
+        "color": "Rose",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063123/IMG_3869_n6s429"
+          }
+        ]
       }
     ],
     "colors": [
-      "As shown"
+      "Peach",
+      "Red",
+      "Rose"
     ],
     "sizes": [],
     "tags": [
@@ -9998,7 +9997,7 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Peach Oversized Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Oversized Cage-Temple Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25073,
@@ -10059,126 +10058,6 @@ export const EYEWEAR_PRODUCTS = [
     "newArrival": true,
     "sale": false,
     "description": "Brown Gradient Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
-    "id": 25074,
-    "parentProductId": 25074,
-    "slug": "eye-wears-peach-double-bridge-aviator-sunglasses",
-    "name": "Peach Double-Bridge Aviator Sunglasses",
-    "familyName": "Peach Double-Bridge Aviator Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sunglasses",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063123/IMG_3869_n6s429",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063123/IMG_3869_n6s429"
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063123/IMG_3869_n6s429"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063123/IMG_3869_n6s429"
-          }
-        ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sunglasses"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Peach Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
-    "id": 25075,
-    "parentProductId": 25075,
-    "slug": "eye-wears-red-double-bridge-aviator-sunglasses",
-    "name": "Red Double-Bridge Aviator Sunglasses",
-    "familyName": "Red Double-Bridge Aviator Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sunglasses",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063119/IMG_3867_g39lud",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063119/IMG_3867_g39lud"
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063119/IMG_3867_g39lud"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063119/IMG_3867_g39lud"
-          }
-        ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sunglasses"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Red Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25076,
@@ -10304,8 +10183,8 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25078,
     "parentProductId": 25078,
     "slug": "eye-wears-black-rectangular-gold-panel-sunglasses",
-    "name": "Black Rectangular Gold-Panel Sunglasses",
-    "familyName": "Black Rectangular Gold-Panel Sunglasses",
+    "name": "Rectangular Gold-Panel-Temple Sunglasses",
+    "familyName": "Rectangular Gold-Panel-Temple Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
@@ -10317,7 +10196,9 @@ export const EYEWEAR_PRODUCTS = [
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063109/IMG_3861_kktqvg",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3860_ipo6ti",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063109/IMG_3861_kktqvg"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063109/IMG_3861_kktqvg",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063105/IMG_3858_unfouz",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3859_bczmu6"
     ],
     "media": [
       {
@@ -10327,59 +10208,7 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063109/IMG_3861_kktqvg"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3860_ipo6ti",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3860_ipo6ti"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063109/IMG_3861_kktqvg"
-          }
-        ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sunglasses"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Black Rectangular Gold-Panel Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
-    "id": 25079,
-    "parentProductId": 25079,
-    "slug": "eye-wears-green-tortoiseshell-square-sunglasses",
-    "name": "Green Tortoiseshell Square Sunglasses",
-    "familyName": "Green Tortoiseshell Square Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sunglasses",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063105/IMG_3858_unfouz",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3859_bczmu6",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063105/IMG_3858_unfouz",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3859_bczmu6"
-    ],
-    "media": [
+      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063105/IMG_3858_unfouz"
@@ -10391,7 +10220,21 @@ export const EYEWEAR_PRODUCTS = [
     ],
     "variants": [
       {
-        "color": "As shown",
+        "color": "Black",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3860_ipo6ti",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3860_ipo6ti"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063109/IMG_3861_kktqvg"
+          }
+        ]
+      },
+      {
+        "color": "Tortoiseshell / green",
         "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063105/IMG_3858_unfouz",
         "media": [
           {
@@ -10406,7 +10249,8 @@ export const EYEWEAR_PRODUCTS = [
       }
     ],
     "colors": [
-      "As shown"
+      "Black",
+      "Tortoiseshell / green"
     ],
     "sizes": [],
     "tags": [
@@ -10418,7 +10262,7 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Green Tortoiseshell Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Rectangular Gold-Panel-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25080,
@@ -10484,8 +10328,8 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25081,
     "parentProductId": 25081,
     "slug": "eye-wears-pink-crystal-square-sunglasses",
-    "name": "Pink Crystal Square Sunglasses",
-    "familyName": "Pink Crystal Square Sunglasses",
+    "name": "Crystal Square Wide-Temple Sunglasses",
+    "familyName": "Crystal Square Wide-Temple Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
@@ -10497,7 +10341,9 @@ export const EYEWEAR_PRODUCTS = [
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063102/IMG_3855_qntfxb",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063094/IMG_3854_xwaza9",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063102/IMG_3855_qntfxb"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063102/IMG_3855_qntfxb",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3852_k96c2j",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063072/ChatGPT_Image_Oct_15_2026_11_09_43_AM_k0xqud"
     ],
     "media": [
       {
@@ -10507,59 +10353,7 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063102/IMG_3855_qntfxb"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063094/IMG_3854_xwaza9",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063094/IMG_3854_xwaza9"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063102/IMG_3855_qntfxb"
-          }
-        ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sunglasses"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Pink Crystal Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
-    "id": 25082,
-    "parentProductId": 25082,
-    "slug": "eye-wears-gold-crystal-square-sunglasses",
-    "name": "Gold Crystal Square Sunglasses",
-    "familyName": "Gold Crystal Square Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sunglasses",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3852_k96c2j",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063072/ChatGPT_Image_Oct_15_2026_11_09_43_AM_k0xqud",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3852_k96c2j",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063072/ChatGPT_Image_Oct_15_2026_11_09_43_AM_k0xqud"
-    ],
-    "media": [
+      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3852_k96c2j"
@@ -10571,7 +10365,21 @@ export const EYEWEAR_PRODUCTS = [
     ],
     "variants": [
       {
-        "color": "As shown",
+        "color": "Pink",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063094/IMG_3854_xwaza9",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063094/IMG_3854_xwaza9"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063102/IMG_3855_qntfxb"
+          }
+        ]
+      },
+      {
+        "color": "Gold / tortoiseshell",
         "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3852_k96c2j",
         "media": [
           {
@@ -10586,7 +10394,8 @@ export const EYEWEAR_PRODUCTS = [
       }
     ],
     "colors": [
-      "As shown"
+      "Pink",
+      "Gold / tortoiseshell"
     ],
     "sizes": [],
     "tags": [
@@ -10598,7 +10407,7 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Gold Crystal Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Crystal Square Wide-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25083,
@@ -10724,8 +10533,8 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25085,
     "parentProductId": 25085,
     "slug": "eye-wears-white-sport-shield-sunglasses",
-    "name": "White Sport Shield Sunglasses",
-    "familyName": "White Sport Shield Sunglasses",
+    "name": "Angular Sport Shield Sunglasses",
+    "familyName": "Angular Sport Shield Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sports Eyewear",
     "brand": "",
@@ -10737,7 +10546,11 @@ export const EYEWEAR_PRODUCTS = [
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3847_o8rodk",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063084/IMG_3846_bwax9y",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3847_o8rodk"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3847_o8rodk",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063082/IMG_3844_oyc6cc",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063081/IMG_3845_kjhbly",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063069/IMG_3831_nggtqz"
     ],
     "media": [
       {
@@ -10747,11 +10560,27 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3847_o8rodk"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063082/IMG_3844_oyc6cc"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063081/IMG_3845_kjhbly"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063069/IMG_3831_nggtqz"
       }
     ],
     "variants": [
       {
-        "color": "As shown",
+        "color": "White / brown",
         "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063084/IMG_3846_bwax9y",
         "media": [
           {
@@ -10763,55 +10592,9 @@ export const EYEWEAR_PRODUCTS = [
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3847_o8rodk"
           }
         ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sports eyewear"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "White Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
-    "id": 25086,
-    "parentProductId": 25086,
-    "slug": "eye-wears-black-red-stripe-sport-shield-sunglasses",
-    "name": "Black Red-Stripe Sport Shield Sunglasses",
-    "familyName": "Black Red-Stripe Sport Shield Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sports Eyewear",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063082/IMG_3844_oyc6cc",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063081/IMG_3845_kjhbly",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063082/IMG_3844_oyc6cc",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063081/IMG_3845_kjhbly"
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063082/IMG_3844_oyc6cc"
       },
       {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063081/IMG_3845_kjhbly"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
+        "color": "Black",
         "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063082/IMG_3844_oyc6cc",
         "media": [
           {
@@ -10823,10 +10606,26 @@ export const EYEWEAR_PRODUCTS = [
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063081/IMG_3845_kjhbly"
           }
         ]
+      },
+      {
+        "color": "Yellow",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063069/IMG_3831_nggtqz"
+          }
+        ]
       }
     ],
     "colors": [
-      "As shown"
+      "White / brown",
+      "Black",
+      "Yellow"
     ],
     "sizes": [],
     "tags": [
@@ -10838,7 +10637,7 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Red-Stripe Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Angular Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25087,
@@ -11201,66 +11000,6 @@ export const EYEWEAR_PRODUCTS = [
     "description": "Blue Gradient Dark-Green-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
-    "id": 25093,
-    "parentProductId": 25093,
-    "slug": "eye-wears-yellow-sport-shield-sunglasses",
-    "name": "Yellow Sport Shield Sunglasses",
-    "familyName": "Yellow Sport Shield Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sports Eyewear",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063069/IMG_3831_nggtqz",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063069/IMG_3831_nggtqz"
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063069/IMG_3831_nggtqz"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063069/IMG_3831_nggtqz"
-          }
-        ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sports eyewear"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Yellow Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
     "id": 25094,
     "parentProductId": 25094,
     "slug": "eye-wears-black-embossed-square-sunglasses",
@@ -11394,10 +11133,10 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063043/IMG_3824_rxjpmb",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063014/IMG_3825_l0mpfj",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063043/IMG_3824_rxjpmb",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063014/IMG_3825_l0mpfj"
     ],
     "media": [
       {
@@ -11406,7 +11145,7 @@ export const EYEWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063014/IMG_3825_l0mpfj"
       }
     ],
     "variants": [
@@ -11420,7 +11159,7 @@ export const EYEWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063014/IMG_3825_l0mpfj"
           }
         ]
       }
@@ -11799,8 +11538,7 @@ export const EYEWEAR_PRODUCTS = [
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063067/IMG_3811_pmer4c",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063039/IMG_3810_flgv4c",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063067/IMG_3811_pmer4c",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063067/IMG_3811_pmer4c"
     ],
     "media": [
       {
@@ -11810,10 +11548,6 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063067/IMG_3811_pmer4c"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w"
       }
     ],
     "variants": [
@@ -11828,10 +11562,6 @@ export const EYEWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063067/IMG_3811_pmer4c"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w"
           }
         ]
       }
@@ -13360,8 +13090,7 @@ export const EYEWEAR_PRODUCTS = [
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062875/ChatGPT_Image_Oct_13_2026_10_08_12_AM_avbrnr",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063066/ChatGPT_Image_Oct_13_2026_10_11_02_AM_vlblyu",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062875/ChatGPT_Image_Oct_13_2026_10_08_12_AM_avbrnr",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062708/ChatGPT_Image_Oct_12_2026_10_25_19_PM_u7man1"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062875/ChatGPT_Image_Oct_13_2026_10_08_12_AM_avbrnr"
     ],
     "media": [
       {
@@ -13371,10 +13100,6 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062875/ChatGPT_Image_Oct_13_2026_10_08_12_AM_avbrnr"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062708/ChatGPT_Image_Oct_12_2026_10_25_19_PM_u7man1"
       }
     ],
     "variants": [
@@ -13389,10 +13114,6 @@ export const EYEWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062875/ChatGPT_Image_Oct_13_2026_10_08_12_AM_avbrnr"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062708/ChatGPT_Image_Oct_12_2026_10_25_19_PM_u7man1"
           }
         ]
       }
@@ -13416,10 +13137,10 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25130,
     "parentProductId": 25130,
     "slug": "eye-wears-silver-oval-frames",
-    "name": "Silver Oval Frames",
-    "familyName": "Silver Oval Frames",
+    "name": "Silver Oval Sunglasses",
+    "familyName": "Silver Oval Sunglasses",
     "category": "Eye Wears",
-    "subcategory": "Optical Frames",
+    "subcategory": "Sunglasses",
     "brand": "",
     "price": null,
     "priceOnRequest": true,
@@ -13463,21 +13184,21 @@ export const EYEWEAR_PRODUCTS = [
     "sizes": [],
     "tags": [
       "eye wears",
-      "optical frames"
+      "sunglasses"
     ],
     "inStock": true,
     "placeholder": false,
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Silver Oval Frames from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Silver Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25131,
     "parentProductId": 25131,
     "slug": "eye-wears-gold-cat-eye-sunglasses",
-    "name": "Gold Cat-Eye Sunglasses",
-    "familyName": "Gold Cat-Eye Sunglasses",
+    "name": "Pink Gold-Rim Cat-Eye Sunglasses",
+    "familyName": "Pink Gold-Rim Cat-Eye Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
@@ -13486,19 +13207,14 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062936/ChatGPT_Image_Oct_13_2026_09_52_19_AM_nslhar",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062936/ChatGPT_Image_Oct_13_2026_09_52_19_AM_nslhar",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062936/ChatGPT_Image_Oct_13_2026_09_52_19_AM_nslhar",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062936/ChatGPT_Image_Oct_13_2026_09_52_19_AM_nslhar"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062936/ChatGPT_Image_Oct_13_2026_09_52_19_AM_nslhar"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua"
       }
     ],
     "variants": [
@@ -13509,10 +13225,6 @@ export const EYEWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062936/ChatGPT_Image_Oct_13_2026_09_52_19_AM_nslhar"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua"
           }
         ]
       }
@@ -13530,7 +13242,7 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Gold Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Pink Gold-Rim Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25132,
@@ -13665,17 +13377,12 @@ export const EYEWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062846/ChatGPT_Image_Oct_13_2026_09_51_58_AM_neryga",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062938/ChatGPT_Image_Oct_13_2026_09_36_26_AM_v7hao2",
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062938/ChatGPT_Image_Oct_13_2026_09_36_26_AM_v7hao2",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062846/ChatGPT_Image_Oct_13_2026_09_51_58_AM_neryga",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062938/ChatGPT_Image_Oct_13_2026_09_36_26_AM_v7hao2"
     ],
     "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062846/ChatGPT_Image_Oct_13_2026_09_51_58_AM_neryga"
-      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062938/ChatGPT_Image_Oct_13_2026_09_36_26_AM_v7hao2"
@@ -13684,12 +13391,8 @@ export const EYEWEAR_PRODUCTS = [
     "variants": [
       {
         "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062846/ChatGPT_Image_Oct_13_2026_09_51_58_AM_neryga",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062938/ChatGPT_Image_Oct_13_2026_09_36_26_AM_v7hao2",
         "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062846/ChatGPT_Image_Oct_13_2026_09_51_58_AM_neryga"
-          },
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062938/ChatGPT_Image_Oct_13_2026_09_36_26_AM_v7hao2"
@@ -13776,8 +13479,8 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25136,
     "parentProductId": 25136,
     "slug": "eye-wears-clear-frame-blue-mirrored-sport-sunglasses",
-    "name": "Clear-Frame Blue Mirrored Sport Sunglasses",
-    "familyName": "Clear-Frame Blue Mirrored Sport Sunglasses",
+    "name": "Clear-Frame Mirrored Sport Sunglasses",
+    "familyName": "Clear-Frame Mirrored Sport Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sports Eyewear",
     "brand": "",
@@ -13789,7 +13492,9 @@ export const EYEWEAR_PRODUCTS = [
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062991/ChatGPT_Image_Oct_15_2026_11_25_37_AM_wfzbj9",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063034/ChatGPT_Image_Oct_13_2026_09_37_24_AM_qojjxm",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062991/ChatGPT_Image_Oct_15_2026_11_25_37_AM_wfzbj9"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062991/ChatGPT_Image_Oct_15_2026_11_25_37_AM_wfzbj9",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062934/ChatGPT_Image_Oct_15_2026_11_23_31_AM_gflxg5",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062964/ChatGPT_Image_Oct_13_2026_09_26_25_AM_ep04ew"
     ],
     "media": [
       {
@@ -13799,59 +13504,7 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062991/ChatGPT_Image_Oct_15_2026_11_25_37_AM_wfzbj9"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063034/ChatGPT_Image_Oct_13_2026_09_37_24_AM_qojjxm",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063034/ChatGPT_Image_Oct_13_2026_09_37_24_AM_qojjxm"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062991/ChatGPT_Image_Oct_15_2026_11_25_37_AM_wfzbj9"
-          }
-        ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sports eyewear"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Clear-Frame Blue Mirrored Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
-    "id": 25137,
-    "parentProductId": 25137,
-    "slug": "eye-wears-clear-frame-orange-mirrored-sport-sunglasses",
-    "name": "Clear-Frame Orange Mirrored Sport Sunglasses",
-    "familyName": "Clear-Frame Orange Mirrored Sport Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sports Eyewear",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062934/ChatGPT_Image_Oct_15_2026_11_23_31_AM_gflxg5",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062964/ChatGPT_Image_Oct_13_2026_09_26_25_AM_ep04ew",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062934/ChatGPT_Image_Oct_15_2026_11_23_31_AM_gflxg5",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062964/ChatGPT_Image_Oct_13_2026_09_26_25_AM_ep04ew"
-    ],
-    "media": [
+      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062934/ChatGPT_Image_Oct_15_2026_11_23_31_AM_gflxg5"
@@ -13863,7 +13516,21 @@ export const EYEWEAR_PRODUCTS = [
     ],
     "variants": [
       {
-        "color": "As shown",
+        "color": "Blue",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063034/ChatGPT_Image_Oct_13_2026_09_37_24_AM_qojjxm",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063034/ChatGPT_Image_Oct_13_2026_09_37_24_AM_qojjxm"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062991/ChatGPT_Image_Oct_15_2026_11_25_37_AM_wfzbj9"
+          }
+        ]
+      },
+      {
+        "color": "Orange",
         "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062934/ChatGPT_Image_Oct_15_2026_11_23_31_AM_gflxg5",
         "media": [
           {
@@ -13878,7 +13545,8 @@ export const EYEWEAR_PRODUCTS = [
       }
     ],
     "colors": [
-      "As shown"
+      "Blue",
+      "Orange"
     ],
     "sizes": [],
     "tags": [
@@ -13890,14 +13558,14 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Clear-Frame Orange Mirrored Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Clear-Frame Mirrored Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25138,
     "parentProductId": 25138,
     "slug": "eye-wears-blue-mirrored-sport-sunglasses",
-    "name": "Blue Mirrored Sport Sunglasses",
-    "familyName": "Blue Mirrored Sport Sunglasses",
+    "name": "Black-Frame Mirrored Sport Sunglasses",
+    "familyName": "Black-Frame Mirrored Sport Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sports Eyewear",
     "brand": "",
@@ -13909,7 +13577,9 @@ export const EYEWEAR_PRODUCTS = [
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062965/ChatGPT_Image_Oct_13_2026_09_33_02_AM_dtv3oy",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062969/ChatGPT_Image_Oct_15_2026_11_25_57_AM_dymmbo",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062965/ChatGPT_Image_Oct_13_2026_09_33_02_AM_dtv3oy"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062965/ChatGPT_Image_Oct_13_2026_09_33_02_AM_dtv3oy",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062975/ChatGPT_Image_Oct_15_2026_11_24_38_AM_bj9bud",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062884/ChatGPT_Image_Oct_13_2026_09_29_01_AM_h1tjlc"
     ],
     "media": [
       {
@@ -13919,59 +13589,7 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062965/ChatGPT_Image_Oct_13_2026_09_33_02_AM_dtv3oy"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062969/ChatGPT_Image_Oct_15_2026_11_25_57_AM_dymmbo",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062969/ChatGPT_Image_Oct_15_2026_11_25_57_AM_dymmbo"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062965/ChatGPT_Image_Oct_13_2026_09_33_02_AM_dtv3oy"
-          }
-        ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sports eyewear"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Blue Mirrored Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
-    "id": 25139,
-    "parentProductId": 25139,
-    "slug": "eye-wears-orange-mirrored-sport-sunglasses",
-    "name": "Orange Mirrored Sport Sunglasses",
-    "familyName": "Orange Mirrored Sport Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sports Eyewear",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062975/ChatGPT_Image_Oct_15_2026_11_24_38_AM_bj9bud",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062884/ChatGPT_Image_Oct_13_2026_09_29_01_AM_h1tjlc",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062975/ChatGPT_Image_Oct_15_2026_11_24_38_AM_bj9bud",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062884/ChatGPT_Image_Oct_13_2026_09_29_01_AM_h1tjlc"
-    ],
-    "media": [
+      },
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062975/ChatGPT_Image_Oct_15_2026_11_24_38_AM_bj9bud"
@@ -13983,7 +13601,21 @@ export const EYEWEAR_PRODUCTS = [
     ],
     "variants": [
       {
-        "color": "As shown",
+        "color": "Blue",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062969/ChatGPT_Image_Oct_15_2026_11_25_57_AM_dymmbo",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062969/ChatGPT_Image_Oct_15_2026_11_25_57_AM_dymmbo"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062965/ChatGPT_Image_Oct_13_2026_09_33_02_AM_dtv3oy"
+          }
+        ]
+      },
+      {
+        "color": "Orange",
         "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062975/ChatGPT_Image_Oct_15_2026_11_24_38_AM_bj9bud",
         "media": [
           {
@@ -13998,7 +13630,8 @@ export const EYEWEAR_PRODUCTS = [
       }
     ],
     "colors": [
-      "As shown"
+      "Blue",
+      "Orange"
     ],
     "sizes": [],
     "tags": [
@@ -14010,7 +13643,7 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Orange Mirrored Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black-Frame Mirrored Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25140,
@@ -14206,10 +13839,10 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062712/ChatGPT_Image_Oct_12_2026_10_45_55_PM_el8rek",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062713/ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062712/ChatGPT_Image_Oct_12_2026_10_45_55_PM_el8rek",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062713/ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj"
     ],
     "media": [
       {
@@ -14218,7 +13851,7 @@ export const EYEWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062713/ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj"
       }
     ],
     "variants": [
@@ -14232,7 +13865,7 @@ export const EYEWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062713/ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj"
           }
         ]
       }
@@ -14266,11 +13899,11 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062993/ChatGPT_Image_Oct_12_2026_10_16_09_PM_qfjban",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062974/ChatGPT_Image_Oct_12_2026_10_35_58_PM_dr6xtc",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062706/ChatGPT_Image_Oct_12_2026_10_16_28_PM_pzecyb",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062993/ChatGPT_Image_Oct_12_2026_10_16_09_PM_qfjban",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062974/ChatGPT_Image_Oct_12_2026_10_35_58_PM_dr6xtc",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062706/ChatGPT_Image_Oct_12_2026_10_16_28_PM_pzecyb"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062706/ChatGPT_Image_Oct_12_2026_10_16_28_PM_pzecyb",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062974/ChatGPT_Image_Oct_12_2026_10_35_58_PM_dr6xtc"
     ],
     "media": [
       {
@@ -14279,11 +13912,11 @@ export const EYEWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062974/ChatGPT_Image_Oct_12_2026_10_35_58_PM_dr6xtc"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062706/ChatGPT_Image_Oct_12_2026_10_16_28_PM_pzecyb"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062706/ChatGPT_Image_Oct_12_2026_10_16_28_PM_pzecyb"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062974/ChatGPT_Image_Oct_12_2026_10_35_58_PM_dr6xtc"
       }
     ],
     "variants": [
@@ -14405,8 +14038,7 @@ export const EYEWEAR_PRODUCTS = [
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062933/ChatGPT_Image_Oct_12_2026_11_04_45_PM_qzc2jp",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062725/ChatGPT_Image_Oct_12_2026_11_19_23_PM_nkdu7e",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062933/ChatGPT_Image_Oct_12_2026_11_04_45_PM_qzc2jp",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063007/ChatGPT_Image_Oct_12_2026_11_07_14_PM_zpmu5x"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062933/ChatGPT_Image_Oct_12_2026_11_04_45_PM_qzc2jp"
     ],
     "media": [
       {
@@ -14416,10 +14048,6 @@ export const EYEWEAR_PRODUCTS = [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062933/ChatGPT_Image_Oct_12_2026_11_04_45_PM_qzc2jp"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063007/ChatGPT_Image_Oct_12_2026_11_07_14_PM_zpmu5x"
       }
     ],
     "variants": [
@@ -14434,10 +14062,6 @@ export const EYEWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062933/ChatGPT_Image_Oct_12_2026_11_04_45_PM_qzc2jp"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063007/ChatGPT_Image_Oct_12_2026_11_07_14_PM_zpmu5x"
           }
         ]
       }
@@ -14531,10 +14155,10 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062872/ChatGPT_Image_Oct_12_2026_11_17_27_PM_xzuwxo",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062746/ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062944/ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062872/ChatGPT_Image_Oct_12_2026_11_17_27_PM_xzuwxo",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062746/ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062944/ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2"
     ],
     "media": [
       {
@@ -14543,7 +14167,7 @@ export const EYEWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062746/ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062944/ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2"
       }
     ],
     "variants": [
@@ -14557,7 +14181,7 @@ export const EYEWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062746/ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062944/ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2"
           }
         ]
       }
@@ -14711,10 +14335,10 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062869/ChatGPT_Image_Oct_12_2026_11_16_21_PM_w5uwjh",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062746/ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062869/ChatGPT_Image_Oct_12_2026_11_16_21_PM_w5uwjh",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062746/ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq"
     ],
     "media": [
       {
@@ -14723,7 +14347,7 @@ export const EYEWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062746/ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq"
       }
     ],
     "variants": [
@@ -14737,7 +14361,7 @@ export const EYEWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062746/ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq"
           }
         ]
       }
@@ -14831,19 +14455,14 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062929/ChatGPT_Image_Oct_12_2026_10_45_23_PM_fsiz99",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062713/ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062929/ChatGPT_Image_Oct_12_2026_10_45_23_PM_fsiz99",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062929/ChatGPT_Image_Oct_12_2026_10_45_23_PM_fsiz99",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062713/ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062929/ChatGPT_Image_Oct_12_2026_10_45_23_PM_fsiz99"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062929/ChatGPT_Image_Oct_12_2026_10_45_23_PM_fsiz99"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062713/ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj"
       }
     ],
     "variants": [
@@ -14854,10 +14473,6 @@ export const EYEWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062929/ChatGPT_Image_Oct_12_2026_10_45_23_PM_fsiz99"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062713/ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj"
           }
         ]
       }
@@ -14891,10 +14506,10 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062715/ChatGPT_Image_Oct_12_2026_10_54_05_PM_yfqe58",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062944/ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062715/ChatGPT_Image_Oct_12_2026_10_54_05_PM_yfqe58",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062944/ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua"
     ],
     "media": [
       {
@@ -14903,7 +14518,7 @@ export const EYEWEAR_PRODUCTS = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062944/ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua"
       }
     ],
     "variants": [
@@ -14917,7 +14532,7 @@ export const EYEWEAR_PRODUCTS = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062944/ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua"
           }
         ]
       }
@@ -15292,10 +14907,10 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25162,
     "parentProductId": 25162,
     "slug": "eye-wears-green-oval-optical-frames",
-    "name": "Green Oval Optical Frames",
-    "familyName": "Green Oval Optical Frames",
+    "name": "Blue Gradient Green-Temple Oval Sunglasses",
+    "familyName": "Blue Gradient Green-Temple Oval Sunglasses",
     "category": "Eye Wears",
-    "subcategory": "Optical Frames",
+    "subcategory": "Sunglasses",
     "brand": "",
     "price": null,
     "priceOnRequest": true,
@@ -15330,23 +14945,23 @@ export const EYEWEAR_PRODUCTS = [
     "sizes": [],
     "tags": [
       "eye wears",
-      "optical frames"
+      "sunglasses"
     ],
     "inStock": true,
     "placeholder": false,
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Green Oval Optical Frames from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Blue Gradient Green-Temple Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25163,
     "parentProductId": 25163,
     "slug": "eye-wears-grey-rimless-optical-frames",
-    "name": "Grey Rimless Optical Frames",
-    "familyName": "Grey Rimless Optical Frames",
+    "name": "Grey Gradient Rimless Sunglasses",
+    "familyName": "Grey Gradient Rimless Sunglasses",
     "category": "Eye Wears",
-    "subcategory": "Optical Frames",
+    "subcategory": "Sunglasses",
     "brand": "",
     "price": null,
     "priceOnRequest": true,
@@ -15381,14 +14996,14 @@ export const EYEWEAR_PRODUCTS = [
     "sizes": [],
     "tags": [
       "eye wears",
-      "optical frames"
+      "sunglasses"
     ],
     "inStock": true,
     "placeholder": false,
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Grey Rimless Optical Frames from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Grey Gradient Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25165,
@@ -15454,8 +15069,8 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25166,
     "parentProductId": 25166,
     "slug": "eye-wears-burgundy-small-cat-eye-sunglasses",
-    "name": "Burgundy Small Cat-Eye Sunglasses",
-    "familyName": "Burgundy Small Cat-Eye Sunglasses",
+    "name": "Burgundy Angular Cat-Eye Sunglasses",
+    "familyName": "Burgundy Angular Cat-Eye Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
@@ -15464,19 +15079,14 @@ export const EYEWEAR_PRODUCTS = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062721/ChatGPT_Image_Oct_12_2026_11_04_34_PM_dyj6a8",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062717/ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062721/ChatGPT_Image_Oct_12_2026_11_04_34_PM_dyj6a8",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062721/ChatGPT_Image_Oct_12_2026_11_04_34_PM_dyj6a8",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062717/ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062721/ChatGPT_Image_Oct_12_2026_11_04_34_PM_dyj6a8"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062721/ChatGPT_Image_Oct_12_2026_11_04_34_PM_dyj6a8"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062717/ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h"
       }
     ],
     "variants": [
@@ -15487,10 +15097,6 @@ export const EYEWEAR_PRODUCTS = [
           {
             "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062721/ChatGPT_Image_Oct_12_2026_11_04_34_PM_dyj6a8"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062717/ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h"
           }
         ]
       }
@@ -15508,7 +15114,7 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Burgundy Small Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Burgundy Angular Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
     "id": 25167,
@@ -15802,57 +15408,6 @@ export const EYEWEAR_PRODUCTS = [
     "description": "Grey Patterned Sport Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   },
   {
-    "id": 25175,
-    "parentProductId": 25175,
-    "slug": "eye-wears-amber-rectangular-sport-sunglasses",
-    "name": "Amber Rectangular Sport Sunglasses",
-    "familyName": "Amber Rectangular Sport Sunglasses",
-    "category": "Eye Wears",
-    "subcategory": "Sports Eyewear",
-    "brand": "",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq",
-    "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq"
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq"
-      }
-    ],
-    "variants": [
-      {
-        "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq"
-          }
-        ]
-      }
-    ],
-    "colors": [
-      "As shown"
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sports eyewear"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "featured": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Amber Rectangular Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
-  },
-  {
     "id": 25176,
     "parentProductId": 25176,
     "slug": "eye-wears-red-stripe-sport-sunglasses",
@@ -16018,8 +15573,8 @@ export const EYEWEAR_PRODUCTS = [
     "id": 25181,
     "parentProductId": 25181,
     "slug": "eye-wears-brown-rimless-letter-temple-sunglasses",
-    "name": "Brown Rimless Letter-Temple Sunglasses",
-    "familyName": "Brown Rimless Letter-Temple Sunglasses",
+    "name": "Brown Angular Rimless Sunglasses",
+    "familyName": "Brown Angular Rimless Sunglasses",
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
@@ -16027,43 +15582,25 @@ export const EYEWEAR_PRODUCTS = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062900/ChatGPT_Image_Oct_12_2026_10_53_54_PM_ulmpih",
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062900/ChatGPT_Image_Oct_12_2026_10_53_54_PM_ulmpih",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062900/ChatGPT_Image_Oct_12_2026_10_53_54_PM_ulmpih",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063014/IMG_3825_l0mpfj"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062900/ChatGPT_Image_Oct_12_2026_10_53_54_PM_ulmpih"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t"
-      },
-      {
-        "type": "image",
         "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062900/ChatGPT_Image_Oct_12_2026_10_53_54_PM_ulmpih"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063014/IMG_3825_l0mpfj"
       }
     ],
     "variants": [
       {
         "color": "As shown",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062900/ChatGPT_Image_Oct_12_2026_10_53_54_PM_ulmpih",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t"
-          },
-          {
-            "type": "image",
             "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062900/ChatGPT_Image_Oct_12_2026_10_53_54_PM_ulmpih"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063014/IMG_3825_l0mpfj"
           }
         ]
       }
@@ -16081,7 +15618,271 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Rimless Letter-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Angular Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 25201,
+    "parentProductId": 25201,
+    "slug": "eye-wears-black-square-gold-bracket-temple-sunglasses",
+    "name": "Black Square Gold-Bracket-Temple Sunglasses",
+    "familyName": "Black Square Gold-Bracket-Temple Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw"
+      }
+    ],
+    "variants": [
+      {
+        "color": "As shown",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "As shown"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Black Square Gold-Bracket-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 25202,
+    "parentProductId": 25202,
+    "slug": "eye-wears-rose-rimless-triomphe-temple-sunglasses",
+    "name": "Rose Rimless Triomphe-Temple Sunglasses",
+    "familyName": "Rose Rimless Triomphe-Temple Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez"
+      }
+    ],
+    "variants": [
+      {
+        "color": "As shown",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "As shown"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Rose Rimless Triomphe-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 25203,
+    "parentProductId": 25203,
+    "slug": "eye-wears-brown-rounded-rimless-logo-temple-sunglasses",
+    "name": "Brown Rounded Rimless Logo-Temple Sunglasses",
+    "familyName": "Brown Rounded Rimless Logo-Temple Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062717/ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062717/ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062717/ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h"
+      }
+    ],
+    "variants": [
+      {
+        "color": "As shown",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062717/ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "As shown"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Brown Rounded Rimless Logo-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 25204,
+    "parentProductId": 25204,
+    "slug": "eye-wears-amber-rimless-textured-temple-sunglasses",
+    "name": "Amber Rimless Textured-Temple Sunglasses",
+    "familyName": "Amber Rimless Textured-Temple Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj"
+      }
+    ],
+    "variants": [
+      {
+        "color": "As shown",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "As shown"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Amber Rimless Textured-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 25205,
+    "parentProductId": 25205,
+    "slug": "eye-wears-black-oval-rimless-metal-temple-sunglasses",
+    "name": "Black Oval Rimless Metal-Temple Sunglasses",
+    "familyName": "Black Oval Rimless Metal-Temple Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w"
+      }
+    ],
+    "variants": [
+      {
+        "color": "As shown",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "As shown"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Black Oval Rimless Metal-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
   }
 ];
 export const MENSWEAR_PRODUCTS = [

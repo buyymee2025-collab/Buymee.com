@@ -11,7 +11,8 @@
     "Black mannequin photographs are removed only when an equivalent white view exists. Both unique black crystal cat-eye views are retained.",
     "Repeated front and side renders are represented once. All 475 eyewear source images remain accounted for in this audit.",
     "Men: former model photographs and recent garment photographs share the existing matching outfit listing and gallery.",
-    "One supplemental original menswear model-back photo immediately beyond the first 755 completes the multicolor set. All 21 outfit galleries are ordered model front/back, then garment front/back."
+    "One supplemental original menswear model-back photo immediately beyond the first 755 completes the multicolor set. All 21 outfit galleries are ordered model front/back, then garment front/back.",
+    "Second close-up eyewear review separates confirmed mismatches by visible lens/temple markings and geometry. Unconfirmed angles remain independent; matching colour variants share one listing."
   ],
   "products": [
     {
@@ -1766,8 +1767,6 @@
       "selectedImageNumbers": [
         244,
         252,
-        246,
-        254,
         264,
         271
       ]
@@ -2092,13 +2091,17 @@
         292,
         300,
         311,
-        309
+        309,
+        324,
+        323
       ],
       "selectedImageNumbers": [
         292,
         300,
         311,
-        309
+        309,
+        324,
+        323
       ]
     },
     {
@@ -2193,19 +2196,6 @@
       ]
     },
     {
-      "id": 25041,
-      "name": "Blue Shield Chain-Temple Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
-        324,
-        323
-      ],
-      "selectedImageNumbers": [
-        324,
-        323
-      ]
-    },
-    {
       "id": 25042,
       "name": "Blue Rimless Aviator Sunglasses",
       "category": "Eye Wears",
@@ -2220,13 +2210,15 @@
     },
     {
       "id": 25043,
-      "name": "Amber Angular Sport Sunglasses",
+      "name": "Amber Angular Wide-Temple Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
-        327
+        327,
+        431
       ],
       "selectedImageNumbers": [
-        327
+        327,
+        431
       ]
     },
     {
@@ -2575,15 +2567,23 @@
     },
     {
       "id": 25072,
-      "name": "Peach Oversized Aviator Sunglasses",
+      "name": "Oversized Cage-Temple Aviator Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         384,
-        377
+        377,
+        394,
+        387,
+        391,
+        385
       ],
       "selectedImageNumbers": [
         384,
-        377
+        377,
+        394,
+        387,
+        391,
+        385
       ]
     },
     {
@@ -2597,32 +2597,6 @@
       "selectedImageNumbers": [
         386,
         382
-      ]
-    },
-    {
-      "id": 25074,
-      "name": "Peach Double-Bridge Aviator Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
-        391,
-        385
-      ],
-      "selectedImageNumbers": [
-        391,
-        385
-      ]
-    },
-    {
-      "id": 25075,
-      "name": "Red Double-Bridge Aviator Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
-        394,
-        387
-      ],
-      "selectedImageNumbers": [
-        394,
-        387
       ]
     },
     {
@@ -2653,26 +2627,17 @@
     },
     {
       "id": 25078,
-      "name": "Black Rectangular Gold-Panel Sunglasses",
+      "name": "Rectangular Gold-Panel-Temple Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         398,
-        395
-      ],
-      "selectedImageNumbers": [
-        398,
-        395
-      ]
-    },
-    {
-      "id": 25079,
-      "name": "Green Tortoiseshell Square Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
+        395,
         400,
         396
       ],
       "selectedImageNumbers": [
+        398,
+        395,
         400,
         396
       ]
@@ -2692,26 +2657,17 @@
     },
     {
       "id": 25081,
-      "name": "Pink Crystal Square Sunglasses",
+      "name": "Crystal Square Wide-Temple Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         407,
-        402
-      ],
-      "selectedImageNumbers": [
-        407,
-        402
-      ]
-    },
-    {
-      "id": 25082,
-      "name": "Gold Crystal Square Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
+        402,
         409,
         428
       ],
       "selectedImageNumbers": [
+        407,
+        402,
         409,
         428
       ]
@@ -2744,28 +2700,23 @@
     },
     {
       "id": 25085,
-      "name": "White Sport Shield Sunglasses",
+      "name": "Angular Sport Shield Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         415,
-        410
+        410,
+        416,
+        417,
+        447,
+        433
       ],
       "selectedImageNumbers": [
         415,
-        410
-      ]
-    },
-    {
-      "id": 25086,
-      "name": "Black Red-Stripe Sport Shield Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
+        410,
         416,
-        417
-      ],
-      "selectedImageNumbers": [
-        416,
-        417
+        417,
+        447,
+        433
       ]
     },
     {
@@ -2847,19 +2798,6 @@
       ]
     },
     {
-      "id": 25093,
-      "name": "Yellow Sport Shield Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
-        447,
-        433
-      ],
-      "selectedImageNumbers": [
-        447,
-        433
-      ]
-    },
-    {
       "id": 25094,
       "name": "Black Embossed Square Sunglasses",
       "category": "Eye Wears",
@@ -2891,11 +2829,11 @@
       "category": "Eye Wears",
       "sourceImageNumbers": [
         453,
-        469
+        473
       ],
       "selectedImageNumbers": [
         453,
-        469
+        473
       ]
     },
     {
@@ -2978,13 +2916,11 @@
       "category": "Eye Wears",
       "sourceImageNumbers": [
         458,
-        437,
-        480
+        437
       ],
       "selectedImageNumbers": [
         458,
-        437,
-        480
+        437
       ]
     },
     {
@@ -3348,19 +3284,16 @@
         439,
         581,
         467,
-        647,
-        640,
-        702
+        647
       ],
       "selectedImageNumbers": [
         439,
-        581,
-        640
+        581
       ]
     },
     {
       "id": 25130,
-      "name": "Silver Oval Frames",
+      "name": "Silver Oval Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         509,
@@ -3375,17 +3308,14 @@
     },
     {
       "id": 25131,
-      "name": "Gold Cat-Eye Sunglasses",
+      "name": "Pink Gold-Rim Cat-Eye Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         534,
-        574,
-        600,
-        680
+        574
       ],
       "selectedImageNumbers": [
-        534,
-        600
+        534
       ]
     },
     {
@@ -3433,7 +3363,6 @@
         567
       ],
       "selectedImageNumbers": [
-        601,
         530
       ]
     },
@@ -3454,60 +3383,42 @@
     },
     {
       "id": 25136,
-      "name": "Clear-Frame Blue Mirrored Sport Sunglasses",
+      "name": "Clear-Frame Mirrored Sport Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         459,
         580,
         649,
-        489
-      ],
-      "selectedImageNumbers": [
-        459,
-        489
-      ]
-    },
-    {
-      "id": 25137,
-      "name": "Clear-Frame Orange Mirrored Sport Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
+        489,
         536,
         510,
         685,
         614
       ],
       "selectedImageNumbers": [
+        459,
+        489,
         536,
         510
       ]
     },
     {
       "id": 25138,
-      "name": "Blue Mirrored Sport Sunglasses",
+      "name": "Black-Frame Mirrored Sport Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         504,
         508,
         494,
-        675
-      ],
-      "selectedImageNumbers": [
-        504,
-        508
-      ]
-    },
-    {
-      "id": 25139,
-      "name": "Orange Mirrored Sport Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
+        675,
         501,
         572,
         626,
         606
       ],
       "selectedImageNumbers": [
+        504,
+        508,
         501,
         572
       ]
@@ -3563,13 +3474,13 @@
       "category": "Eye Wears",
       "sourceImageNumbers": [
         637,
-        625,
         696,
-        590
+        636,
+        629
       ],
       "selectedImageNumbers": [
         637,
-        625
+        636
       ]
     },
     {
@@ -3586,8 +3497,8 @@
       ],
       "selectedImageNumbers": [
         487,
-        502,
-        642
+        642,
+        502
       ]
     },
     {
@@ -3612,15 +3523,12 @@
       "sourceImageNumbers": [
         628,
         538,
-        476,
         687,
-        579,
-        689
+        579
       ],
       "selectedImageNumbers": [
         628,
-        538,
-        476
+        538
       ]
     },
     {
@@ -3631,7 +3539,9 @@
         639,
         545,
         672,
-        700
+        700,
+        640,
+        702
       ],
       "selectedImageNumbers": [
         639,
@@ -3644,13 +3554,13 @@
       "category": "Eye Wears",
       "sourceImageNumbers": [
         582,
-        612,
         688,
-        693
+        526,
+        553
       ],
       "selectedImageNumbers": [
         582,
-        612
+        526
       ]
     },
     {
@@ -3690,12 +3600,12 @@
       "sourceImageNumbers": [
         584,
         664,
-        641,
-        708
+        612,
+        693
       ],
       "selectedImageNumbers": [
         584,
-        641
+        612
       ]
     },
     {
@@ -3719,13 +3629,10 @@
       "category": "Eye Wears",
       "sourceImageNumbers": [
         546,
-        636,
-        655,
-        629
+        655
       ],
       "selectedImageNumbers": [
-        546,
-        636
+        546
       ]
     },
     {
@@ -3735,12 +3642,12 @@
       "sourceImageNumbers": [
         635,
         698,
-        526,
-        553
+        600,
+        680
       ],
       "selectedImageNumbers": [
         635,
-        526
+        600
       ]
     },
     {
@@ -3836,7 +3743,7 @@
     },
     {
       "id": 25162,
-      "name": "Green Oval Optical Frames",
+      "name": "Blue Gradient Green-Temple Oval Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         575,
@@ -3848,7 +3755,7 @@
     },
     {
       "id": 25163,
-      "name": "Grey Rimless Optical Frames",
+      "name": "Grey Gradient Rimless Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         620,
@@ -3875,17 +3782,16 @@
     },
     {
       "id": 25166,
-      "name": "Burgundy Small Cat-Eye Sunglasses",
+      "name": "Burgundy Angular Cat-Eye Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         631,
-        633,
         695,
-        617
+        476,
+        689
       ],
       "selectedImageNumbers": [
-        631,
-        633
+        631
       ]
     },
     {
@@ -3962,17 +3868,6 @@
       ]
     },
     {
-      "id": 25175,
-      "name": "Amber Rectangular Sport Sunglasses",
-      "category": "Eye Wears",
-      "sourceImageNumbers": [
-        431
-      ],
-      "selectedImageNumbers": [
-        431
-      ]
-    },
-    {
       "id": 25176,
       "name": "Red-Stripe Sport Sunglasses",
       "category": "Eye Wears",
@@ -4013,19 +3908,75 @@
     },
     {
       "id": 25181,
-      "name": "Brown Rimless Letter-Temple Sunglasses",
+      "name": "Brown Angular Rimless Sunglasses",
+      "category": "Eye Wears",
+      "sourceImageNumbers": [
+        561,
+        676
+      ],
+      "selectedImageNumbers": [
+        561
+      ]
+    },
+    {
+      "id": 25201,
+      "name": "Black Square Gold-Bracket-Temple Sunglasses",
+      "category": "Eye Wears",
+      "sourceImageNumbers": [
+        641,
+        708
+      ],
+      "selectedImageNumbers": [
+        641
+      ]
+    },
+    {
+      "id": 25202,
+      "name": "Rose Rimless Triomphe-Temple Sunglasses",
+      "category": "Eye Wears",
+      "sourceImageNumbers": [
+        625,
+        590
+      ],
+      "selectedImageNumbers": [
+        625
+      ]
+    },
+    {
+      "id": 25203,
+      "name": "Brown Rounded Rimless Logo-Temple Sunglasses",
       "category": "Eye Wears",
       "sourceImageNumbers": [
         616,
-        561,
-        676,
         599,
-        473
+        633,
+        617
       ],
       "selectedImageNumbers": [
         616,
-        561,
-        473
+        633
+      ]
+    },
+    {
+      "id": 25204,
+      "name": "Amber Rimless Textured-Temple Sunglasses",
+      "category": "Eye Wears",
+      "sourceImageNumbers": [
+        469
+      ],
+      "selectedImageNumbers": [
+        469
+      ]
+    },
+    {
+      "id": 25205,
+      "name": "Black Oval Rimless Metal-Temple Sunglasses",
+      "category": "Eye Wears",
+      "sourceImageNumbers": [
+        480
+      ],
+      "selectedImageNumbers": [
+        480
       ]
     }
   ],
@@ -6486,8 +6437,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063474/IMG_4009_ofve6x",
       "productId": 25006,
       "productName": "Butterfly-Temple Crystal Square Sunglasses",
-      "status": "included",
-      "representativeImage": 246
+      "status": "duplicate-upload",
+      "representativeImage": 244
     },
     {
       "number": 247,
@@ -6566,8 +6517,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063459/IMG_4010_eclevv",
       "productId": 25006,
       "productName": "Butterfly-Temple Crystal Square Sunglasses",
-      "status": "included",
-      "representativeImage": 254
+      "status": "duplicate-upload",
+      "representativeImage": 252
     },
     {
       "number": 255,
@@ -7254,8 +7205,8 @@
       "assetId": "63b1577bad19fa0526e712dbd79597d0",
       "publicId": "IMG_3935_ceyesi",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063373/IMG_3935_ceyesi",
-      "productId": 25041,
-      "productName": "Blue Shield Chain-Temple Sunglasses",
+      "productId": 25032,
+      "productName": "Chain-Temple Rimless Shield Sunglasses",
       "status": "included",
       "representativeImage": 323
     },
@@ -7264,8 +7215,8 @@
       "assetId": "4088a3e71f167bd7cddcee2ea829b64a",
       "publicId": "IMG_3934_j9kfsc",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063370/IMG_3934_j9kfsc",
-      "productId": 25041,
-      "productName": "Blue Shield Chain-Temple Sunglasses",
+      "productId": 25032,
+      "productName": "Chain-Temple Rimless Shield Sunglasses",
       "status": "included",
       "representativeImage": 324
     },
@@ -7295,7 +7246,7 @@
       "publicId": "IMG_3930_hfk0io",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063216/IMG_3930_hfk0io",
       "productId": 25043,
-      "productName": "Amber Angular Sport Sunglasses",
+      "productName": "Amber Angular Wide-Temple Sunglasses",
       "status": "included",
       "representativeImage": 327
     },
@@ -7795,7 +7746,7 @@
       "publicId": "IMG_3873_zogmom",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063134/IMG_3873_zogmom",
       "productId": 25072,
-      "productName": "Peach Oversized Aviator Sunglasses",
+      "productName": "Oversized Cage-Temple Aviator Sunglasses",
       "status": "included",
       "representativeImage": 377
     },
@@ -7865,7 +7816,7 @@
       "publicId": "IMG_3872_bxfcmr",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063124/IMG_3872_bxfcmr",
       "productId": 25072,
-      "productName": "Peach Oversized Aviator Sunglasses",
+      "productName": "Oversized Cage-Temple Aviator Sunglasses",
       "status": "included",
       "representativeImage": 384
     },
@@ -7874,8 +7825,8 @@
       "assetId": "62199a64c10f462b4b3c6aba8a1b1f28",
       "publicId": "IMG_3869_n6s429",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063123/IMG_3869_n6s429",
-      "productId": 25074,
-      "productName": "Peach Double-Bridge Aviator Sunglasses",
+      "productId": 25072,
+      "productName": "Oversized Cage-Temple Aviator Sunglasses",
       "status": "included",
       "representativeImage": 385
     },
@@ -7894,8 +7845,8 @@
       "assetId": "d752a42cad09b0f358bbb97ec1d55075",
       "publicId": "IMG_3867_g39lud",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063119/IMG_3867_g39lud",
-      "productId": 25075,
-      "productName": "Red Double-Bridge Aviator Sunglasses",
+      "productId": 25072,
+      "productName": "Oversized Cage-Temple Aviator Sunglasses",
       "status": "included",
       "representativeImage": 387
     },
@@ -7934,8 +7885,8 @@
       "assetId": "0ec97adbad99b7e46612f655f89a0163",
       "publicId": "IMG_3868_kyocml",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063116/IMG_3868_kyocml",
-      "productId": 25074,
-      "productName": "Peach Double-Bridge Aviator Sunglasses",
+      "productId": 25072,
+      "productName": "Oversized Cage-Temple Aviator Sunglasses",
       "status": "included",
       "representativeImage": 391
     },
@@ -7964,8 +7915,8 @@
       "assetId": "e6555199e8235a15a6aa99bc8558ad5f",
       "publicId": "IMG_3866_w8fnkd",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063112/IMG_3866_w8fnkd",
-      "productId": 25075,
-      "productName": "Red Double-Bridge Aviator Sunglasses",
+      "productId": 25072,
+      "productName": "Oversized Cage-Temple Aviator Sunglasses",
       "status": "included",
       "representativeImage": 394
     },
@@ -7975,7 +7926,7 @@
       "publicId": "IMG_3861_kktqvg",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063109/IMG_3861_kktqvg",
       "productId": 25078,
-      "productName": "Black Rectangular Gold-Panel Sunglasses",
+      "productName": "Rectangular Gold-Panel-Temple Sunglasses",
       "status": "included",
       "representativeImage": 395
     },
@@ -7984,8 +7935,8 @@
       "assetId": "96abced94ac9114a57c7b4611391f3b2",
       "publicId": "IMG_3859_bczmu6",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3859_bczmu6",
-      "productId": 25079,
-      "productName": "Green Tortoiseshell Square Sunglasses",
+      "productId": 25078,
+      "productName": "Rectangular Gold-Panel-Temple Sunglasses",
       "status": "included",
       "representativeImage": 396
     },
@@ -8005,7 +7956,7 @@
       "publicId": "IMG_3860_ipo6ti",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063107/IMG_3860_ipo6ti",
       "productId": 25078,
-      "productName": "Black Rectangular Gold-Panel Sunglasses",
+      "productName": "Rectangular Gold-Panel-Temple Sunglasses",
       "status": "included",
       "representativeImage": 398
     },
@@ -8024,8 +7975,8 @@
       "assetId": "fe582983b5a99fdf3ffdbc24b6714f69",
       "publicId": "IMG_3858_unfouz",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063105/IMG_3858_unfouz",
-      "productId": 25079,
-      "productName": "Green Tortoiseshell Square Sunglasses",
+      "productId": 25078,
+      "productName": "Rectangular Gold-Panel-Temple Sunglasses",
       "status": "included",
       "representativeImage": 400
     },
@@ -8045,7 +7996,7 @@
       "publicId": "IMG_3855_qntfxb",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063102/IMG_3855_qntfxb",
       "productId": 25081,
-      "productName": "Pink Crystal Square Sunglasses",
+      "productName": "Crystal Square Wide-Temple Sunglasses",
       "status": "included",
       "representativeImage": 402
     },
@@ -8095,7 +8046,7 @@
       "publicId": "IMG_3854_xwaza9",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063094/IMG_3854_xwaza9",
       "productId": 25081,
-      "productName": "Pink Crystal Square Sunglasses",
+      "productName": "Crystal Square Wide-Temple Sunglasses",
       "status": "included",
       "representativeImage": 407
     },
@@ -8114,8 +8065,8 @@
       "assetId": "75355a49aa6e63fec0ffe130278de308",
       "publicId": "IMG_3852_k96c2j",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3852_k96c2j",
-      "productId": 25082,
-      "productName": "Gold Crystal Square Sunglasses",
+      "productId": 25081,
+      "productName": "Crystal Square Wide-Temple Sunglasses",
       "status": "included",
       "representativeImage": 409
     },
@@ -8125,7 +8076,7 @@
       "publicId": "IMG_3847_o8rodk",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063092/IMG_3847_o8rodk",
       "productId": 25085,
-      "productName": "White Sport Shield Sunglasses",
+      "productName": "Angular Sport Shield Sunglasses",
       "status": "included",
       "representativeImage": 410
     },
@@ -8175,7 +8126,7 @@
       "publicId": "IMG_3846_bwax9y",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063084/IMG_3846_bwax9y",
       "productId": 25085,
-      "productName": "White Sport Shield Sunglasses",
+      "productName": "Angular Sport Shield Sunglasses",
       "status": "included",
       "representativeImage": 415
     },
@@ -8184,8 +8135,8 @@
       "assetId": "b7536f76a2d1beb95b463b4dccd7d18e",
       "publicId": "IMG_3844_oyc6cc",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063082/IMG_3844_oyc6cc",
-      "productId": 25086,
-      "productName": "Black Red-Stripe Sport Shield Sunglasses",
+      "productId": 25085,
+      "productName": "Angular Sport Shield Sunglasses",
       "status": "included",
       "representativeImage": 416
     },
@@ -8194,8 +8145,8 @@
       "assetId": "8a46b01506864b5baccad551e36614da",
       "publicId": "IMG_3845_kjhbly",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063081/IMG_3845_kjhbly",
-      "productId": 25086,
-      "productName": "Black Red-Stripe Sport Shield Sunglasses",
+      "productId": 25085,
+      "productName": "Angular Sport Shield Sunglasses",
       "status": "included",
       "representativeImage": 417
     },
@@ -8304,8 +8255,8 @@
       "assetId": "09d07aa1332294c095bbb60c1cc08176",
       "publicId": "ChatGPT_Image_Oct_15_2026_11_09_43_AM_k0xqud",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063072/ChatGPT_Image_Oct_15_2026_11_09_43_AM_k0xqud",
-      "productId": 25082,
-      "productName": "Gold Crystal Square Sunglasses",
+      "productId": 25081,
+      "productName": "Crystal Square Wide-Temple Sunglasses",
       "status": "included",
       "representativeImage": 428
     },
@@ -8334,8 +8285,8 @@
       "assetId": "0aa7be07fe2f7a9acee6bb5ecfc9dca5",
       "publicId": "ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063071/ChatGPT_Image_Oct_15_2026_11_10_09_AM_kraokq",
-      "productId": 25175,
-      "productName": "Amber Rectangular Sport Sunglasses",
+      "productId": 25043,
+      "productName": "Amber Angular Wide-Temple Sunglasses",
       "status": "included",
       "representativeImage": 431
     },
@@ -8354,8 +8305,8 @@
       "assetId": "421a5bf7a8153f2f313ca3d5b159dab7",
       "publicId": "IMG_3831_nggtqz",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063069/IMG_3831_nggtqz",
-      "productId": 25093,
-      "productName": "Yellow Sport Shield Sunglasses",
+      "productId": 25085,
+      "productName": "Angular Sport Shield Sunglasses",
       "status": "included",
       "representativeImage": 433
     },
@@ -8494,8 +8445,8 @@
       "assetId": "1f5c6336ed2eaed97d55e54dc82ef1f1",
       "publicId": "IMG_3830_ilrytf",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063057/IMG_3830_ilrytf",
-      "productId": 25093,
-      "productName": "Yellow Sport Shield Sunglasses",
+      "productId": 25085,
+      "productName": "Angular Sport Shield Sunglasses",
       "status": "included",
       "representativeImage": 447
     },
@@ -8615,7 +8566,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_09_37_24_AM_qojjxm",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063034/ChatGPT_Image_Oct_13_2026_09_37_24_AM_qojjxm",
       "productId": 25136,
-      "productName": "Clear-Frame Blue Mirrored Sport Sunglasses",
+      "productName": "Clear-Frame Mirrored Sport Sunglasses",
       "status": "included",
       "representativeImage": 459
     },
@@ -8714,8 +8665,8 @@
       "assetId": "5b299f2a39c2294deae95184db98d2e4",
       "publicId": "IMG_3813_ahzfoj",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063021/IMG_3813_ahzfoj",
-      "productId": 25096,
-      "productName": "Brown Gradient Slim Sunglasses",
+      "productId": 25204,
+      "productName": "Amber Rimless Textured-Temple Sunglasses",
       "status": "included",
       "representativeImage": 469
     },
@@ -8754,8 +8705,8 @@
       "assetId": "bc2df92148c511d84e62ad16173f5faa",
       "publicId": "IMG_3825_l0mpfj",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063014/IMG_3825_l0mpfj",
-      "productId": 25181,
-      "productName": "Brown Rimless Letter-Temple Sunglasses",
+      "productId": 25096,
+      "productName": "Brown Gradient Slim Sunglasses",
       "status": "included",
       "representativeImage": 473
     },
@@ -8784,10 +8735,10 @@
       "assetId": "f3e4df878b0e54ea54695a4cad34f524",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_07_14_PM_zpmu5x",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063007/ChatGPT_Image_Oct_12_2026_11_07_14_PM_zpmu5x",
-      "productId": 25146,
-      "productName": "Burgundy Slim Cat-Eye Sunglasses",
-      "status": "included",
-      "representativeImage": 476
+      "productId": 25166,
+      "productName": "Burgundy Angular Cat-Eye Sunglasses",
+      "status": "duplicate-upload",
+      "representativeImage": 631
     },
     {
       "number": 477,
@@ -8824,8 +8775,8 @@
       "assetId": "22e94335d59dd70ef19b82743419ee57",
       "publicId": "ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792063002/ChatGPT_Image_Oct_15_2026_11_12_33_AM_rugy2w",
-      "productId": 25103,
-      "productName": "Black Octagonal Metal Sunglasses",
+      "productId": 25205,
+      "productName": "Black Oval Rimless Metal-Temple Sunglasses",
       "status": "included",
       "representativeImage": 480
     },
@@ -8915,7 +8866,7 @@
       "publicId": "ChatGPT_Image_Oct_15_2026_11_25_37_AM_wfzbj9",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062991/ChatGPT_Image_Oct_15_2026_11_25_37_AM_wfzbj9",
       "productId": 25136,
-      "productName": "Clear-Frame Blue Mirrored Sport Sunglasses",
+      "productName": "Clear-Frame Mirrored Sport Sunglasses",
       "status": "included",
       "representativeImage": 489
     },
@@ -8965,7 +8916,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_09_33_06_AM_miphva",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062984/ChatGPT_Image_Oct_13_2026_09_33_06_AM_miphva",
       "productId": 25138,
-      "productName": "Blue Mirrored Sport Sunglasses",
+      "productName": "Black-Frame Mirrored Sport Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 504
     },
@@ -9015,7 +8966,7 @@
       "publicId": "ChatGPT_Image_Oct_12_2026_11_05_06_PM_mgrttf",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062976/ChatGPT_Image_Oct_12_2026_11_05_06_PM_mgrttf",
       "productId": 25162,
-      "productName": "Green Oval Optical Frames",
+      "productName": "Blue Gradient Green-Temple Oval Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 575
     },
@@ -9034,8 +8985,8 @@
       "assetId": "30e733cc2f1b94ed29d8e8ea5da69898",
       "publicId": "ChatGPT_Image_Oct_15_2026_11_24_38_AM_bj9bud",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062975/ChatGPT_Image_Oct_15_2026_11_24_38_AM_bj9bud",
-      "productId": 25139,
-      "productName": "Orange Mirrored Sport Sunglasses",
+      "productId": 25138,
+      "productName": "Black-Frame Mirrored Sport Sunglasses",
       "status": "included",
       "representativeImage": 501
     },
@@ -9065,7 +9016,7 @@
       "publicId": "ChatGPT_Image_Oct_15_2026_11_25_57_AM_dymmbo",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062969/ChatGPT_Image_Oct_15_2026_11_25_57_AM_dymmbo",
       "productId": 25138,
-      "productName": "Blue Mirrored Sport Sunglasses",
+      "productName": "Black-Frame Mirrored Sport Sunglasses",
       "status": "included",
       "representativeImage": 504
     },
@@ -9105,7 +9056,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_09_33_02_AM_dtv3oy",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062965/ChatGPT_Image_Oct_13_2026_09_33_02_AM_dtv3oy",
       "productId": 25138,
-      "productName": "Blue Mirrored Sport Sunglasses",
+      "productName": "Black-Frame Mirrored Sport Sunglasses",
       "status": "included",
       "representativeImage": 508
     },
@@ -9115,7 +9066,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_10_02_44_AM_o9wonl",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062964/ChatGPT_Image_Oct_13_2026_10_02_44_AM_o9wonl",
       "productId": 25130,
-      "productName": "Silver Oval Frames",
+      "productName": "Silver Oval Sunglasses",
       "status": "included",
       "representativeImage": 509
     },
@@ -9124,8 +9075,8 @@
       "assetId": "13d014fcef506180c9920780d417494b",
       "publicId": "ChatGPT_Image_Oct_13_2026_09_26_25_AM_ep04ew",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062964/ChatGPT_Image_Oct_13_2026_09_26_25_AM_ep04ew",
-      "productId": 25137,
-      "productName": "Clear-Frame Orange Mirrored Sport Sunglasses",
+      "productId": 25136,
+      "productName": "Clear-Frame Mirrored Sport Sunglasses",
       "status": "included",
       "representativeImage": 510
     },
@@ -9167,7 +9118,7 @@
       "productId": 25134,
       "productName": "Black Sport Sunglasses",
       "status": "black-mannequin-replaced",
-      "representativeImage": 601
+      "representativeImage": 530
     },
     {
       "number": 515,
@@ -9284,8 +9235,8 @@
       "assetId": "ebb7fbd7ecc805f9ea9c0627404df065",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062944/ChatGPT_Image_Oct_12_2026_11_18_19_PM_u3wdr2",
-      "productId": 25155,
-      "productName": "Black and Gold Oval Metal-Temple Sunglasses",
+      "productId": 25149,
+      "productName": "Gold Wire-Temple Oval Sunglasses",
       "status": "included",
       "representativeImage": 526
     },
@@ -9365,7 +9316,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_09_52_19_AM_nslhar",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062936/ChatGPT_Image_Oct_13_2026_09_52_19_AM_nslhar",
       "productId": 25131,
-      "productName": "Gold Cat-Eye Sunglasses",
+      "productName": "Pink Gold-Rim Cat-Eye Sunglasses",
       "status": "included",
       "representativeImage": 534
     },
@@ -9384,8 +9335,8 @@
       "assetId": "7d985f2a76223917480a7679833843aa",
       "publicId": "ChatGPT_Image_Oct_15_2026_11_23_31_AM_gflxg5",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062934/ChatGPT_Image_Oct_15_2026_11_23_31_AM_gflxg5",
-      "productId": 25137,
-      "productName": "Clear-Frame Orange Mirrored Sport Sunglasses",
+      "productId": 25136,
+      "productName": "Clear-Frame Mirrored Sport Sunglasses",
       "status": "included",
       "representativeImage": 536
     },
@@ -9525,7 +9476,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_10_02_28_AM_eign7t",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062925/ChatGPT_Image_Oct_13_2026_10_02_28_AM_eign7t",
       "productId": 25130,
-      "productName": "Silver Oval Frames",
+      "productName": "Silver Oval Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 602
     },
@@ -9554,8 +9505,8 @@
       "assetId": "27ba87f26559593e73b32a17d16642e7",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_18_19_PM_pk9ht9",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062919/ChatGPT_Image_Oct_12_2026_11_18_19_PM_pk9ht9",
-      "productId": 25155,
-      "productName": "Black and Gold Oval Metal-Temple Sunglasses",
+      "productId": 25149,
+      "productName": "Gold Wire-Temple Oval Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 526
     },
@@ -9635,7 +9586,7 @@
       "publicId": "ChatGPT_Image_Oct_12_2026_10_53_54_PM_ulmpih",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062900/ChatGPT_Image_Oct_12_2026_10_53_54_PM_ulmpih",
       "productId": 25181,
-      "productName": "Brown Rimless Letter-Temple Sunglasses",
+      "productName": "Brown Angular Rimless Sunglasses",
       "status": "included",
       "representativeImage": 561
     },
@@ -9744,8 +9695,8 @@
       "assetId": "a31ea159991af3bc0a32411435ad3a80",
       "publicId": "ChatGPT_Image_Oct_13_2026_09_29_01_AM_h1tjlc",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062884/ChatGPT_Image_Oct_13_2026_09_29_01_AM_h1tjlc",
-      "productId": 25139,
-      "productName": "Orange Mirrored Sport Sunglasses",
+      "productId": 25138,
+      "productName": "Black-Frame Mirrored Sport Sunglasses",
       "status": "included",
       "representativeImage": 572
     },
@@ -9765,7 +9716,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_09_52_19_AM_ty3ucf",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062884/ChatGPT_Image_Oct_13_2026_09_52_19_AM_ty3ucf",
       "productId": 25131,
-      "productName": "Gold Cat-Eye Sunglasses",
+      "productName": "Pink Gold-Rim Cat-Eye Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 534
     },
@@ -9775,7 +9726,7 @@
       "publicId": "ChatGPT_Image_Oct_12_2026_11_05_06_PM_jvaubk",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062882/ChatGPT_Image_Oct_12_2026_11_05_06_PM_jvaubk",
       "productId": 25162,
-      "productName": "Green Oval Optical Frames",
+      "productName": "Blue Gradient Green-Temple Oval Sunglasses",
       "status": "included",
       "representativeImage": 575
     },
@@ -9785,7 +9736,7 @@
       "publicId": "ChatGPT_Image_Oct_12_2026_11_05_01_PM_bfvi7r",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062881/ChatGPT_Image_Oct_12_2026_11_05_01_PM_bfvi7r",
       "productId": 25163,
-      "productName": "Grey Rimless Optical Frames",
+      "productName": "Grey Gradient Rimless Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 620
     },
@@ -9825,7 +9776,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_09_37_24_AM_wbrmhb",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062875/ChatGPT_Image_Oct_13_2026_09_37_24_AM_wbrmhb",
       "productId": 25136,
-      "productName": "Clear-Frame Blue Mirrored Sport Sunglasses",
+      "productName": "Clear-Frame Mirrored Sport Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 459
     },
@@ -9924,8 +9875,8 @@
       "assetId": "059787e1e940371f29e5d57ff2001d6a",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_14_05_PM_c4fzou",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062864/ChatGPT_Image_Oct_12_2026_11_14_05_PM_c4fzou",
-      "productId": 25143,
-      "productName": "Pink Ornate Rimless Sunglasses",
+      "productId": 25202,
+      "productName": "Rose Rimless Triomphe-Temple Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 625
     },
@@ -10014,8 +9965,8 @@
       "assetId": "9deda3085cdba5019a80dc291100dc4f",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_04_48_PM_gx4ivn",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_10_04_48_PM_gx4ivn",
-      "productId": 25181,
-      "productName": "Brown Rimless Letter-Temple Sunglasses",
+      "productId": 25203,
+      "productName": "Brown Rounded Rimless Logo-Temple Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 616
     },
@@ -10024,8 +9975,8 @@
       "assetId": "996e7d098b7b0a3e0996ab0620145824",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062848/ChatGPT_Image_Oct_12_2026_11_04_29_PM_hgwkua",
-      "productId": 25131,
-      "productName": "Gold Cat-Eye Sunglasses",
+      "productId": 25155,
+      "productName": "Black and Gold Oval Metal-Temple Sunglasses",
       "status": "included",
       "representativeImage": 600
     },
@@ -10036,8 +9987,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062846/ChatGPT_Image_Oct_13_2026_09_51_58_AM_neryga",
       "productId": 25134,
       "productName": "Black Sport Sunglasses",
-      "status": "included",
-      "representativeImage": 601
+      "status": "duplicate-upload",
+      "representativeImage": 530
     },
     {
       "number": 602,
@@ -10045,7 +9996,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_10_02_28_AM_qonwa3",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062758/ChatGPT_Image_Oct_13_2026_10_02_28_AM_qonwa3",
       "productId": 25130,
-      "productName": "Silver Oval Frames",
+      "productName": "Silver Oval Sunglasses",
       "status": "included",
       "representativeImage": 602
     },
@@ -10084,8 +10035,8 @@
       "assetId": "2974b39a985bf291f9a832c3a254b255",
       "publicId": "ChatGPT_Image_Oct_13_2026_09_29_01_AM_zj7rie",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062753/ChatGPT_Image_Oct_13_2026_09_29_01_AM_zj7rie",
-      "productId": 25139,
-      "productName": "Orange Mirrored Sport Sunglasses",
+      "productId": 25138,
+      "productName": "Black-Frame Mirrored Sport Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 572
     },
@@ -10144,8 +10095,8 @@
       "assetId": "f10dda9a93b8b3087eeb36c955e76d3b",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062746/ChatGPT_Image_Oct_12_2026_11_16_35_PM_gh47rq",
-      "productId": 25149,
-      "productName": "Gold Wire-Temple Oval Sunglasses",
+      "productId": 25152,
+      "productName": "Gold-Outline Square Sunglasses",
       "status": "included",
       "representativeImage": 612
     },
@@ -10164,8 +10115,8 @@
       "assetId": "bb6794b536dffacd74bc5640f2fc4882",
       "publicId": "ChatGPT_Image_Oct_13_2026_09_26_25_AM_kqiicj",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062743/ChatGPT_Image_Oct_13_2026_09_26_25_AM_kqiicj",
-      "productId": 25137,
-      "productName": "Clear-Frame Orange Mirrored Sport Sunglasses",
+      "productId": 25136,
+      "productName": "Clear-Frame Mirrored Sport Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 510
     },
@@ -10184,8 +10135,8 @@
       "assetId": "f421f94995b3883ca4b13094e083b8d0",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_04_48_PM_shny7t",
-      "productId": 25181,
-      "productName": "Brown Rimless Letter-Temple Sunglasses",
+      "productId": 25203,
+      "productName": "Brown Rounded Rimless Logo-Temple Sunglasses",
       "status": "included",
       "representativeImage": 616
     },
@@ -10194,8 +10145,8 @@
       "assetId": "2f7ae53039918de28e5357a1820bff70",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_53_59_PM_gq9kuw",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062739/ChatGPT_Image_Oct_12_2026_10_53_59_PM_gq9kuw",
-      "productId": 25166,
-      "productName": "Burgundy Small Cat-Eye Sunglasses",
+      "productId": 25203,
+      "productName": "Brown Rounded Rimless Logo-Temple Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 633
     },
@@ -10225,7 +10176,7 @@
       "publicId": "ChatGPT_Image_Oct_12_2026_11_05_01_PM_qjizqk",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062734/ChatGPT_Image_Oct_12_2026_11_05_01_PM_qjizqk",
       "productId": 25163,
-      "productName": "Grey Rimless Optical Frames",
+      "productName": "Grey Gradient Rimless Sunglasses",
       "status": "included",
       "representativeImage": 620
     },
@@ -10274,8 +10225,8 @@
       "assetId": "0be224aba06bf0005de0c937f99f2e95",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062729/ChatGPT_Image_Oct_12_2026_11_14_05_PM_upa5ez",
-      "productId": 25143,
-      "productName": "Pink Ornate Rimless Sunglasses",
+      "productId": 25202,
+      "productName": "Rose Rimless Triomphe-Temple Sunglasses",
       "status": "included",
       "representativeImage": 625
     },
@@ -10284,8 +10235,8 @@
       "assetId": "408123e0cc79bbcc98bb1bffcb7c56ef",
       "publicId": "ChatGPT_Image_Oct_13_2026_09_28_07_AM_fujiol",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062727/ChatGPT_Image_Oct_13_2026_09_28_07_AM_fujiol",
-      "productId": 25139,
-      "productName": "Orange Mirrored Sport Sunglasses",
+      "productId": 25138,
+      "productName": "Black-Frame Mirrored Sport Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 501
     },
@@ -10314,8 +10265,8 @@
       "assetId": "d61b3cac62a76ad0d4323abc3ff057be",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_53_35_PM_oxsp1s",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062724/ChatGPT_Image_Oct_12_2026_10_53_35_PM_oxsp1s",
-      "productId": 25154,
-      "productName": "Pink Decorative Rimless Sunglasses",
+      "productId": 25143,
+      "productName": "Pink Ornate Rimless Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 636
     },
@@ -10335,7 +10286,7 @@
       "publicId": "ChatGPT_Image_Oct_12_2026_11_04_34_PM_dyj6a8",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062721/ChatGPT_Image_Oct_12_2026_11_04_34_PM_dyj6a8",
       "productId": 25166,
-      "productName": "Burgundy Small Cat-Eye Sunglasses",
+      "productName": "Burgundy Angular Cat-Eye Sunglasses",
       "status": "included",
       "representativeImage": 631
     },
@@ -10354,8 +10305,8 @@
       "assetId": "273ae258f1d90f8b687a9f686031ecc3",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062717/ChatGPT_Image_Oct_12_2026_10_53_59_PM_y5wt0h",
-      "productId": 25166,
-      "productName": "Burgundy Small Cat-Eye Sunglasses",
+      "productId": 25203,
+      "productName": "Brown Rounded Rimless Logo-Temple Sunglasses",
       "status": "included",
       "representativeImage": 633
     },
@@ -10384,8 +10335,8 @@
       "assetId": "d2247e1dad9aee7e2f8204fa5e9fd1cd",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062713/ChatGPT_Image_Oct_12_2026_10_53_35_PM_jcjjjj",
-      "productId": 25154,
-      "productName": "Pink Decorative Rimless Sunglasses",
+      "productId": 25143,
+      "productName": "Pink Ornate Rimless Sunglasses",
       "status": "included",
       "representativeImage": 636
     },
@@ -10424,18 +10375,18 @@
       "assetId": "b006fc371cf50b02d946fb29c8cbd945",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_25_19_PM_u7man1",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062708/ChatGPT_Image_Oct_12_2026_10_25_19_PM_u7man1",
-      "productId": 25129,
-      "productName": "Rose Metal-Detail Square Sunglasses",
-      "status": "included",
-      "representativeImage": 640
+      "productId": 25147,
+      "productName": "Pink Translucent Cat-Eye Sunglasses",
+      "status": "duplicate-upload",
+      "representativeImage": 545
     },
     {
       "number": 641,
       "assetId": "a48cbea8170e9a8b04d67aa588df8d36",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062707/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gezlsw",
-      "productId": 25152,
-      "productName": "Gold-Outline Square Sunglasses",
+      "productId": 25201,
+      "productName": "Black Square Gold-Bracket-Temple Sunglasses",
       "status": "included",
       "representativeImage": 641
     },
@@ -10515,7 +10466,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_09_36_39_AM_febhme",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062697/ChatGPT_Image_Oct_13_2026_09_36_39_AM_febhme",
       "productId": 25136,
-      "productName": "Clear-Frame Blue Mirrored Sport Sunglasses",
+      "productName": "Clear-Frame Mirrored Sport Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 489
     },
@@ -10675,7 +10626,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_10_02_44_AM_m9ctvd",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062683/ChatGPT_Image_Oct_13_2026_10_02_44_AM_m9ctvd",
       "productId": 25130,
-      "productName": "Silver Oval Frames",
+      "productName": "Silver Oval Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 509
     },
@@ -10775,7 +10726,7 @@
       "publicId": "ChatGPT_Image_Oct_13_2026_09_33_02_AM_raoine",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062664/ChatGPT_Image_Oct_13_2026_09_33_02_AM_raoine",
       "productId": 25138,
-      "productName": "Blue Mirrored Sport Sunglasses",
+      "productName": "Black-Frame Mirrored Sport Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 508
     },
@@ -10785,7 +10736,7 @@
       "publicId": "ChatGPT_Image_Oct_12_2026_10_53_54_PM_xbfbpk",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062663/ChatGPT_Image_Oct_12_2026_10_53_54_PM_xbfbpk",
       "productId": 25181,
-      "productName": "Brown Rimless Letter-Temple Sunglasses",
+      "productName": "Brown Angular Rimless Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 561
     },
@@ -10824,8 +10775,8 @@
       "assetId": "eb516e42e882b3fbb86b584a22be4aee",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_04_29_PM_k09qmd",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062653/ChatGPT_Image_Oct_12_2026_11_04_29_PM_k09qmd",
-      "productId": 25131,
-      "productName": "Gold Cat-Eye Sunglasses",
+      "productId": 25155,
+      "productName": "Black and Gold Oval Metal-Temple Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 600
     },
@@ -10874,8 +10825,8 @@
       "assetId": "eb98a173b9ec4259a9cacbeb9bc404b3",
       "publicId": "ChatGPT_Image_Oct_13_2026_09_26_11_AM_qzumf4",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062647/ChatGPT_Image_Oct_13_2026_09_26_11_AM_qzumf4",
-      "productId": 25137,
-      "productName": "Clear-Frame Orange Mirrored Sport Sunglasses",
+      "productId": 25136,
+      "productName": "Clear-Frame Mirrored Sport Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 536
     },
@@ -10914,10 +10865,10 @@
       "assetId": "8928c7999ee0101f76a24e54bee832d2",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_07_14_PM_eppdas",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062635/ChatGPT_Image_Oct_12_2026_11_07_14_PM_eppdas",
-      "productId": 25146,
-      "productName": "Burgundy Slim Cat-Eye Sunglasses",
+      "productId": 25166,
+      "productName": "Burgundy Angular Cat-Eye Sunglasses",
       "status": "black-mannequin-replaced",
-      "representativeImage": 476
+      "representativeImage": 631
     },
     {
       "number": 690,
@@ -10954,8 +10905,8 @@
       "assetId": "64ed6ed19e06ed0c01ceda181a633eac",
       "publicId": "ChatGPT_Image_Oct_12_2026_11_16_35_PM_t1ogjb",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062628/ChatGPT_Image_Oct_12_2026_11_16_35_PM_t1ogjb",
-      "productId": 25149,
-      "productName": "Gold Wire-Temple Oval Sunglasses",
+      "productId": 25152,
+      "productName": "Gold-Outline Square Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 612
     },
@@ -10975,7 +10926,7 @@
       "publicId": "ChatGPT_Image_Oct_12_2026_11_04_34_PM_e2lfjh",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062624/ChatGPT_Image_Oct_12_2026_11_04_34_PM_e2lfjh",
       "productId": 25166,
-      "productName": "Burgundy Small Cat-Eye Sunglasses",
+      "productName": "Burgundy Angular Cat-Eye Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 631
     },
@@ -11044,10 +10995,10 @@
       "assetId": "dd57dd2168071d4d09276d2655524ea8",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_25_19_PM_lx6mjs",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062612/ChatGPT_Image_Oct_12_2026_10_25_19_PM_lx6mjs",
-      "productId": 25129,
-      "productName": "Rose Metal-Detail Square Sunglasses",
+      "productId": 25147,
+      "productName": "Pink Translucent Cat-Eye Sunglasses",
       "status": "black-mannequin-replaced",
-      "representativeImage": 640
+      "representativeImage": 545
     },
     {
       "number": 703,
@@ -11104,8 +11055,8 @@
       "assetId": "105a4675f9d5fa1502c87fb0d7ded128",
       "publicId": "ChatGPT_Image_Oct_12_2026_10_18_06_PM_gpa6rc",
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792062603/ChatGPT_Image_Oct_12_2026_10_18_06_PM_gpa6rc",
-      "productId": 25152,
-      "productName": "Gold-Outline Square Sunglasses",
+      "productId": 25201,
+      "productName": "Black Square Gold-Bracket-Temple Sunglasses",
       "status": "black-mannequin-replaced",
       "representativeImage": 641
     },
@@ -12117,5 +12068,164 @@
       "productName": "Multicolor Wave-Print Shirt and Shorts Set",
       "representativeImage": 756
     }
-  ]
+  ],
+  "eyewearReview": {
+    "method": "Actual 600px Cloudinary images inspected individually and by front/side gallery. Brand markings used only as matching evidence, not authentication.",
+    "confirmedCorrections": [
+      {
+        "front": 635,
+        "side": 600,
+        "evidence": "Celine lens marking, purple oval lens, thin gold Triomphe temple with black tip; removed from pink Tiffany cat-eye."
+      },
+      {
+        "front": 637,
+        "side": 636,
+        "evidence": "Red gradient irregular rimless lens, ornate multicolour hinge, braided gold temple and black tip."
+      },
+      {
+        "front": 616,
+        "side": 633,
+        "evidence": "Rounded brown Gucci rimless front, matching taupe GG temple; separated from Fendi and burgundy Celine."
+      },
+      {
+        "front": 453,
+        "side": 473,
+        "evidence": "Fendi lens marking, brown angular rimless front, matching FENDI letter temple."
+      },
+      {
+        "front": 639,
+        "side": 545,
+        "evidence": "Pink transparent Gucci frame and flat pink GG temple; duplicate side 640 removed from unrelated rose frame."
+      },
+      {
+        "front": 327,
+        "side": 431,
+        "evidence": "Same amber angular frame; front Medusa emblem and side VERSACE marking."
+      },
+      {
+        "front": 584,
+        "side": 612,
+        "evidence": "Matching ivory/gold square frame, brown lenses, Celine Triomphe hinge and thin wire temple; removed from black oval model."
+      },
+      {
+        "front": 582,
+        "side": 526,
+        "evidence": "Dark oval frame, broad gold temple and black ear tips; separated from gold-wire oval model."
+      }
+    ],
+    "duplicateViews": [
+      {
+        "source": 601,
+        "representative": 530
+      },
+      {
+        "source": 640,
+        "representative": 545
+      },
+      {
+        "source": 476,
+        "representative": 631
+      },
+      {
+        "source": 246,
+        "representative": 244
+      },
+      {
+        "source": 254,
+        "representative": 252
+      }
+    ],
+    "unpairedViews": [
+      {
+        "productId": 25100,
+        "sourceImageNumber": 449,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25102,
+        "sourceImageNumber": 448,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25131,
+        "sourceImageNumber": 534,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25134,
+        "sourceImageNumber": 530,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25154,
+        "sourceImageNumber": 546,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25159,
+        "sourceImageNumber": 477,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25162,
+        "sourceImageNumber": 575,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25163,
+        "sourceImageNumber": 620,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25166,
+        "sourceImageNumber": 631,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25171,
+        "sourceImageNumber": 652,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25172,
+        "sourceImageNumber": 548,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25176,
+        "sourceImageNumber": 566,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25180,
+        "sourceImageNumber": 481,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25181,
+        "sourceImageNumber": 561,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25201,
+        "sourceImageNumber": 641,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25202,
+        "sourceImageNumber": 625,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25204,
+        "sourceImageNumber": 469,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      },
+      {
+        "productId": 25205,
+        "sourceImageNumber": 480,
+        "note": "No confirmed matching angle in reviewed selection; kept independent rather than attaching a different design."
+      }
+    ]
+  }
 }
