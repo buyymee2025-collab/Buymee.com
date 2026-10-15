@@ -1,21 +1,32 @@
-import { useState } from 'react'
-import SiteImage from './SiteImage'
+import { useEffect, useRef, useState } from 'react'
+import { optimizeVideoUrl } from '../lib/media'
 
-// Keep the poster underneath so blocked media or autoplay still leaves a full hero.
-export default function HeroVideo({ src, poster, alt }) {
+// Video-only hero. No poster image or fallback image is rendered.
+export default function HeroVideo({ src, alt }) {
+  const videoRef = useRef(null)
   const [playing, setPlaying] = useState(false)
-  const [failed, setFailed] = useState(false)
-  return <>
-    <SiteImage src={poster} alt={alt} loading="eager" fetchPriority="high" />
-    {!failed && <video
-      className="category-new-hero-video"
-      src={src}
-      poster={poster}
-      autoPlay muted loop playsInline preload="metadata"
-      aria-hidden="true" tabIndex={-1}
-      style={{ opacity: playing ? 1 : 0 }}
-      onPlaying={() => setPlaying(true)}
-      onError={() => setFailed(true)}
-    />}
-  </>
+  const videoSrc = optimizeVideoUrl(src)
+
+  useEffect(() => {
+    setPlaying(false)
+    const video = videoRef.current
+    if (!video) return
+    video.load()
+    video.play().catch(() => {})
+  }, [videoSrc])
+
+  return <video
+    ref={videoRef}
+    className="category-new-hero-video"
+    src={videoSrc}
+    autoPlay
+    muted
+    loop
+    playsInline
+    preload="auto"
+    aria-label={alt}
+    tabIndex={-1}
+    data-playing={playing}
+    onPlaying={() => setPlaying(true)}
+  />
 }
