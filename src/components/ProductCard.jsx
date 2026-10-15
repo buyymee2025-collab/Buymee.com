@@ -1,17 +1,25 @@
-import { purchaseUrl } from '../lib/contact'
+import { beginModalHistory } from '../lib/modalHistory'
 import SiteImage from './SiteImage'
 import { Link } from 'react-router-dom'
 import { Plus } from 'lucide-react'
 import { useStore } from '../context/StoreContext'
 import { Reveal } from './Primitives'
-import { useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import ProductModal from './ProductModal'
 
 export default function ProductCard({ product, index = 0 }) {
-  const { currency, formatPrice } = useStore()
+  const { currency, formatPrice, addToCart } = useStore()
   const [open, setOpen] = useState(false)
+  const modalHistory = useRef(null)
+  useEffect(() => () => modalHistory.current?.dispose(), [])
+  const closeProduct = useCallback(() => modalHistory.current?.close(), [])
   const openProduct = (event) => {
     event.preventDefault()
+    if (modalHistory.current) return
+    modalHistory.current = beginModalHistory(() => {
+      modalHistory.current = null
+      setOpen(false)
+    })
     setOpen(true)
   }
 
@@ -23,9 +31,9 @@ export default function ProductCard({ product, index = 0 }) {
             <SiteImage src={product.image} alt={product.name} imageWidth={960} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading={index > 3 ? 'lazy' : 'eager'} />
           </Link>
           {product.sale && <span className="sale-tag">EDIT</span>}
-          <a className="quick-add" href={purchaseUrl(product, { origin: window.location.origin })} target="_blank" rel="noopener noreferrer">
-            <Plus size={16} /> WHATSAPP
-          </a>
+          <button className="quick-add" type="button" onClick={() => addToCart(product)}>
+            <Plus size={16} /> ADD TO CART
+          </button>
         </div>
         <div className="product-meta">
           <span>{product.category} / {product.subcategory}</span>
@@ -44,7 +52,7 @@ export default function ProductCard({ product, index = 0 }) {
           <Link className="product-view" to={`/product/${product.slug}`} onClick={openProduct}>VIEW DETAILS <span>↗</span></Link>
         </div>
       </Reveal>
-      {open && <ProductModal product={product} onClose={() => setOpen(false)} />}
+      {open && <ProductModal product={product} onClose={closeProduct} />}
     </>
   )
 }

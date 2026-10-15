@@ -38,7 +38,7 @@ function videoPosterSrc(src, width = 1200) {
 }
 
 export default function ProductModal({ product, onClose }) {
-  const { currency, formatPrice } = useStore()
+  const { currency, formatPrice, addToCart } = useStore()
   const variants = product.variants?.length ? product.variants : [{
     color: product.colors?.[0] || 'As shown',
     image: product.image,
@@ -398,7 +398,8 @@ export default function ProductModal({ product, onClose }) {
             </div>
 
             <div className="product-modal-actions">
-              <a className="button orange" href={purchaseUrl(product, { color: activeMedia?.color || variant.color, origin: window.location.origin })} target="_blank" rel="noopener noreferrer">PURCHASE ON WHATSAPP <ArrowUpRight size={17} /></a>
+              <button className="button dark" type="button" onClick={() => { onClose(); addToCart(product) }}>ADD TO CART <ArrowUpRight size={17} /></button>
+              <a className="button orange" href={purchaseUrl(product, { color: activeMedia?.color || variant.color, origin: window.location.origin })} target="_blank" rel="noopener noreferrer">PURCHASE NOW <ArrowUpRight size={17} /></a>
             </div>
           </div>
         </motion.div>

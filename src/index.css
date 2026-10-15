@@ -1237,3 +1237,6 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 }
 .angle-carousel,.angle-carousel *{touch-action:pan-y pinch-zoom}
 .angle-carousel.is-dragging,.angle-carousel.is-dragging *{user-select:none;-webkit-user-select:none}
+
+.product-modal-actions{display:grid;gap:12px}
+.drawer-summary>.button+.button{margin-top:10px}

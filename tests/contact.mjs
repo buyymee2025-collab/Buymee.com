@@ -15,3 +15,10 @@ assert.ok(email.searchParams.get('body').includes(form.name))
 assert.ok(email.searchParams.get('body').includes(form.email))
 assert.ok(email.searchParams.get('subject').includes(form.reason))
 console.log('Contact and purchase links passed: correct recipients, product identity, colour, quantities, and complete encoded form content.')
+const fullCart = new URL(cartPurchaseUrl([
+  {...product, qty:2, size:'UK 9'},
+  {name:'Crystal glasses',slug:'crystal-glasses',qty:3,size:'OS'},
+], 'https://buyymee.com')).searchParams.get('text')
+assert.ok(fullCart.includes('2 × Blue & Gold / Limited'))
+assert.ok(fullCart.includes('3 × Crystal glasses'))
+assert.ok(fullCart.includes('https://buyymee.com/product/crystal-glasses'))
