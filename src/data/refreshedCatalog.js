@@ -5823,6 +5823,66 @@ export const WOMENS_PRODUCTS = [
 ];
 export const EYEWEAR_PRODUCTS = [
   {
+    "id": 25206,
+    "parentProductId": 25206,
+    "slug": "eye-wears-dolce-gabbana-purple-rimless-sunglasses",
+    "name": "Dolce & Gabbana Purple Rimless Sunglasses",
+    "familyName": "Dolce & Gabbana Purple Rimless Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Dolce & Gabbana",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792092126/ChatGPT_Image_Oct_15_2026_08_18_24_PM_imab5z.png",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792092114/ChatGPT_Image_Oct_15_2026_08_18_02_PM_o6quya.png",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792092126/ChatGPT_Image_Oct_15_2026_08_18_24_PM_imab5z.png",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792092114/ChatGPT_Image_Oct_15_2026_08_18_02_PM_o6quya.png"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792092126/ChatGPT_Image_Oct_15_2026_08_18_24_PM_imab5z.png"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792092114/ChatGPT_Image_Oct_15_2026_08_18_02_PM_o6quya.png"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Purple / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792092126/ChatGPT_Image_Oct_15_2026_08_18_24_PM_imab5z.png",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792092126/ChatGPT_Image_Oct_15_2026_08_18_24_PM_imab5z.png"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1792092114/ChatGPT_Image_Oct_15_2026_08_18_02_PM_o6quya.png"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Purple / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Dolce & Gabbana Purple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
     "id": 25000,
     "parentProductId": 25000,
     "slug": "eye-wears-brown-gold-bridge-cat-eye-sunglasses",
