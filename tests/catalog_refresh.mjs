@@ -66,3 +66,15 @@ for (const product of eyewear) {
   assert.deepEqual(new Set(product.variants.flatMap(variant => variant.media.map(media => media.src))), new Set(product.gallery))
 }
 console.log(`Eyewear checks passed: ${eyewear.length} listings, all 475 source images accounted for, matching views and colour variants grouped.`)
+
+const menswear = products.filter(product => product.category === 'Men')
+assert.equal(menswear.length, 21, 'Keep one listing per existing outfit')
+for (const image of audit.images.filter(image => image.number >= 715)) {
+  const outfit = menswear.find(product => product.id === image.productId)
+  assert.ok(outfit, `Former menswear image ${image.number} has its matching outfit`)
+  assert.equal(image.status, 'included')
+  assert.ok(outfit.gallery.includes(image.url))
+  assert.ok(outfit.variants.some(variant => variant.media.some(media => media.src === image.url)))
+  assert.ok(audit.products.find(product => product.id === outfit.id).selectedImageNumbers.includes(image.number))
+}
+console.log('Menswear checks passed: all 41 former model photos merged into the 21 existing outfit groups.')

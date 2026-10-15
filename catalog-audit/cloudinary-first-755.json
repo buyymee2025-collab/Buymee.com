@@ -4,13 +4,13 @@
   "sourceImageCount": 755,
   "notes": [
     "The selected 755 images contain clothing and eyewear; no watches or sneakers.",
-    "Men garment-only images replace model images of the same products.",
     "All watch colors and media from the existing repository are retained; repeated upload copies are removed.",
     "Eyewear re-reviewed by frame outline, lens colour, bridge, hinge and temple details. Matched colour variants share one listing; unrelated side views were reassigned.",
     "Repeated front and side renders are represented once. All 475 eyewear source images remain accounted for in this audit.",
     "Eyewear re-reviewed by frame outline, lens colour, bridge, hinge and temple details. Matched colour variants share one listing; unrelated side views were reassigned.",
     "Black mannequin photographs are removed only when an equivalent white view exists. Both unique black crystal cat-eye views are retained.",
-    "Repeated front and side renders are represented once. All 475 eyewear source images remain accounted for in this audit."
+    "Repeated front and side renders are represented once. All 475 eyewear source images remain accounted for in this audit.",
+    "Men: former model photographs and recent garment photographs share the existing matching outfit listing and gallery."
   ],
   "products": [
     {
@@ -1334,11 +1334,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         4,
-        39
+        39,
+        715,
+        717
       ],
       "selectedImageNumbers": [
         4,
-        39
+        39,
+        715,
+        717
       ]
     },
     {
@@ -1347,11 +1351,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         6,
-        8
+        8,
+        716,
+        742
       ],
       "selectedImageNumbers": [
         6,
-        8
+        8,
+        716,
+        742
       ]
     },
     {
@@ -1360,11 +1368,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         9,
-        10
+        10,
+        718,
+        720
       ],
       "selectedImageNumbers": [
         9,
-        10
+        10,
+        718,
+        720
       ]
     },
     {
@@ -1373,11 +1385,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         7,
-        13
+        13,
+        719,
+        725
       ],
       "selectedImageNumbers": [
         7,
-        13
+        13,
+        719,
+        725
       ]
     },
     {
@@ -1386,11 +1402,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         17,
-        21
+        21,
+        721,
+        746
       ],
       "selectedImageNumbers": [
         17,
-        21
+        21,
+        721,
+        746
       ]
     },
     {
@@ -1399,11 +1419,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         12,
-        15
+        15,
+        722,
+        727
       ],
       "selectedImageNumbers": [
         12,
-        15
+        15,
+        722,
+        727
       ]
     },
     {
@@ -1412,11 +1436,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         11,
-        46
+        46,
+        723,
+        744
       ],
       "selectedImageNumbers": [
         11,
-        46
+        46,
+        723,
+        744
       ]
     },
     {
@@ -1425,11 +1453,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         14,
-        16
+        16,
+        724,
+        728
       ],
       "selectedImageNumbers": [
         14,
-        16
+        16,
+        724,
+        728
       ]
     },
     {
@@ -1438,11 +1470,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         1,
-        25
+        25,
+        726,
+        740
       ],
       "selectedImageNumbers": [
         1,
-        25
+        25,
+        726,
+        740
       ]
     },
     {
@@ -1451,11 +1487,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         18,
-        23
+        23,
+        729,
+        731
       ],
       "selectedImageNumbers": [
         18,
-        23
+        23,
+        729,
+        731
       ]
     },
     {
@@ -1464,11 +1504,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         24,
-        27
+        27,
+        730,
+        733
       ],
       "selectedImageNumbers": [
         24,
-        27
+        27,
+        730,
+        733
       ]
     },
     {
@@ -1477,11 +1521,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         47,
-        50
+        50,
+        732,
+        736
       ],
       "selectedImageNumbers": [
         47,
-        50
+        50,
+        732,
+        736
       ]
     },
     {
@@ -1490,11 +1538,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         20,
-        22
+        22,
+        734,
+        735
       ],
       "selectedImageNumbers": [
         20,
-        22
+        22,
+        734,
+        735
       ]
     },
     {
@@ -1503,11 +1555,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         3,
-        31
+        31,
+        737,
+        738
       ],
       "selectedImageNumbers": [
         3,
-        31
+        31,
+        737,
+        738
       ]
     },
     {
@@ -1516,11 +1572,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         2,
-        5
+        5,
+        739,
+        743
       ],
       "selectedImageNumbers": [
         2,
-        5
+        5,
+        739,
+        743
       ]
     },
     {
@@ -1529,11 +1589,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         42,
-        44
+        44,
+        741,
+        745
       ],
       "selectedImageNumbers": [
         42,
-        44
+        44,
+        741,
+        745
       ]
     },
     {
@@ -1542,11 +1606,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         35,
-        45
+        45,
+        747,
+        749
       ],
       "selectedImageNumbers": [
         35,
-        45
+        45,
+        747,
+        749
       ]
     },
     {
@@ -1555,11 +1623,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         37,
-        41
+        41,
+        748,
+        754
       ],
       "selectedImageNumbers": [
         37,
-        41
+        41,
+        748,
+        754
       ]
     },
     {
@@ -1568,11 +1640,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         33,
-        38
+        38,
+        750,
+        753
       ],
       "selectedImageNumbers": [
         33,
-        38
+        38,
+        750,
+        753
       ]
     },
     {
@@ -1581,11 +1657,15 @@
       "category": "Men",
       "sourceImageNumbers": [
         34,
-        36
+        36,
+        751,
+        752
       ],
       "selectedImageNumbers": [
         34,
-        36
+        36,
+        751,
+        752
       ]
     },
     {
@@ -1594,11 +1674,13 @@
       "category": "Men",
       "sourceImageNumbers": [
         40,
-        43
+        43,
+        755
       ],
       "selectedImageNumbers": [
         40,
-        43
+        43,
+        755
       ]
     },
     {
@@ -11091,8 +11173,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902509/ChatGPT_Image_Oct_12_2026_07_14_06_PM_l3em0l",
       "productId": 30000,
       "productName": "White Fruit-Print Long-Sleeve Shirt",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 4
+      "status": "included",
+      "representativeImage": 715
     },
     {
       "number": 716,
@@ -11101,8 +11183,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902505/ChatGPT_Image_Oct_12_2026_07_29_46_PM_yfvcxp",
       "productId": 30001,
       "productName": "Cream Chain-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 6
+      "status": "included",
+      "representativeImage": 716
     },
     {
       "number": 717,
@@ -11111,8 +11193,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902504/ChatGPT_Image_Oct_12_2026_07_14_56_PM_c4h7us",
       "productId": 30000,
       "productName": "White Fruit-Print Long-Sleeve Shirt",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 4
+      "status": "included",
+      "representativeImage": 717
     },
     {
       "number": 718,
@@ -11121,8 +11203,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902476/ChatGPT_Image_Oct_12_2026_07_12_04_PM_rafeja",
       "productId": 30002,
       "productName": "Mint and Gold Baroque Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 9
+      "status": "included",
+      "representativeImage": 718
     },
     {
       "number": 719,
@@ -11131,8 +11213,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_05_37_PM_npizp2",
       "productId": 30003,
       "productName": "Blue and Gold Baroque Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 7
+      "status": "included",
+      "representativeImage": 719
     },
     {
       "number": 720,
@@ -11141,8 +11223,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902474/ChatGPT_Image_Oct_12_2026_07_12_37_PM_gtfmll",
       "productId": 30002,
       "productName": "Mint and Gold Baroque Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 9
+      "status": "included",
+      "representativeImage": 720
     },
     {
       "number": 721,
@@ -11151,8 +11233,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902472/ChatGPT_Image_Oct_12_2026_06_58_29_PM_zbuyni",
       "productId": 30004,
       "productName": "White Line-Art Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 17
+      "status": "included",
+      "representativeImage": 721
     },
     {
       "number": 722,
@@ -11161,8 +11243,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_03_26_PM_qfuqfu",
       "productId": 30005,
       "productName": "White and Yellow Diamond-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 12
+      "status": "included",
+      "representativeImage": 722
     },
     {
       "number": 723,
@@ -11171,8 +11253,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902471/ChatGPT_Image_Oct_12_2026_07_09_09_PM_pctmgp",
       "productId": 30006,
       "productName": "White Tennis-Print Set with Orange Trim",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 11
+      "status": "included",
+      "representativeImage": 723
     },
     {
       "number": 724,
@@ -11181,8 +11263,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_00_58_PM_dcgkaz",
       "productId": 30007,
       "productName": "Mint Graphic Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 14
+      "status": "included",
+      "representativeImage": 724
     },
     {
       "number": 725,
@@ -11191,8 +11273,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902469/ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy",
       "productId": 30003,
       "productName": "Blue and Gold Baroque Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 7
+      "status": "included",
+      "representativeImage": 725
     },
     {
       "number": 726,
@@ -11201,8 +11283,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902467/ChatGPT_Image_Oct_12_2026_06_53_58_PM_rjnsza",
       "productId": 30008,
       "productName": "Black and White Geometric Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 1
+      "status": "included",
+      "representativeImage": 726
     },
     {
       "number": 727,
@@ -11211,8 +11293,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902466/ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m",
       "productId": 30005,
       "productName": "White and Yellow Diamond-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 12
+      "status": "included",
+      "representativeImage": 727
     },
     {
       "number": 728,
@@ -11221,8 +11303,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi",
       "productId": 30007,
       "productName": "Mint Graphic Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 14
+      "status": "included",
+      "representativeImage": 728
     },
     {
       "number": 729,
@@ -11231,8 +11313,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902464/ChatGPT_Image_Oct_12_2026_06_56_53_PM_fs2c6u",
       "productId": 30009,
       "productName": "Navy Scarf-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 18
+      "status": "included",
+      "representativeImage": 729
     },
     {
       "number": 730,
@@ -11241,8 +11323,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902463/ChatGPT_Image_Oct_12_2026_06_48_40_PM_pnun5a",
       "productId": 30010,
       "productName": "Navy Medallion-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 24
+      "status": "included",
+      "representativeImage": 730
     },
     {
       "number": 731,
@@ -11251,8 +11333,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_57_53_PM_gfy7s1",
       "productId": 30009,
       "productName": "Navy Scarf-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 18
+      "status": "included",
+      "representativeImage": 731
     },
     {
       "number": 732,
@@ -11261,8 +11343,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902462/ChatGPT_Image_Oct_12_2026_06_44_27_PM_whbh3f",
       "productId": 30011,
       "productName": "Yellow Baroque Short-Sleeve Shirt",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 47
+      "status": "included",
+      "representativeImage": 732
     },
     {
       "number": 733,
@@ -11271,8 +11353,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902460/ChatGPT_Image_Oct_12_2026_06_50_32_PM_ct50yq",
       "productId": 30010,
       "productName": "Navy Medallion-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 24
+      "status": "included",
+      "representativeImage": 733
     },
     {
       "number": 734,
@@ -11281,8 +11363,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902459/ChatGPT_Image_Oct_12_2026_06_52_51_PM_zmhpcc",
       "productId": 30012,
       "productName": "Light Blue Ornamental Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 20
+      "status": "included",
+      "representativeImage": 734
     },
     {
       "number": 735,
@@ -11291,8 +11373,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902458/ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5",
       "productId": 30012,
       "productName": "Light Blue Ornamental Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 20
+      "status": "included",
+      "representativeImage": 735
     },
     {
       "number": 736,
@@ -11301,8 +11383,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r",
       "productId": 30011,
       "productName": "Yellow Baroque Short-Sleeve Shirt",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 47
+      "status": "included",
+      "representativeImage": 736
     },
     {
       "number": 737,
@@ -11311,8 +11393,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902457/ChatGPT_Image_Oct_12_2026_06_38_42_PM_xi2edz",
       "productId": 30013,
       "productName": "Black and Gold Baroque Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 3
+      "status": "included",
+      "representativeImage": 737
     },
     {
       "number": 738,
@@ -11321,8 +11403,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902454/ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta",
       "productId": 30013,
       "productName": "Black and Gold Baroque Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 3
+      "status": "included",
+      "representativeImage": 738
     },
     {
       "number": 739,
@@ -11331,8 +11413,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902453/ChatGPT_Image_Oct_12_2026_07_40_14_PM_vwcyyx",
       "productId": 30014,
       "productName": "Pastel Architectural-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 2
+      "status": "included",
+      "representativeImage": 739
     },
     {
       "number": 740,
@@ -11341,8 +11423,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902452/ChatGPT_Image_Oct_13_2026_11_21_58_AM_ijmgvb",
       "productId": 30008,
       "productName": "Black and White Geometric Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 1
+      "status": "included",
+      "representativeImage": 740
     },
     {
       "number": 741,
@@ -11351,8 +11433,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902451/ChatGPT_Image_Oct_12_2026_07_26_42_PM_putmwo",
       "productId": 30015,
       "productName": "White Tennis-Print Set with Green Trim",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 42
+      "status": "included",
+      "representativeImage": 741
     },
     {
       "number": 742,
@@ -11361,8 +11443,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_32_20_PM_dshljx",
       "productId": 30001,
       "productName": "Cream Chain-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 6
+      "status": "included",
+      "representativeImage": 742
     },
     {
       "number": 743,
@@ -11371,8 +11453,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902450/ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu",
       "productId": 30014,
       "productName": "Pastel Architectural-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 2
+      "status": "included",
+      "representativeImage": 743
     },
     {
       "number": 744,
@@ -11381,8 +11463,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_10_19_PM_edo3k2",
       "productId": 30006,
       "productName": "White Tennis-Print Set with Orange Trim",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 11
+      "status": "included",
+      "representativeImage": 744
     },
     {
       "number": 745,
@@ -11391,8 +11473,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902446/ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e",
       "productId": 30015,
       "productName": "White Tennis-Print Set with Green Trim",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 42
+      "status": "included",
+      "representativeImage": 745
     },
     {
       "number": 746,
@@ -11401,8 +11483,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902444/ChatGPT_Image_Oct_12_2026_06_59_27_PM_ryssj9",
       "productId": 30004,
       "productName": "White Line-Art Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 17
+      "status": "included",
+      "representativeImage": 746
     },
     {
       "number": 747,
@@ -11411,8 +11493,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902443/ChatGPT_Image_Oct_12_2026_06_47_20_PM_dlwbza",
       "productId": 30016,
       "productName": "White Floral Short-Sleeve Shirt",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 35
+      "status": "included",
+      "representativeImage": 747
     },
     {
       "number": 748,
@@ -11421,8 +11503,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_07_53_52_PM_ecg5jq",
       "productId": 30017,
       "productName": "Blue Gradient Tennis-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 37
+      "status": "included",
+      "representativeImage": 748
     },
     {
       "number": 749,
@@ -11431,8 +11513,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc",
       "productId": 30016,
       "productName": "White Floral Short-Sleeve Shirt",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 35
+      "status": "included",
+      "representativeImage": 749
     },
     {
       "number": 750,
@@ -11441,8 +11523,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902442/ChatGPT_Image_Oct_12_2026_08_28_23_PM_xeerfd",
       "productId": 30018,
       "productName": "White Floral Crest Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 33
+      "status": "included",
+      "representativeImage": 750
     },
     {
       "number": 751,
@@ -11451,8 +11533,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902440/ChatGPT_Image_Oct_12_2026_07_59_29_PM_l2gv0j",
       "productId": 30019,
       "productName": "Green Tennis-Graphic Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 34
+      "status": "included",
+      "representativeImage": 751
     },
     {
       "number": 752,
@@ -11461,8 +11543,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902439/ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl",
       "productId": 30019,
       "productName": "Green Tennis-Graphic Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 34
+      "status": "included",
+      "representativeImage": 752
     },
     {
       "number": 753,
@@ -11471,8 +11553,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902438/ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv",
       "productId": 30018,
       "productName": "White Floral Crest Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 33
+      "status": "included",
+      "representativeImage": 753
     },
     {
       "number": 754,
@@ -11481,8 +11563,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn",
       "productId": 30017,
       "productName": "Blue Gradient Tennis-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 37
+      "status": "included",
+      "representativeImage": 754
     },
     {
       "number": 755,
@@ -11491,8 +11573,8 @@
       "url": "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791902437/ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp",
       "productId": 30020,
       "productName": "Multicolor Wave-Print Shirt and Shorts Set",
-      "status": "model-view-replaced-by-garment-photo",
-      "representativeImage": 40
+      "status": "included",
+      "representativeImage": 755
     }
   ]
 }
