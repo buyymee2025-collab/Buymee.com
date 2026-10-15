@@ -1248,3 +1248,11 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 .shop-video-overlay{position:absolute;inset:0;background:linear-gradient(90deg,#050f1ee6,#050f1e66)}
 .shop-video-hero>.section-label,.shop-video-hero>h1,.shop-video-hero>div:last-child{position:relative;z-index:1}
 .shop-video-hero h1 em,.shop-video-hero>div:last-child{color:#fff}
+
+/* Match eyewear studio images with a seamless pure-white modal. */
+.product-modal[data-category="Eye Wears"],
+.product-modal[data-category="Eye Wears"] .product-modal-header,
+.product-modal[data-category="Eye Wears"] .product-modal-info,
+.product-modal[data-category="Eye Wears"] .product-modal-media,
+.product-modal[data-category="Eye Wears"] .product-modal-main,
+.product-modal[data-category="Eye Wears"] .product-modal-thumbs button{background:#fff}
