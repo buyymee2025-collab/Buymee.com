@@ -1179,3 +1179,31 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 [data-category="men"] .product-card:focus-within .product-image img {
   transform: none;
 }
+/* Desktop modal: the gallery stays in view while only product details scroll. */
+.product-modal-shell{scrollbar-width:none;-ms-overflow-style:none}
+.product-modal-shell::-webkit-scrollbar{display:none;width:0;height:0}
+@media (min-width:821px){
+  .product-modal-shell{overflow:hidden}
+  .product-modal{
+    height:min(780px,calc(100vh - 110px));
+    height:min(780px,calc(100dvh - 110px));
+    max-height:none;
+    overflow:hidden;
+    grid-template-rows:72px minmax(0,1fr);
+  }
+  .product-modal-media{display:flex;flex-direction:column;min-height:0;overflow:hidden}
+  .product-modal-main{height:auto;min-height:0;flex:1 1 0}
+  .product-modal-thumbs{flex:0 0 auto}
+  .product-modal-main .product-modal-media-slide img,
+  .product-modal-main .product-modal-media-slide video{transform:none!important}
+  .product-modal-info{
+    min-height:0;
+    overflow-x:hidden;
+    overflow-y:auto;
+    overscroll-behavior-y:contain;
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+  }
+  .product-modal-info::-webkit-scrollbar{display:none;width:0;height:0}
+  .product-modal-info>*{flex-shrink:0}
+}
