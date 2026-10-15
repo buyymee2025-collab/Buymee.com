@@ -1,8 +1,4 @@
-// Complete products.js.
-// 81 footwear cards, 50 watch cards, 8 dresses,
-// 44 eyewear pairs and 21 men's wear products.
-// All 42 uploaded men's wear photographs are included.
-// Eyewear and men's wear prices remain on request.
+// Product data, including the reviewed October 2026 catalogue refresh.
 
 const cloud = 'https://res.cloudinary.com/dnvgl9k4i/';
 const prefixes = [
@@ -804,7 +800,7 @@ const cardRows = [
   [109,109,"Blue / Purple",[510,511]]
 ];
 
-const products = cardRows.map(
+const catalogCards = cardRows.map(
   ([parentProductId, id, color, mediaIds, overrides = {}]) => {
     const {kind, ...family} = families[parentProductId];
     const defaults = kind === 'W' ? watchDefaults : sneakerDefaults;
@@ -855,377 +851,47 @@ const products = cardRows.map(
   }
 );
 
-products.push(
-  {"id":15,"slug":"dress-edit-1","name":"The Column Dress","category":"Women","subcategory":"Dresses","brand":"","price":223,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208652/QWJW8577.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/TIUM5706.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
-  {"id":16,"slug":"dress-edit-2","name":"After Hours Dress","category":"Women","subcategory":"Dresses","brand":"","price":91,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208653/TIUM5706.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
-  {"id":17,"slug":"dress-edit-3","name":"Soft Focus Dress","category":"Women","subcategory":"Dresses","brand":"","price":197,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208654/PTEJ8429.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
-  {"id":18,"slug":"dress-edit-4","name":"Line Break Dress","category":"Women","subcategory":"Dresses","brand":"","price":176,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208656/LTHF8858.jpg","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
-  {"id":19,"slug":"dress-edit-5","name":"Sunday Dress","category":"Women","subcategory":"Dresses","brand":"","price":205,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208659/OEUJ2584.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":true,"sale":false},
-  {"id":20,"slug":"dress-edit-6","name":"The Long View","category":"Women","subcategory":"Dresses","brand":"","price":201,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/MGYN2070.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/XJLU4258.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":false,"sale":false},
-  {"id":21,"slug":"dress-edit-7","name":"City Light Dress","category":"Women","subcategory":"Dresses","brand":"","price":124,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208660/VEHR1657.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/XJLU4258.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208663/HKSS6302.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":false,"sale":false},
-  {"id":22,"slug":"dress-edit-8","name":"Open Air Dress","category":"Women","subcategory":"Dresses","brand":"","price":188,"compareAt":null,"currency":"USD","image":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208661/XEHV5113.png","secondaryImage":"https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208662/XJLU4258.png","gallery":["https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208663/HKSS6302.png","https://res.cloudinary.com/mdbhqnv7/image/upload/v1791208664/WDTQ6474.png"],"description":"A confident silhouette from the BUYYMEE.com dress edit. Easy to wear, considered in the details, made to move.","sizes":["XS","S","M","L","XL"],"colors":["As shown"],"tags":["dress","women"],"inStock":true,"placeholder":false,"featured":true,"newArrival":false,"sale":false}
-);
+
+// One card per watch model. All colors remain available in its modal.
+const products = []
+const watchModels = new Map()
+const mediaIdentity = (item) => item.src.replace(/\/v\d+\//, '/').replace(/_[^_/.]+(?=\.[a-z0-9]+$|$)/i, '')
+for (const card of catalogCards) {
+  if (card.category !== 'Watches') { products.push(card); continue }
+  const key = `${card.parentProductId}:${card.familyName}`
+  let model = watchModels.get(key)
+  if (!model) {
+    model = {...card, name: card.familyName, variants: [], colors: [], gallery: [], media: []}
+    watchModels.set(key, model)
+    products.push(model)
+  }
+  for (const variant of card.variants) {
+    const seen = new Set()
+    const media = variant.media.filter(item => {
+      const key = mediaIdentity(item)
+      if (seen.has(key)) return false
+      seen.add(key)
+      return true
+    })
+    model.variants.push({...variant, media, price: card.price})
+    model.colors.push(variant.color)
+    model.media.push(...media)
+    model.gallery.push(...media.filter(item => item.type === 'image').map(item => item.src))
+  }
+  model.secondaryImage = model.gallery[1] || model.image
+}
 
 export const WATCHES_BACKGROUND_MEDIA = {
   video: "https://res.cloudinary.com/dnvgl9k4i/video/upload/v1791807251/1006_4_epa6ql.mp4",
   poster: "https://res.cloudinary.com/dnvgl9k4i/image/upload/v1791826874/1006_4_-Cover_zag2k0"
 };
 
-// All 122 source eyewear URLs are retained.
-// Only the selected pairs below are displayed as products.
-const eyewearRows = `1791890327 13_2026_10_40_26_AM_n75c0s
-1791890327 13_2026_11_10_47_AM_ugutzs
-1791890325 13_2026_11_08_29_AM_mywudx
-1791890325 13_2026_10_55_43_AM_cfwym7
-1791890323 13_2026_10_58_04_AM_wakeen
-1791890321 13_2026_10_32_45_AM_az7ubp
-1791890321 13_2026_11_08_50_AM_fztuiw
-1791890319 13_2026_11_08_47_AM_gtahpk
-1791890318 13_2026_11_08_43_AM_d7in9o
-1791890317 13_2026_11_08_39_AM_h9fcl2
-1791890316 13_2026_11_08_33_AM_kqeryo
-1791890316 13_2026_10_42_47_AM_cgojoh
-1791890315 13_2026_10_54_08_AM_carbms
-1791890315 13_2026_10_51_55_AM_rhgpas
-1791890313 13_2026_10_51_51_AM_luwe6p
-1791890313 13_2026_10_48_04_AM_g7zaoe
-1791890312 13_2026_10_45_39_AM_dxertd
-1791890310 13_2026_10_37_30_AM_yg7qko
-1791890311 13_2026_10_41_29_AM_spcxwx
-1791890310 13_2026_10_38_45_AM_xxfbrf
-1791890310 13_2026_10_37_25_AM_hyno7v
-1791890309 13_2026_10_34_25_AM_fiyhbz
-1791890308 13_2026_10_35_23_AM_axio9z
-1791890307 13_2026_10_22_39_AM_hbm1ac
-1791890306 13_2026_10_24_04_AM_nhqfqc
-1791890305 13_2026_10_19_44_AM_l5nguw
-1791890304 13_2026_10_15_46_AM_q3ulmm
-1791890304 13_2026_10_17_19_AM_dtu9bv
-1791890302 13_2026_10_15_37_AM_vecvtu
-1791890302 13_2026_10_15_41_AM_tarxed
-1791890301 13_2026_10_11_06_AM_mqgrek
-1791890299 13_2026_10_11_02_AM_k4offu
-1791890300 13_2026_10_02_44_AM_dtf63r
-1791890299 13_2026_10_08_12_AM_cqka5g
-1791890296 13_2026_09_52_19_AM_tdm5h7
-1791890296 13_2026_10_02_28_AM_ivogqp
-1791890294 13_2026_09_52_04_AM_vnip87
-1791890294 13_2026_09_52_09_AM_jgwft8
-1791890291 13_2026_09_51_49_AM_cvmgyx
-1791890291 13_2026_09_51_58_AM_plot4x
-1791890290 13_2026_09_51_53_AM_cte6cq
-1791890289 13_2026_09_45_08_AM_p1kq5g
-1791890289 13_2026_09_39_22_AM_a5kyyp
-1791890288 13_2026_09_44_52_AM_aoxwtn
-1791890288 13_2026_09_51_43_AM_eicu9p
-1791890286 13_2026_09_38_57_AM_sxxq2m
-1791890286 13_2026_09_44_46_AM_vymea4
-1791890286 13_2026_09_44_39_AM_x2lajo
-1791890284 13_2026_09_37_24_AM_aud7nu
-1791890283 13_2026_09_36_39_AM_hbphvb
-1791890283 13_2026_09_36_26_AM_boplyz
-1791890281 13_2026_09_33_06_AM_crla0r
-1791890280 13_2026_09_29_01_AM_i05vlx
-1791890280 13_2026_09_33_02_AM_yrqjbq
-1791890279 13_2026_09_28_07_AM_homnme
-1791890278 13_2026_09_28_11_AM_pooekh
-1791890277 13_2026_09_28_00_AM_zl7fyw
-1791890275 12_2026_10_34_20_PM_ylqo1l
-1791890274 12_2026_10_22_29_PM_cdsehi
-1791890274 13_2026_09_26_16_AM_dccomv
-1791890273 13_2026_09_26_21_AM_yc94qg
-1791890273 12_2026_11_14_05_PM_cpcj6f
-1791890272 13_2026_09_26_25_AM_tljvcb
-1791890270 12_2026_10_31_46_PM_yhdlqx
-1791890269 12_2026_10_38_13_PM_xuibqm
-1791890269 12_2026_10_35_58_PM_v484tc
-1791890268 12_2026_11_49_23_PM_lptlym
-1791890267 12_2026_11_14_14_PM_mewwyh
-1791890266 12_2026_10_45_55_PM_t0pmwi
-1791890266 12_2026_11_04_34_PM_vk9x2o
-1791890265 12_2026_10_25_19_PM_usaauq
-1791890265 12_2026_10_22_35_PM_rmcvhp
-1791890264 12_2026_11_12_40_PM_kiq2r0
-1791890263 12_2026_11_07_14_PM_qffqja
-1791890262 13_2026_09_26_11_AM_rtgc6u
-1791890261 12_2026_11_17_27_PM_yfepfu
-1791890261 12_2026_10_27_54_PM_mth8jo
-1791890259 12_2026_11_05_01_PM_fc7mwr
-1791890257 12_2026_11_04_57_PM_yb0qtn
-1791890256 12_2026_10_25_24_PM_vdawzb
-1791890251 12_2026_10_53_59_PM_xy08iw
-1791890251 12_2026_11_16_35_PM_aonfw8
-1791890251 12_2026_11_04_51_PM_z0maoz
-1791890250 12_2026_10_18_06_PM_ii4f4g
-1791890248 12_2026_11_07_08_PM_ud58e4
-1791890247 12_2026_11_05_06_PM_gvlnj1
-1791890245 12_2026_11_16_21_PM_hnmjuz
-1791890245 12_2026_11_19_23_PM_v85jyo
-1791890245 12_2026_11_16_16_PM_jphyiw
-1791890243 12_2026_10_45_40_PM_zgslgo
-1791890242 12_2026_11_18_19_PM_tmzp0y
-1791890242 12_2026_10_53_54_PM_dolfdc
-1791890240 12_2026_10_53_35_PM_w7k61p
-1791890240 12_2026_11_05_11_PM_vlsay3
-1791890238 12_2026_11_32_55_PM_hiqffz
-1791890237 12_2026_10_16_09_PM_veivap
-1791890235 12_2026_11_04_45_PM_nh34is
-1791890235 12_2026_11_04_29_PM_clkyud
-1791890235 12_2026_10_16_28_PM_mw3o5b
-1791890235 12_2026_10_31_52_PM_pwlkyl
-1791890234 12_2026_10_16_24_PM_wsnjhz
-1791890233 12_2026_10_45_46_PM_g8mcig
-1791890233 12_2026_10_45_23_PM_gw1nv8
-1791890229 12_2026_10_13_11_PM_yfyhuk
-1791890228 12_2026_10_12_57_PM_t1wj8f
-1791890227 12_2026_10_54_05_PM_q2qmi0
-1791890226 12_2026_10_13_05_PM_gcolqj
-1791890225 12_2026_10_12_49_PM_cpqvkk
-1791890224 12_2026_10_45_31_PM_b2utno
-1791890223 12_2026_10_12_27_PM_p73nzs
-1791890222 12_2026_10_04_48_PM_rhtw3t
-1791890222 12_2026_10_12_43_PM_kn6l5c
-1791890221 12_2026_10_12_35_PM_tzm1pp
-1791890219 12_2026_10_01_09_PM_kbii9o
-1791890218 12_2026_10_01_01_PM_bkfzcy
-1791890217 12_2026_09_54_31_PM_gf1g9q
-1791890217 12_2026_10_00_53_PM_ngrtoh
-1791890215 12_2026_09_48_31_PM_ct2tc3
-1791890214 12_2026_09_51_19_PM_b5ddbh
-1791890214 12_2026_09_47_23_PM_uw7nh9
-1791890214 12_2026_09_47_18_PM_vxegqd
-1791890213 12_2026_09_43_37_PM_fg6onm`;
-
-export const EYEWEAR_ASSETS = eyewearRows.split('\n').map(row => {
-  const [version, name] = row.split(' ');
-  return cloud + 'image/upload/v' + version +
-    '/ChatGPT_Image_Oct_' + name + '.png';
-});
-
-// Two selected photographs per product.
-// Front image first, side or angled view second.
-// Pairing is based on visible frame, lens, temple details and color.
-// Physical frame measurements were not supplied.
-
-const eyewearGroups = [
-  ["Gold-Temple Aviator Sunglasses", "Aviator Sunglasses", [19, 1]],
-  ["Blue Square Sunglasses", "Square Sunglasses", [9, 7]],
-  ["Black and Gold Square Sunglasses", "Square Sunglasses", [3, 8]],
-  ["Black Thick-Frame Sunglasses", "Square Sunglasses", [11, 4]],
-  ["Tortoiseshell Round Sunglasses", "Round Sunglasses", [22, 6]],
-  ["Black Oversized Round Sunglasses", "Round Sunglasses", [14, 13]],
-  ["Silver Aviator Sunglasses", "Aviator Sunglasses", [17, 12]],
-  ["Pink V-Bridge Sunglasses", "Rimless Sunglasses", [16, 15]],
-  ["Gold Aviator Sunglasses", "Aviator Sunglasses", [20, 18]],
-  ["Gradient Double-Bridge Aviator Sunglasses", "Aviator Sunglasses", [21, 23]],
-  ["Clear Chain-Temple Frames", "Optical Frames", [24, 25]],
-  ["Pink Shield Sunglasses", "Shield Sunglasses", [27, 26]],
-  ["Brown Geometric Aviator Sunglasses", "Aviator Sunglasses", [30, 28]],
-  ["Orange Thick-Frame Sunglasses", "Square Sunglasses", [31, 29]],
-  ["Rose Square Sunglasses", "Square Sunglasses", [32, 34]],
-  ["Silver Oval Frames", "Optical Frames", [33, 36]],
-  ["Gold Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [35, 84]],
-  ["Pink Crystal Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [37, 39]],
-  ["Black Star-Temple Sunglasses", "Square Sunglasses", [41, 38]],
-  ["Black Sport Sunglasses", "Sports Eyewear", [40, 42]],
-  ["Turquoise Mirrored Shield Sunglasses", "Sports Eyewear", [46, 43]],
-  ["Clear-Frame Blue Mirrored Sport Sunglasses", "Sports Eyewear", [49, 50]],
-  ["Clear-Frame Orange Mirrored Sport Sunglasses", "Sports Eyewear", [75, 63]],
-  ["Blue Mirrored Sport Sunglasses", "Sports Eyewear", [52, 54]],
-  ["Orange Mirrored Sport Sunglasses", "Sports Eyewear", [55, 53]],
-  ["Rose Geometric Metal Sunglasses", "Geometric Sunglasses", [73, 58]],
-  ["Brown Logo-Temple Sunglasses", "Square Sunglasses", [59, 116]],
-  ["Pink and Blue Mirrored Shield Sunglasses", "Sports Eyewear", [61, 60]],
-  ["Pink Ornate Rimless Sunglasses", "Rimless Sunglasses", [69, 62]],
-  ["Green Oversized Logo Square Sunglasses", "Square Sunglasses", [96, 99]],
-  ["Clear Blue Shield Sunglasses", "Sports Eyewear", [95, 67]],
-  ["Burgundy Slim Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [88, 97]],
-  ["Pink Translucent Cat-Eye Sunglasses", "Cat-Eye Sunglasses", [100, 109]],
-  ["Pink Geometric Rimless Sunglasses", "Rimless Sunglasses", [72, 80]],
-  ["Gold Wire-Temple Oval Sunglasses", "Oval Sunglasses", [76, 82]],
-  ["Gold-Temple Oval Sunglasses", "Oval Sunglasses", [83, 79]],
-  ["Tortoiseshell Geometric Sunglasses", "Geometric Sunglasses", [94, 85]],
-  ["Gold-Outline Square Sunglasses", "Square Sunglasses", [87, 91]],
-  ["Pink Hexagonal Rimless Sunglasses", "Rimless Sunglasses", [90, 102]],
-  ["Pink Decorative Rimless Sunglasses", "Rimless Sunglasses", [103, 93]],
-  ["Black and Gold Metal-Temple Sunglasses", "Geometric Sunglasses", [106, 98]],
-  ["Pink Gold-Rim Sunglasses", "Round Sunglasses", [107, 45]],
-  ["Grey Chain-Temple Sunglasses", "Square Sunglasses", [115, 114]],
-  ["Purple Butterfly Sunglasses", "Butterfly Sunglasses", [118, 117]]
-];
-
-export const EYEWEAR_EXCLUDED_IMAGE_NUMBERS = [
-  2, 5, 10, 44, 47, 48, 51, 56, 57, 64, 65, 66, 68, 70,
-  71, 74, 77, 78, 81, 86, 89, 92, 101, 104, 105, 108, 110,
-  111, 112, 113, 119, 120, 121, 122
-];
-
-export const EYEWEAR_UNPAIRED_IMAGE_NUMBERS = eyewearGroups
-  .filter(([, , numbers]) => numbers.length === 1)
-  .map(([, , numbers]) => numbers[0]);
-
-export const EYEWEAR_PRODUCTS = eyewearGroups.map(
-  ([familyName, subcategory, numbers], index) => {
-    const id = 25000 + index;
-    const gallery = numbers.map(number => EYEWEAR_ASSETS[number - 1]);
-    const image = gallery[0];
-    const media = gallery.map(src => ({type: 'image', src}));
-
-    return {
-      id,
-      parentProductId: id,
-      slug: 'eye-wears-' + familyName.toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-|-$/g, ''),
-      name: familyName,
-      familyName,
-      category: 'Eye Wears',
-      subcategory,
-      brand: '',
-      imageNumbers: numbers,
-      pairingReviewRequired: numbers.length === 1,
-      price: null,
-      priceOnRequest: true,
-      compareAt: null,
-      currency: 'USD',
-      image,
-      secondaryImage: gallery[1] || image,
-      gallery,
-      media,
-      variants: [{color: 'As shown', image, media}],
-      description: familyName +
-        ' from the BUYYMEE.com eyewear collection. Contact us for availability and price.',
-      sizes: ['OS'],
-      colors: ['As shown'],
-      tags: ['eye wears', 'eyewear', subcategory.toLowerCase()],
-      inStock: true,
-      placeholder: false,
-      featured: false,
-      newArrival: false,
-      sale: false
-    };
-  }
-);
-
-products.push(...EYEWEAR_PRODUCTS);
-
-// Latest 42 Cloudinary clothing uploads.
-const menswearRows = `1791902509 ChatGPT_Image_Oct_12_2026_07_14_06_PM_l3em0l
-1791902505 ChatGPT_Image_Oct_12_2026_07_29_46_PM_yfvcxp
-1791902504 ChatGPT_Image_Oct_12_2026_07_14_56_PM_c4h7us
-1791902476 ChatGPT_Image_Oct_12_2026_07_12_04_PM_rafeja
-1791902474 ChatGPT_Image_Oct_12_2026_07_05_37_PM_npizp2
-1791902474 ChatGPT_Image_Oct_12_2026_07_12_37_PM_gtfmll
-1791902472 ChatGPT_Image_Oct_12_2026_06_58_29_PM_zbuyni
-1791902471 ChatGPT_Image_Oct_12_2026_07_03_26_PM_qfuqfu
-1791902471 ChatGPT_Image_Oct_12_2026_07_09_09_PM_pctmgp
-1791902469 ChatGPT_Image_Oct_12_2026_07_00_58_PM_dcgkaz
-1791902469 ChatGPT_Image_Oct_12_2026_07_04_36_PM_hytefy
-1791902467 ChatGPT_Image_Oct_12_2026_06_53_58_PM_rjnsza
-1791902466 ChatGPT_Image_Oct_12_2026_07_02_23_PM_twwc5m
-1791902464 ChatGPT_Image_Oct_12_2026_07_00_06_PM_eo7pwi
-1791902464 ChatGPT_Image_Oct_12_2026_06_56_53_PM_fs2c6u
-1791902463 ChatGPT_Image_Oct_12_2026_06_48_40_PM_pnun5a
-1791902462 ChatGPT_Image_Oct_12_2026_06_57_53_PM_gfy7s1
-1791902462 ChatGPT_Image_Oct_12_2026_06_44_27_PM_whbh3f
-1791902460 ChatGPT_Image_Oct_12_2026_06_50_32_PM_ct50yq
-1791902459 ChatGPT_Image_Oct_12_2026_06_52_51_PM_zmhpcc
-1791902458 ChatGPT_Image_Oct_12_2026_06_52_18_PM_uti5r5
-1791902457 ChatGPT_Image_Oct_12_2026_06_41_20_PM_albi3r
-1791902457 ChatGPT_Image_Oct_12_2026_06_38_42_PM_xi2edz
-1791902454 ChatGPT_Image_Oct_12_2026_06_34_52_PM_tzpwta
-1791902453 ChatGPT_Image_Oct_12_2026_07_40_14_PM_vwcyyx
-1791902452 ChatGPT_Image_Oct_13_2026_11_21_58_AM_ijmgvb
-1791902451 ChatGPT_Image_Oct_12_2026_07_26_42_PM_putmwo
-1791902450 ChatGPT_Image_Oct_12_2026_07_32_20_PM_dshljx
-1791902450 ChatGPT_Image_Oct_12_2026_07_38_35_PM_rkhtnu
-1791902446 ChatGPT_Image_Oct_12_2026_07_10_19_PM_edo3k2
-1791902446 ChatGPT_Image_Oct_12_2026_07_21_56_PM_h0es5e
-1791902444 ChatGPT_Image_Oct_12_2026_06_59_27_PM_ryssj9
-1791902443 ChatGPT_Image_Oct_12_2026_06_47_20_PM_dlwbza
-1791902442 ChatGPT_Image_Oct_12_2026_07_53_52_PM_ecg5jq
-1791902442 ChatGPT_Image_Oct_12_2026_06_46_32_PM_orgxnc
-1791902442 ChatGPT_Image_Oct_12_2026_08_28_23_PM_xeerfd
-1791902440 ChatGPT_Image_Oct_12_2026_07_59_29_PM_l2gv0j
-1791902439 ChatGPT_Image_Oct_12_2026_07_59_23_PM_gynkcl
-1791902438 ChatGPT_Image_Oct_12_2026_07_55_40_PM_zsspdv
-1791902437 ChatGPT_Image_Oct_12_2026_07_52_34_PM_e7cqjn
-1791902437 ChatGPT_Image_Oct_12_2026_07_46_40_PM_w24bxp
-1791902436 ChatGPT_Image_Oct_12_2026_07_49_27_PM_lqocg9`;
-
-export const MENSWEAR_ASSETS = menswearRows
-  .trim()
-  .split(/\r?\n/)
-  .map(row => {
-    const [version, publicId] = row.trim().split(/\s+/);
-    return cloud + 'image/upload/v' + version + '/' + publicId + '.png';
-  });
-
-const menswearGroups = [
-  ["White Fruit-Print Long-Sleeve Shirt", "Shirts", "White", [1, 3]],
-  ["Cream Chain-Print Shirt and Shorts Set", "Matching Sets", "Cream", [2, 28]],
-  ["Mint and Gold Baroque Shirt and Shorts Set", "Matching Sets", "Mint Green", [4, 6]],
-  ["Blue and Gold Baroque Shirt and Shorts Set", "Matching Sets", "Blue", [11, 5]],
-  ["White Line-Art Shirt and Shorts Set", "Matching Sets", "White", [7, 32]],
-  ["White and Yellow Diamond-Print Shirt and Shorts Set", "Matching Sets", "White and Yellow", [13, 8]],
-  ["White Tennis-Print Set with Orange Trim", "Matching Sets", "White and Orange", [9, 30]],
-  ["Mint Graphic Shirt and Shorts Set", "Matching Sets", "Mint Green", [14, 10]],
-  ["Black and White Geometric Shirt and Shorts Set", "Matching Sets", "Black and White", [12, 26]],
-  ["Navy Scarf-Print Shirt and Shorts Set", "Matching Sets", "Navy", [15, 17]],
-  ["Navy Medallion-Print Shirt and Shorts Set", "Matching Sets", "Navy", [16, 19]],
-  ["Yellow Baroque Short-Sleeve Shirt", "Shirts", "Yellow", [22, 18]],
-  ["Light Blue Ornamental Shirt and Shorts Set", "Matching Sets", "Light Blue", [21, 20]],
-  ["Black and Gold Baroque Shirt and Shorts Set", "Matching Sets", "Black and Gold", [24, 23]],
-  ["Pastel Architectural-Print Shirt and Shorts Set", "Matching Sets", "Pastel", [29, 25]],
-  ["White Tennis-Print Set with Green Trim", "Matching Sets", "White and Green", [31, 27]],
-  ["White Floral Short-Sleeve Shirt", "Shirts", "White", [35, 33]],
-  ["Blue Gradient Tennis-Print Shirt and Shorts Set", "Matching Sets", "Blue", [40, 34]],
-  ["White Floral Crest Shirt and Shorts Set", "Matching Sets", "White", [39, 36]],
-  ["Green Tennis-Graphic Shirt and Shorts Set", "Matching Sets", "Green", [38, 37]],
-  ["Multicolor Wave-Print Shirt and Shorts Set", "Matching Sets", "Multicolor", [41, 42]]
-];
-
-export const MENSWEAR_PRODUCTS = menswearGroups.map(
-  ([familyName, subcategory, color, numbers], index) => {
-    const id = 30000 + index;
-    const gallery = numbers.map(number => MENSWEAR_ASSETS[number - 1]);
-    const image = gallery[0];
-    const media = gallery.map(src => ({type: 'image', src}));
-
-    return {
-      id,
-      parentProductId: id,
-      slug: 'mens-wear-' + familyName.toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-|-$/g, ''),
-      name: familyName,
-      familyName,
-      category: 'Men',
-      subcategory,
-      brand: '',
-      price: null,
-      priceOnRequest: true,
-      compareAt: null,
-      currency: 'USD',
-      image,
-      secondaryImage: gallery[1],
-      gallery,
-      media,
-      variants: [{color, image, media}],
-      description: familyName +
-        ' from the BUYYMEE.com men\'s collection. Matching front and back photographs. Contact us for price, sizes, and availability.',
-      sizes: [],
-      colors: [color],
-      tags: ['men', 'menswear', subcategory.toLowerCase()],
-      inStock: true,
-      placeholder: false,
-      featured: false,
-      newArrival: true,
-      sale: false
-    };
-  }
-);
-
-products.push(...MENSWEAR_PRODUCTS);
-
-export default products;
+// Category data refreshed from the audited first-755 Cloudinary selection.
+export { EYEWEAR_PRODUCTS, MENSWEAR_PRODUCTS, WOMENS_PRODUCTS } from './refreshedCatalog'
+import { EYEWEAR_PRODUCTS, MENSWEAR_PRODUCTS, WOMENS_PRODUCTS } from './refreshedCatalog'
+export const EYEWEAR_ASSETS = EYEWEAR_PRODUCTS.flatMap(product => product.gallery)
+export const MENSWEAR_ASSETS = MENSWEAR_PRODUCTS.flatMap(product => product.gallery)
+export const EYEWEAR_EXCLUDED_IMAGE_NUMBERS = []
+export const EYEWEAR_UNPAIRED_IMAGE_NUMBERS = []
+products.push(...WOMENS_PRODUCTS, ...EYEWEAR_PRODUCTS, ...MENSWEAR_PRODUCTS)
+export default products
