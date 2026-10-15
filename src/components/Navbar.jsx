@@ -172,6 +172,7 @@ export default function Navbar({ overlay = false }) {
             </button>
           </div>
           <NavLink to="/about">About</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </nav>
         <div className="nav-actions">
           <button type="button" onClick={() => setDrawer(true)} aria-label="Open shopping bag">

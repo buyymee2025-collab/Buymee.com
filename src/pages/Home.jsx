@@ -38,7 +38,9 @@ export default function Home() {
     let direction = 1
     // Velocity in category cycles per millisecond, independent of viewport width.
     let velocity = 1 / 25000
-    const settleTime = 850
+    const momentumDuration = 3000
+    let momentumStart = null
+    let releaseVelocity = velocity
     let frame
     let previous = null
     let gesture = null
@@ -61,17 +63,17 @@ export default function Home() {
       if (previous !== null && !gesture) {
         const elapsed = Math.min(now - previous, 64)
         const cruise = direction / 25000
-        const decay = Math.exp(-elapsed / settleTime)
-        // Integrate the decaying momentum so speed settles without a sudden jump.
-        offset += cycle * (cruise * elapsed + (velocity - cruise) * settleTime * (1 - decay))
-        velocity = cruise + (velocity - cruise) * decay
+        const progress = momentumStart === null ? 1 : Math.min((now - momentumStart) / momentumDuration, 1)
+        // Finger-driven momentum eases back to the 25-second cruise in three seconds.
+        velocity = cruise + (releaseVelocity - cruise) * (1 - progress) ** 2
+        offset += cycle * velocity * elapsed
         paint()
       }
       previous = now
       frame = requestAnimationFrame(tick)
     }
     const down = (event) => {
-      if (!event.isPrimary || event.button !== 0 || gesture) return
+      if (!event.isPrimary || (event.pointerType === 'mouse' && event.button !== 0) || gesture) return
       clearTimeout(clickTimer)
       suppressClick = false
       gesture = { id: event.pointerId, x: event.clientX, y: event.clientY, offset, dragging: false,
@@ -107,18 +109,20 @@ export default function Home() {
     const end = (event) => {
       if (!gesture || gesture.id !== event.pointerId) return
       const dragged = gesture.dragging
-      if (dragged && gesture.lastDirection) {
+      if (dragged && gesture.lastDirection && event.type !== 'pointercancel') {
         direction = gesture.lastDirection
         const fresh = event.timeStamp - gesture.lastTime < 120
         const releaseSpeed = fresh ? Math.abs(gesture.speed) / cycle : 0
         // Continue in the user's direction, with a bounded flick boost.
-        velocity = direction * Math.max(1 / 25000, Math.min(releaseSpeed, 8 / 25000))
+        velocity = direction * Math.max(1 / 25000, Math.min(releaseSpeed * 1.35, 32 / 25000))
+        releaseVelocity = velocity
+        momentumStart = performance.now()
       }
       gesture = null
       previous = null
       carousel.classList.remove('is-dragging')
       if (carousel.hasPointerCapture(event.pointerId)) carousel.releasePointerCapture(event.pointerId)
-      if (dragged) clickTimer = setTimeout(() => { suppressClick = false }, 0)
+      if (dragged) clickTimer = setTimeout(() => { suppressClick = false }, 350)
     }
     const click = (event) => {
       if (suppressClick) { event.preventDefault(); event.stopPropagation() }

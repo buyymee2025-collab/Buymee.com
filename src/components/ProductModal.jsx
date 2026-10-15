@@ -1,3 +1,4 @@
+import { purchaseUrl } from '../lib/contact'
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -37,7 +38,7 @@ function videoPosterSrc(src, width = 1200) {
 }
 
 export default function ProductModal({ product, onClose }) {
-  const { currency, formatPrice, addToCart } = useStore()
+  const { currency, formatPrice } = useStore()
   const variants = product.variants?.length ? product.variants : [{
     color: product.colors?.[0] || 'As shown',
     image: product.image,
@@ -397,11 +398,7 @@ export default function ProductModal({ product, onClose }) {
             </div>
 
             <div className="product-modal-actions">
-              {product.priceOnRequest && product.category !== 'Watches' ? (
-                <a href="/contact" className="button orange" onClick={onClose}>ENQUIRE ABOUT THIS PIECE <ArrowUpRight size={17} /></a>
-              ) : (
-                <button className="button orange" type="button" onClick={() => { addToCart(product); onClose() }}>ADD TO CART <ArrowUpRight size={17} /></button>
-              )}
+              <a className="button orange" href={purchaseUrl(product, { color: activeMedia?.color || variant.color, origin: window.location.origin })} target="_blank" rel="noopener noreferrer">PURCHASE ON WHATSAPP <ArrowUpRight size={17} /></a>
             </div>
           </div>
         </motion.div>
