@@ -3485,5 +3485,737 @@ export const EYEWEAR_PRODUCTS = [
     "sale": false,
     "description": "Gold Letter-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
     "productCode": "GL057"
-  }
+  },
+{
+  "id": 26100,
+  "parentProductId": 26100,
+  "slug": "eye-wears-gold-crystal-square-tortoiseshell-temple-sunglasses",
+  "name": "Gold Crystal Square Tortoiseshell-Temple Sunglasses",
+  "familyName": "Gold Crystal Square Tortoiseshell-Temple Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_24_22_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_24_31_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_24_22_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_24_31_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_24_22_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_24_31_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Gold / Tortoiseshell",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_24_22_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_24_22_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_24_31_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Gold / Tortoiseshell"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Gold Crystal Square Tortoiseshell-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL058"
+},
+{
+  "id": 26101,
+  "parentProductId": 26101,
+  "slug": "eye-wears-pink-crystal-square-logo-temple-sunglasses",
+  "name": "Pink Crystal Square Logo-Temple Sunglasses",
+  "familyName": "Pink Crystal Square Logo-Temple Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_28_35_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_28_45_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_28_35_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_28_45_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_28_35_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_28_45_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Pink / Gold",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_28_35_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_28_35_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_28_45_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Pink / Gold"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Pink Crystal Square Logo-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL059"
+},
+{
+  "id": 26102,
+  "parentProductId": 26102,
+  "slug": "eye-wears-black-rectangular-gold-temple-sunglasses",
+  "name": "Black Rectangular Gold-Temple Sunglasses",
+  "familyName": "Black Rectangular Gold-Temple Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_34_18_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_34_52_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_34_18_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_34_52_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_34_18_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_34_52_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Black / Gold",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_34_18_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_34_18_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_34_52_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Black / Gold"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Black Rectangular Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL060"
+},
+{
+  "id": 26103,
+  "parentProductId": 26103,
+  "slug": "eye-wears-brown-gradient-oval-logo-temple-sunglasses",
+  "name": "Brown Gradient Oval Logo-Temple Sunglasses",
+  "familyName": "Brown Gradient Oval Logo-Temple Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_45_38_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_45_47_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_45_38_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_45_47_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_45_38_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_45_47_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Brown / Gold",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_45_38_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_45_38_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_45_47_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Brown / Gold"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Brown Gradient Oval Logo-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL061"
+},
+{
+  "id": 26104,
+  "parentProductId": 26104,
+  "slug": "eye-wears-purple-rimless-rectangular-logo-temple-sunglasses",
+  "name": "Purple Rimless Rectangular Logo-Temple Sunglasses",
+  "familyName": "Purple Rimless Rectangular Logo-Temple Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_54_19_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_53_51_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_54_19_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_53_51_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_54_19_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_53_51_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Purple / Gold",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_54_19_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_54_19_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_05_53_51_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Purple / Gold"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Purple Rimless Rectangular Logo-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL062"
+},
+{
+  "id": 26105,
+  "parentProductId": 26105,
+  "slug": "eye-wears-rose-gradient-gold-double-bridge-aviator-sunglasses",
+  "name": "Rose Gradient Gold Double-Bridge Aviator Sunglasses",
+  "familyName": "Rose Gradient Gold Double-Bridge Aviator Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_03_32_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_03_48_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_03_32_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_03_48_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_03_32_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_03_48_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Rose / Gold",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_03_32_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_03_32_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_03_48_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Rose / Gold"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Rose Gradient Gold Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL063"
+},
+{
+  "id": 26106,
+  "parentProductId": 26106,
+  "slug": "eye-wears-peach-gradient-gold-square-sunglasses",
+  "name": "Peach Gradient Gold Square Sunglasses",
+  "familyName": "Peach Gradient Gold Square Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_08_33_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_08_49_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_08_33_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_08_49_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_08_33_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_08_49_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Peach / Gold",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_08_33_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_08_33_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_08_49_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Peach / Gold"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Peach Gradient Gold Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL064"
+},
+{
+  "id": 26107,
+  "parentProductId": 26107,
+  "slug": "eye-wears-brown-gradient-geometric-rimless-sunglasses",
+  "name": "Brown Gradient Geometric Rimless Sunglasses",
+  "familyName": "Brown Gradient Geometric Rimless Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_15_38_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_15_57_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_15_38_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_15_57_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_15_38_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_15_57_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Brown",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_15_38_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_15_38_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_15_57_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Brown"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Brown Gradient Geometric Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL065"
+},
+{
+  "id": 26108,
+  "parentProductId": 26108,
+  "slug": "eye-wears-amber-gold-double-bridge-aviator-sunglasses",
+  "name": "Amber Gold Double-Bridge Aviator Sunglasses",
+  "familyName": "Amber Gold Double-Bridge Aviator Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_22_28_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_22_40_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_22_28_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_22_40_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_22_28_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_22_40_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Amber / Gold",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_22_28_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_22_28_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_22_40_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Amber / Gold"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Amber Gold Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL066"
+},
+{
+  "id": 26109,
+  "parentProductId": 26109,
+  "slug": "eye-wears-tortoiseshell-oval-logo-temple-sunglasses",
+  "name": "Tortoiseshell Oval Logo-Temple Sunglasses",
+  "familyName": "Tortoiseshell Oval Logo-Temple Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_25_53_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_26_02_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_25_53_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_26_02_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_25_53_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_26_02_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Tortoiseshell",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_25_53_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_25_53_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_26_02_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Tortoiseshell"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Tortoiseshell Oval Logo-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL067"
+},
+{
+  "id": 26110,
+  "parentProductId": 26110,
+  "slug": "eye-wears-purple-rose-gradient-rimless-sunglasses",
+  "name": "Purple Rose Gradient Rimless Sunglasses",
+  "familyName": "Purple Rose Gradient Rimless Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_35_23_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_35_41_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_35_23_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_35_41_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_35_23_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_35_41_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Purple / Rose",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_35_23_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_35_23_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_35_41_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Purple / Rose"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Purple Rose Gradient Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL068"
+},
+{
+  "id": 26111,
+  "parentProductId": 26111,
+  "slug": "eye-wears-brown-gradient-gold-temple-shield-sunglasses",
+  "name": "Brown Gradient Gold-Temple Shield Sunglasses",
+  "familyName": "Brown Gradient Gold-Temple Shield Sunglasses",
+  "category": "Eye Wears",
+  "subcategory": "Sunglasses",
+  "brand": "",
+  "price": null,
+  "priceOnRequest": true,
+  "compareAt": null,
+  "currency": "USD",
+  "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_40_01_PM",
+  "secondaryImage": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_39_54_PM",
+  "gallery": [
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_40_01_PM",
+    "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_39_54_PM"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_40_01_PM"
+    },
+    {
+      "type": "image",
+      "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_39_54_PM"
+    }
+  ],
+  "variants": [
+    {
+      "color": "Brown / Gold",
+      "image": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_40_01_PM",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_40_01_PM"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/mdbhqnv7/image/upload/ChatGPT_Image_Oct_16_2026_06_39_54_PM"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    "Brown / Gold"
+  ],
+  "sizes": [],
+  "tags": [
+    "eye wears",
+    "sunglasses"
+  ],
+  "inStock": true,
+  "placeholder": false,
+  "featured": false,
+  "newArrival": true,
+  "sale": false,
+  "description": "Brown Gradient Gold-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+  "productCode": "GL069"
+}
 ]
