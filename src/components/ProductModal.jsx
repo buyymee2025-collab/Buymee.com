@@ -40,6 +40,7 @@ function videoPosterSrc(src, width = 1200) {
 
 export default function ProductModal({ product, onClose }) {
   const { currency, formatPrice, addToCart } = useStore()
+  const productCode = product.productCode || product.sku || product.id
   const variants = product.variants?.length ? product.variants : [{
     color: product.colors?.[0] || 'As shown',
     image: product.image,
@@ -341,10 +342,10 @@ export default function ProductModal({ product, onClose }) {
 
           <div className="product-modal-info" tabIndex={0} role="region" aria-label="Product information">
             <div className="product-modal-kicker">{product.category} / {product.subcategory}</div>
-            {product.category === 'Watches' && product.productCode && (
-              <div className="product-modal-identity" aria-label={`Product identity ${product.productCode}`}>
-                <span className="product-modal-identity-label">IDENTITY</span>
-                <span className="product-modal-identity-code">{product.productCode}</span>
+            {productCode != null && (
+              <div className="product-modal-identity" aria-label={`Product identity ${productCode}`}>
+                <span className="product-modal-identity-label">PRODUCT CODE</span>
+                <span className="product-modal-identity-code">{productCode}</span>
                 <span className="product-modal-identity-dot" aria-hidden="true" />
               </div>
             )}
