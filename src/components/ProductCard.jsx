@@ -9,6 +9,8 @@ import ProductModal from './ProductModal'
 
 export default function ProductCard({ product, index = 0 }) {
   const { currency, formatPrice, addToCart } = useStore()
+  const savedPrice = product.price == null || String(product.price).trim() === '' ? NaN : Number(product.price)
+  const hasPrice = Number.isFinite(savedPrice) && savedPrice >= 0
   const productCode = product.productCode || product.sku || product.id
   const [open, setOpen] = useState(false)
   const modalHistory = useRef(null)
@@ -49,7 +51,7 @@ export default function ProductCard({ product, index = 0 }) {
               <span>EU {product.sizeAvailability.eu}</span>
             </div>
           )}
-          <strong className="product-price-box"><span>PRICE</span>{product.priceOnRequest ? 'PRICE ON REQUEST' : formatPrice(product.price, currency)}</strong>
+          <strong className="product-price-box"><span>PRICE</span>{hasPrice ? formatPrice(savedPrice, currency) : 'PRICE ON REQUEST'}</strong>
           <Link className="product-view" to={`/product/${product.slug}`} onClick={openProduct}>VIEW DETAILS <span>↗</span></Link>
         </div>
       </Reveal>
