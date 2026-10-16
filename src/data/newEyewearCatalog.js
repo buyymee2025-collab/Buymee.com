@@ -1,6 +1,717 @@
 // Visually reviewed October 15, 2026. Product-only front views lead whenever available.
 export const EYEWEAR_PRODUCTS = [
   {
+    "id": 26034,
+    "parentProductId": 26034,
+    "slug": "eye-wears-blue-gradient-gold-link-rimless-sunglasses",
+    "name": "Blue Gradient Gold-Link Rimless Sunglasses",
+    "familyName": "Blue Gradient Gold-Link Rimless Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_53_PM_dyz8yh",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_43_PM_yww6p6",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_53_PM_dyz8yh",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_43_PM_yww6p6"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_53_PM_dyz8yh"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_43_PM_yww6p6"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Blue / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_53_PM_dyz8yh",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_53_PM_dyz8yh"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_43_PM_yww6p6"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Blue / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Blue Gradient Gold-Link Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26035,
+    "parentProductId": 26035,
+    "slug": "eye-wears-rose-gradient-gold-hinge-square-sunglasses",
+    "name": "Rose Gradient Gold-Hinge Square Sunglasses",
+    "familyName": "Rose Gradient Gold-Hinge Square Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_14_51_PM_xf8ouc",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_15_03_PM_q9bo57",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_14_51_PM_xf8ouc",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_15_03_PM_q9bo57"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_14_51_PM_xf8ouc"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_15_03_PM_q9bo57"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Rose / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_14_51_PM_xf8ouc",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_14_51_PM_xf8ouc"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_15_03_PM_q9bo57"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Rose / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Rose Gradient Gold-Hinge Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26036,
+    "parentProductId": 26036,
+    "slug": "eye-wears-brown-gradient-round-metal-sunglasses",
+    "name": "Brown Gradient Round Metal Sunglasses",
+    "familyName": "Brown Gradient Round Metal Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_17_22_PM_jtdmvc",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_50_13_PM_gjd3ih",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_17_22_PM_jtdmvc",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_50_13_PM_gjd3ih"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_17_22_PM_jtdmvc"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_50_13_PM_gjd3ih"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Brown / Silver",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_17_22_PM_jtdmvc",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_17_22_PM_jtdmvc"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_50_13_PM_gjd3ih"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Brown / Silver"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Brown Gradient Round Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26037,
+    "parentProductId": 26037,
+    "slug": "eye-wears-dolce-and-gabbana-white-coral-visor-sunglasses",
+    "name": "Dolce & Gabbana White Coral Visor Sunglasses",
+    "familyName": "Dolce & Gabbana White Coral Visor Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Dolce & Gabbana",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_09_PM_mnzpy3",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_22_PM_ylfonk",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_09_PM_mnzpy3",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_22_PM_ylfonk"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_09_PM_mnzpy3"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_22_PM_ylfonk"
+      }
+    ],
+    "variants": [
+      {
+        "color": "White / Coral",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_09_PM_mnzpy3",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_09_PM_mnzpy3"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_22_PM_ylfonk"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "White / Coral"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Dolce & Gabbana White Coral Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26038,
+    "parentProductId": 26038,
+    "slug": "eye-wears-cartier-rose-gradient-wood-temple-rimless-sunglasses",
+    "name": "Cartier Rose Gradient Wood-Temple Rimless Sunglasses",
+    "familyName": "Cartier Rose Gradient Wood-Temple Rimless Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Cartier",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_10_15_PM_dmrefw",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_09_55_PM_n17sa7",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_10_15_PM_dmrefw",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_09_55_PM_n17sa7"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_10_15_PM_dmrefw"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_09_55_PM_n17sa7"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Rose / Brown / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_10_15_PM_dmrefw",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_10_15_PM_dmrefw"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_09_55_PM_n17sa7"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Rose / Brown / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Cartier Rose Gradient Wood-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26039,
+    "parentProductId": 26039,
+    "slug": "eye-wears-dolce-and-gabbana-black-gold-logo-shield-sunglasses",
+    "name": "Dolce & Gabbana Black Gold-Logo Shield Sunglasses",
+    "familyName": "Dolce & Gabbana Black Gold-Logo Shield Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Dolce & Gabbana",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_03_PM_oo6yby",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_16_PM_mie02k",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_03_PM_oo6yby",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_16_PM_mie02k"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_03_PM_oo6yby"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_16_PM_mie02k"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Black / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_03_PM_oo6yby",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_03_PM_oo6yby"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_16_PM_mie02k"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Black / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Dolce & Gabbana Black Gold-Logo Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26040,
+    "parentProductId": 26040,
+    "slug": "eye-wears-dolce-and-gabbana-purple-gold-temple-aviator-sunglasses",
+    "name": "Dolce & Gabbana Purple Gold-Temple Aviator Sunglasses",
+    "familyName": "Dolce & Gabbana Purple Gold-Temple Aviator Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Dolce & Gabbana",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_34_PM_qjagqx",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_42_PM_m1o3dd",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_34_PM_qjagqx",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_42_PM_m1o3dd"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_34_PM_qjagqx"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_42_PM_m1o3dd"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Purple / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_34_PM_qjagqx",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_34_PM_qjagqx"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_42_PM_m1o3dd"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Purple / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Dolce & Gabbana Purple Gold-Temple Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26041,
+    "parentProductId": 26041,
+    "slug": "eye-wears-black-gradient-linked-temple-rectangular-sunglasses",
+    "name": "Black Gradient Linked-Temple Rectangular Sunglasses",
+    "familyName": "Black Gradient Linked-Temple Rectangular Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_34_PM_kkzljd",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_44_PM_ul0gw8",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_34_PM_kkzljd",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_44_PM_ul0gw8"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_34_PM_kkzljd"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_44_PM_ul0gw8"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Black / Silver",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_34_PM_kkzljd",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_34_PM_kkzljd"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_44_PM_ul0gw8"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Black / Silver"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Black Gradient Linked-Temple Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26042,
+    "parentProductId": 26042,
+    "slug": "eye-wears-amber-transparent-gold-detail-square-sunglasses",
+    "name": "Amber Transparent Gold-Detail Square Sunglasses",
+    "familyName": "Amber Transparent Gold-Detail Square Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_48_PM_ulwhew",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_56_PM_oiybin",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_48_PM_ulwhew",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_56_PM_oiybin"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_48_PM_ulwhew"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_56_PM_oiybin"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Amber / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_48_PM_ulwhew",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_48_PM_ulwhew"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_56_PM_oiybin"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Amber / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Amber Transparent Gold-Detail Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26043,
+    "parentProductId": 26043,
+    "slug": "eye-wears-fendi-brown-gradient-rimless-square-sunglasses",
+    "name": "Fendi Brown Gradient Rimless Square Sunglasses",
+    "familyName": "Fendi Brown Gradient Rimless Square Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Fendi",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_08_PM_txdmkg",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_36_PM_pbuisi",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_08_PM_txdmkg",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_36_PM_pbuisi"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_08_PM_txdmkg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_36_PM_pbuisi"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Brown / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_08_PM_txdmkg",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_08_PM_txdmkg"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_36_PM_pbuisi"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Brown / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Fendi Brown Gradient Rimless Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26044,
+    "parentProductId": 26044,
+    "slug": "eye-wears-black-double-bridge-aviator-sunglasses",
+    "name": "Black Double-Bridge Aviator Sunglasses",
+    "familyName": "Black Double-Bridge Aviator Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_46_32_PM_u2q8vz",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_46_32_PM_u2q8vz",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_46_32_PM_u2q8vz"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_46_32_PM_u2q8vz"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_46_32_PM_u2q8vz",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_46_32_PM_u2q8vz"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Black"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Black Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26045,
+    "parentProductId": 26045,
+    "slug": "eye-wears-fendi-brown-gradient-letter-temple-shield-sunglasses",
+    "name": "Fendi Brown Gradient Letter-Temple Shield Sunglasses",
+    "familyName": "Fendi Brown Gradient Letter-Temple Shield Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Fendi",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_16_PM_vsn9yg",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_05_PM_n4ue8a",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_16_PM_vsn9yg",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_05_PM_n4ue8a"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_16_PM_vsn9yg"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_05_PM_n4ue8a"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Brown / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_16_PM_vsn9yg",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_16_PM_vsn9yg"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_05_PM_n4ue8a"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Brown / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Fendi Brown Gradient Letter-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
     "id": 25206,
     "parentProductId": 25206,
     "slug": "eye-wears-dolce-gabbana-purple-rimless-sunglasses",
