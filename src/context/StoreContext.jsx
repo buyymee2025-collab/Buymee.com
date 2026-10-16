@@ -9,7 +9,25 @@ export const originalProducts = [...baseProducts, ...Object.values(categoryProdu
 const StoreContext=createContext(null)
 export function StoreProvider({children}){
  const [catalogRows,setCatalogRows]=useState([])
- const products=useMemo(()=>mergeCatalog(originalProducts,catalogRows),[catalogRows])
+ const products=useMemo(()=>{
+  const merged = mergeCatalog(originalProducts,catalogRows)
+  // Assign a unique GL code to every eyewear card, including admin-added products.
+  // Preserve the existing codes for the original eyewear catalogue.
+  const used = new Set()
+  let next = 1
+  return merged.map(product => {
+    if (product.category !== 'Eye Wears') return product
+    const existing = String(product.productCode || '').toUpperCase()
+    const valid = /^GL\\d{3,}$/.test(existing) && !used.has(existing)
+    let code = existing
+    if (!valid) {
+      while (used.has(`GL${String(next).padStart(3, '0')}`)) next += 1
+      code = `GL${String(next++).padStart(3, '0')}`
+    }
+    used.add(code)
+    return product.productCode === code ? product : { ...product, productCode: code }
+  })
+ },[catalogRows])
  const refreshCatalog=async()=>{const rows=await fetchCatalog();setCatalogRows(rows)}
  useEffect(()=>{
   if(!adminClient)return
