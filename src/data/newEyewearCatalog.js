@@ -1,5 +1,665 @@
-// Visually reviewed October 15, 2026. Product-only front views lead whenever available.
+// Visually reviewed October 16, 2026. Matching product-only front views lead each new pair.
 export const EYEWEAR_PRODUCTS = [
+  {
+    "id": 26046,
+    "parentProductId": 26046,
+    "slug": "eye-wears-brown-gold-triangle-rectangular-sunglasses",
+    "name": "Brown Gold-Triangle Rectangular Sunglasses",
+    "familyName": "Brown Gold-Triangle Rectangular Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_16_PM_fdvv0h",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_30_PM_utlmtq",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_16_PM_fdvv0h",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_30_PM_utlmtq"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_16_PM_fdvv0h"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_30_PM_utlmtq"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Brown / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_16_PM_fdvv0h",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_16_PM_fdvv0h"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_30_PM_utlmtq"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Brown / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Brown Gold-Triangle Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26047,
+    "parentProductId": 26047,
+    "slug": "eye-wears-caramel-gradient-triangle-temple-square-sunglasses",
+    "name": "Caramel Gradient Triangle-Temple Square Sunglasses",
+    "familyName": "Caramel Gradient Triangle-Temple Square Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_05_PM_d8o4uh",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_15_PM_ta3zjw",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_05_PM_d8o4uh",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_15_PM_ta3zjw"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_05_PM_d8o4uh"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_15_PM_ta3zjw"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Caramel / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_05_PM_d8o4uh",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_05_PM_d8o4uh"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_15_PM_ta3zjw"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Caramel / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Caramel Gradient Triangle-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26048,
+    "parentProductId": 26048,
+    "slug": "eye-wears-tortoiseshell-green-lens-square-sunglasses",
+    "name": "Tortoiseshell Green-Lens Square Sunglasses",
+    "familyName": "Tortoiseshell Green-Lens Square Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_40_PM_w8gbrx",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_50_PM_cdlfza",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_40_PM_w8gbrx",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_50_PM_cdlfza"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_40_PM_w8gbrx"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_50_PM_cdlfza"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Tortoiseshell / Green",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_40_PM_w8gbrx",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_40_PM_w8gbrx"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_50_PM_cdlfza"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Tortoiseshell / Green"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Tortoiseshell Green-Lens Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26049,
+    "parentProductId": 26049,
+    "slug": "eye-wears-burgundy-amber-lens-gold-temple-cat-eye-sunglasses",
+    "name": "Burgundy Amber-Lens Gold-Temple Cat-Eye Sunglasses",
+    "familyName": "Burgundy Amber-Lens Gold-Temple Cat-Eye Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_22_PM_hp17bl",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_29_PM_r6qtvm",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_22_PM_hp17bl",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_29_PM_r6qtvm"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_22_PM_hp17bl"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_29_PM_r6qtvm"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Burgundy / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_22_PM_hp17bl",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_22_PM_hp17bl"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_29_PM_r6qtvm"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Burgundy / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Burgundy Amber-Lens Gold-Temple Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26050,
+    "parentProductId": 26050,
+    "slug": "eye-wears-purple-gradient-pink-temple-rimless-sunglasses",
+    "name": "Purple Gradient Pink-Temple Rimless Sunglasses",
+    "familyName": "Purple Gradient Pink-Temple Rimless Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_43_PM_mcwtn5",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_53_PM_rcol1e",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_43_PM_mcwtn5",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_53_PM_rcol1e"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_43_PM_mcwtn5"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_53_PM_rcol1e"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Purple / Pink / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_43_PM_mcwtn5",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_43_PM_mcwtn5"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_53_PM_rcol1e"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Purple / Pink / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Purple Gradient Pink-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26051,
+    "parentProductId": 26051,
+    "slug": "eye-wears-blue-amber-gradient-silver-bridge-sunglasses",
+    "name": "Blue Amber Gradient Silver-Bridge Sunglasses",
+    "familyName": "Blue Amber Gradient Silver-Bridge Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_25_PM_n2bf1j",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_34_PM_noemwl",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_25_PM_n2bf1j",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_34_PM_noemwl"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_25_PM_n2bf1j"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_34_PM_noemwl"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Blue / Amber / Silver",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_25_PM_n2bf1j",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_25_PM_n2bf1j"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_34_PM_noemwl"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Blue / Amber / Silver"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Blue Amber Gradient Silver-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26052,
+    "parentProductId": 26052,
+    "slug": "eye-wears-cream-gold-logo-rectangular-sunglasses",
+    "name": "Cream Gold-Logo Rectangular Sunglasses",
+    "familyName": "Cream Gold-Logo Rectangular Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_36_54_PM_tbccvl",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_37_18_PM_tvcwd1",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_36_54_PM_tbccvl",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_37_18_PM_tvcwd1"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_36_54_PM_tbccvl"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_37_18_PM_tvcwd1"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Cream / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_36_54_PM_tbccvl",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_36_54_PM_tbccvl"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_37_18_PM_tvcwd1"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Cream / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Cream Gold-Logo Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26053,
+    "parentProductId": 26053,
+    "slug": "eye-wears-black-gold-accent-square-sunglasses",
+    "name": "Black Gold-Accent Square Sunglasses",
+    "familyName": "Black Gold-Accent Square Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_18_59_PM_xizsrs",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_19_09_PM_hogknn",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_18_59_PM_xizsrs",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_19_09_PM_hogknn"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_18_59_PM_xizsrs"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_19_09_PM_hogknn"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Black / Gold",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_18_59_PM_xizsrs",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_18_59_PM_xizsrs"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_19_09_PM_hogknn"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Black / Gold"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Black Gold-Accent Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26054,
+    "parentProductId": 26054,
+    "slug": "eye-wears-yellow-lens-black-sport-shield-sunglasses",
+    "name": "Yellow Lens Black Sport Shield Sunglasses",
+    "familyName": "Yellow Lens Black Sport Shield Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_04_PM_alegkd",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_17_PM_v5j1xc",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_04_PM_alegkd",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_17_PM_v5j1xc"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_04_PM_alegkd"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_17_PM_v5j1xc"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Yellow / Black",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_04_PM_alegkd",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_04_PM_alegkd"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_17_PM_v5j1xc"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Yellow / Black"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Yellow Lens Black Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26055,
+    "parentProductId": 26055,
+    "slug": "eye-wears-black-sport-shield-sunglasses",
+    "name": "Black Sport Shield Sunglasses",
+    "familyName": "Black Sport Shield Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_25_PM_ynyt4a",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_34_PM_bshc9t",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_25_PM_ynyt4a",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_34_PM_bshc9t"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_25_PM_ynyt4a"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_34_PM_bshc9t"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Black",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_25_PM_ynyt4a",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_25_PM_ynyt4a"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_34_PM_bshc9t"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Black"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Black Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
+  {
+    "id": 26056,
+    "parentProductId": 26056,
+    "slug": "eye-wears-white-burgundy-sport-shield-sunglasses",
+    "name": "White Burgundy Sport Shield Sunglasses",
+    "familyName": "White Burgundy Sport Shield Sunglasses",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_07_PM_lwuue1",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_15_PM_nmia3f",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_07_PM_lwuue1",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_15_PM_nmia3f"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_07_PM_lwuue1"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_15_PM_nmia3f"
+      }
+    ],
+    "variants": [
+      {
+        "color": "White / Burgundy",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_07_PM_lwuue1",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_07_PM_lwuue1"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_15_PM_nmia3f"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "White / Burgundy"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "White Burgundy Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+  },
   {
     "id": 26034,
     "parentProductId": 26034,
