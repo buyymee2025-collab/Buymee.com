@@ -58,7 +58,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Gold-Triangle Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Gold-Triangle Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL001"
   },
   {
     "id": 26047,
@@ -118,7 +119,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Caramel Gradient Triangle-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Caramel Gradient Triangle-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL002"
   },
   {
     "id": 26048,
@@ -178,7 +180,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Tortoiseshell Green-Lens Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Tortoiseshell Green-Lens Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL003"
   },
   {
     "id": 26049,
@@ -238,7 +241,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Burgundy Amber-Lens Gold-Temple Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Burgundy Amber-Lens Gold-Temple Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL004"
   },
   {
     "id": 26050,
@@ -298,7 +302,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Purple Gradient Pink-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Purple Gradient Pink-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL005"
   },
   {
     "id": 26051,
@@ -358,7 +363,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Blue Amber Gradient Silver-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Blue Amber Gradient Silver-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL006"
   },
   {
     "id": 26052,
@@ -418,7 +424,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Cream Gold-Logo Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Cream Gold-Logo Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL007"
   },
   {
     "id": 26053,
@@ -478,7 +485,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Gold-Accent Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Gold-Accent Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL008"
   },
   {
     "id": 26054,
@@ -538,7 +546,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Yellow Lens Black Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Yellow Lens Black Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL009"
   },
   {
     "id": 26055,
@@ -598,7 +607,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL010"
   },
   {
     "id": 26056,
@@ -658,7 +668,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "White Burgundy Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "White Burgundy Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL011"
   },
   {
     "id": 26034,
@@ -718,7 +729,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Blue Gradient Gold-Link Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Blue Gradient Gold-Link Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL012"
   },
   {
     "id": 26035,
@@ -778,7 +790,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Rose Gradient Gold-Hinge Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Rose Gradient Gold-Hinge Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL013"
   },
   {
     "id": 26036,
@@ -838,7 +851,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Gradient Round Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Gradient Round Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL014"
   },
   {
     "id": 26037,
@@ -898,7 +912,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Dolce & Gabbana White Coral Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Dolce & Gabbana White Coral Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL015"
   },
   {
     "id": 26038,
@@ -958,7 +973,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Cartier Rose Gradient Wood-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Cartier Rose Gradient Wood-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL016"
   },
   {
     "id": 26039,
@@ -1018,7 +1034,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Dolce & Gabbana Black Gold-Logo Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Dolce & Gabbana Black Gold-Logo Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL017"
   },
   {
     "id": 26040,
@@ -1078,7 +1095,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Dolce & Gabbana Purple Gold-Temple Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Dolce & Gabbana Purple Gold-Temple Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL018"
   },
   {
     "id": 26041,
@@ -1138,7 +1156,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Gradient Linked-Temple Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Gradient Linked-Temple Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL019"
   },
   {
     "id": 26042,
@@ -1198,7 +1217,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Amber Transparent Gold-Detail Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Amber Transparent Gold-Detail Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL020"
   },
   {
     "id": 26043,
@@ -1258,7 +1278,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Fendi Brown Gradient Rimless Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Fendi Brown Gradient Rimless Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL021"
   },
   {
     "id": 26044,
@@ -1309,7 +1330,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL022"
   },
   {
     "id": 26045,
@@ -1369,7 +1391,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Fendi Brown Gradient Letter-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Fendi Brown Gradient Letter-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL023"
   },
   {
     "id": 25206,
@@ -1429,7 +1452,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Dolce & Gabbana Purple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Dolce & Gabbana Purple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL024"
   },
   {
     "id": 26001,
@@ -1489,7 +1513,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Grey Gradient Panther-Detail Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Grey Gradient Panther-Detail Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL025"
   },
   {
     "id": 26002,
@@ -1549,7 +1574,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Gradient Wide-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Gradient Wide-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL026"
   },
   {
     "id": 26003,
@@ -1609,7 +1635,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Gold-Monogram Wrap Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Gold-Monogram Wrap Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL027"
   },
   {
     "id": 26004,
@@ -1669,7 +1696,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Oversized Full-Shield Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Oversized Full-Shield Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL028"
   },
   {
     "id": 26005,
@@ -1729,7 +1757,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Full-Shield Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Full-Shield Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL029"
   },
   {
     "id": 26006,
@@ -1789,7 +1818,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Gold Decorative Rimless Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Gold Decorative Rimless Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL030"
   },
   {
     "id": 26007,
@@ -1849,7 +1879,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Slim Rectangular Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Slim Rectangular Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL031"
   },
   {
     "id": 26008,
@@ -1909,7 +1940,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Purple Gold-Chain Wing Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Purple Gold-Chain Wing Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL032"
   },
   {
     "id": 26009,
@@ -1969,7 +2001,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Olive Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Olive Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL033"
   },
   {
     "id": 26010,
@@ -2029,7 +2062,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Purple Gradient D-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Purple Gradient D-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL034"
   },
   {
     "id": 26011,
@@ -2089,7 +2123,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Crystal Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Crystal Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL035"
   },
   {
     "id": 26012,
@@ -2149,7 +2184,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Rimless Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Rimless Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL036"
   },
   {
     "id": 26013,
@@ -2209,7 +2245,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Pink Gradient Oversized Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Pink Gradient Oversized Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL037"
   },
   {
     "id": 26014,
@@ -2269,7 +2306,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Rose Transparent Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Rose Transparent Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL038"
   },
   {
     "id": 26015,
@@ -2329,7 +2367,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Yellow Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Yellow Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL039"
   },
   {
     "id": 26016,
@@ -2389,7 +2428,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Slim Logo-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Slim Logo-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL040"
   },
   {
     "id": 26017,
@@ -2449,7 +2489,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Amber Oval Leopard-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Amber Oval Leopard-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL041"
   },
   {
     "id": 26018,
@@ -2509,7 +2550,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Blue Gradient Chain-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Blue Gradient Chain-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL042"
   },
   {
     "id": 26019,
@@ -2569,7 +2611,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Square Gold-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Square Gold-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL043"
   },
   {
     "id": 26020,
@@ -2629,7 +2672,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Rose Rimless Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Rose Rimless Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL044"
   },
   {
     "id": 26021,
@@ -2689,7 +2733,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Slim Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Slim Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL045"
   },
   {
     "id": 26022,
@@ -2749,7 +2794,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Blue Gradient Patterned-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Blue Gradient Patterned-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL046"
   },
   {
     "id": 26023,
@@ -2809,7 +2855,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Slim Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Slim Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL047"
   },
   {
     "id": 26024,
@@ -2869,7 +2916,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Gradient Logo-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Gradient Logo-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL048"
   },
   {
     "id": 26025,
@@ -2929,7 +2977,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Brown Gradient Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Brown Gradient Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL049"
   },
   {
     "id": 26026,
@@ -2989,7 +3038,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Purple Gradient Red-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Purple Gradient Red-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL050"
   },
   {
     "id": 26027,
@@ -3049,7 +3099,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Gold Butterfly Crystal Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Gold Butterfly Crystal Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL051"
   },
   {
     "id": 26028,
@@ -3109,7 +3160,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Gradient D-Detail Patterned-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Gradient D-Detail Patterned-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL052"
   },
   {
     "id": 26029,
@@ -3169,7 +3221,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Pink Gradient Gold-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Pink Gradient Gold-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL053"
   },
   {
     "id": 26030,
@@ -3229,7 +3282,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Rounded Square Decorative-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Rounded Square Decorative-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL054"
   },
   {
     "id": 26031,
@@ -3289,7 +3343,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Amber Oval Letter-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Amber Oval Letter-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL055"
   },
   {
     "id": 26032,
@@ -3349,7 +3404,8 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Black Classic Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Black Classic Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL056"
   },
   {
     "id": 26033,
@@ -3427,6 +3483,7 @@ export const EYEWEAR_PRODUCTS = [
     "featured": false,
     "newArrival": true,
     "sale": false,
-    "description": "Gold Letter-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+    "description": "Gold Letter-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+    "productCode": "GL057"
   }
 ]
