@@ -168,7 +168,7 @@ export const categoryHeroVideos = {
     "src": "https://videos.pexels.com/video-files/11122340/11122340-hd_1280_720_25fps.mp4"
   },
   "/watches": {
-    "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1791313609/1006_4.mp4",
+    "src": "https://res.cloudinary.com/mdbhqnv7/video/upload/v1792173021/hublot_rotation_exploded_20s.mp4",
     "source": "Existing BUYYMEE watch hero"
   }
 }
