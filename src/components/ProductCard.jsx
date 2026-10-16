@@ -1,10 +1,10 @@
 import { beginModalHistory } from '../lib/modalHistory'
 import SiteImage from './SiteImage'
 import { Link } from 'react-router-dom'
-import { ChevronLeft, ChevronRight, Plus } from 'lucide-react'
+import { Plus } from 'lucide-react'
 import { useStore } from '../context/StoreContext'
 import { Reveal } from './Primitives'
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import ProductModal from './ProductModal'
 
 export default function ProductCard({ product, index = 0 }) {
@@ -12,31 +12,6 @@ export default function ProductCard({ product, index = 0 }) {
   const savedPrice = product.price == null || String(product.price).trim() === '' ? NaN : Number(product.price)
   const hasPrice = Number.isFinite(savedPrice) && savedPrice >= 0
   const productCode = product.productCode || product.sku || product.id
-  const cardImages = useMemo(() => [...new Set([
-    product.image,
-    ...(product.gallery || []),
-    ...(product.media || []).filter(item => item.type === 'image').map(item => item.src),
-    ...(product.variants || []).flatMap(variant => [
-      variant.image,
-      ...(variant.media || []).filter(item => item.type === 'image').map(item => item.src)
-    ]),
-    product.secondaryImage
-  ].filter(Boolean))], [product])
-  const [cardImageIndex, setCardImageIndex] = useState(0)
-  const [previousCardImage, setPreviousCardImage] = useState(null)
-  const [cardImageReady, setCardImageReady] = useState(true)
-  const [cardDirection, setCardDirection] = useState(1)
-  useEffect(() => { setCardImageIndex(0); setPreviousCardImage(null); setCardImageReady(true) }, [product.id, product.image])
-  const activeCardImage = cardImages[cardImageIndex] || cardImages[0]
-  const moveCardImage = (event, direction) => {
-    event.preventDefault()
-    event.stopPropagation()
-    if (cardImages.length < 2 || !cardImageReady) return
-    setPreviousCardImage(activeCardImage)
-    setCardImageReady(false)
-    setCardDirection(direction)
-    setCardImageIndex(current => (current + direction + cardImages.length) % cardImages.length)
-  }
   const [open, setOpen] = useState(false)
   const modalHistory = useRef(null)
   useEffect(() => () => modalHistory.current?.dispose(), [])
@@ -56,11 +31,8 @@ export default function ProductCard({ product, index = 0 }) {
       <Reveal className="product-card" variant="card" index={index} delay={(index % 4) * 0.065}>
         <div className="product-image">
           <Link to={`/product/${product.slug}`} aria-label={`View ${product.name}`} onClick={openProduct}>
-            {previousCardImage && <SiteImage className={`product-card-image-previous${cardImageReady ? ' is-leaving' : ''}`} style={{ '--card-image-offset': `${cardDirection * 100}%` }} src={previousCardImage} alt="" aria-hidden="true" imageWidth={640} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading="eager" />}
-            <SiteImage className={`product-card-image-current${cardImageReady ? ' is-ready' : ''}`} style={{ '--card-image-offset': `${cardDirection * 100}%` }} onLoad={() => setCardImageReady(true)} key={activeCardImage} src={activeCardImage} alt={product.name} imageWidth={640} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading={cardImageIndex > 0 ? 'eager' : index > 3 ? 'lazy' : 'eager'} fetchPriority={index === 0 ? 'high' : 'auto'} />
+            <SiteImage src={product.image || product.gallery?.[0]} alt={product.name} imageWidth={640} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading={index > 3 ? 'lazy' : 'eager'} fetchPriority={index === 0 ? 'high' : 'auto'} />
           </Link>
-          <button className="product-card-image-arrow product-card-image-prev" type="button" aria-label={`Previous image of ${product.name}`} disabled={cardImages.length < 2} onClick={event => moveCardImage(event, -1)}><ChevronLeft size={18} /></button>
-          <button className="product-card-image-arrow product-card-image-next" type="button" aria-label={`Next image of ${product.name}`} disabled={cardImages.length < 2} onClick={event => moveCardImage(event, 1)}><ChevronRight size={18} /></button>
           {product.sale && <span className="sale-tag">EDIT</span>}
           <button className="quick-add" type="button" disabled={product.inStock === false} onClick={() => addToCart(product)}>
             <Plus size={16} /> {product.inStock === false ? 'SOLD OUT' : 'ADD TO CART'}
