@@ -9,6 +9,7 @@ import ProductModal from './ProductModal'
 
 export default function ProductCard({ product, index = 0 }) {
   const { currency, formatPrice, addToCart } = useStore()
+  const productCode = product.productCode || product.sku || product.id
   const [open, setOpen] = useState(false)
   const modalHistory = useRef(null)
   useEffect(() => () => modalHistory.current?.dispose(), [])
@@ -37,8 +38,8 @@ export default function ProductCard({ product, index = 0 }) {
         </div>
         <div className="product-meta">
           <span>{product.category} / {product.subcategory}</span>
-          {product.category === 'Watches' && product.productCode && (
-            <small className="watch-product-code">PRODUCT CODE / {product.productCode}</small>
+          {productCode != null && (
+            <small className="watch-product-code">PRODUCT CODE / {productCode}</small>
           )}
           <Link to={`/product/${product.slug}`} onClick={openProduct}>{product.name}</Link>
           {product.category === 'Sneakers' && product.sizeAvailability && (
