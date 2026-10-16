@@ -15,7 +15,7 @@ const editorialProducts = products.slice(0, 6)
 const shopAngleCards = [
   { label: 'New In', path: '/new-in', image: products[0]?.image || watchAssets[8], number: '01' },
   { label: 'Women', path: '/women', image: dressAssets[1], number: '02' },
-  { label: 'Men', path: '/men', image: categoryProducts.men[0]?.image || dressAssets[5], number: '03' },
+  { label: 'Men', path: '/men', image: products.find(product => product.category === 'Men')?.image, number: '03' },
   { label: 'Watches', path: '/watches', image: watchAssets[2], number: '04' },
   { label: 'Shoes', path: '/shoes', image: categoryProducts.shoes[0]?.image || dressAssets[9], number: '05' },
   { label: 'Sneakers', path: '/sneakers', image: categoryProducts.sneakers[0]?.image || watchAssets[14], number: '06' },
