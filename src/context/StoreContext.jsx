@@ -11,18 +11,24 @@ export function StoreProvider({children}){
  const [catalogRows,setCatalogRows]=useState([])
  const products=useMemo(()=>{
   const merged = mergeCatalog(originalProducts,catalogRows)
-  // Assign a unique GL code to every eyewear card, including admin-added products.
-  // Preserve the existing codes for the original eyewear catalogue.
+  // Product-only catalogue codes are permanent identifiers.
+  // Reserve every saved code before assigning codes to new admin products.
+  const baseCodes = new Map(originalProducts
+    .filter(product => product.category === 'Eye Wears' && /^GL\d{3,}$/.test(product.productCode || ''))
+    .map(product => [String(product.id), product.productCode]))
+  const reserved = new Set([...baseCodes.values(), ...merged
+    .filter(product => product.category === 'Eye Wears' && /^GL\d{3,}$/.test(product.productCode || ''))
+    .map(product => product.productCode)])
   const used = new Set()
-  let next = 1
+  let next = Math.max(57, ...[...reserved].map(code => Number(code.slice(2)))) + 1
   return merged.map(product => {
     if (product.category !== 'Eye Wears') return product
-    const existing = String(product.productCode || '').toUpperCase()
-    const valid = /^GL\\d{3,}$/.test(existing) && !used.has(existing)
+    const existing = baseCodes.get(String(product.id)) || String(product.productCode || '').toUpperCase()
     let code = existing
-    if (!valid) {
-      while (used.has(`GL${String(next).padStart(3, '0')}`)) next += 1
+    if (!/^GL\d{3,}$/.test(code) || used.has(code)) {
+      while (reserved.has(`GL${String(next).padStart(3, '0')}`)) next += 1
       code = `GL${String(next++).padStart(3, '0')}`
+      reserved.add(code)
     }
     used.add(code)
     return product.productCode === code ? product : { ...product, productCode: code }
