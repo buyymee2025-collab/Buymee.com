@@ -23,12 +23,18 @@ export default function ProductCard({ product, index = 0 }) {
     product.secondaryImage
   ].filter(Boolean))], [product])
   const [cardImageIndex, setCardImageIndex] = useState(0)
-  useEffect(() => { setCardImageIndex(0) }, [product.id, product.image])
+  const [previousCardImage, setPreviousCardImage] = useState(null)
+  const [cardImageReady, setCardImageReady] = useState(true)
+  const [cardDirection, setCardDirection] = useState(1)
+  useEffect(() => { setCardImageIndex(0); setPreviousCardImage(null); setCardImageReady(true) }, [product.id, product.image])
   const activeCardImage = cardImages[cardImageIndex] || cardImages[0]
   const moveCardImage = (event, direction) => {
     event.preventDefault()
     event.stopPropagation()
-    if (cardImages.length < 2) return
+    if (cardImages.length < 2 || !cardImageReady) return
+    setPreviousCardImage(activeCardImage)
+    setCardImageReady(false)
+    setCardDirection(direction)
     setCardImageIndex(current => (current + direction + cardImages.length) % cardImages.length)
   }
   const [open, setOpen] = useState(false)
@@ -50,7 +56,8 @@ export default function ProductCard({ product, index = 0 }) {
       <Reveal className="product-card" variant="card" index={index} delay={(index % 4) * 0.065}>
         <div className="product-image">
           <Link to={`/product/${product.slug}`} aria-label={`View ${product.name}`} onClick={openProduct}>
-            <SiteImage key={activeCardImage} src={activeCardImage} alt={product.name} imageWidth={640} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading={cardImageIndex > 0 ? 'eager' : index > 3 ? 'lazy' : 'eager'} fetchPriority={index === 0 ? 'high' : 'auto'} />
+            {previousCardImage && <SiteImage className="product-card-image-previous" src={previousCardImage} alt="" aria-hidden="true" imageWidth={640} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading="eager" />}
+            <SiteImage className={`product-card-image-current${cardImageReady ? ' is-ready' : ''}`} style={{ '--card-image-offset': `${cardDirection * 16}px` }} onLoad={() => setCardImageReady(true)} key={activeCardImage} src={activeCardImage} alt={product.name} imageWidth={640} sizes="(max-width: 600px) 48vw, (max-width: 1000px) 30vw, 23vw" loading={cardImageIndex > 0 ? 'eager' : index > 3 ? 'lazy' : 'eager'} fetchPriority={index === 0 ? 'high' : 'auto'} />
           </Link>
           <button className="product-card-image-arrow product-card-image-prev" type="button" aria-label={`Previous image of ${product.name}`} disabled={cardImages.length < 2} onClick={event => moveCardImage(event, -1)}><ChevronLeft size={18} /></button>
           <button className="product-card-image-arrow product-card-image-next" type="button" aria-label={`Next image of ${product.name}`} disabled={cardImages.length < 2} onClick={event => moveCardImage(event, 1)}><ChevronRight size={18} /></button>

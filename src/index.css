@@ -1266,9 +1266,16 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 [data-category="watches"] .product-image img{background:#fff}
 
 /* Always-visible image navigation on product cards. */
-.product-card-image-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:36px;height:40px;display:grid;place-items:center;border:1px solid rgba(10,22,40,.14);border-radius:4px;background:rgba(255,255,255,.94);color:#0a1628;box-shadow:0 2px 8px rgba(10,22,40,.08);cursor:pointer}
+.product-card-image-arrow{position:absolute;top:66%;transform:translateY(-50%);z-index:3;width:36px;height:40px;display:grid;place-items:center;border:1px solid rgba(10,22,40,.14);border-radius:4px;background:rgba(255,255,255,.94);color:#0a1628;box-shadow:0 2px 8px rgba(10,22,40,.08);cursor:pointer}
 .product-card-image-prev{left:8px}.product-card-image-next{right:8px}
 .product-card-image-arrow:hover:not(:disabled){background:#fff;border-color:rgba(10,22,40,.4)}
 .product-card-image-arrow:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
 .product-card-image-arrow:disabled{opacity:.32;cursor:default}
 @media(max-width:600px){.product-card-image-arrow{width:30px;height:36px}.product-card-image-prev{left:5px}.product-card-image-next{right:5px}}
+
+/* Fade the loaded next view over the previous image without a blank frame. */
+.product-image>a{position:relative}
+.product-card .product-image img.product-card-image-previous{position:absolute;inset:0;pointer-events:none}
+.product-card .product-image img.product-card-image-current{position:relative;opacity:0;transform:translateX(var(--card-image-offset,16px));transition:opacity .4s ease,transform .4s cubic-bezier(.22,1,.36,1)}
+.product-card .product-image img.product-card-image-current.is-ready{opacity:1;transform:translateX(0)}
+@media(prefers-reduced-motion:reduce){.product-card .product-image img.product-card-image-current{transition:none;transform:none}}
