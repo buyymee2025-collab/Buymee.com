@@ -8576,6 +8576,10 @@ const SAME_STYLE_PAIRS = {
 }
 
 const PAIRED_EYEWEAR_PRODUCTS = EYEWEAR_CATALOG
+  .filter(product => {
+    const code = Number(product.productCode?.replace(/^GL/, ''))
+    return !(code >= 70 && code <= 114)
+  })
   .filter(product => !SAME_STYLE_PAIRS[product.productCode])
   .map(product => {
     const matches = EYEWEAR_CATALOG.filter(candidate => SAME_STYLE_PAIRS[candidate.productCode] === product.productCode)
