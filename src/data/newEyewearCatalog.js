@@ -8575,7 +8575,7 @@ const SAME_STYLE_PAIRS = {
   GL146: 'GL123',
 }
 
-export const EYEWEAR_PRODUCTS = EYEWEAR_CATALOG
+const PAIRED_EYEWEAR_PRODUCTS = EYEWEAR_CATALOG
   .filter(product => !SAME_STYLE_PAIRS[product.productCode])
   .map(product => {
     const matches = EYEWEAR_CATALOG.filter(candidate => SAME_STYLE_PAIRS[candidate.productCode] === product.productCode)
@@ -8601,3 +8601,34 @@ export const EYEWEAR_PRODUCTS = EYEWEAR_CATALOG
       pairedProductSlugs: matches.map(source => source.slug),
     }
   })
+
+// Two reviewed views per new eyewear card. Source records retain all originals.
+export const EYEWEAR_PRODUCTS = PAIRED_EYEWEAR_PRODUCTS.map(product => {
+  if (Number(product.productCode.slice(2)) < 70 && !product.pairedProductCodes?.length) return product
+  const gallery = product.gallery.slice(0, 2)
+  if (gallery.length === 1 && gallery[0].endsWith('_edited')) {
+    gallery.push(gallery[0].slice(0, -'_edited'.length))
+  }
+  const variants = []
+  for (const src of gallery) {
+    const source = product.variants?.find(variant => variant.media?.some(item =>
+      item.src === src || item.src === `${src}_edited`
+    ))
+    const color = source?.color || product.colors?.[0] || 'As shown'
+    let variant = variants.find(item => item.color === color)
+    if (!variant) {
+      variant = { ...(source || {}), color, image: src, media: [] }
+      variants.push(variant)
+    }
+    variant.media.push({ type: 'image', src })
+  }
+  return {
+    ...product,
+    image: gallery[0],
+    secondaryImage: gallery[1],
+    gallery,
+    media: gallery.map(src => ({ type: 'image', src })),
+    variants,
+    colors: variants.map(variant => variant.color),
+  }
+})
