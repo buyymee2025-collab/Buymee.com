@@ -1,5 +1,5 @@
 // Visually reviewed October 16, 2026. Matching product-only front views lead each new pair.
-export const EYEWEAR_PRODUCTS = [
+const EYEWEAR_CATALOG = [
   {
     "id": 26046,
     "parentProductId": 26046,
@@ -8564,3 +8564,32 @@ export const EYEWEAR_PRODUCTS = [
 }
 ]
 
+
+// Reviewed by frame, lens outline, bridge and temple details on October 19, 2026.
+// Keep every saved record/code; export one card and one combined gallery per style.
+const SAME_STYLE_PAIRS = {
+  GL121: 'GL065',
+  GL079: 'GL078',
+  GL095: 'GL093',
+  GL108: 'GL107',
+  GL146: 'GL123',
+}
+
+export const EYEWEAR_PRODUCTS = EYEWEAR_CATALOG
+  .filter(product => !SAME_STYLE_PAIRS[product.productCode])
+  .map(product => {
+    const matches = EYEWEAR_CATALOG.filter(candidate => SAME_STYLE_PAIRS[candidate.productCode] === product.productCode)
+    if (!matches.length) return product
+    const sources = [product, ...matches]
+    const gallery = [...new Set(sources.flatMap(source => source.gallery))]
+    return {
+      ...product,
+      gallery,
+      secondaryImage: gallery[1] || gallery[0],
+      media: gallery.map(src => ({ type: 'image', src })),
+      colors: [...new Set(sources.flatMap(source => source.colors || []))],
+      variants: sources.flatMap(source => source.variants || []),
+      pairedProductCodes: matches.map(source => source.productCode),
+      pairedProductSlugs: matches.map(source => source.slug),
+    }
+  })
