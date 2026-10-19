@@ -1284,3 +1284,11 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 @keyframes card-image-out{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--card-image-offset)))}}
 @media(max-width:600px){.product-card-image-arrow{bottom:50px}}
 @media(prefers-reduced-motion:reduce){.product-card .product-image img.product-card-image-previous.is-leaving,.product-card .product-image img.product-card-image-previous+.product-card-image-current.is-ready{animation:none}.product-card .product-image img.product-card-image-previous.is-leaving{visibility:hidden}}
+
+/* Watches only: display product photography edge-to-edge across each card. */
+[data-category="watches"] .product-card .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
