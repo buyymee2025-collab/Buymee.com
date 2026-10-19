@@ -8588,7 +8588,15 @@ export const EYEWEAR_PRODUCTS = EYEWEAR_CATALOG
       secondaryImage: gallery[1] || gallery[0],
       media: gallery.map(src => ({ type: 'image', src })),
       colors: [...new Set(sources.flatMap(source => source.colors || []))],
-      variants: sources.flatMap(source => source.variants || []),
+      variants: sources.flatMap(source => source.variants || []).reduce((variants, variant) => {
+        const existing = variants.find(item => item.color === variant.color)
+        if (!existing) variants.push({ ...variant, media: [...(variant.media || [])] })
+        else {
+          const seen = new Set(existing.media.map(item => item.src))
+          existing.media.push(...(variant.media || []).filter(item => !seen.has(item.src)))
+        }
+        return variants
+      }, []),
       pairedProductCodes: matches.map(source => source.productCode),
       pairedProductSlugs: matches.map(source => source.slug),
     }
