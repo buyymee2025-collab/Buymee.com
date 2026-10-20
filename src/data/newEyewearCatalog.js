@@ -3421,57 +3421,43 @@ const EYEWEAR_CATALOG = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4118_n6r0yl",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4118_n6r0yl",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4115_kzryg8"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4118_n6r0yl"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4118_n6r0yl",
+        "color": "Blue"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4115_kzryg8"
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
+        "color": "Blue"
       }
     ],
     "variants": [
       {
-        "color": "As shown",
+        "color": "Blue",
         "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4118_n6r0yl",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4118_n6r0yl"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4118_n6r0yl",
+            "color": "Blue"
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4115_kzryg8"
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
+            "color": "Blue"
           }
         ]
       }
     ],
     "colors": [
-      "As shown"
+      "Blue"
     ],
     "sizes": [],
     "tags": [
@@ -4217,6 +4203,71 @@ const EYEWEAR_CATALOG = [
     "sale": false,
     "description": "Brown Gradient Gold-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
     "productCode": "GL069"
+  },
+  {
+    "id": 26180,
+    "parentProductId": 26180,
+    "slug": "eye-wears-gold-letter-temple-shield-sunglasses-burgundy-pink",
+    "name": "CHANEL VINTAGE - CHANEL 4095-BSTYLE (BURGUNDY/PINK)",
+    "familyName": "Chanel Shield Sunglasses — Burgundy/Pink",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": 70,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4115_kzryg8",
+    "gallery": [
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4115_kzryg8"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+        "color": "Burgundy / Pink"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4115_kzryg8",
+        "color": "Burgundy / Pink"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Burgundy / Pink",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+            "color": "Burgundy / Pink"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4115_kzryg8",
+            "color": "Burgundy / Pink"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Burgundy / Pink"
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Burgundy/pink shield sunglasses with gold details from the BUYYMEE.com collection.",
+    "productCode": "GL180"
   }
 ]
 

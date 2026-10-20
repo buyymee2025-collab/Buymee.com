@@ -5,9 +5,39 @@ export function mergeCatalog(base, rows) {
     if (row.deleted) products.delete(String(row.id))
     else products.set(String(row.id), { ...row.payload, id: products.get(String(row.id))?.id ?? row.id })
   }
-  return [...products.values()]
+  return [...products.values()].map(normalizeReviewedEyewear)
 }
+// These reviewed photographs were previously mislabeled as a single Blue variant.
+// Apply after saved overrides too, so an older admin record cannot mix them again.
+export function normalizeReviewedEyewear(product) {
+  if (product.category !== 'Eye Wears' || String(product.id) !== '26033') return product
+  const redPhotos = ['IMG_4117_y7jezj', 'IMG_4115_kzryg8']
+  const sources = product.media?.length ? product.media : product.variants?.flatMap(v => v.media || [])?.length ? product.variants.flatMap(v => v.media || []) : (product.gallery || [product.image]).map(src => ({ type: 'image', src }))
+  const media = sources.filter(item => !redPhotos.some(name => item.src?.includes(name)))
+    .filter((item, index, all) => all.findIndex(other => other.src === item.src) === index)
+    .map(item => ({ ...item, color: 'Blue' }))
+  const front = media.findIndex(item => item.src?.includes('IMG_4118_n6r0yl'))
+  if (front > 0) media.unshift(...media.splice(front, 1))
+  const images = media.filter(item => item.type === 'image').map(item => item.src)
+  if (!images.length) return product
+  return { ...product, image: images[0], secondaryImage: images[1] || images[0],
+    images, gallery: images, media, colors: ['Blue'],
+    variants: [{ color: 'Blue', image: images[0], media }] }
+}
+
+export function validateEyewearColors(product) {
+  if (product.category !== 'Eye Wears') return
+  const meaningful = values => new Set(values.map(value => String(value || '').trim().toLowerCase()).filter(value => value && !['as shown', 'standard'].includes(value)))
+  const colors = meaningful(product.colors || [])
+  const variantColors = meaningful((product.variants || []).map(variant => variant.color))
+  const mediaColors = meaningful((product.media || []).map(item => item.color))
+  if (colors.size > 1 || variantColors.size > 1 || mediaColors.size > 1) {
+    throw new Error('Use one eyewear color per product. Create a separate product card for each different frame or lens color.')
+  }
+}
+
 export function validateProduct(product) {
+  validateEyewearColors(product)
   if (!product.name?.trim()) throw new Error('Enter a product name.')
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(product.slug || '')) throw new Error('Use lowercase letters, numbers and hyphens for the product link.')
   if (!productCategories.includes(product.category)) throw new Error('Choose a category.')
