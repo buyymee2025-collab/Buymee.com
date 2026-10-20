@@ -1,0 +1,698 @@
+{
+  "date": "2026-10-20",
+  "cloud": "hobndbjx",
+  "reviewedUploads": 164,
+  "newProducts": 43,
+  "updatedProducts": 27,
+  "duplicateImages": 24,
+  "pairs": [
+    {
+      "pair": 1,
+      "productCode": "GL181",
+      "status": "new-product",
+      "front": "IMG_3882-front-view",
+      "angle": "IMG_3883-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 2,
+      "productCode": "GL182",
+      "status": "new-product",
+      "front": "IMG_3884-front-view",
+      "angle": "IMG_3885-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 3,
+      "productCode": "GL183",
+      "status": "new-product",
+      "front": "IMG_3886-front-view",
+      "angle": "IMG_3887-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 4,
+      "productCode": "GL184",
+      "status": "new-product",
+      "front": "IMG_3888-front-view",
+      "angle": "IMG_3889-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 5,
+      "productCode": "GL185",
+      "status": "new-product",
+      "front": "IMG_3890-front-view",
+      "angle": "IMG_3891-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 6,
+      "productCode": "GL186",
+      "status": "new-product",
+      "front": "IMG_3892-front-view",
+      "angle": "IMG_3893-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 7,
+      "productCode": "GL187",
+      "status": "new-product",
+      "front": "IMG_3894-front-view",
+      "angle": "IMG_3895-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 8,
+      "productCode": "GL188",
+      "status": "new-product",
+      "front": "IMG_3896-front-view",
+      "angle": "IMG_3897-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 9,
+      "productCode": "GL189",
+      "status": "new-product",
+      "front": "IMG_3898-front-view",
+      "angle": "IMG_3899-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 10,
+      "productCode": "GL190",
+      "status": "new-product",
+      "front": "IMG_3900-front-view",
+      "angle": "IMG_3901-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 11,
+      "productCode": "GL191",
+      "status": "new-product",
+      "front": "IMG_3902-front-view",
+      "angle": "IMG_3903-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 12,
+      "productCode": "GL192",
+      "status": "new-product",
+      "front": "IMG_3904-front-view",
+      "angle": "IMG_3905-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 13,
+      "productCode": "GL193",
+      "status": "new-product",
+      "front": "IMG_3906-front-view",
+      "angle": "IMG_3907-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 14,
+      "productCode": "GL194",
+      "status": "new-product",
+      "front": "IMG_3908-front-view",
+      "angle": "IMG_3909-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 15,
+      "productCode": "GL195",
+      "status": "new-product",
+      "front": "IMG_3910-front-view",
+      "angle": "IMG_3911-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 16,
+      "productCode": "GL196",
+      "status": "new-product",
+      "front": "IMG_3912-front-view",
+      "angle": "IMG_3913-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 17,
+      "productCode": "GL197",
+      "status": "new-product",
+      "front": "IMG_3914-front-view",
+      "angle": "IMG_3915-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 18,
+      "productCode": "GL198",
+      "status": "new-product",
+      "front": "IMG_3916-front-view",
+      "angle": "IMG_3917-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 19,
+      "productCode": "GL199",
+      "status": "new-product",
+      "front": "IMG_3918-front-view",
+      "angle": "IMG_3919-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 20,
+      "productCode": "GL200",
+      "status": "new-product",
+      "front": "IMG_3920-front-view",
+      "angle": "IMG_3921-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 21,
+      "productCode": "GL201",
+      "status": "new-product",
+      "front": "IMG_3922-front-view",
+      "angle": "IMG_3923-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 22,
+      "productCode": "GL202",
+      "status": "new-product",
+      "front": "IMG_3924-front-view",
+      "angle": "IMG_3925-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 23,
+      "productCode": "GL203",
+      "status": "new-product",
+      "front": "IMG_3926-front-view",
+      "angle": "IMG_3927-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 24,
+      "productCode": "GL204",
+      "status": "new-product",
+      "front": "IMG_3928-front-view",
+      "angle": "IMG_3929-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 25,
+      "productCode": "GL205",
+      "status": "new-product",
+      "front": "IMG_3930-front-view",
+      "angle": "IMG_3931-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 26,
+      "productCode": "GL206",
+      "status": "new-product",
+      "front": "IMG_3932-front-view",
+      "angle": "IMG_3933-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 27,
+      "productCode": "GL207",
+      "status": "new-product",
+      "front": "IMG_3934-front-view",
+      "angle": "IMG_3935-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 28,
+      "productCode": "GL208",
+      "status": "new-product",
+      "front": "IMG_3936-front-view",
+      "angle": "IMG_3937-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 29,
+      "productCode": "GL209",
+      "status": "new-product",
+      "front": "IMG_3938-front-view",
+      "angle": "IMG_3939-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 30,
+      "productCode": "GL210",
+      "status": "new-product",
+      "front": "IMG_3940-front-view",
+      "angle": "IMG_3941-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 31,
+      "productCode": "GL211",
+      "status": "new-product",
+      "front": "IMG_3942-front-view",
+      "angle": "IMG_3943-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 32,
+      "productCode": "GL212",
+      "status": "new-product",
+      "front": "IMG_3944-front-view",
+      "angle": "IMG_3945-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 33,
+      "productCode": "GL213",
+      "status": "new-product",
+      "front": "IMG_3946-front-view",
+      "angle": "IMG_3947-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 34,
+      "productCode": "GL214",
+      "status": "new-product",
+      "front": "IMG_3948-front-view",
+      "angle": "IMG_3949-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 35,
+      "productCode": "GL057",
+      "status": "replace-existing-media",
+      "front": "IMG_3950-front-view",
+      "angle": "IMG_3951-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 36,
+      "productCode": "GL180",
+      "status": "replace-existing-media",
+      "front": "IMG_3952-front-view",
+      "angle": "IMG_3953-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 37,
+      "productCode": "GL037",
+      "status": "replace-existing-media",
+      "front": "IMG_3954-front-view",
+      "angle": "IMG_3955-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 38,
+      "productCode": "GL035",
+      "status": "replace-existing-media",
+      "front": "IMG_3956-front-view",
+      "angle": "IMG_3957-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 39,
+      "productCode": "GL036",
+      "status": "replace-existing-media",
+      "front": "IMG_3958-front-view",
+      "angle": "IMG_3959-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 40,
+      "productCode": "GL038",
+      "status": "replace-existing-media",
+      "front": "IMG_3960-front-view",
+      "angle": "IMG_3961-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 41,
+      "productCode": "GL039",
+      "status": "replace-existing-media",
+      "front": "IMG_3962-front-view",
+      "angle": "IMG_3963-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 42,
+      "productCode": "GL040",
+      "status": "replace-existing-media",
+      "front": "IMG_3964-front-view",
+      "angle": "IMG_3965-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 43,
+      "productCode": "GL041",
+      "status": "replace-existing-media",
+      "front": "IMG_3966-front-view",
+      "angle": "IMG_3967-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 44,
+      "productCode": "GL042",
+      "status": "replace-existing-media",
+      "front": "IMG_3968-front-view",
+      "angle": "IMG_3969-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 45,
+      "productCode": "GL043",
+      "status": "replace-existing-media",
+      "front": "IMG_3970-front-view",
+      "angle": "IMG_3971-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 46,
+      "productCode": "GL047",
+      "status": "replace-existing-media",
+      "front": "IMG_3972-front-view",
+      "angle": "IMG_3973-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 47,
+      "productCode": "GL044",
+      "status": "replace-existing-media",
+      "front": "IMG_3974-front-view",
+      "angle": "IMG_3975-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 48,
+      "productCode": "GL045",
+      "status": "replace-existing-media",
+      "front": "IMG_3976-front-view",
+      "angle": "IMG_3977-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 49,
+      "productCode": "GL049",
+      "status": "replace-existing-media",
+      "front": "IMG_3978-front-view",
+      "angle": "IMG_3979-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 50,
+      "productCode": "GL046",
+      "status": "replace-existing-media",
+      "front": "IMG_3980-front-view",
+      "angle": "IMG_3981-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 51,
+      "productCode": "GL050",
+      "status": "replace-existing-media",
+      "front": "IMG_3982-front-view",
+      "angle": "IMG_3983-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 52,
+      "productCode": "GL048",
+      "status": "replace-existing-media",
+      "front": "IMG_3984-front-view",
+      "angle": "IMG_3985-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 53,
+      "productCode": "GL053",
+      "status": "replace-existing-media",
+      "front": "IMG_3986-front-view",
+      "angle": "IMG_3987-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 54,
+      "productCode": "GL051",
+      "status": "replace-existing-media",
+      "front": "IMG_3988-front-view",
+      "angle": "IMG_3989-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 55,
+      "productCode": "GL055",
+      "status": "replace-existing-media",
+      "front": "IMG_3990-front-view",
+      "angle": "IMG_3991-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 56,
+      "productCode": "GL054",
+      "status": "replace-existing-media",
+      "front": "IMG_3992-front-view",
+      "angle": "IMG_3993-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 57,
+      "productCode": "GL052",
+      "status": "replace-existing-media",
+      "front": "IMG_3994-front-view",
+      "angle": "IMG_3995-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 58,
+      "productCode": "GL056",
+      "status": "replace-existing-media",
+      "front": "IMG_3996-front-view",
+      "angle": "IMG_3998-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 59,
+      "productCode": "GL032",
+      "status": "replace-existing-media",
+      "front": "IMG_4001-front-view",
+      "angle": "IMG_4002-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 60,
+      "productCode": "GL033",
+      "status": "replace-existing-media",
+      "front": "IMG_4003-front-view",
+      "angle": "IMG_4004-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 61,
+      "productCode": "GL034",
+      "status": "replace-existing-media",
+      "front": "IMG_4005-front-view",
+      "angle": "IMG_4006-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 62,
+      "productCode": "GL215",
+      "status": "new-product",
+      "front": "IMG_4007-front-view",
+      "angle": "IMG_4008-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 63,
+      "productCode": "GL216",
+      "status": "new-product",
+      "front": "IMG_4009-front-view",
+      "angle": "IMG_4010-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 64,
+      "productCode": "GL217",
+      "status": "new-product",
+      "front": "IMG_4011-front-view",
+      "angle": "IMG_4012-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 65,
+      "productCode": "GL218",
+      "status": "new-product",
+      "front": "IMG_4013-front-view",
+      "angle": "IMG_4014-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 66,
+      "productCode": "GL219",
+      "status": "new-product",
+      "front": "IMG_4015-front-view",
+      "angle": "IMG_4016-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 67,
+      "productCode": "GL220",
+      "status": "new-product",
+      "front": "IMG_4017-front-view",
+      "angle": "IMG_4018-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 68,
+      "productCode": "GL221",
+      "status": "new-product",
+      "front": "IMG_4019-front-view",
+      "angle": "IMG_4020-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 69,
+      "productCode": "GL222",
+      "status": "new-product",
+      "front": "IMG_4021-front-view",
+      "angle": "IMG_4022-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    },
+    {
+      "pair": 70,
+      "productCode": "GL223",
+      "status": "new-product",
+      "front": "IMG_4023-front-view",
+      "angle": "IMG_4024-angle-view",
+      "review": "Visually matched frame, lens color, temples and hardware; front view first."
+    }
+  ],
+  "duplicates": [
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_26_02_PM",
+      "productCode": "GL067",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_39_54_PM",
+      "productCode": "GL069",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_40_01_PM",
+      "productCode": "GL069",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_35_23_PM",
+      "productCode": "GL068",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_35_41_PM",
+      "productCode": "GL068",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_22_40_PM",
+      "productCode": "GL066",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_25_53_PM",
+      "productCode": "GL067",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_22_28_PM",
+      "productCode": "GL066",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_15_57_PM",
+      "productCode": "GL065",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_08_33_PM",
+      "productCode": "GL064",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_15_38_PM",
+      "productCode": "GL065",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_08_49_PM",
+      "productCode": "GL064",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_03_48_PM",
+      "productCode": "GL063",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_34_18_PM",
+      "productCode": "GL060",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_06_03_32_PM",
+      "productCode": "GL063",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_54_19_PM",
+      "productCode": "GL062",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_45_38_PM",
+      "productCode": "GL061",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_45_47_PM",
+      "productCode": "GL061",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_53_51_PM",
+      "productCode": "GL062",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_34_52_PM",
+      "productCode": "GL060",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_28_45_PM",
+      "productCode": "GL059",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_28_35_PM",
+      "productCode": "GL059",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_24_31_PM",
+      "productCode": "GL058",
+      "status": "duplicate-existing-photo"
+    },
+    {
+      "asset": "ChatGPT_Image_Oct_16_2026_05_24_22_PM",
+      "productCode": "GL058",
+      "status": "duplicate-existing-photo"
+    }
+  ],
+  "notes": [
+    "GL068 retained: pair 7 differs in frame outline and temple details.",
+    "Original GL001\u2013GL069 and GL180 identities preserved.",
+    "Historical GL070\u2013GL179 batch remains archived; unmatched side-only images are not restored.",
+    "Composite color labels describe one physical frame/lens combination, not alternate variants."
+  ]
+}

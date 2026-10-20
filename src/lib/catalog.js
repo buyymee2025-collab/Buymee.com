@@ -3,7 +3,18 @@ export function mergeCatalog(base, rows) {
   const products = new Map(base.map(product => [String(product.id), product]))
   for (const row of rows) {
     if (row.deleted) products.delete(String(row.id))
-    else products.set(String(row.id), { ...row.payload, id: products.get(String(row.id))?.id ?? row.id })
+    else {
+      const original = products.get(String(row.id))
+      const saved = { ...row.payload, id: original?.id ?? row.id }
+      // Upgrade stale saved photos without replacing owner-edited names or prices.
+      // A later admin save carries the revision and can intentionally change photos.
+      if (original?.mediaRevision && original.mediaRevision !== saved.mediaRevision) {
+        for (const key of ['image', 'secondaryImage', 'gallery', 'images', 'media', 'variants', 'colors', 'mediaRevision']) {
+          saved[key] = original[key]
+        }
+      }
+      products.set(String(row.id), saved)
+    }
   }
   return [...products.values()].map(normalizeReviewedEyewear)
 }

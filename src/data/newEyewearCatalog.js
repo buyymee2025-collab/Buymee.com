@@ -1,3 +1,4 @@
+import { REVIEWED_EYEWEAR_MEDIA, NEW_REVIEWED_EYEWEAR } from './reviewedEyewearOct20.js'
 // Visually reviewed October 16, 2026. Matching product-only front views lead each new pair.
 const EYEWEAR_CATALOG = [
   {
@@ -4310,7 +4311,7 @@ const PAIRED_EYEWEAR_PRODUCTS = EYEWEAR_CATALOG
   })
 
 // Two reviewed views per new eyewear card. Source records retain all originals.
-export const EYEWEAR_PRODUCTS = PAIRED_EYEWEAR_PRODUCTS.map(product => {
+const ORIGINAL_EYEWEAR_PRODUCTS = PAIRED_EYEWEAR_PRODUCTS.map(product => {
   if (Number(product.productCode.slice(2)) < 70 && !product.pairedProductCodes?.length) return product
   const gallery = product.gallery.slice(0, 2)
   if (gallery.length === 1 && gallery[0].endsWith('_edited')) {
@@ -4339,3 +4340,8 @@ export const EYEWEAR_PRODUCTS = PAIRED_EYEWEAR_PRODUCTS.map(product => {
     colors: variants.map(variant => variant.color),
   }
 })
+
+// Keep original product identity and metadata; replace only reviewed media.
+export const EYEWEAR_PRODUCTS = ORIGINAL_EYEWEAR_PRODUCTS.map(product => ({
+  ...product, ...(REVIEWED_EYEWEAR_MEDIA[String(product.id)] || {}),
+})).concat(NEW_REVIEWED_EYEWEAR)

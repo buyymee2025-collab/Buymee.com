@@ -4,14 +4,16 @@ import { mergeCatalog, normalizeReviewedEyewear, validateEyewearColors, validate
 const blue = EYEWEAR_PRODUCTS.find(product => product.productCode === 'GL057')
 const red = EYEWEAR_PRODUCTS.find(product => product.productCode === 'GL180')
 assert.ok(blue && red)
-assert.equal(EYEWEAR_PRODUCTS.length, 70)
-assert.equal(new Set(EYEWEAR_PRODUCTS.map(product => product.productCode)).size, 70)
-assert.deepEqual(blue.gallery.map(src => src.split('/').at(-1)), ['IMG_4118_n6r0yl', 'IMG_4117_y7jezj'])
-assert.deepEqual(red.gallery.map(src => src.split('/').at(-1)), ['IMG_4116_fthzid', 'IMG_4115_kzryg8'])
+assert.equal(EYEWEAR_PRODUCTS.length, 113)
+assert.equal(new Set(EYEWEAR_PRODUCTS.map(product => product.productCode)).size, 113)
+assert.ok(blue.image.includes('front-view'))
+assert.ok(blue.secondaryImage.includes('angle-view'))
+assert.ok(red.image.includes('front-view'))
+assert.ok(red.secondaryImage.includes('angle-view'))
 assert.ok(!blue.gallery.some(src => red.gallery.includes(src)))
 // Reproduce the saved admin override: every photo was incorrectly tagged Blue.
 const combined = [blue.image, red.image, blue.secondaryImage, red.secondaryImage]
-const override = { ...blue, name: 'Owner edited title', price: 99, colors: ['Blue', 'Red'],
+const override = { ...blue, mediaRevision: undefined, name: 'Owner edited title', price: 99, colors: ['Blue', 'Red'],
   gallery: combined, images: combined,
   media: combined.map(src => ({ type: 'image', src, color: 'Blue' })),
   variants: [{ color: 'Blue', image: blue.image, media: combined.map(src => ({ type: 'image', src })) }] }
