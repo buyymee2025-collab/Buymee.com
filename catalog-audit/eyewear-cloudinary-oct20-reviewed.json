@@ -8,7 +8,7 @@
   "pairs": [
     {
       "pair": 1,
-      "productCode": "GL181",
+      "productCode": "GL070",
       "status": "new-product",
       "front": "IMG_3882-front-view",
       "angle": "IMG_3883-angle-view",
@@ -16,7 +16,7 @@
     },
     {
       "pair": 2,
-      "productCode": "GL182",
+      "productCode": "GL071",
       "status": "new-product",
       "front": "IMG_3884-front-view",
       "angle": "IMG_3885-angle-view",
@@ -24,7 +24,7 @@
     },
     {
       "pair": 3,
-      "productCode": "GL183",
+      "productCode": "GL072",
       "status": "new-product",
       "front": "IMG_3886-front-view",
       "angle": "IMG_3887-angle-view",
@@ -32,7 +32,7 @@
     },
     {
       "pair": 4,
-      "productCode": "GL184",
+      "productCode": "GL073",
       "status": "new-product",
       "front": "IMG_3888-front-view",
       "angle": "IMG_3889-angle-view",
@@ -40,7 +40,7 @@
     },
     {
       "pair": 5,
-      "productCode": "GL185",
+      "productCode": "GL074",
       "status": "new-product",
       "front": "IMG_3890-front-view",
       "angle": "IMG_3891-angle-view",
@@ -48,7 +48,7 @@
     },
     {
       "pair": 6,
-      "productCode": "GL186",
+      "productCode": "GL075",
       "status": "new-product",
       "front": "IMG_3892-front-view",
       "angle": "IMG_3893-angle-view",
@@ -56,7 +56,7 @@
     },
     {
       "pair": 7,
-      "productCode": "GL187",
+      "productCode": "GL076",
       "status": "new-product",
       "front": "IMG_3894-front-view",
       "angle": "IMG_3895-angle-view",
@@ -64,7 +64,7 @@
     },
     {
       "pair": 8,
-      "productCode": "GL188",
+      "productCode": "GL077",
       "status": "new-product",
       "front": "IMG_3896-front-view",
       "angle": "IMG_3897-angle-view",
@@ -72,7 +72,7 @@
     },
     {
       "pair": 9,
-      "productCode": "GL189",
+      "productCode": "GL078",
       "status": "new-product",
       "front": "IMG_3898-front-view",
       "angle": "IMG_3899-angle-view",
@@ -80,7 +80,7 @@
     },
     {
       "pair": 10,
-      "productCode": "GL190",
+      "productCode": "GL079",
       "status": "new-product",
       "front": "IMG_3900-front-view",
       "angle": "IMG_3901-angle-view",
@@ -88,7 +88,7 @@
     },
     {
       "pair": 11,
-      "productCode": "GL191",
+      "productCode": "GL080",
       "status": "new-product",
       "front": "IMG_3902-front-view",
       "angle": "IMG_3903-angle-view",
@@ -96,7 +96,7 @@
     },
     {
       "pair": 12,
-      "productCode": "GL192",
+      "productCode": "GL081",
       "status": "new-product",
       "front": "IMG_3904-front-view",
       "angle": "IMG_3905-angle-view",
@@ -104,7 +104,7 @@
     },
     {
       "pair": 13,
-      "productCode": "GL193",
+      "productCode": "GL082",
       "status": "new-product",
       "front": "IMG_3906-front-view",
       "angle": "IMG_3907-angle-view",
@@ -112,7 +112,7 @@
     },
     {
       "pair": 14,
-      "productCode": "GL194",
+      "productCode": "GL083",
       "status": "new-product",
       "front": "IMG_3908-front-view",
       "angle": "IMG_3909-angle-view",
@@ -120,7 +120,7 @@
     },
     {
       "pair": 15,
-      "productCode": "GL195",
+      "productCode": "GL084",
       "status": "new-product",
       "front": "IMG_3910-front-view",
       "angle": "IMG_3911-angle-view",
@@ -128,7 +128,7 @@
     },
     {
       "pair": 16,
-      "productCode": "GL196",
+      "productCode": "GL085",
       "status": "new-product",
       "front": "IMG_3912-front-view",
       "angle": "IMG_3913-angle-view",
@@ -136,7 +136,7 @@
     },
     {
       "pair": 17,
-      "productCode": "GL197",
+      "productCode": "GL086",
       "status": "new-product",
       "front": "IMG_3914-front-view",
       "angle": "IMG_3915-angle-view",
@@ -144,7 +144,7 @@
     },
     {
       "pair": 18,
-      "productCode": "GL198",
+      "productCode": "GL087",
       "status": "new-product",
       "front": "IMG_3916-front-view",
       "angle": "IMG_3917-angle-view",
@@ -152,7 +152,7 @@
     },
     {
       "pair": 19,
-      "productCode": "GL199",
+      "productCode": "GL088",
       "status": "new-product",
       "front": "IMG_3918-front-view",
       "angle": "IMG_3919-angle-view",
@@ -160,7 +160,7 @@
     },
     {
       "pair": 20,
-      "productCode": "GL200",
+      "productCode": "GL089",
       "status": "new-product",
       "front": "IMG_3920-front-view",
       "angle": "IMG_3921-angle-view",
@@ -168,7 +168,7 @@
     },
     {
       "pair": 21,
-      "productCode": "GL201",
+      "productCode": "GL090",
       "status": "new-product",
       "front": "IMG_3922-front-view",
       "angle": "IMG_3923-angle-view",
@@ -176,7 +176,7 @@
     },
     {
       "pair": 22,
-      "productCode": "GL202",
+      "productCode": "GL091",
       "status": "new-product",
       "front": "IMG_3924-front-view",
       "angle": "IMG_3925-angle-view",
@@ -184,7 +184,7 @@
     },
     {
       "pair": 23,
-      "productCode": "GL203",
+      "productCode": "GL092",
       "status": "new-product",
       "front": "IMG_3926-front-view",
       "angle": "IMG_3927-angle-view",
@@ -192,7 +192,7 @@
     },
     {
       "pair": 24,
-      "productCode": "GL204",
+      "productCode": "GL093",
       "status": "new-product",
       "front": "IMG_3928-front-view",
       "angle": "IMG_3929-angle-view",
@@ -200,7 +200,7 @@
     },
     {
       "pair": 25,
-      "productCode": "GL205",
+      "productCode": "GL094",
       "status": "new-product",
       "front": "IMG_3930-front-view",
       "angle": "IMG_3931-angle-view",
@@ -208,7 +208,7 @@
     },
     {
       "pair": 26,
-      "productCode": "GL206",
+      "productCode": "GL095",
       "status": "new-product",
       "front": "IMG_3932-front-view",
       "angle": "IMG_3933-angle-view",
@@ -216,7 +216,7 @@
     },
     {
       "pair": 27,
-      "productCode": "GL207",
+      "productCode": "GL096",
       "status": "new-product",
       "front": "IMG_3934-front-view",
       "angle": "IMG_3935-angle-view",
@@ -224,7 +224,7 @@
     },
     {
       "pair": 28,
-      "productCode": "GL208",
+      "productCode": "GL097",
       "status": "new-product",
       "front": "IMG_3936-front-view",
       "angle": "IMG_3937-angle-view",
@@ -232,7 +232,7 @@
     },
     {
       "pair": 29,
-      "productCode": "GL209",
+      "productCode": "GL098",
       "status": "new-product",
       "front": "IMG_3938-front-view",
       "angle": "IMG_3939-angle-view",
@@ -240,7 +240,7 @@
     },
     {
       "pair": 30,
-      "productCode": "GL210",
+      "productCode": "GL099",
       "status": "new-product",
       "front": "IMG_3940-front-view",
       "angle": "IMG_3941-angle-view",
@@ -248,7 +248,7 @@
     },
     {
       "pair": 31,
-      "productCode": "GL211",
+      "productCode": "GL100",
       "status": "new-product",
       "front": "IMG_3942-front-view",
       "angle": "IMG_3943-angle-view",
@@ -256,7 +256,7 @@
     },
     {
       "pair": 32,
-      "productCode": "GL212",
+      "productCode": "GL101",
       "status": "new-product",
       "front": "IMG_3944-front-view",
       "angle": "IMG_3945-angle-view",
@@ -264,7 +264,7 @@
     },
     {
       "pair": 33,
-      "productCode": "GL213",
+      "productCode": "GL102",
       "status": "new-product",
       "front": "IMG_3946-front-view",
       "angle": "IMG_3947-angle-view",
@@ -272,7 +272,7 @@
     },
     {
       "pair": 34,
-      "productCode": "GL214",
+      "productCode": "GL103",
       "status": "new-product",
       "front": "IMG_3948-front-view",
       "angle": "IMG_3949-angle-view",
@@ -496,7 +496,7 @@
     },
     {
       "pair": 62,
-      "productCode": "GL215",
+      "productCode": "GL104",
       "status": "new-product",
       "front": "IMG_4007-front-view",
       "angle": "IMG_4008-angle-view",
@@ -504,7 +504,7 @@
     },
     {
       "pair": 63,
-      "productCode": "GL216",
+      "productCode": "GL105",
       "status": "new-product",
       "front": "IMG_4009-front-view",
       "angle": "IMG_4010-angle-view",
@@ -512,7 +512,7 @@
     },
     {
       "pair": 64,
-      "productCode": "GL217",
+      "productCode": "GL106",
       "status": "new-product",
       "front": "IMG_4011-front-view",
       "angle": "IMG_4012-angle-view",
@@ -520,7 +520,7 @@
     },
     {
       "pair": 65,
-      "productCode": "GL218",
+      "productCode": "GL107",
       "status": "new-product",
       "front": "IMG_4013-front-view",
       "angle": "IMG_4014-angle-view",
@@ -528,7 +528,7 @@
     },
     {
       "pair": 66,
-      "productCode": "GL219",
+      "productCode": "GL108",
       "status": "new-product",
       "front": "IMG_4015-front-view",
       "angle": "IMG_4016-angle-view",
@@ -536,7 +536,7 @@
     },
     {
       "pair": 67,
-      "productCode": "GL220",
+      "productCode": "GL109",
       "status": "new-product",
       "front": "IMG_4017-front-view",
       "angle": "IMG_4018-angle-view",
@@ -544,7 +544,7 @@
     },
     {
       "pair": 68,
-      "productCode": "GL221",
+      "productCode": "GL110",
       "status": "new-product",
       "front": "IMG_4019-front-view",
       "angle": "IMG_4020-angle-view",
@@ -552,7 +552,7 @@
     },
     {
       "pair": 69,
-      "productCode": "GL222",
+      "productCode": "GL111",
       "status": "new-product",
       "front": "IMG_4021-front-view",
       "angle": "IMG_4022-angle-view",
@@ -560,7 +560,7 @@
     },
     {
       "pair": 70,
-      "productCode": "GL223",
+      "productCode": "GL112",
       "status": "new-product",
       "front": "IMG_4023-front-view",
       "angle": "IMG_4024-angle-view",
@@ -692,7 +692,7 @@
   "notes": [
     "GL068 retained: pair 7 differs in frame outline and temple details.",
     "Original GL001\u2013GL069 and GL180 identities preserved.",
-    "Historical GL070\u2013GL179 batch remains archived; unmatched side-only images are not restored.",
-    "Composite color labels describe one physical frame/lens combination, not alternate variants."
+    "Composite color labels describe one physical frame/lens combination, not alternate variants.",
+    "New cards renumbered GL070\u2013GL112 at the owner\u2019s request; historical unpaired images remain archived."
   ]
 }

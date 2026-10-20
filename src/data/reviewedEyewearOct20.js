@@ -1269,7 +1269,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Blue-Amber Gradient Gold-Bar Shield Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL181",
+    "productCode": "GL070",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3882-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3883-angle-view",
     "gallery": [
@@ -1339,7 +1339,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Purple-Rose Rimless Pink-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL182",
+    "productCode": "GL071",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3884-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3885-angle-view",
     "gallery": [
@@ -1409,7 +1409,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Black Angular Gold-Trim Rectangular Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL183",
+    "productCode": "GL072",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3886-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3887-angle-view",
     "gallery": [
@@ -1479,7 +1479,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Black Cat-Eye Purple-Lens Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL184",
+    "productCode": "GL073",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3888-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3889-angle-view",
     "gallery": [
@@ -1549,7 +1549,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Black Gold-V Brow Square Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL185",
+    "productCode": "GL074",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3890-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3891-angle-view",
     "gallery": [
@@ -1619,7 +1619,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Caramel Monogram-Temple Square Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL186",
+    "productCode": "GL075",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3892-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3893-angle-view",
     "gallery": [
@@ -1689,7 +1689,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Purple-Rose Cat-Eye Pink Monogram-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL187",
+    "productCode": "GL076",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3894-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3895-angle-view",
     "gallery": [
@@ -1759,7 +1759,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Tortoiseshell Yellow-Lens Square Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL188",
+    "productCode": "GL077",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3896-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3897-angle-view",
     "gallery": [
@@ -1829,7 +1829,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Brown Gradient Rimless Wood-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL189",
+    "productCode": "GL078",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3898-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3899-angle-view",
     "gallery": [
@@ -1899,7 +1899,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Rose Gradient Rimless Monogram-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL190",
+    "productCode": "GL079",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3900-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3901-angle-view",
     "gallery": [
@@ -1969,7 +1969,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Black Quote-Detail Rectangular Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL191",
+    "productCode": "GL080",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3902-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3903-angle-view",
     "gallery": [
@@ -2039,7 +2039,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Blue Crystal Flat-Top Rectangular Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL192",
+    "productCode": "GL081",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3904-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3905-angle-view",
     "gallery": [
@@ -2109,7 +2109,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Grey Gradient Angular Rimless Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL193",
+    "productCode": "GL082",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3906-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3907-angle-view",
     "gallery": [
@@ -2179,7 +2179,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Black Gold-Flower Round Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL194",
+    "productCode": "GL083",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3908-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3909-angle-view",
     "gallery": [
@@ -2249,7 +2249,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Black Monogram Shield Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL195",
+    "productCode": "GL084",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3910-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3911-angle-view",
     "gallery": [
@@ -2319,7 +2319,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Pink Gold-Chain Shield Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL196",
+    "productCode": "GL085",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3912-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3913-angle-view",
     "gallery": [
@@ -2389,7 +2389,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Louis Vuitton Blue-Amber Rimless Green-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL197",
+    "productCode": "GL086",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3914-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3915-angle-view",
     "gallery": [
@@ -2459,7 +2459,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Versace Rose Gold-Frame Medallion Shield Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL198",
+    "productCode": "GL087",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3916-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3917-angle-view",
     "gallery": [
@@ -2529,7 +2529,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Versace Brown Gold Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL199",
+    "productCode": "GL088",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3918-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3919-angle-view",
     "gallery": [
@@ -2599,7 +2599,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Versace Blue Shield Black Gold-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL200",
+    "productCode": "GL089",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3920-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3921-angle-view",
     "gallery": [
@@ -2669,7 +2669,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Versace Brown Bronze-Frame Shield Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL201",
+    "productCode": "GL090",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3922-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3923-angle-view",
     "gallery": [
@@ -2739,7 +2739,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Versace Amber Gold Oval Tortoiseshell-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL202",
+    "productCode": "GL091",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3924-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3925-angle-view",
     "gallery": [
@@ -2809,7 +2809,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Versace Black Gold Rectangular Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL203",
+    "productCode": "GL092",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3926-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3927-angle-view",
     "gallery": [
@@ -2879,7 +2879,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Versace Rose Black-Frame Aviator Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL204",
+    "productCode": "GL093",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3928-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3929-angle-view",
     "gallery": [
@@ -2949,7 +2949,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Versace Yellow-Lens Black Aviator Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL205",
+    "productCode": "GL094",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3930-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3931-angle-view",
     "gallery": [
@@ -3019,7 +3019,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Versace Blue Gradient Gold-Temple Rimless Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL206",
+    "productCode": "GL095",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3932-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3933-angle-view",
     "gallery": [
@@ -3089,7 +3089,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Chanel Black Gold Shield Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL207",
+    "productCode": "GL096",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3934-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3935-angle-view",
     "gallery": [
@@ -3159,7 +3159,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Chanel Brown Rimless Wood-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL208",
+    "productCode": "GL097",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3936-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3937-angle-view",
     "gallery": [
@@ -3229,7 +3229,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Chanel Black Rimless Quilted-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL209",
+    "productCode": "GL098",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3938-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3939-angle-view",
     "gallery": [
@@ -3299,7 +3299,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Chanel Brown Gradient Round Wood-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL210",
+    "productCode": "GL099",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3940-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3941-angle-view",
     "gallery": [
@@ -3369,7 +3369,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Chanel Amber Geometric Square Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL211",
+    "productCode": "GL100",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3942-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3943-angle-view",
     "gallery": [
@@ -3439,7 +3439,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Chanel Rose Gradient Cream-Temple Rimless Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL212",
+    "productCode": "GL101",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3944-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3945-angle-view",
     "gallery": [
@@ -3509,7 +3509,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Chanel Black Oval Gold-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL213",
+    "productCode": "GL102",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3946-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3947-angle-view",
     "gallery": [
@@ -3579,7 +3579,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Chanel Rose Gold Rimless Red-Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL214",
+    "productCode": "GL103",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3948-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3949-angle-view",
     "gallery": [
@@ -3649,7 +3649,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Dior Brown Gradient Gold Crystal Butterfly Square Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL215",
+    "productCode": "GL104",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4007-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4008-angle-view",
     "gallery": [
@@ -3719,7 +3719,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Dior Pink Gradient Gold Crystal Butterfly Square Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL216",
+    "productCode": "GL105",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4009-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4010-angle-view",
     "gallery": [
@@ -3789,7 +3789,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Dior Amber Crystal Cat-Eye Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL217",
+    "productCode": "GL106",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4011-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4012-angle-view",
     "gallery": [
@@ -3859,7 +3859,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Dior Blue Crystal Square Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL218",
+    "productCode": "GL107",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4013-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4014-angle-view",
     "gallery": [
@@ -3929,7 +3929,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Dior Pink Oval Silver Crystal Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL219",
+    "productCode": "GL108",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4015-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4016-angle-view",
     "gallery": [
@@ -3999,7 +3999,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Dior Brown Gold-Chain Wing Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL220",
+    "productCode": "GL109",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4017-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4018-angle-view",
     "gallery": [
@@ -4069,7 +4069,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Dior Brown Silver Crystal Cat-Eye Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL221",
+    "productCode": "GL110",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4019-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4020-angle-view",
     "gallery": [
@@ -4139,7 +4139,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Dior Tortoiseshell Round Gold-Logo Temple Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL222",
+    "productCode": "GL111",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4021-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4022-angle-view",
     "gallery": [
@@ -4209,7 +4209,7 @@ export const NEW_REVIEWED_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Dior Brown Monogram Shield Sunglasses from the BUYYMEE.com collection.",
-    "productCode": "GL223",
+    "productCode": "GL112",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4023-front-view",
     "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4024-angle-view",
     "gallery": [
