@@ -6,8 +6,8 @@ const red = EYEWEAR_PRODUCTS.find(product => product.productCode === 'GL180')
 assert.ok(blue && red)
 assert.equal(EYEWEAR_PRODUCTS.length, 70)
 assert.equal(new Set(EYEWEAR_PRODUCTS.map(product => product.productCode)).size, 70)
-assert.deepEqual(blue.gallery.map(src => src.split('/').at(-1)), ['IMG_4118_n6r0yl', 'IMG_4116_fthzid'])
-assert.deepEqual(red.gallery.map(src => src.split('/').at(-1)), ['IMG_4117_y7jezj', 'IMG_4115_kzryg8'])
+assert.deepEqual(blue.gallery.map(src => src.split('/').at(-1)), ['IMG_4118_n6r0yl', 'IMG_4117_y7jezj'])
+assert.deepEqual(red.gallery.map(src => src.split('/').at(-1)), ['IMG_4116_fthzid', 'IMG_4115_kzryg8'])
 assert.ok(!blue.gallery.some(src => red.gallery.includes(src)))
 // Reproduce the saved admin override: every photo was incorrectly tagged Blue.
 const combined = [blue.image, red.image, blue.secondaryImage, red.secondaryImage]

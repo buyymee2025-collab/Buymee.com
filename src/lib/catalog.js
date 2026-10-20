@@ -11,7 +11,7 @@ export function mergeCatalog(base, rows) {
 // Apply after saved overrides too, so an older admin record cannot mix them again.
 export function normalizeReviewedEyewear(product) {
   if (product.category !== 'Eye Wears' || String(product.id) !== '26033') return product
-  const redPhotos = ['IMG_4117_y7jezj', 'IMG_4115_kzryg8']
+  const redPhotos = ['IMG_4116_fthzid', 'IMG_4115_kzryg8']
   const sources = product.media?.length ? product.media : product.variants?.flatMap(v => v.media || [])?.length ? product.variants.flatMap(v => v.media || []) : (product.gallery || [product.image]).map(src => ({ type: 'image', src }))
   const media = sources.filter(item => !redPhotos.some(name => item.src?.includes(name)))
     .filter((item, index, all) => all.findIndex(other => other.src === item.src) === index)

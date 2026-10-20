@@ -3421,10 +3421,10 @@ const EYEWEAR_CATALOG = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4118_n6r0yl",
-    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
+    "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
     "gallery": [
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4118_n6r0yl",
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid"
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj"
     ],
     "media": [
       {
@@ -3434,7 +3434,7 @@ const EYEWEAR_CATALOG = [
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
         "color": "Blue"
       }
     ],
@@ -3450,7 +3450,7 @@ const EYEWEAR_CATALOG = [
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
             "color": "Blue"
           }
         ]
@@ -4217,16 +4217,16 @@ const EYEWEAR_CATALOG = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+    "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
     "secondaryImage": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4115_kzryg8",
     "gallery": [
-      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+      "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
       "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4115_kzryg8"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+        "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
         "color": "Burgundy / Pink"
       },
       {
@@ -4238,11 +4238,11 @@ const EYEWEAR_CATALOG = [
     "variants": [
       {
         "color": "Burgundy / Pink",
-        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+        "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4117_y7jezj",
+            "src": "https://res.cloudinary.com/dnvgl9k4i/image/upload/IMG_4116_fthzid",
             "color": "Burgundy / Pink"
           },
           {
