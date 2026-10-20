@@ -1,7 +1,7 @@
 {
-  "status": "paused",
+  "status": "front-facing-restored-side-only-archived",
   "date": "2026-10-20",
-  "reason": "Removed individual cards at owner request; retain for duplicate review and later restoration.",
+  "reason": "Keep front-facing cards, merge verified matching side views into their galleries, archive unmatched side-only views. Preserve every assigned code.",
   "products": [
     {
       "id": 70070,
@@ -53,7 +53,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Clear Wraparound Sport Glasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Clear Wraparound Sport Glasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70071,
@@ -105,7 +106,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Oval Gold-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Oval Gold-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70072,
@@ -157,7 +159,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Crystal Gold-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Crystal Gold-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70073,
@@ -209,7 +212,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Cream Gold-Rim Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Cream Gold-Rim Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70074,
@@ -261,7 +265,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Cream Double-Rim Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Cream Double-Rim Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70075,
@@ -313,7 +318,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Gradient Crystal Butterfly Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Gradient Crystal Butterfly Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70076,
@@ -365,7 +371,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Burgundy Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Burgundy Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70077,
@@ -417,7 +424,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Amber Oval Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Amber Oval Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70078,
@@ -469,7 +477,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Gradient Round Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Gradient Round Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70079,
@@ -521,7 +530,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Burgundy Slim Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Burgundy Slim Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70080,
@@ -573,7 +583,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Amber Round Wide Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Amber Round Wide Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70081,
@@ -625,7 +636,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Purple Gradient Pink-Temple Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Purple Gradient Pink-Temple Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70082,
@@ -677,7 +689,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Square Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Square Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70083,
@@ -729,7 +742,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Smoke Gradient Pink-Temple Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Smoke Gradient Pink-Temple Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70084,
@@ -781,7 +795,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Round Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Round Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70085,
@@ -833,7 +848,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Lens Green-Trim Wing Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Lens Green-Trim Wing Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70086,
@@ -885,7 +901,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Olive Square Gold-Detail Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Olive Square Gold-Detail Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70087,
@@ -937,7 +954,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Gradient Octagonal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Gradient Octagonal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70088,
@@ -989,7 +1007,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Grey Square Gradient Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Grey Square Gradient Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70089,
@@ -1041,7 +1060,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Gold-Bar Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Gold-Bar Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70090,
@@ -1093,7 +1113,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Smoke Round Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Smoke Round Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70091,
@@ -1145,7 +1166,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Navy Wraparound Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Navy Wraparound Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70092,
@@ -1197,7 +1219,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Olive Textured Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Olive Textured Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70093,
@@ -1249,7 +1272,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Rectangular Purple-Lens Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Rectangular Purple-Lens Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70094,
@@ -1301,7 +1325,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Blue Mirror Red-Temple Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Blue Mirror Red-Temple Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70095,
@@ -1353,7 +1378,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Blue Mirrored Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Blue Mirrored Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70096,
@@ -1405,7 +1431,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "White Square Gold-Link Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "White Square Gold-Link Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70097,
@@ -1457,7 +1484,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Clear Blue-Temple Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Clear Blue-Temple Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70098,
@@ -1509,7 +1537,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Gradient Taupe-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Gradient Taupe-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70099,
@@ -1561,7 +1590,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Crystal Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Crystal Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70100,
@@ -1613,7 +1643,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Patterned Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Patterned Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70101,
@@ -1665,7 +1696,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Oversized Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Oversized Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70102,
@@ -1717,7 +1749,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Square Gold-Detail Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Square Gold-Detail Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70103,
@@ -1769,7 +1802,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Gradient Rimless Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Gradient Rimless Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70104,
@@ -1821,7 +1855,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Round Stripe-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Round Stripe-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70105,
@@ -1873,7 +1908,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Gradient Faceted Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Gradient Faceted Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70106,
@@ -1925,7 +1961,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Dark Lens Striped Wing Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Dark Lens Striped Wing Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70107,
@@ -1977,7 +2014,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Crystal Decorative-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Crystal Decorative-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70108,
@@ -2029,7 +2067,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Lens Black Wraparound Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Lens Black Wraparound Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70109,
@@ -2081,7 +2120,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Burgundy Oversized Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Burgundy Oversized Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70110,
@@ -2133,7 +2173,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Smoke Gradient Gold-Frame White-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Smoke Gradient Gold-Frame White-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70111,
@@ -2185,7 +2226,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Purple Round Wide Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Purple Round Wide Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70112,
@@ -2237,7 +2279,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Tortoiseshell Gold-Bridge Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Tortoiseshell Gold-Bridge Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70113,
@@ -2289,7 +2332,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Grey Crystal Decorative-Temple Cat-Eye Glasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Grey Crystal Decorative-Temple Cat-Eye Glasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70114,
@@ -2341,7 +2385,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Oversized Geometric Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Oversized Geometric Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "merged-side-view"
     },
     {
       "id": 70115,
@@ -2393,7 +2438,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Tortoiseshell Round Wide-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Tortoiseshell Round Wide-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70116,
@@ -2445,7 +2491,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Crystal Butterfly Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Crystal Butterfly Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70117,
@@ -2497,7 +2544,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Gradient Rimless Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Gradient Rimless Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70118,
@@ -2549,7 +2597,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Lens Black Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Lens Black Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70119,
@@ -2601,7 +2650,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Crystal Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Crystal Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70120,
@@ -2653,7 +2703,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Tortoiseshell Gold-Detail Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Tortoiseshell Gold-Detail Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "merged-side-view"
     },
     {
       "id": 70121,
@@ -2705,7 +2756,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Blue Mirror Clear Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Blue Mirror Clear Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70122,
@@ -2757,7 +2809,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Navy Square Silver-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Navy Square Silver-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70123,
@@ -2809,7 +2862,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Smoke Gradient Gold Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Smoke Gradient Gold Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70124,
@@ -2861,7 +2915,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Gradient Gold-Trim Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Gradient Gold-Trim Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70125,
@@ -2913,7 +2968,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Blue Crystal Square Silver-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Blue Crystal Square Silver-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "merged-side-view"
     },
     {
       "id": 70126,
@@ -2965,7 +3021,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Blue Gradient Green-Temple Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Blue Gradient Green-Temple Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70127,
@@ -3017,7 +3074,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Blue Crystal Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Blue Crystal Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70128,
@@ -3069,7 +3127,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Amber Lens Black Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Amber Lens Black Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70129,
@@ -3121,7 +3180,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Tortoiseshell Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Tortoiseshell Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70130,
@@ -3173,7 +3233,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Oversized Gold-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Oversized Gold-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70131,
@@ -3225,7 +3286,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Square Green-Detail Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Square Green-Detail Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "merged-side-view"
     },
     {
       "id": 70132,
@@ -3277,7 +3339,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Red Slim Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Red Slim Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70133,
@@ -3329,7 +3392,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Gradient Gold-Trim Aviator Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Gradient Gold-Trim Aviator Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70134,
@@ -3381,7 +3445,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Smoke Lens Silver Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Smoke Lens Silver Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70135,
@@ -3433,7 +3498,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Gradient Square Rose-Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Gradient Square Rose-Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "merged-side-view"
     },
     {
       "id": 70136,
@@ -3485,7 +3551,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Round Purple-Lens Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Round Purple-Lens Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70137,
@@ -3537,7 +3604,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Clear Rectangular Light Purple-Lens Glasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Clear Rectangular Light Purple-Lens Glasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70138,
@@ -3589,7 +3657,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Rectangular Rose-Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Rectangular Rose-Gold-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70139,
@@ -3641,7 +3710,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Purple Gradient Oversized Gold Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Purple Gradient Oversized Gold Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70140,
@@ -3693,7 +3763,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Smoke Octagonal Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Smoke Octagonal Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70141,
@@ -3745,7 +3816,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Tortoiseshell Oversized Geometric Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Tortoiseshell Oversized Geometric Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70142,
@@ -3797,7 +3869,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Amber Lens Gold Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Amber Lens Gold Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70143,
@@ -3849,7 +3922,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Round Gold-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Round Gold-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70144,
@@ -3901,7 +3975,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Swan-Detail Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Swan-Detail Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "merged-side-view"
     },
     {
       "id": 70145,
@@ -3953,7 +4028,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Gradient Geometric Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Gradient Geometric Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70146,
@@ -4005,7 +4081,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Dark Blue Lens Striped Wing Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Dark Blue Lens Striped Wing Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70147,
@@ -4057,7 +4134,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Taupe Rimless Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Taupe Rimless Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70148,
@@ -4109,7 +4187,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Square Decorative-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Square Decorative-Hinge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70149,
@@ -4161,7 +4240,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Smoke Lens Gold Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Smoke Lens Gold Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70150,
@@ -4213,7 +4293,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Purple Round Silver Decorative-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Purple Round Silver Decorative-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70151,
@@ -4265,7 +4346,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Round Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Round Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70152,
@@ -4317,7 +4399,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Red Gradient Gold V-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Red Gradient Gold V-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "merged-side-view"
     },
     {
       "id": 70153,
@@ -4369,7 +4452,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Red Gradient Oversized V-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Red Gradient Oversized V-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70154,
@@ -4421,7 +4505,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Swan-Detail Wraparound Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Swan-Detail Wraparound Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70155,
@@ -4473,7 +4558,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Gradient Gold Pink-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Gradient Gold Pink-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70156,
@@ -4525,7 +4611,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Square Tan-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Square Tan-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70157,
@@ -4577,7 +4664,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Red Gradient Crystal Butterfly Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Red Gradient Crystal Butterfly Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70158,
@@ -4629,7 +4717,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Faceted Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Faceted Round Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70159,
@@ -4681,7 +4770,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Lens Gold Pink-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Lens Gold Pink-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70160,
@@ -4733,7 +4823,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Amber Black Angular Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Amber Black Angular Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70161,
@@ -4785,7 +4876,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Gradient Decorative-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Gradient Decorative-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70162,
@@ -4837,7 +4929,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Geometric Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Geometric Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70163,
@@ -4889,7 +4982,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Angular Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Angular Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70164,
@@ -4941,7 +5035,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Smoke Gradient Rose Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Smoke Gradient Rose Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70165,
@@ -4993,7 +5088,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Rectangular Wide-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Rectangular Wide-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70166,
@@ -5045,7 +5141,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Gradient Octagonal Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Gradient Octagonal Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70167,
@@ -5097,7 +5194,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Rectangular Cross-Detail Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Rectangular Cross-Detail Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70168,
@@ -5149,7 +5247,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Lens Black Rectangular Wrap Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Lens Black Rectangular Wrap Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70169,
@@ -5201,7 +5300,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Rose Round Thin Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Rose Round Thin Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70170,
@@ -5253,7 +5353,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Gradient Gold-Frame White-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Gradient Gold-Frame White-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70171,
@@ -5305,7 +5406,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Purple Oval Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Purple Oval Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70172,
@@ -5357,7 +5459,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Gradient Crystal Butterfly Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Gradient Crystal Butterfly Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70173,
@@ -5409,7 +5512,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Round Stripe-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Round Stripe-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70174,
@@ -5461,7 +5565,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Turquoise Orange-Mirror Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Turquoise Orange-Mirror Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70175,
@@ -5513,7 +5618,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Lens Sculpted Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Lens Sculpted Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70176,
@@ -5565,7 +5671,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Amber Lens Sculpted Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Amber Lens Sculpted Sport Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70177,
@@ -5617,7 +5724,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Black Rectangular Silver Cross-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Black Rectangular Silver Cross-Temple Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "archived-side-only"
     },
     {
       "id": 70178,
@@ -5669,7 +5777,8 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Brown Gradient Gold Double-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Brown Gradient Gold Double-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     },
     {
       "id": 70179,
@@ -5721,7 +5830,328 @@
       "featured": false,
       "newArrival": true,
       "sale": false,
-      "description": "Pink Oval Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability."
+      "description": "Pink Oval Gold-Frame Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
+      "archiveStatus": "live-front-card"
     }
+  ],
+  "duplicateReview": {
+    "reviewedDate": "2026-10-20",
+    "scope": "All 110 archived assets compared with one another and the 139 gallery images of GL001\u2013GL069.",
+    "method": "Visual review of enlarged product details; cropped-image similarity used only to find candidates. Different colors and frame geometries were not merged.",
+    "confirmedRepeatedProductGroups": [
+      {
+        "archivedCodes": [
+          "GL106",
+          "GL146"
+        ],
+        "sourceImageNumbers": [
+          37,
+          77
+        ],
+        "reason": "Dark striped triangular wing sunglasses; matching gold bridge, striped temples and frame geometry."
+      },
+      {
+        "archivedCodes": [
+          "GL114",
+          "GL130"
+        ],
+        "sourceImageNumbers": [
+          45,
+          61
+        ],
+        "reason": "Black oversized geometric sunglasses; matching gold T hinges, lens outline and bridge."
+      },
+      {
+        "archivedCodes": [
+          "GL120",
+          "GL129"
+        ],
+        "sourceImageNumbers": [
+          51,
+          60
+        ],
+        "reason": "Tortoiseshell cat-eye sunglasses; matching brown lenses and gold temple emblem."
+      },
+      {
+        "archivedCodes": [
+          "GL135",
+          "GL145"
+        ],
+        "sourceImageNumbers": [
+          66,
+          76
+        ],
+        "reason": "Black geometric square sunglasses; matching gradient lenses and rose-gold temple construction."
+      },
+      {
+        "archivedCodes": [
+          "GL144",
+          "GL154"
+        ],
+        "sourceImageNumbers": [
+          75,
+          85
+        ],
+        "reason": "Pink shield sunglasses; matching gold swan ornaments and pink lens."
+      },
+      {
+        "archivedCodes": [
+          "GL152",
+          "GL153"
+        ],
+        "sourceImageNumbers": [
+          83,
+          84
+        ],
+        "reason": "Red gradient oversized sunglasses; matching crystal V bridge and gold frame."
+      },
+      {
+        "archivedCodes": [
+          "GL167",
+          "GL177"
+        ],
+        "sourceImageNumbers": [
+          98,
+          108
+        ],
+        "reason": "Black rectangular sunglasses; matching silver crossed-arrow temple ornament."
+      }
+    ],
+    "possibleMatchesRequireConfirmation": [
+      {
+        "archivedCodes": [
+          "GL075",
+          "GL172"
+        ],
+        "sourceImageNumbers": [
+          6,
+          103
+        ],
+        "reason": "Similar butterfly-crystal glasses; confirm lens tint and outline before merging."
+      },
+      {
+        "archivedCodes": [
+          "GL081",
+          "GL083"
+        ],
+        "sourceImageNumbers": [
+          12,
+          14
+        ],
+        "reason": "Pink temples and similar purple lenses; lens proportions require confirmation."
+      },
+      {
+        "archivedCodes": [
+          "GL105",
+          "GL161"
+        ],
+        "sourceImageNumbers": [
+          36,
+          92
+        ],
+        "reason": "Similar rose faceted rimless design; confirm hinge details and tint."
+      },
+      {
+        "archivedCodes": [
+          "GL122",
+          "GL125",
+          "GL127"
+        ],
+        "sourceImageNumbers": [
+          53,
+          56,
+          58
+        ],
+        "reason": "Similar blue square glasses and silver decorative temples; confirm frame color and outline."
+      },
+      {
+        "archivedCodes": [
+          "GL131",
+          "GL148"
+        ],
+        "sourceImageNumbers": [
+          62,
+          79
+        ],
+        "reason": "Likely black square front/side views; confirm green temple detail."
+      },
+      {
+        "archivedCodes": [
+          "GL134",
+          "GL149"
+        ],
+        "sourceImageNumbers": [
+          65,
+          80
+        ],
+        "reason": "Similar aviators, but metal tone appears different; keep separate pending confirmation."
+      },
+      {
+        "archivedCodes": [
+          "GL162",
+          "GL163"
+        ],
+        "sourceImageNumbers": [
+          93,
+          94
+        ],
+        "reason": "Similar black geometric frames, but lens outlines differ; keep separate."
+      }
+    ],
+    "differentColorDoNotMerge": [
+      [
+        "GL086",
+        "GL102"
+      ],
+      [
+        "GL079",
+        "GL132"
+      ],
+      [
+        "GL110",
+        "GL123"
+      ],
+      [
+        "GL175",
+        "GL176"
+      ],
+      [
+        "GL095",
+        "GL174"
+      ]
+    ],
+    "identicalFileGroups": [],
+    "existingCatalogComparison": "No exact matching product was confirmed between the paused assets and GL001\u2013GL069. Similar frame outlines with different branding, temples or colors remain distinct.",
+    "action": "53 front-facing cards restored; seven matching side-view cards consolidated into front-facing galleries; 50 side-only cards archived. GL001\u2013GL069 unchanged."
+  },
+  "frontFacingSourceNumbers": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    17,
+    18,
+    19,
+    20,
+    24,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    40,
+    41,
+    43,
+    47,
+    48,
+    52,
+    54,
+    58,
+    59,
+    60,
+    61,
+    63,
+    68,
+    70,
+    71,
+    73,
+    76,
+    78,
+    79,
+    80,
+    84,
+    85,
+    86,
+    88,
+    91,
+    93,
+    94,
+    95,
+    97,
+    99,
+    101,
+    102,
+    105,
+    106,
+    107,
+    109,
+    110
+  ],
+  "matchingSideViews": {
+    "58": [
+      56
+    ],
+    "60": [
+      51
+    ],
+    "61": [
+      45
+    ],
+    "76": [
+      66
+    ],
+    "79": [
+      62
+    ],
+    "84": [
+      83
+    ],
+    "85": [
+      75
+    ]
+  },
+  "sideOnlyArchivedSourceNumbers": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    35,
+    37,
+    38,
+    39,
+    42,
+    44,
+    46,
+    49,
+    50,
+    53,
+    55,
+    57,
+    64,
+    65,
+    67,
+    69,
+    72,
+    74,
+    77,
+    81,
+    82,
+    87,
+    89,
+    90,
+    92,
+    96,
+    98,
+    100,
+    103,
+    104,
+    108
   ]
 }
