@@ -27,7 +27,8 @@ export function normalizeReviewedEyewear(product) {
   const media = sources.filter(item => !redPhotos.some(name => item.src?.includes(name)))
     .filter((item, index, all) => all.findIndex(other => other.src === item.src) === index)
     .map(item => ({ ...item, color: 'Blue' }))
-  const front = media.findIndex(item => item.src?.includes('IMG_4118_n6r0yl'))
+  const reviewedFront = media.findIndex(item => item.src?.includes('IMG_3950-front-view'))
+  const front = reviewedFront >= 0 ? reviewedFront : media.findIndex(item => item.src?.includes('IMG_4118_n6r0yl'))
   if (front > 0) media.unshift(...media.splice(front, 1))
   const images = media.filter(item => item.type === 'image').map(item => item.src)
   if (!images.length) return product

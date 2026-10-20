@@ -4341,7 +4341,14 @@ const ORIGINAL_EYEWEAR_PRODUCTS = PAIRED_EYEWEAR_PRODUCTS.map(product => {
   }
 })
 
-// Keep original product identity and metadata; replace only reviewed media.
-export const EYEWEAR_PRODUCTS = ORIGINAL_EYEWEAR_PRODUCTS.map(product => ({
-  ...product, ...(REVIEWED_EYEWEAR_MEDIA[String(product.id)] || {}),
-})).concat(NEW_REVIEWED_EYEWEAR)
+// Keep the reviewed product-only pair first, followed by its original mannequin views.
+export const EYEWEAR_PRODUCTS = ORIGINAL_EYEWEAR_PRODUCTS.map(product => {
+  const reviewed = REVIEWED_EYEWEAR_MEDIA[String(product.id)]
+  if (!reviewed) return product
+  const gallery = [...new Set([...reviewed.gallery, ...product.gallery])]
+  const color = reviewed.colors[0]
+  const media = gallery.map(src => ({ type: 'image', src, color }))
+  return { ...product, ...reviewed, gallery, images: gallery, media,
+    variants: [{ color, image: gallery[0], media }],
+    mediaRevision: '2026-10-20-mannequins-restored-v3' }
+}).concat(NEW_REVIEWED_EYEWEAR)

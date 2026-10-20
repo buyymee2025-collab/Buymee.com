@@ -15,13 +15,17 @@ for (let n = 181; n <= 223; n++) assert.ok(!byCode.has(`GL${n}`))
 const images = new Set()
 for (const pair of audit.pairs) {
   const p = byCode.get(pair.productCode)
-  assert.deepEqual(p.gallery.map(src => src.split('/').at(-1)), [pair.front, pair.angle])
+  assert.deepEqual(p.gallery.slice(0, 2).map(src => src.split('/').at(-1)), [pair.front, pair.angle])
   assert.ok(pair.front.includes('front-view') && pair.angle.includes('angle-view'))
+  if (pair.status === 'replace-existing-media') {
+    assert.equal(p.gallery.length, 4)
+    assert.ok(p.gallery.slice(2).every(src => src.includes('/dnvgl9k4i/')))
+  } else assert.equal(p.gallery.length, 2)
   assert.equal(p.colors.length, 1)
   assert.equal(p.variants.length, 1)
   assert.deepEqual(p.variants[0].media.map(m => m.src), p.gallery)
   assert.doesNotThrow(() => validateEyewearColors(p))
-  for (const src of p.gallery) { assert.ok(!images.has(src)); images.add(src) }
+  for (const src of p.gallery.slice(0, 2)) { assert.ok(!images.has(src)); images.add(src) }
   const stale = { ...p, mediaRevision: undefined, name: 'Owner title', price: 88, gallery: ['https://old.example/wrong-color'] }
   const merged = mergeCatalog(EYEWEAR_PRODUCTS, [{ id: p.id, payload: stale }]).find(x => x.id === p.id)
   assert.deepEqual(merged.gallery, p.gallery)
