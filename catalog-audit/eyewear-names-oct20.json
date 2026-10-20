@@ -1,0 +1,2052 @@
+{
+  "updated": 78,
+  "protectedUppercase": 35,
+  "lensReviewed": 61,
+  "modelFamilyMatches": 19,
+  "method": "Google Lens reverse-image search, visible branding and published manufacturer/retailer references. Model families do not authenticate a physical product. No unverified UV, material, sizing or origin claims added.",
+  "products": [
+    {
+      "code": "GL004",
+      "id": 26049,
+      "previousName": "SAINT LAURENT - LONGCHAMP LO695S CAT - EYE SUNGLASSES (Metallic red)",
+      "name": "SAINT LAURENT - LONGCHAMP LO695S CAT - EYE SUNGLASSES (METALLIC RED)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL007",
+      "id": 26052,
+      "previousName": "SAINT LAURENT - SL M130 (Light beige)",
+      "name": "SAINT LAURENT - SL M130 (LIGHT BEIGE)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL013",
+      "id": 26035,
+      "previousName": "Rose Gradient Gold-Hinge Square Sunglasses",
+      "name": "FENDI ROSE-GRADIENT SQUARE SUNGLASSES WITH GOLD FF HINGES",
+      "confidence": "visible-brand-and-design",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "FarfetchCazal 851/2 Oversize Sunglasses | Red | FARFETCH",
+          "url": "https://www.farfetch.com/shopping/women/cazal-oversize-8512-solbriller-item-23813486.aspx"
+        },
+        {
+          "title": "NykaaBuy IRUS Women Full UV Protected Brown Lens Sunglasses ...",
+          "url": "https://www.nykaa.com/irus-women-full-uv-protected-brown-lens-sunglasses-irs1343c2sg/p/15569568"
+        },
+        {
+          "title": "OpticalHSunglasses Ana Hickmann AH3312 C02 58 18 | OpticalHIn stock",
+          "url": "https://opticalh.com/en/products/ana-hickmann-ah3312-sunglasses-2"
+        }
+      ]
+    },
+    {
+      "code": "GL015",
+      "id": 26037,
+      "previousName": "DOLCE & GABBANNA - DG6202 WHITE FRAME (Orange Gold)",
+      "name": "DOLCE & GABBANNA - DG6202 WHITE FRAME (ORANGE GOLD)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL018",
+      "id": 26040,
+      "previousName": "DOLCE & GABBANA AVIATOR SUNGLASSES (Purple/Gold)",
+      "name": "DOLCE & GABBANA AVIATOR SUNGLASSES (PURPLE/GOLD)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL020",
+      "id": 26042,
+      "previousName": "Amber Transparent Gold-Detail Square Sunglasses",
+      "name": "DITA LXN-EVO NAVIGATOR SUNGLASSES (AMBER / GOLD)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://dita.com/products/lxn-evo",
+      "lensMatches": [
+        {
+          "title": "DITA EyewearLXN-EVO - DITA Eyewear OfficialIn stock",
+          "url": "https://dita.com/products/lxn-evo"
+        },
+        {
+          "title": "DITA LXN-EVO Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnvDoI8mquyt8vikJbQsnahAlx26Cg:1792508705909&q=DITA+LXN-EVO+Sunglasses&kgmid=/g/11mkd8qh9t&sa=X&ved=2ahUKEwiukbCl78iXAxX3M0QIHa0DDMoQ9_gLKAB6BQjlAhAB"
+        },
+        {
+          "title": "eBayDITA LXN-EVO DTS 403 06 WHITE SWIRL YELLOW GOLD APRICOT ...",
+          "url": "https://www.ebay.com/itm/197483268401"
+        },
+        {
+          "title": "eBayDITA LXN-EVO DTS 403 06 WHITE SWIRL YELLOW GOLD APRICOT ...In stock",
+          "url": "https://www.ebay.com/itm/197483268401"
+        },
+        {
+          "title": "Lux EyewearDita Lxn-Evo Sunglasses \u2013 Lux EyewearIn stock",
+          "url": "https://lux-eyewear.com/products/dita-lxn-evo-sunglasses"
+        },
+        {
+          "title": "InstagramDita",
+          "url": "https://www.instagram.com/p/DUprwzLkoaW/"
+        },
+        {
+          "title": "DitaGRAND-DECADE - DITA Eyewear OfficialIn stock",
+          "url": "https://dita.com/en-am/products/grand-decade"
+        },
+        {
+          "title": "EtsyJacques Marie Mage Jagger Decade in Roma-ltd of 15O Pcs-full ...",
+          "url": "https://www.etsy.com/listing/4467873449/jacques-marie-mage-jagger-decade-in-roma"
+        }
+      ]
+    },
+    {
+      "code": "GL021",
+      "id": 26043,
+      "previousName": "Fendi Brown Gradient Rimless Square Sunglasses",
+      "name": "FENDI BROWN GRADIENT RIMLESS SQUARE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "FarfetchDSQUARED2 EYEWEAR Rimless logo-plaque Sunglasses | Brown ...",
+          "url": "https://www.farfetch.com/shopping/men/dsquared2-eyewear-rimless-logo-plaque-sunglasses-item-33059692.aspx"
+        },
+        {
+          "title": "Chic Happens Clothing Co.Rimless Square Shape Lenses Wide Leg Sunglasses \u2013 Chic ...In stock",
+          "url": "https://chichappensclothingco.com/products/rimless-square-shape-lenses-wide-leg-sunglasses"
+        },
+        {
+          "title": "InstagramRealiza tu pedido 3004437268",
+          "url": "https://www.instagram.com/p/DcucchtFRky/"
+        },
+        {
+          "title": "Philipp PleinSunglasses PLEIN ICON EDGE | Philipp PleinIn stock",
+          "url": "https://www.plein.com/us/sunglasses-plein-icon-edge/145959_16_4_0.html"
+        },
+        {
+          "title": "eBayFENDI FIRST CRYSTAL FE4082US 30Y Gold Purple Gradient Women ...In stock",
+          "url": "https://www.ebay.com/itm/205644518331"
+        },
+        {
+          "title": "InstagramGold Plated with Love\ud83e\udef6\ud83c\udffb\ud83e\uddff #sunglasses#luxurylifestyle ...",
+          "url": "https://www.instagram.com/reel/DdS7yE4sw2W/"
+        },
+        {
+          "title": "EyeInsistEyeInsist Empress Rimless Oversized Square Gold Brown ...",
+          "url": "https://eyeinsist.com/products/empress-rimless-oversized-square-gold-brown-gradient-sunglasses"
+        },
+        {
+          "title": "FarfetchCartier Eyewear CT0466S Sunglasses | Gold | FARFETCH",
+          "url": "https://www.farfetch.com/shopping/men/cartier-eyewear-ct0466s-sunglasses-item-22839935.aspx"
+        }
+      ]
+    },
+    {
+      "code": "GL022",
+      "id": 26044,
+      "previousName": "Black Double-Bridge Aviator Sunglasses",
+      "name": "DITA LXN-EVO NAVIGATOR SUNGLASSES (BLACK)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://dita.com/products/lxn-evo",
+      "lensMatches": [
+        {
+          "title": "DHgateAcetate Square Sunglasses, Unisex Designer Style,... From ...",
+          "url": "https://in.dhgate.com/product/designer-sunglasses-dta-dtas460s-2026-acetate/1118169794.html"
+        },
+        {
+          "title": "DITA LXN-EVO Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnvwIbxV520V4tItgQ2BiBuhQ6U7iQ:1792508655678&q=DITA+LXN-EVO+Sunglasses&kgmid=/g/11sys_fv07&sa=X&ved=2ahUKEwjlqLaN78iXAxWGl-4BHdBoLL8Q9_gLKAB6BQjhAhAB"
+        },
+        {
+          "title": "Dita Eyewear Flight 006 sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnvwIbxV520V4tItgQ2BiBuhQ6U7iQ:1792508655678&q=Dita+Eyewear+Flight+006+sunglasses&kgmid=/g/11hzw7xhrb&sa=X&ved=2ahUKEwjlqLaN78iXAxWGl-4BHdBoLL8Q9_gLKAF6BQjhAhAD"
+        },
+        {
+          "title": "DitaHYPERLUX-1000 - DITA Eyewear OfficialIn stock",
+          "url": "https://dita.com/products/hyperlux-1000"
+        },
+        {
+          "title": "InstagramPhotos by Urban_lifestyle_connect (@urban_lifestyle_connect ...",
+          "url": "https://www.instagram.com/p/DcTs8KlgOiI/?__d=1%25252F"
+        },
+        {
+          "title": "DITA EyewearLXN-EVO - DITA Eyewear OfficialIn stock",
+          "url": "https://dita.com/products/lxn-evo"
+        },
+        {
+          "title": "Amazon UKDita HYPERLUX-1000 MATTE BLACK - BLACK IRON/GREY TO CLEAR ...",
+          "url": "https://www.amazon.co.uk/Dita-HYPERLUX-1000-MATTE-BLACK-onesizefitsall/dp/B0G49KBM7D"
+        },
+        {
+          "title": "AriztheaLentes Dita | Arizthea",
+          "url": "https://www.arizthea.com/product-page/lentes-dita-1"
+        },
+        {
+          "title": "Bassol opticDita LXN EVO DTS403 A 01 Sunglasses | Bassol Optic United StatesIn stock",
+          "url": "https://www.opticabassol.com/en-us/products/dita-lxn-evo-dts403-a-01"
+        },
+        {
+          "title": "Cole HallisThe Vendetta Shades \u2013 Cole HallisIn stock",
+          "url": "https://www.colehallis.com/products/the-vendetta-shades"
+        },
+        {
+          "title": "AvveniceDITA - LXN-Evo - Matte Black Black Iron - DTS403 ...",
+          "url": "https://avvenice.com/en/sunglasses/52955-dita-lxn-evo-matte-black-black-iron-dts403-sunglasses-dita-eyewear.html"
+        },
+        {
+          "title": "Fast FashionDITA Premium Quality Sunglass | Dita 10 A \u2013 Fast Fashion",
+          "url": "https://www.fastfashionbd.com/products/dita-premium-quality-sunglass-dita-10-a"
+        }
+      ]
+    },
+    {
+      "code": "GL023",
+      "id": 26045,
+      "previousName": "Fendi Brown Gradient Letter-Temple Shield Sunglasses",
+      "name": "FENDI BROWN GRADIENT LETTER-TEMPLE SHIELD SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "DHgateRetro Oversized Frameless Rimless Sunglasses Mens For ...",
+          "url": "https://in.dhgate.com/product/design-rimless-sunglasses-women-big-shades/1118659900.html"
+        },
+        {
+          "title": "superawesome106Flat Top Rimless Shield Rectangular 80s Minimalist ...",
+          "url": "https://www.superawesome106.com/products/flat-top-rimless-shield-rectangular-80s-minimalist-sunglasses"
+        },
+        {
+          "title": "DHgateDesigner Sunglasses Womens Mens Rimless Oversized One ...",
+          "url": "https://ie.dhgate.com/product/designer-sunglasses-summer-beach-glasses/800417751.html"
+        },
+        {
+          "title": "eBayOversize Exaggerated Classy Modern Retro Shield SUNGLASSES ...In stock",
+          "url": "https://www.ebay.com/itm/297368166543"
+        },
+        {
+          "title": "WalmartOversize Flat Top Panel Mono Block Shield Lens Sunglasses ...",
+          "url": "https://www.walmart.com/ip/Oversize-Flat-Top-Panel-Mono-Block-Shield-Lens-Sunglasses-All-Brown/644767669"
+        },
+        {
+          "title": "Iris Fashion Inc6932 - Rimless Retro Square Oversize Fashion SunglassesIn stock",
+          "url": "https://www.irissunglasses.com/products/6932-rimless-retro-square-oversize-fashion-sunglasses"
+        }
+      ]
+    },
+    {
+      "code": "GL024",
+      "id": 25206,
+      "previousName": "Dolce & Gabbana",
+      "name": "DOLCE & GABBANA DG-LOGO RIMLESS SUNGLASSES (PURPLE / GOLD)",
+      "confidence": "visible-brand-and-design",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Macy'sMIU MIU Women's Sunglasses, MU 54YS - Macy'sIn stock",
+          "url": "https://www.macys.com/shop/product/miu-miu-womens-sunglasses-mu-54ys?ID=16841854"
+        },
+        {
+          "title": "Miu Women's Miu 54YS Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQntgGxxlfAvtaR2AbjGS2pZQArE10Q:1792508730293&q=Miu+Women%27s+Miu+54YS+Sunglasses&kgmid=/g/11vrl_35mv&sa=X&ved=2ahUKEwjkt4Cx78iXAxW2IkQIHeKVOkoQ9_gLKAB6BQjzAhAB"
+        },
+        {
+          "title": "LensCraftersMiu Miu MU 54YS Sunglasses | LensCraftersIn stock",
+          "url": "https://www.lenscrafters.com/lc-us/miu-miu/8056597898614"
+        },
+        {
+          "title": "Miu MiuMauve Lenses Aube Sunglasses | Miu Miu - United StatesIn stock",
+          "url": "https://www.miumiu.com/us/en/p/aube-sunglasses/SMU54Y_E5AK_FE06I_C_080"
+        },
+        {
+          "title": "Designer OpticsMiu Miu 54YS SunglassesIn stock",
+          "url": "https://designeroptics.com/products/miu-miu-54ys-sunglasses"
+        },
+        {
+          "title": "Bassol opticMiu Miu MU 54YS 5AK06I 80 Sunglasses | Bassol Optic United ...In stock",
+          "url": "https://www.opticabassol.com/en-us/products/miu-miu-mu-54ys-5ak06i-80"
+        },
+        {
+          "title": "SmartBuyGlassesMiu Miu MU54YS 5AK06I Wraparound Gold Sunglasses ...In stock",
+          "url": "https://www.smartbuyglasses.com/designer-sunglasses/Miu-Miu/Miu-Miu-MU54YS-5AK06I-664587.html"
+        },
+        {
+          "title": "Sunglass HutMiu Miu MU 54YS L (80 - 14) with Grey lenses and Gold frame ...In stock",
+          "url": "https://www.sunglasshut.com/us/miu-miu/mu-54ys-8056597895637"
+        }
+      ]
+    },
+    {
+      "code": "GL028",
+      "id": 26004,
+      "previousName": "DOLCE & GABBANA FULL SUIT VISOR SUNGLASSES (Black)",
+      "name": "DOLCE & GABBANA FULL SUIT VISOR SUNGLASSES (BLACK)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL029",
+      "id": 26005,
+      "previousName": "Brown Full-Shield Visor Sunglasses",
+      "name": "BROWN FULL-SHIELD VISOR SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Amazon.comAmazon.com: zeroUV Futuristic Cyclops Neon Shield Color ...",
+          "url": "https://www.amazon.com/Futuristic-Cyclops-Shield-Mirror-Sunglasses/dp/B0B32VY5DG"
+        },
+        {
+          "title": "eBaySPACE ROBOT PARTY RAVE COSTUME CYCLOPS FUTURISTIC SHIELD SUN ...",
+          "url": "https://www.ebay.com/itm/234682375015"
+        },
+        {
+          "title": "Amazon.comAmazon.com: Honoson 6Pcs 80s Futuristic Visor Sunglasses ...",
+          "url": "https://www.amazon.com/Honoson-Pcs-Futuristic-Visor-Sunglasses/dp/B0GYSGTGXV"
+        },
+        {
+          "title": "eBayOVERSIZED Retro Face Shield Wrap Party Club Rave SUN ...In stock",
+          "url": "https://www.ebay.com/itm/295646031901"
+        },
+        {
+          "title": "AliExpressCovert-X Helmet Visor for Scorpion EXO Combat Combat 2 Face ...1.0(1)",
+          "url": "https://www.aliexpress.com/item/1005012515893106.html"
+        },
+        {
+          "title": "Alibaba.com80s Futuristic Space Cyclops Cyberpunk Visor Sunglasses4.9(46)\u00b7In stock",
+          "url": "https://www.alibaba.com/product-detail/80s-Futuristic-Space-Cyclops-Cyberpunk-Visor_1600801133023.html"
+        },
+        {
+          "title": "LensmartAshraf - Aviator Brown Glasses for Men & Women - Lensmart5.0(1)\u00b7In stock",
+          "url": "https://www.lensmartonline.com/eyeglasses/frames/ashraf-brown-safety-glasses-18250"
+        },
+        {
+          "title": "DIFFERENT - OfficielLunettes wrap fum\u00e9es bleu-noi \u2013 DIFFERENT - Officiel",
+          "url": "https://differentofficiel.com/en/products/lunettes-honey-mask-different?variant=52857358549328&country=CM&currency=XAF"
+        }
+      ]
+    },
+    {
+      "code": "GL030",
+      "id": 26006,
+      "previousName": "DOLCE & GABBANA - SHIELD SUNGLASS (Gold  & White)",
+      "name": "DOLCE & GABBANA - SHIELD SUNGLASS (GOLD  & WHITE)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL033",
+      "id": 26009,
+      "previousName": "Christian Dior",
+      "name": "DIOR DIORMETEOR B1I CAT-EYE SUNGLASSES (OLIVE / GOLD)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://www.mytheresa.com/us/en/women/dior-eyewear-diormeteor-b1i-cat-eye-sunglasses-black-p00941167",
+      "lensMatches": [
+        {
+          "title": "MytheresaDiorMeteor B1I cat-eye sunglasses in black - Dior Eyewear ...In stock",
+          "url": "https://www.mytheresa.com/us/en/women/dior-eyewear-diormeteor-b1i-cat-eye-sunglasses-black-p00941167"
+        },
+        {
+          "title": "Dior DiorMeteor B1I Sunglasses Women",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnulaUvqtgblkQf5KlsmVxXBzb0-nA:1792508761321&q=Dior+DiorMeteor+B1I+Sunglasses+Women&kgmid=/g/11y51j243j&sa=X&ved=2ahUKEwiao-a_78iXAxW9J0QIHbdoPGAQ9_gLKAB6BQiSAhAB"
+        },
+        {
+          "title": "Net-a-PorterDIOR EYEWEAR DiorMeteor B1I gold-tone and acetate cat-eye ...In stock",
+          "url": "https://www.net-a-porter.com/en-us/shop/product/dior-eyewear/accessories/cat-eye/diormeteor-b1i-gold-tone-and-acetate-cat-eye-sunglasses/1647597343728909"
+        },
+        {
+          "title": "TikTokDisponible #gafasdesol #gafas #gafaschallenge #CapCut | TikTok",
+          "url": "https://www.tiktok.com/@visionfany0/video/7685394622838820127"
+        },
+        {
+          "title": "Matsuda10604H Round Sunglasses | Official Site \u2013 Matsuda",
+          "url": "https://www.matsuda.com/en-za/products/10604h-sg"
+        },
+        {
+          "title": "Sunglass HutDIOR Diormeteor B1I CD40167I XXL (90 - 190) with Blue ...In stock",
+          "url": "https://www.sunglasshut.com/us/dior/cd001883-192337176876"
+        },
+        {
+          "title": "EuroOpticaMatsuda\u00ae 10604H Oval Sunglasses - Eurooptica \u2013 EuroOptica\u2122In stock",
+          "url": "https://www.eurooptica.com/products/matsuda-10604h-sunglasses"
+        }
+      ]
+    },
+    {
+      "code": "GL034",
+      "id": 26010,
+      "previousName": "Christian Dior",
+      "name": "DIOR INITIALS S2I SQUARE SUNGLASSES (BLACK / PURPLE GRADIENT)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://www.dior.com/en_us/fashion/products/DINIS2IXR_10A1",
+      "lensMatches": [
+        {
+          "title": "DiorDior Initials S2I Black Square Sunglasses | DIOR USIn stock",
+          "url": "https://www.dior.com/en_us/fashion/products/DINIS2IXR_10A1"
+        },
+        {
+          "title": "DiorDior Initials S2I Black Square Sunglasses | DIORIn stock",
+          "url": "https://www.dior.com/en_int/fashion/products/DINIS2IXR_10A1"
+        },
+        {
+          "title": "NordstromDIOR DiorOblique S1I 54mm Gradient Square Sunglasses (Women ...3.0(1)\u00b7In stock",
+          "url": "https://www.nordstrom.com/s/dioroblique-s1i-54mm-gradient-square-sunglasses/8946256"
+        },
+        {
+          "title": "AvveniceDior - Sunglasses - DiorBobby S2U - Black - Dior Eyewear ...",
+          "url": "https://avvenice.com/en/sunglasses/33921-dior-sunglasses-diorbobby-s2u-black-dior-eyewear.html"
+        }
+      ]
+    },
+    {
+      "code": "GL038",
+      "id": 26014,
+      "previousName": "BLVGARI SERPENT - GEOMETRIC SQUARE (Pink/Burgundy)",
+      "name": "BVLGARI SERPENT - GEOMETRIC SQUARE (PINK/BURGUNDY)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL039",
+      "id": 26015,
+      "previousName": "BLVGARI SERPENT GRADIENT (Brown Lens)",
+      "name": "BVLGARI SERPENT GRADIENT (BROWN LENS)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL040",
+      "id": 26016,
+      "previousName": "BLVGARI SERPENT BV400601 (Brown/Havana)",
+      "name": "BVLGARI SERPENT BV400601 (BROWN/HAVANA)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL041",
+      "id": 26017,
+      "previousName": "BLVGARI RIMLESS SUNGLASSES (Brown/Gold)",
+      "name": "BVLGARI RIMLESS SUNGLASSES (BROWN/GOLD)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL042",
+      "id": 26018,
+      "previousName": "BULVGARRI SERPENT GRADIENT SUNGLASSES (Gold)",
+      "name": "BVLGARI SERPENT GRADIENT SUNGLASSES (GOLD)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL043",
+      "id": 26019,
+      "previousName": "BLVGARI SERPENT FOREVER (Black)",
+      "name": "BVLGARI SERPENT FOREVER (BLACK)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL044",
+      "id": 26020,
+      "previousName": "Balenciaga",
+      "name": "BALENCIAGA BB-LOGO RIMLESS RECTANGULAR SUNGLASSES (ROSE)",
+      "confidence": "visible-brand-and-design",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "NordstromFendi Sky Rimless Rectangular Sunglasses | Nordstrom",
+          "url": "https://www.nordstrom.com/s/sky-rimless-rectangular-sunglasses/8285008"
+        },
+        {
+          "title": "Cartier CT0430S Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQntrQiZxDxawMIE5jW304jKcygbDRg:1792508774677&q=Cartier+CT0430S+Sunglasses&kgmid=/g/11l2z41q4l&sa=X&ved=2ahUKEwi3tZXG78iXAxUZDkQIHYeoN0oQ9_gLKAB6BQj3AhAB"
+        },
+        {
+          "title": "WalmartLeopard OG Gangster Rapper Rimless Wood Buffs Sunglasses ...In stock",
+          "url": "https://www.walmart.com/ip/Leopard-OG-Gangster-Rapper-Rimless-Wood-Buffs-Sunglasses-Light-Gold-Fuchsia-Mirror/2353022109"
+        },
+        {
+          "title": "james oroBLUSH JAVELIN GEM CUT \u2013 JAMES ORO5.0(5)\u00b7In stock",
+          "url": "https://www.jamesoro.com/products/blush-javelin-gem-cut"
+        },
+        {
+          "title": "FarfetchCartier Eyewear round-frame Sunglasses | Gold | FARFETCH",
+          "url": "https://www.farfetch.com/shopping/men/cartier-eyewear-round-frame-sunglasses-item-32202257.aspx"
+        },
+        {
+          "title": "www.trendyol.aepolo air Square Gradient Women's Sunglasses with Uv400 ...",
+          "url": "https://www.trendyol.ae/polo-air/square-gradient-women-s-sunglasses-with-uv400-protection-pink-black-gold-color-plg-2125c3-p-1140539779"
+        },
+        {
+          "title": "EyeOnsDavid Beckham DB 7109/S Rectangle Sunglasses | EyeOns.comIn stock",
+          "url": "https://www.eyeons.com/products/david-beckham-db-7109-s"
+        }
+      ]
+    },
+    {
+      "code": "GL045",
+      "id": 26021,
+      "previousName": "Dior",
+      "name": "BALENCIAGA OVAL METAL-FRAME SUNGLASSES (BROWN GRADIENT)",
+      "confidence": "visible-brand-and-design",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Bassol opticBalenciaga BB0358SK 003 62 Sunglasses | Bassol Optic ...",
+          "url": "https://www.opticabassol.com/en-us/products/balenciaga-bb0358sk-003-62"
+        },
+        {
+          "title": "Balenciaga BB0357SA Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnudkbRhlb1RBdaTjCqkTk9t2SZjAA:1792508784414&q=Balenciaga+BB0357SA+Sunglasses&kgmid=/g/11wmt_h7yn&sa=X&ved=2ahUKEwjr4ufK78iXAxXSNEQIHai_JHYQ9_gLKAB6BQiTAhAB"
+        },
+        {
+          "title": "Balenciaga Woman BB0358SK Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnudkbRhlb1RBdaTjCqkTk9t2SZjAA:1792508784414&q=Balenciaga+Woman+BB0358SK+Sunglasses&kgmid=/g/11ltx594w_&sa=X&ved=2ahUKEwjr4ufK78iXAxXSNEQIHai_JHYQ9_gLKAF6BQiTAhAD"
+        },
+        {
+          "title": "Select EyewearBalenciaga BB0358SK Sunglasses | Select Eyewear",
+          "url": "https://selecteyewear.com/products/balenciaga-bb0358sk"
+        },
+        {
+          "title": "Sunglass HutBalenciaga BB0357SA XL (62 - 15) with Silver lenses and ...In stock",
+          "url": "https://www.sunglasshut.com/us/balenciaga/6e000352-889652507323"
+        },
+        {
+          "title": "PoshmarkBalenciaga | Accessories | Balenciaga Bb004s 006 Sunglasses ...",
+          "url": "https://poshmark.com/listing/Balenciaga-BB0004S-006-Sunglasses-Black-Shield-Frame-Gold-Mirror-Lenses-6a748cc5c1c79e2912ac63f6"
+        },
+        {
+          "title": "David ClulowBalenciaga BB0357SA rectangle Sunglasses with Gold frame and ...",
+          "url": "https://www.davidclulow.com/sunglasses/balenciaga-6e000352-bb0357sa/889652507330"
+        }
+      ]
+    },
+    {
+      "code": "GL046",
+      "id": 26022,
+      "previousName": "Balenciaga",
+      "name": "DIOR OBLIQUE-TEMPLE RIMLESS SUNGLASSES (BLUE GRADIENT)",
+      "confidence": "visible-brand-and-design",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "EuroOpticaFred\u00ae FG40050U Oval Sunglasses - EuroOptica \u2013 EuroOptica\u2122In stock",
+          "url": "https://www.eurooptica.com/products/fred-fg40050u-sunglasses"
+        },
+        {
+          "title": "Bolon EyewearBrowse Sunglasses | Premium Bolon Shades \u2013 Bolon Eyewear",
+          "url": "https://sg.boloneyewear.com/collections/all-sunglasses"
+        },
+        {
+          "title": "InstagramEyecandy (@eyecandy_officiall) \u2022 Instagram photos and videos",
+          "url": "https://www.instagram.com/eyecandy_officiall/"
+        },
+        {
+          "title": "Iris Fashion IncHJ2077 - Oval Rimless Tinted Chic Round Fashion Women ...In stock",
+          "url": "https://www.irissunglasses.com/products/hj2077-oval-rimess-tinted-chic-round-fashion-women-wholesle-sunglasses"
+        },
+        {
+          "title": "www.amazon.saTYA Retro Small Oval Sunglasses for Women Men, 2026 Trendy ...4.1(159)",
+          "url": "https://www.amazon.sa/-/en/TYA-Sunglasses-Rimless-Designer-Light-clear/dp/B0FPCY6KDR"
+        },
+        {
+          "title": "Luxury OpticalSunglasses - Original Quality",
+          "url": "https://luxuryoptical.net/collections/sunglasses-original-quality"
+        },
+        {
+          "title": "Fred ENForce 10 sunglasses Blue gradient round - Fred Paris",
+          "url": "https://www.fred.com/en_FR/sunglasses/force-10-sunglasses/FG40050U30W.html"
+        }
+      ]
+    },
+    {
+      "code": "GL047",
+      "id": 26023,
+      "previousName": "BALENCIAGA BB01575SWITT (Oval Black)",
+      "name": "BALENCIAGA BB0157S SWIFT OVAL SUNGLASSES (BLACK)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://www.balenciaga.com/en-us/swift-oval-sunglasses-black-658745T00071000.html",
+      "lensMatches": []
+    },
+    {
+      "code": "GL048",
+      "id": 26024,
+      "previousName": "Hermes",
+      "name": "DIOR CD-LOGO OVAL RIMLESS SUNGLASSES (BROWN GRADIENT)",
+      "confidence": "visible-brand-and-design",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "The RealRealGucci Interlocking G Logo Oversize Sunglasses - Brown ...",
+          "url": "https://www.therealreal.com/products/women/accessories/sunglasses/gucci-interlocking-g-logo-oversize-sunglasses-w284o"
+        },
+        {
+          "title": "Gucci Women's Sunglasses 2820/f/s 0J5G",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnvF_Gz_9HNRA_B_Yh83i8ObZKwiUA:1792508817922&q=Gucci+Women%27s+Sunglasses+2820/f/s+0J5G&kgmid=/g/11cs3bnbxg&sa=X&ved=2ahUKEwi76eTa78iXAxUvI0QIHeyZAREQ9_gLKAB6BQiUAhAB"
+        },
+        {
+          "title": "FashionphileGucci Crystal GG 2820/F/S Sunglasses Brown 1959554 ...",
+          "url": "https://www.fashionphile.com/products/gucci-crystal-gg-2820fs-sunglasses-brown-1959554"
+        },
+        {
+          "title": "Walmart BusinessClassy Rimless Oval Metal Rim Luxury Gentlemanly Sunglasses ...",
+          "url": "https://business.walmart.com/ip/Classy-Rimless-Oval-Metal-Rim-Luxury-Gentlemanly-Sunglasses-All-Black/2959973127"
+        },
+        {
+          "title": "Iris Fashion IncHJ2077 - Oval Rimless Tinted Chic Round Fashion Women ...In stock",
+          "url": "https://www.irissunglasses.com/products/hj2077-oval-rimess-tinted-chic-round-fashion-women-wholesle-sunglasses"
+        },
+        {
+          "title": "InstagramFor women \ud83d\udc69\ud83c\udffb",
+          "url": "https://www.instagram.com/p/DXHcgsWjK2v/?img_index=3"
+        }
+      ]
+    },
+    {
+      "code": "GL051",
+      "id": 26027,
+      "previousName": "DIOR - FANTASLICA BIU (Metallic Gold)",
+      "name": "DIOR DIORFANTASTICA B1U BUTTERFLY-CRYSTAL AVIATOR SUNGLASSES (GOLD / PURPLE)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://editorialist.com/p/diorfantastica-b1u/",
+      "lensMatches": []
+    },
+    {
+      "code": "GL055",
+      "id": 26031,
+      "previousName": "Chanel",
+      "name": "DIOR GOLD-LOGO OVAL SUNGLASSES (AMBER / NUDE)",
+      "confidence": "visible-brand-and-design",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "AvveniceDior - Sunglasses - DiorSignature B1U - Pink Transparent ...",
+          "url": "https://avvenice.com/en/sunglasses/47494-dior-sunglasses-diorsignature-b1u-pink-transparent-dior-eyewear.html"
+        },
+        {
+          "title": "Carolina Herrera HER-0250/S Women's Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnuSD8Bz4BI4o8itjq62XQGILax0oA:1792508830491&q=Carolina+Herrera+HER-0250/S+Women%27s+Sunglasses&kgmid=/g/11vq56qk5l&sa=X&ved=2ahUKEwjFhuTg78iXAxXkKkQIHWAlCg0Q9_gLKAB6BQjpAhAB"
+        },
+        {
+          "title": "Net-a-PorterDIOR EYEWEAR DiorSignature B7I cat-eye acetate sunglasses ...In stock",
+          "url": "https://www.net-a-porter.com/en-us/shop/product/dior-eyewear/accessories/cat-eye/diorsignature-b7i-cat-eye-acetate-sunglasses/1647597336777379"
+        },
+        {
+          "title": "Sunglass HutDIOR DiorSignature B7I XXL (52 - 18) with Brown lenses and ...In stock",
+          "url": "https://www.sunglasshut.com/us/dior/cd001817-192337137600"
+        },
+        {
+          "title": "DiorDiorPacific B2F Transparent Pink Butterfly Sunglasses | DIOR USIn stock",
+          "url": "https://www.dior.com/en_us/fashion/products/DPFCB2FQR_40D2"
+        },
+        {
+          "title": "eBayCHRISTIAN DIOR SIGNATURE Nude Crystal DIORSIGNATURE B7I Cat ...In stock",
+          "url": "https://www.ebay.com/itm/177011168279"
+        }
+      ]
+    },
+    {
+      "code": "GL056",
+      "id": 26032,
+      "previousName": "Black Classic Square Sunglasses",
+      "name": "DIOR DIORXPLORER S2I RECTANGULAR SUNGLASSES (BLACK)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://www.mrporter.com/en-us/mens/product/dior-eyewear/accessories/square-frame/diorxplorer-s2i-rectangle-frame-acetate-sunglasses/1647597348682419",
+      "lensMatches": [
+        {
+          "title": "Mia BurtonSunglasses DIOR DM40141I DIORXPLORER S2I - Mia Burton",
+          "url": "https://miaburton.com/en/sunglasses/dior/diorxplorer-s2i-dm40141i-01a-10a0"
+        },
+        {
+          "title": "Dior Diorxplorer S2I Sunglasses Men",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnssAa-BLySE-hbIiTvDL5wzB1vg9w:1792508841907&q=Dior+Diorxplorer+S2I+Sunglasses+Men&kgmid=/g/11w49tk7p7&sa=X&ved=2ahUKEwjC65zm78iXAxXJPUQIHVtjA5wQ9_gLKAB6BQjkAhAB"
+        },
+        {
+          "title": "AvveniceDior - Sunglasses - DiorXplorer S2F - Black - Dior Eyewear ...",
+          "url": "https://avvenice.com/en/sunglasses/56590-dior-sunglasses-diorxplorer-s2f-black-dior-eyewear.html"
+        },
+        {
+          "title": "ainak.pkDior DiorXplorer S2F Black Sunglasses Price in Pakistan ...",
+          "url": "https://ainak.pk/product/dior-diorxplorer-s2f/"
+        },
+        {
+          "title": "The RealRealDIOR MEN Square Tinted Sunglasses - Black Sunglasses ...",
+          "url": "https://www.therealreal.com/products/men/accessories/sunglasses/dior-men-square-tinted-sunglasses-wdpg6"
+        },
+        {
+          "title": "EditorialistDior Diorxplorer S2i Rectangle-Frame Sunglasses In Black ...",
+          "url": "https://editorialist.com/p/dior-eyewear-diorxplorer-s2i-rectangle-frame-acetate-sunglasses-men-black/?size=One%20size&sku=118039089_26888985&pla=true"
+        }
+      ]
+    },
+    {
+      "code": "GL058",
+      "id": 26100,
+      "previousName": "SAINT LAURENT - SL M119 BLAZE (Gold Havana)",
+      "name": "SAINT LAURENT - SL M119 BLAZE (GOLD HAVANA)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL059",
+      "id": 26101,
+      "previousName": "SAINT LAURENT SC MILLA BLAZE YSC CASSARIDGE MONOGRAM (Gold)",
+      "name": "SAINT LAURENT SC MILLA BLAZE YSC CASSARIDGE MONOGRAM (GOLD)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL060",
+      "id": 26102,
+      "previousName": "SAINT LAURENT SL M119 (Thick Black)",
+      "name": "SAINT LAURENT SL M119 (THICK BLACK)",
+      "confidence": "capitalization-only",
+      "reference": null,
+      "lensMatches": []
+    },
+    {
+      "code": "GL066",
+      "id": 26108,
+      "previousName": "Amber Gold Double-Bridge Aviator Sunglasses",
+      "name": "MIU MIU MU A55S DOUBLE-BRIDGE AVIATOR SUNGLASSES (AMBER / GOLD)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://www.sunglasshut.com/us/miu-miu/mu-a55s-8056262528914",
+      "lensMatches": [
+        {
+          "title": "Sunglass HutMiu Miu MU A55S XS (57 - 18) with Yellow lenses and Gold ...",
+          "url": "https://www.sunglasshut.com/us/miu-miu/mu-a55s-8056262528914"
+        },
+        {
+          "title": "Sunglasses Miu Women's Miu MU A55S",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQntLCNrgEYeFWzVqqvWB_mRZLyYozw:1792508850679&q=Sunglasses+Miu+Women%27s+Miu+MU+A55S&kgmid=/g/11zdvgjc2n&sa=X&ved=2ahUKEwikjrTq78iXAxVQJUQIHTyAF_AQ9_gLKAB6BQjuAhAB"
+        },
+        {
+          "title": "eBayNew Miu Miu MUA55S 5AK10R Shiny Gold/Yellow 57-18-140 ...",
+          "url": "https://www.ebay.com/itm/287160045133"
+        },
+        {
+          "title": "Bassol opticMiu Miu MU A55S 5AK10R 57 | Bassol Optic Spain",
+          "url": "https://www.opticabassol.com/en/products/miu-miu-mu-a55s-5ak10r-58"
+        },
+        {
+          "title": "Macy'sMiu Miu Women's Square Sunglasses, MU A55S - Macy's5.0(1)",
+          "url": "https://www.macys.com/shop/product/miu-miu-womens-square-sunglasses-mu-a55s?ID=26288666"
+        },
+        {
+          "title": "PoshmarkMiu Miu | Accessories | New Miu Miu Mu A55s 5akr Womens Gold ...",
+          "url": "https://poshmark.com/listing/NEW-Miu-Miu-MU-A55S-5AK10R-Womens-Gold-Frame-Yellow-Lens-Sunglasses-Authentic-6aadf6556c3583423d9f3276"
+        }
+      ]
+    },
+    {
+      "code": "GL068",
+      "id": 26110,
+      "previousName": "Purple Rose Gradient Rimless Sunglasses",
+      "name": "LOUIS VUITTON MONOGRAM-TEMPLE RIMLESS SUNGLASSES (PURPLE / ROSE)",
+      "confidence": "visible-brand-and-design",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Iris Fashion IncHJ2073 - Rectangle Rimless Curved Tinted Square Wholesale ...In stock",
+          "url": "https://www.irissunglasses.com/products/hj2073-rectangle-rimless-curved-tinted-suare-wholesale-sunglasses"
+        },
+        {
+          "title": "Shein1 Pair Women's Square Frameless Gradient Color Fashion ...",
+          "url": "https://m.shein.com/1-Pair-Women-s-Square-Frameless-Gradient-Color-Fashion-Fashion-Glasses-p-462850998.html"
+        },
+        {
+          "title": "EyeInsistEyeInsist Empress Rimless Oversized Square Gold Purple ...",
+          "url": "https://eyeinsist.com/products/empress-rimless-oversized-square-gold-purple-gradient-sunglasses"
+        },
+        {
+          "title": "EtsyGradient Frameless Sunglasses - Etsy",
+          "url": "https://www.etsy.com/market/gradient_frameless_sunglasses"
+        },
+        {
+          "title": "Amazon.comAmazon.com: Pro Acme Rimless Rectangle Sunglasses Y2K ...",
+          "url": "https://www.amazon.com/clp/B0CJ2WWQTJ"
+        },
+        {
+          "title": "The House of StylezSunglasses: Style 0805A | The House of Stylez BoutiqueIn stock",
+          "url": "https://thehouseofstylez.com/products/sunglasses-style-0805a"
+        }
+      ]
+    },
+    {
+      "code": "GL069",
+      "id": 26111,
+      "previousName": "Brown Gradient Gold-Temple Shield Sunglasses",
+      "name": "LOUIS VUITTON GOLD-BAR SHIELD SUNGLASSES (BROWN GRADIENT)",
+      "confidence": "visible-brand-and-design",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "eBayPurple Shield Sunglasses for Women for sale | eBay",
+          "url": "https://www.ebay.com/b/Purple-Shield-Sunglasses-for-Women/45246/bn_68029264"
+        },
+        {
+          "title": "TargetWomen's Shiny Metal Shield Flat Top Sunglasses with Gradient ...3.8(9)\u00b7In stock",
+          "url": "https://www.target.com/p/women-39-s-shiny-metal-shield-flat-top-sunglasses-with-gradient-lenses-universal-thread-8482-gold/-/A-92771113"
+        },
+        {
+          "title": "She ConquersShades(pre-order) \u2013 She ConquersIn stock",
+          "url": "https://sheconquers.net/products/shadespre-order"
+        },
+        {
+          "title": "FashionphileLouis Vuitton Metal LV Golden Mask Sunglasses Z1717U Gold ...",
+          "url": "https://www.fashionphile.com/products/louis-vuitton-metal-lv-golden-mask-sunglasses-z1717u-gold-1805873"
+        },
+        {
+          "title": "VueLuxeLunette de soleil femme Louis Vuitton \u00e0 verre continu",
+          "url": "https://vueluxe.ma/product/lunette-de-soleil-femme-louis-vuitton/"
+        }
+      ]
+    },
+    {
+      "code": "GL070",
+      "id": 26181,
+      "previousName": "Louis Vuitton Blue-Amber Gradient Gold-Bar Shield Sunglasses",
+      "name": "LOUIS VUITTON BLUE-AMBER GRADIENT GOLD-BAR SHIELD SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "InstagramLOUIS VUITTON #louisvuitton #jaipurcity ##view #trending",
+          "url": "https://www.instagram.com/p/DYo0-WUEhxT/"
+        },
+        {
+          "title": "Louis Vuitton",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQns6400mJn55dUsi_cTXBG2Xk6nCMg:1792508891658&q=Louis+Vuitton&kgmid=/m/03h90x&sa=X&ved=2ahUKEwjOq_n978iXAxV2D0QIHQk3AlAQ9_gLKAB6BQjpAhAB"
+        },
+        {
+          "title": "InstagramLunettes Louis Vuitton \ud83e\udde1\ud83d\udc99 LV Waimea\u2728 #vuitton #luxe ...",
+          "url": "https://www.instagram.com/p/DXMb1WxDTvw/"
+        },
+        {
+          "title": "COMBOMANDULouis Vuitton Metal Sunglass For Men",
+          "url": "https://combomandu.com/product/louis-vuitton-sunglass-for"
+        },
+        {
+          "title": "IndiaMARTLouis vuitton 24067 gold black shaded at \u20b9 1250/piece ...",
+          "url": "https://www.indiamart.com/proddetail/louis-vuitton-24067-gold-black-shaded-2856914179262.html"
+        }
+      ]
+    },
+    {
+      "code": "GL071",
+      "id": 26182,
+      "previousName": "Louis Vuitton Purple-Rose Rimless Pink-Temple Sunglasses",
+      "name": "LOUIS VUITTON PURPLE-ROSE RIMLESS PINK-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Walmart4 Pairs Womens Oversized Rimless Sunglasses for Driving ...",
+          "url": "https://www.walmart.com/ip/4-Pairs-Womens-Oversized-Rimless-Sunglasses-for-Driving-Outdoor-Activity-Sports-UV-400/1244491930"
+        },
+        {
+          "title": "codamsaUv Shades Sunglasses New Frameless Cut-Edge Sunglasses ...5.0(5)",
+          "url": "https://codamsa.com.ar/?y=7359309081310"
+        },
+        {
+          "title": "Amazon.comTVTBBVV Small Frame Hexagon Rimless ... - Amazon.com",
+          "url": "https://www.amazon.com/TVTBBVV-Hexagon-Rimless-Sunglasses-Rectangle/dp/B0F6MR6XBG"
+        },
+        {
+          "title": "baporssaAre Rimless Sunglasses in Style? A Wearer's Guide",
+          "url": "https://baporssa.com/blogs/rimless-style/rimless-sunglasses-guide"
+        },
+        {
+          "title": "Iris Fashion IncHW2024 - Oversize Rimless Butterfly Shape Tinted Rhinestone ...",
+          "url": "https://www.irissunglasses.com/products/hw2024-oversize-rimless-butterfly-shape-tinted-rhinestone-fashion-sunglasses"
+        }
+      ]
+    },
+    {
+      "code": "GL072",
+      "id": 26183,
+      "previousName": "Louis Vuitton Black Angular Gold-Trim Rectangular Sunglasses",
+      "name": "LOUIS VUITTON 1.1 MILLIONAIRES SUNGLASSES (BLACK / GOLD)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://us.louisvuitton.com/eng-us/products/11-millionaires-sunglasses-s00-nvprod1270164v/Z1165E",
+      "lensMatches": [
+        {
+          "title": "eBayLouis Vuitton Virgil Abloh 1.1 Millionaires Sunglasses SS19 ...5.0(4)",
+          "url": "https://www.ebay.com/itm/224002969339"
+        },
+        {
+          "title": "LOUIS VUITTON 1.1 Millionaires Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnsWIf-sj30-hJfk5VeMTrQSVSa6ww:1792508908931&q=LOUIS+VUITTON+1.1+Millionaires+Sunglasses&kgmid=/g/11v3rm9btw&sa=X&ved=2ahUKEwiV1ZeG8MiXAxWrJUQIHelzCZYQ9_gLKAB6BQj7AhAB"
+        },
+        {
+          "title": "eBayLouis Vuitton Sunglasses 1.1 Millionaires Z1165W Black Gold ...",
+          "url": "https://www.ebay.com/itm/286822381785"
+        },
+        {
+          "title": "KlarnaLv sunglasses \u2022 Compare (100+ products) see prices \u00bb",
+          "url": "https://www.klarna.com/us/shopping/sp/lv-sunglasses/"
+        },
+        {
+          "title": "The RealRealLouis Vuitton 1.1 Millionaires LV Monogram Sunglasses ...",
+          "url": "https://www.therealreal.com/products/men/accessories/sunglasses/louis-vuitton-1-1-millionaires-lv-monogram-sunglasses-w96x9"
+        }
+      ]
+    },
+    {
+      "code": "GL073",
+      "id": 26184,
+      "previousName": "Louis Vuitton Black Cat-Eye Purple-Lens Sunglasses",
+      "name": "LOUIS VUITTON BLACK CAT-EYE PURPLE-LENS SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "LensCraftersSaint Laurent Sl M119 Blaze Sunglasses | LensCraftersIn stock",
+          "url": "https://www.lenscrafters.com/lc-us/saint-laurent/889652430256"
+        },
+        {
+          "title": "Miu Miu B05S Sunglasses Women",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnve5SLacEX2qS8SkY1NqotmfUHJVw:1792508916435&q=Miu+Miu+B05S+Sunglasses+Women&kgmid=/g/11xrzqs5vz&sa=X&ved=2ahUKEwiG1OGJ8MiXAxUvH0QIHU9QAjMQ9_gLKAB6BQjqAhAB"
+        },
+        {
+          "title": "Sunglass HutBurberry BE4472U XXL (53 - 18) with Grey lenses and Black ...In stock",
+          "url": "https://www.sunglasshut.com/us/burberry/be4472u-8056262558669"
+        },
+        {
+          "title": "Dillard'sYves Saint Laurent Women's Blaze SL M119 54mm Oversized Cat ...In stock",
+          "url": "https://www.dillards.com/p/saint-laurent-sl-m119-blaze-54mm-oversized-cat-eye-sunglasses/516947215"
+        },
+        {
+          "title": "eBayLOUIS VUITTON WOMEN'S MONOGRAM FLOWER SQUARE Sunglasses ...In stock",
+          "url": "https://www.ebay.com/itm/226494205145"
+        }
+      ]
+    },
+    {
+      "code": "GL074",
+      "id": 26185,
+      "previousName": "Louis Vuitton Black Gold-V Brow Square Sunglasses",
+      "name": "LOUIS VUITTON 1.1 EVIDENCE SUNGLASSES (BLACK / GOLD)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://us.louisvuitton.com/eng-us/products/11-evidence-sunglasses-s00-nvprod2940056v/Z1502E",
+      "lensMatches": [
+        {
+          "title": "Louis Vuitton1.1 Evidence Sunglasses S00 - New - Ramadan | LOUIS VUITTON \u00aeIn stock",
+          "url": "https://us.louisvuitton.com/eng-us/products/11-evidence-sunglasses-s00-nvprod2940056v/Z1502E"
+        },
+        {
+          "title": "StockXLouis Vuitton 1.1 Evidence Sunglasses Black Men's - US",
+          "url": "https://stockx.com/louis-vuitton-sunglasses-11-evidence-black"
+        },
+        {
+          "title": "PoshmarkLouis Vuitton | Accessories | Louis Vuitton Evidence ...",
+          "url": "https://poshmark.com/listing/Louis-Vuitton-Evidence-Sunglasses-Z1502W-654ab7672fbf1a2f7dab25ed"
+        },
+        {
+          "title": "FashionphileLouis Vuitton Acetate Evidence Z1502E Sunglasses Black ...In stock",
+          "url": "https://www.fashionphile.com/products/louis-vuitton-acetate-evidence-z1502e-sunglasses-black-1807818"
+        },
+        {
+          "title": "Louis Vuitton1.1 Evidence Sunglasses S00 - New - Ramadan | LOUIS VUITTON \u00aeIn stock",
+          "url": "https://us.louisvuitton.com/eng-us/products/11-evidence-sunglasses-s00-nvprod2940056v/Z1502W"
+        }
+      ]
+    },
+    {
+      "code": "GL075",
+      "id": 26186,
+      "previousName": "Louis Vuitton Caramel Monogram-Temple Square Sunglasses",
+      "name": "LOUIS VUITTON CARAMEL MONOGRAM-TEMPLE SQUARE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "DHgate2023 Luxury Designer Brands Sunglasses Designer... From SG ...",
+          "url": "https://ie.dhgate.com/product/2023-luxury-designer-brands-sunglasses-designer/848603965.html"
+        },
+        {
+          "title": "DHgate2023 Designer Luxury Brand Sunglasses Designer... From SG ...5.0(3,019)",
+          "url": "https://ie.dhgate.com/product/designer-luxury-brand-louiseities-viutonities/867450861.html"
+        },
+        {
+          "title": "nobby glassesLouis Vuitton Sunglasses Brown - Premium Celebrity Style",
+          "url": "https://nobbyglasses.ru/product/louis-vuitton-sunglasses-brown/"
+        },
+        {
+          "title": "PoshmarkLouis Vuitton | Accessories | Louis Vuitton Brown Gradient ...",
+          "url": "https://poshmark.com/listing/Louis-Vuitton-Brown-Gradient-Tint-Anemone-SunglassesZ0401W-6483b395308f07e401b6aa34"
+        },
+        {
+          "title": "Facebook\ud83d\udca525KM nao\u010dale\ud83d\udca5 \ud83d\udd35NOVO\ud83d\udd35NOVO\ud83d\udd35 \ud83c\udf3fNalazimo se u \u017divinicama ...",
+          "url": "https://www.facebook.com/61566068540171/posts/25km-nao%C4%8Dalenovonovonalazimo-se-u-%C5%BEivinicama-ul-marsala-tita-19kontakt-broj-0638/122211797960535618/"
+        }
+      ]
+    },
+    {
+      "code": "GL076",
+      "id": 26187,
+      "previousName": "Louis Vuitton Purple-Rose Cat-Eye Pink Monogram-Temple Sunglasses",
+      "name": "LOUIS VUITTON PURPLE-ROSE CAT-EYE PINK MONOGRAM-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Instagram\u0639\u06cc\u0646\u06a9 \u06a9\u06cc\u0648\u062a \u0648 \u062e\u0648\u0634\u0631\u0646\u06af\u0645\u0648\u0646 \u06cc\u0647 \u0639\u06cc\u0646\u06a9 \u067e\u0631 \u0627\u0632 \u062c\u0632\u0626\u06cc\u0627\u062a\u060c\u0628\u0627 \u0631\u0646\u06af\u0628\u0646\u062f\u06cc \u062e\u0627\u0627\u0627\u0635 ...",
+          "url": "https://www.instagram.com/p/DQoYDY0DEQl/"
+        },
+        {
+          "title": "EyeInsistEyeInsist XX Siren Rimless Butterfly Gold Purple Gradient ...",
+          "url": "https://eyeinsist.com/products/xx-siren-rimless-butterfly-gold-purple-gradient-sunglasses"
+        },
+        {
+          "title": "Iris Fashion IncHJ2077 - Oval Rimless Tinted Chic Round Fashion Women ...In stock",
+          "url": "https://www.irissunglasses.com/products/hj2077-oval-rimess-tinted-chic-round-fashion-women-wholesle-sunglasses"
+        },
+        {
+          "title": "\u0628\u0627\u0633\u0644\u0627\u0645\u062e\u0631\u06cc\u062f \u0648 \u0642\u06cc\u0645\u062a \u0639\u06cc\u0646\u06a9 \u0622\u0641\u062a\u0627\u0628\u06cc \u0632\u0646\u0627\u0646\u0647 \u06af\u0631\u0628\u0647 \u0627\u06cc \u0645\u062f\u0644 58113 \u0627\u0632 \u063a\u0631\u0641\u0647 ...",
+          "url": "https://basalam.com/golpayegan_khansar/product/22374919"
+        },
+        {
+          "title": "LV Jewel Cat Eye Sunglasses S00 - Women - Accessories ...LV Jewel Cat Eye Sunglasses S00 - Women - Accessories ...",
+          "url": "https://us.louisvuitton.com/eng-us/products/lv-jewel-cat-eye-sunglasses-s00-nvprod5020009v/Z3224U"
+        }
+      ]
+    },
+    {
+      "code": "GL077",
+      "id": 26188,
+      "previousName": "Louis Vuitton Tortoiseshell Yellow-Lens Square Sunglasses",
+      "name": "LOUIS VUITTON TORTOISESHELL YELLOW-LENS SQUARE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "DHgateStylish Fausto Square Tom Ford Sunglasses Men For Men ...4.7(13,579)",
+          "url": "https://www.dhgate.com/product/fausto-sunglasses-square-black-grey-smoke/1026245039.html"
+        },
+        {
+          "title": "Fausto FT0711 Sunglasses Tom Ford Men's",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnv2YQVV0NqiKp3CiMqQiIKiO2AD4g:1792508962383&q=Fausto+FT0711+Sunglasses+Tom+Ford+Men%27s&kgmid=/g/11y4gdb_x7&sa=X&ved=2ahUKEwivkNaf8MiXAxXmLUQIHfTOB4oQ9_gLKAB6BQj7AhAB"
+        },
+        {
+          "title": "Amazon.comAmazon.com: Tom Ford FAUSTO FT 0711 Havana/Brown 53/20/145 ...5.0(11)",
+          "url": "https://www.amazon.com/Tom-Ford-FAUSTO-0711-Geometric/dp/B07JNDJQMQ"
+        },
+        {
+          "title": "EyespecsTom Ford Fausto TF711 56E Sunglasses Men's Havana/Yellow ...5.0(1)\u00b7In stock",
+          "url": "https://www.eyespecs.com/Tom-Ford-Fausto-TF711-Sunglasses-Men-s-Square-Shades-531576338.html"
+        },
+        {
+          "title": "JomashopTom Ford Fausto Brown Browline Men's Sunglasses FT0711 56E ...In stock",
+          "url": "https://www.jomashop.com/tom-ford-fausto-brown-browline-mens-sunglasses-ft0711-56e-53.html"
+        }
+      ]
+    },
+    {
+      "code": "GL078",
+      "id": 26189,
+      "previousName": "Louis Vuitton Brown Gradient Rimless Wood-Temple Sunglasses",
+      "name": "LOUIS VUITTON BROWN GRADIENT RIMLESS WOOD-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Amazon.comMen's And Women's Rimless Square Outdoor Sunglasses Vacation ...",
+          "url": "https://www.amazon.com/Rimless-Outdoor-Sunglasses-Vacation-Glasses/dp/B0F4PQC3DD"
+        },
+        {
+          "title": "InstagramMaes-Jolie Rimless Cat-Eye Glasses Elevate your look with ...",
+          "url": "https://www.instagram.com/p/DWqXrC5jUfq/"
+        },
+        {
+          "title": "Barton PerreiraDesigner Quinn Glasses - Rimless Sunglasses",
+          "url": "https://bartonperreira.com/products/quinn"
+        },
+        {
+          "title": "SheinVisivana Verywork 1pc Oversized Butterfly Frame Women's ...",
+          "url": "https://m.shein.com/Visivana-Verywork-1pc-Oversized-Butterfly-Frame-Women-s-Fashion-Glasses-Elegant-Design-With-Case-Cloth-Ideal-For-Driving-Shopping-Travel-Gift-Summer-Beach-p-468406292.html"
+        },
+        {
+          "title": "Frontier Fashion, Inc.M10941 Rimless Fashion Cat Eye Wholesale Sunglasses ...In stock",
+          "url": "https://frontierfashion.com/products/m10941-rimless-fashion-cat-eye-wholesale-sunglasses"
+        }
+      ]
+    },
+    {
+      "code": "GL079",
+      "id": 26190,
+      "previousName": "Louis Vuitton Rose Gradient Rimless Monogram-Temple Sunglasses",
+      "name": "LOUIS VUITTON ROSE GRADIENT RIMLESS MONOGRAM-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "InstagramLouis Vuitton\ud83d\udcaf\u0443 \u043d\u0430\u044f\u0432\u043d\u043e\u0441\u0442\u0456",
+          "url": "https://www.instagram.com/p/DXR_lTDjCJS/"
+        },
+        {
+          "title": "Mia BurtonSunglasses Jimmy Choo JC4018 - Mia BurtonIn stock",
+          "url": "https://miaburton.com/en/sunglasses/jimmy-choo/jc4018-302413"
+        },
+        {
+          "title": "Vintage Frames CompanyBal Harbour Wood Edition Rimless Drill Mount 24KT Gold ...5.0(97)\u00b7In stock",
+          "url": "https://www.vintageframescompany.com/products/bal-harbour-wood-edition-drill-mount-24kt-gold"
+        },
+        {
+          "title": "EyespecsCartier Rimlesssun CT0039RS 001 Sunglasses Wood Gold/Red ...In stock",
+          "url": "https://www.eyespecs.com/Cartier-Rimlesssun-CT0039RS-Sunglasses-Square-Shape-531660594.html"
+        },
+        {
+          "title": "james oroRED TINT GRAIL GEM CUT \u2013 JAMES ORO5.0(2)",
+          "url": "https://www.jamesoro.com/products/red-tint-grail-gem-cut"
+        }
+      ]
+    },
+    {
+      "code": "GL080",
+      "id": 26191,
+      "previousName": "Louis Vuitton Black Quote-Detail Rectangular Sunglasses",
+      "name": "LOUIS VUITTON LV SUPER VISION SQUARE SUNGLASSES (BLACK)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://us.louisvuitton.com/eng-us/products/lv-super-vision-square-sunglasses-s00-nvprod6860019v/Z3144U",
+      "lensMatches": [
+        {
+          "title": "Giiz storeLouis Vuitton Super Vision Square - Black - Giiz store",
+          "url": "https://giizstore.com/products/louis-vuitton-super-vision-square-black"
+        },
+        {
+          "title": "DHgateSuper Vision Square Sunglasses Men Black Rubber... From ...",
+          "url": "https://www.dhgate.com/product/2024-summer-new-super-vision-square-sunglasses/945433548.html"
+        },
+        {
+          "title": "Louis VuittonLV Super Vision Square Sunglasses S00 - Men - Accessories ...In stock",
+          "url": "https://us.louisvuitton.com/eng-us/products/lv-super-vision-square-sunglasses-s00-nvprod6860019v/Z3144U"
+        },
+        {
+          "title": "Giiz storeLouis Vuitton Super Vision Square - Black - Giiz store",
+          "url": "https://giizstore.com/products/louis-vuitton-super-vision-square-black"
+        },
+        {
+          "title": "The RealRealLouis Vuitton 2023 Super Vision Sunglasses - Black ...",
+          "url": "https://www.therealreal.com/products/men/accessories/sunglasses/louis-vuitton-2023-super-vision-sunglasses-vdku8"
+        }
+      ]
+    },
+    {
+      "code": "GL081",
+      "id": 26192,
+      "previousName": "Louis Vuitton Blue Crystal Flat-Top Rectangular Sunglasses",
+      "name": "LOUIS VUITTON BLUE CRYSTAL FLAT-TOP RECTANGULAR SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "DHgateVintage Square Polarized Sunglasses For Men And... From ...",
+          "url": "https://in.dhgate.com/product/designer-square-sunglasses-men-women-vintage/1117055614.html"
+        },
+        {
+          "title": "PRESS EYEWEARUntitled Optical \u2013 PRESS EYEWEAR",
+          "url": "https://presseyewear.com/products/untitled-optical"
+        },
+        {
+          "title": "Fabulous Fanny'sVintage THEO Solitaire Blue Aviator \u2013 Fabulous Fanny'sIn stock",
+          "url": "https://fabulousfannysnyc.com/products/vintage-theo-solitaire-blue-aviator"
+        },
+        {
+          "title": "JomashopOff-White LAUREL Blue Rectangular Unisex Sunglasses OERI13P ...",
+          "url": "https://www.jomashop.com/off-white-laurel-blue-rectangular-unisex-sunglasses-oeri13p-4840-54.html"
+        },
+        {
+          "title": "DHgateColorful UV400 Oversized Black Rectangle Sunglasses... From ...",
+          "url": "https://in.dhgate.com/product/fashion-outdoor-large-frame-rectangle-square/1111803633.html"
+        }
+      ]
+    },
+    {
+      "code": "GL082",
+      "id": 26193,
+      "previousName": "Louis Vuitton Grey Gradient Angular Rimless Sunglasses",
+      "name": "LOUIS VUITTON GREY GRADIENT ANGULAR RIMLESS SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Walmart BusinessWomens Rimless Oversize Rectangle 90s Butterfly Sunglasses ...In stock",
+          "url": "https://business.walmart.com/ip/Womens-Rimless-Oversize-Rectangle-90s-Butterfly-Sunglasses-Gold-Black-Blue-Brown/1228435855"
+        },
+        {
+          "title": "DHgateSquare Rimless Change Color Sunglasses Men 2026... From ...",
+          "url": "https://in.dhgate.com/product/square-rimless-change-color-sunglasses-men/1112670077.html"
+        },
+        {
+          "title": "SheinA Pair Of Women's Brown-Frame Gradient Square Glasses With ...",
+          "url": "https://m.shein.com/us/A-Pair-Of-Women-s-Brown-Frame-Gradient-Square-Glasses-With-Textured-Decoration-Full-Of-Style-Suitable-For-Daily-Outings-Commuting-And-Afternoon-Tea-Looks-p-456072745.html?goods_id=456072745&ref=us&rep=dir&ret=mus&skucode=I4moio5ktv90du"
+        }
+      ]
+    },
+    {
+      "code": "GL083",
+      "id": 26194,
+      "previousName": "Louis Vuitton Black Gold-Flower Round Sunglasses",
+      "name": "LOUIS VUITTON BLACK GOLD-FLOWER ROUND SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "The RealRealChanel Interlocking CC Logo Oversize Sunglasses - Black ...",
+          "url": "https://www.therealreal.com/products/women/accessories/sunglasses/chanel-interlocking-cc-logo-oversize-sunglasses-v0gc5"
+        },
+        {
+          "title": "The RealRealChanel Interlocking CC Logo Square Sunglasses - Black ...",
+          "url": "https://www.therealreal.com/products/women/accessories/sunglasses/chanel-interlocking-cc-logo-square-sunglasses-rm8gc"
+        },
+        {
+          "title": "eBayStylish Fashion Sunglasses Women's Square Frame Classy Quilt ...In stock",
+          "url": "https://www.ebay.com/itm/152487101379"
+        },
+        {
+          "title": "Louis VuittonMy Monogram Light Square Sunglasses S00 - Women ...In stock",
+          "url": "https://us.louisvuitton.com/eng-us/products/my-monogram-light-square-sunglasses-s00-nvprod4210099v/Z1861E"
+        }
+      ]
+    },
+    {
+      "code": "GL084",
+      "id": 26195,
+      "previousName": "Louis Vuitton Black Monogram Shield Sunglasses",
+      "name": "LOUIS VUITTON LV WAIMEA L SHIELD SUNGLASSES (BLACK MONOGRAM)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://sg.louisvuitton.com/eng-sg/products/lv-waimea-l-sunglasses-s00-nvprod3280009v/Z1583E",
+      "lensMatches": [
+        {
+          "title": "Louis VuittonLV Waimea L Sunglasses . - Holiday | LOUIS VUITTON",
+          "url": "https://sg.louisvuitton.com/eng-sg/products/lv-waimea-l-sunglasses-s00-nvprod3280009v/Z1583E"
+        },
+        {
+          "title": "LOUIS VUITTON LV Waimea Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnvDZaeNPZ0QH1eQ4K2ZBkLhleAvoQ:1792509047178&q=LOUIS+VUITTON+LV+Waimea+Sunglasses&kgmid=/g/11y78mg5z1&sa=X&ved=2ahUKEwj60o3I8MiXAxWZke4BHUV_Fr0Q9_gLKAB6BQiHAxAB"
+        },
+        {
+          "title": "North State SteelLV Waimea L Sunglasses S00 - New - Holiday | LOUIS VUITTON ...4.3(45)",
+          "url": "http://northstatesteel.com/?l=9603563921103"
+        },
+        {
+          "title": "InstagramDominic Puckerin | Ultra light and futurist, the new LV ...",
+          "url": "https://www.instagram.com/p/C82DyCYOkJD/"
+        },
+        {
+          "title": "FashionphileLouis Vuitton Acetate Monogram Waimea Z1583W Sunglasses ...",
+          "url": "https://www.fashionphile.com/products/louis-vuitton-acetate-monogram-waimea-z1583w-sunglasses-black-1652502"
+        }
+      ]
+    },
+    {
+      "code": "GL085",
+      "id": 26196,
+      "previousName": "Louis Vuitton Pink Gold-Chain Shield Sunglasses",
+      "name": "LOUIS VUITTON PINK GOLD-CHAIN SHIELD SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Alibaba.comShop Our Selection of Oversized One Piece Shield Sunglasses",
+          "url": "https://www.alibaba.com/product-detail/Oversized-One-Piece-Shield-Sunglasses-Women_1600946546901.html"
+        },
+        {
+          "title": "JomashopVersace Pink Shield Unisex Sunglasses VE2258 100284 45 ...",
+          "url": "https://www.jomashop.com/versace-pink-shield-unisex-sunglasses-ve2258-100284-45.html"
+        },
+        {
+          "title": "quivedo.comVersace VE 2258 (100284) O2258 VE2258100284 Sunglasses Man ...",
+          "url": "https://www.quivedo.com/en/versace-ve-2258-100284"
+        },
+        {
+          "title": "Amazon.com.beVersace 0VE2258 Unisex Adult Sunglasses - Multicoloured, One ...",
+          "url": "https://www.amazon.com.be/-/en/Versace-0VE2258-Unisex-Adult-Sunglasses/dp/B0CL79HJX4"
+        },
+        {
+          "title": "Amazon.caVersace 0VE2258 Unisex Adults, Multicoloured (Multicolour ...",
+          "url": "https://www.amazon.ca/Versace-0VE2258-Unisex-Multicoloured-Multicolour/dp/B0CL79HJX4"
+        }
+      ]
+    },
+    {
+      "code": "GL086",
+      "id": 26197,
+      "previousName": "Louis Vuitton Blue-Amber Rimless Green-Temple Sunglasses",
+      "name": "LOUIS VUITTON BLUE-AMBER RIMLESS GREEN-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "eBayLouis Vuitton Silver Sunglasses for Women for sale | eBay",
+          "url": "https://www.ebay.com/b/Louis-Vuitton-Silver-Sunglasses-for-Women/45246/bn_68031281"
+        },
+        {
+          "title": "InstagramPhoto by Erik (@bagaholic888) \u00b7 September 8, 2026",
+          "url": "https://www.instagram.com/p/DdBlD-nTGFe/"
+        },
+        {
+          "title": "DHgateClassic Sunglasses Fashion Designer Metal Leg Fashion ...",
+          "url": "https://in.dhgate.com/product/classic-sunglasses-fashion-designer-metal/1112566500.html"
+        }
+      ]
+    },
+    {
+      "code": "GL087",
+      "id": 26198,
+      "previousName": "Versace Rose Gold-Frame Medallion Shield Sunglasses",
+      "name": "VERSACE VE2268 MEDUSA MEDALLION SHIELD SUNGLASSES (ROSE / GOLD)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://www.eye-oo.com/en-us/products/versace-ve2268-100284-gold",
+      "lensMatches": [
+        {
+          "title": "eBayVERSACE VE2268 GEOMETRIC MEDUSA SHIELD Gold Pink 2268 Unisex ...In stock",
+          "url": "https://www.ebay.com/itm/178068687525"
+        },
+        {
+          "title": "Versace Men's Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnvxB834VZcl5cUxGXTW_ByUYpNekA:1792509071222&q=Versace+Men%27s+Sunglasses&kgmid=/g/11vj_fr7t3&sa=X&ved=2ahUKEwjqi8nT8MiXAxX5h-4BHf2gOlsQ9_gLKAB6BQjmAhAB"
+        },
+        {
+          "title": "eye-oo.comVersace VE2268 Sunglasses 100284 Gold - eye-oo.comIn stock",
+          "url": "https://www.eye-oo.com/en-us/products/versace-ve2268-100284-gold"
+        }
+      ]
+    },
+    {
+      "code": "GL088",
+      "id": 26199,
+      "previousName": "Versace Brown Gold Double-Bridge Aviator Sunglasses",
+      "name": "VERSACE BROWN GOLD DOUBLE-BRIDGE AVIATOR SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "JomashopVersace Light Grey Mirror Silver Pilot Men's Sunglasses ...In stock",
+          "url": "https://www.jomashop.com/versace-light-grey-mirror-silver-pilot-mens-sunglasses-ve2225-12526g-60.html"
+        },
+        {
+          "title": "Versace Men's Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnuahUr6feLHN4cvovbcCSvHE_hkfg:1792509078055&q=Versace+Men%27s+Sunglasses&kgmid=/g/11jgz96n89&sa=X&ved=2ahUKEwj6jerW8MiXAxXdLkQIHXQABmoQ9_gLKAB6BQjyAhAB"
+        },
+        {
+          "title": "Versace Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnuahUr6feLHN4cvovbcCSvHE_hkfg:1792509078055&q=Versace+Sunglasses&kgmid=/g/11v3lffpmr&sa=X&ved=2ahUKEwj6jerW8MiXAxXdLkQIHXQABmoQ9_gLKAF6BQjyAhAD"
+        },
+        {
+          "title": "ModeSensPre-owned Versace Ve2255 1002/03 Sunglasses Gold/clear ...2.6(2)\u00b7In stock",
+          "url": "https://modesens.com/product/versace-ve2255-100203-sunglasses-goldclear-mirror-real-yellow-gold-pilot-63mm-gray-96534904/"
+        },
+        {
+          "title": "Amazon.comAmazon.com: Versace Unisex Sunglasses Gold Frame, Clear ...",
+          "url": "https://www.amazon.com/clp/B0BYCXLCWZ"
+        }
+      ]
+    },
+    {
+      "code": "GL089",
+      "id": 26200,
+      "previousName": "Versace Blue Shield Black Gold-Temple Sunglasses",
+      "name": "VERSACE BLUE SHIELD BLACK GOLD-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "InstagramPhotos by Gizem Ayta\u00e7 (@gigiluxury.boutique) \u00b7 August 19, 2026",
+          "url": "https://www.instagram.com/p/DcOg9AXjEyD/?__d=1%252F%253Fhidemenu%253Dtrue%253Cbr%253E%25EB%25AF%25B8%25EC%2584%25B8%25EC%258A%25A4"
+        },
+        {
+          "title": "Versace",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnugC694xkWD7tKqAGQEPNwEynBtZQ:1792509109268&q=Versace&kgmid=/m/036rzw&sa=X&ved=2ahUKEwj8ldvl8MiXAxWTI0QIHcXzKusQ9_gLKAB6BQiOAhAB"
+        },
+        {
+          "title": "Amazon.comAmazon.com: J&L Glasses Oversized Square Sunglasses Metal ...",
+          "url": "https://www.amazon.com/Glasses-Oversized-Square-Sunglasses-Sunglasses034/dp/B07D5VYRJN"
+        }
+      ]
+    },
+    {
+      "code": "GL090",
+      "id": 26201,
+      "previousName": "Versace Brown Bronze-Frame Shield Sunglasses",
+      "name": "VERSACE VE2220 MEDUSA HALO SHIELD SUNGLASSES (BROWN / BRONZE)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://avvenice.com/en/sunglasses/21624-versace-sunglasses-medusa-halo-shield-gold-sunglasses-versace-eyewear.html",
+      "lensMatches": [
+        {
+          "title": "DepopBrand new unisex Versace sunglasses!! | Depop",
+          "url": "https://www.depop.com/products/lexxy88-brand-new-unisex-versace-sunglasses/"
+        },
+        {
+          "title": "Sunglasses Men Versace VE2220",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnvWGJiEvxwDTT9TT2fnr9hYRZ9z-w:1792509115969&q=Sunglasses+Men+Versace+VE2220&kgmid=/g/11k03mvn6m&sa=X&ved=2ahUKEwijn_To8MiXAxWNkO4BHXMlFdcQ9_gLKAB6BQj_AhAB"
+        },
+        {
+          "title": "eBayRARE Genuine VERSACE Everywhere Gold Brown Sheild Mask ...",
+          "url": "https://www.ebay.com/itm/163860060521"
+        },
+        {
+          "title": "AvveniceVersace - Sunglasses Medusa Halo Shield - Gold - Sunglasses ...",
+          "url": "https://avvenice.com/en/sunglasses/21624-versace-sunglasses-medusa-halo-shield-gold-sunglasses-versace-eyewear.html"
+        },
+        {
+          "title": "www.artkoy.ruVersace VE 2220 (100287) O2220 VE2220100287 Sunglasses Man ...4.6(27)",
+          "url": "https://www.artkoy.ru/?c=16639765291106"
+        }
+      ]
+    },
+    {
+      "code": "GL091",
+      "id": 26202,
+      "previousName": "Versace Amber Gold Oval Tortoiseshell-Temple Sunglasses",
+      "name": "VERSACE AMBER GOLD OVAL TORTOISESHELL-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "JazzoBuy Celine Triomphe 40235U Sunglasses \u2013 Gold Frame with ...",
+          "url": "https://www.jazzo.in/products/celine-triomphe-40235u-gold"
+        },
+        {
+          "title": "9FIVE unisex St. James Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnvzGs7mzTALy6x78WqThrgAsXrwTQ:1792509125092&q=9FIVE+unisex+St.+James+Sunglasses&kgmid=/g/11ytf0lr49&sa=X&ved=2ahUKEwiJ_aDt8MiXAxUwJUQIHbIkExYQ9_gLKAB6BQivAxAB"
+        },
+        {
+          "title": "9FIVE EyewearSt. James Tortoise & 24K Gold Sunglasses | 9FIVE4.9(336)\u00b7In stock",
+          "url": "https://9five.com/products/st-james-tortoise"
+        },
+        {
+          "title": "Specs CollectiveMiu Miu\u00ae - MU B51S | Oval Retro Metal SunglassesIn stock",
+          "url": "https://www.specscollective.com/products/miu-miu-mu-b51s-sunglasses"
+        }
+      ]
+    },
+    {
+      "code": "GL092",
+      "id": 26203,
+      "previousName": "Versace Black Gold Rectangular Sunglasses",
+      "name": "VERSACE BLACK GOLD RECTANGULAR SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "eBayBalmain Wonder Boy III Sunglasses BPS-127D Gold & Gold ...",
+          "url": "https://www.ebay.com/itm/166712399429"
+        },
+        {
+          "title": "Specs CollectiveBalmain\u00ae - Wonder Boy III | Rectangle Titanium SunglassesIn stock",
+          "url": "https://www.specscollective.com/products/balmain-wonder-boy-iii-sunglasses"
+        },
+        {
+          "title": "eBayBALMAIN WONDER BOY III BY AKONI BPS127 Black Gold ...In stock",
+          "url": "https://www.ebay.com/itm/177024241854"
+        },
+        {
+          "title": "nuvalovaVersace Oversized Polarized Sunglasses for Unisex \u2013 NUVALOVA",
+          "url": "https://nuvalova.com/products/versace-oversized-polarized-sunglasses"
+        },
+        {
+          "title": "EyechicBALMAIN WONDER BOY III \u2013 EyechicIn stock",
+          "url": "https://eyechic.com/products/balmain-wonder-boy-iii"
+        }
+      ]
+    },
+    {
+      "code": "GL093",
+      "id": 26204,
+      "previousName": "Versace Rose Black-Frame Aviator Sunglasses",
+      "name": "VERSACE VE2250 MEDUSA AVIATOR SUNGLASSES (ROSE GRADIENT)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://www.macys.com/shop/product/versace-womens-sunglasses-ve2250?ID=17354905",
+      "lensMatches": [
+        {
+          "title": "eBayVersace Sunglasses VE2250 148889 63mm Gold / Grey gradient ...In stock",
+          "url": "https://www.ebay.com/itm/364160317310"
+        },
+        {
+          "title": "Versace Women's Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnuM1tvcWWIdtJB2cJ7l8fdJfL8x0A:1792509138699&q=Versace+Women%27s+Sunglasses&kgmid=/g/11vyw1b1nd&sa=X&ved=2ahUKEwjxw9_z8MiXAxU5J0QIHe_LJQcQ9_gLKAB6BQiaAhAB"
+        },
+        {
+          "title": "Go-Optic.comVersace VE 2250 Sunglasses | FREE Shipping - Go-Optic.comIn stock",
+          "url": "https://www.go-optic.com/versace-ve-2250-sunglasses-ve2250/p/307877"
+        },
+        {
+          "title": "Macy'sVersace Women's Sunglasses, VE2250 - Macy's4.9(17)",
+          "url": "https://www.macys.com/shop/product/versace-womens-sunglasses-ve2250?ID=17354905"
+        },
+        {
+          "title": "The RealRealVersace Grecca Pattern Aviator Sunglasses - Brown Sunglasses ...",
+          "url": "https://www.therealreal.com/products/women/accessories/sunglasses/versace-grecca-pattern-aviator-sunglasses-r06tt"
+        }
+      ]
+    },
+    {
+      "code": "GL094",
+      "id": 26205,
+      "previousName": "Versace Yellow-Lens Black Aviator Sunglasses",
+      "name": "VERSACE VE4508U DOUBLE-BRIDGE SUNGLASSES (BLACK / YELLOW)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://www.sunglasshut.com/us/versace/ve4508u-8056262760666",
+      "lensMatches": [
+        {
+          "title": "Macy'sVersace Men's Square Sunglasses, VE4508U - Macy's3.4(5)",
+          "url": "https://www.macys.com/shop/product/versace-mens-square-sunglasses-ve4508u?ID=26236244"
+        },
+        {
+          "title": "Sunglasses Versace Men's VE4508U",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQntGeu8WNSNktqUnEUnhyUdkkagXfA:1792509159771&q=Sunglasses+Versace+Men%27s+VE4508U&kgmid=/g/11yym5n5cc&sa=X&ved=2ahUKEwia3OX98MiXAxUSO0QIHaL3CQ8Q9_gLKAB6BQjyAhAB"
+        },
+        {
+          "title": "Sunglass HutVersace VE4508U L (56 - 18) with Orange lenses and Black ...",
+          "url": "https://www.sunglasshut.com/us/versace/ve4508u-8056262760666"
+        },
+        {
+          "title": "Dillard'sVersace Men's VE4508U 56mm Retro Shield Square Sunglasses ...",
+          "url": "https://www.dillards.com/p/versace-mens-ve4508u-56mm-square-sunglasses/521550872"
+        },
+        {
+          "title": "EZContacts.comVersace VE4508U Sunglasses | Free Shipping | EZContacts.com",
+          "url": "https://www.ezcontacts.com/product/sunglasses/1719005-1719009/versace-ve4508u"
+        }
+      ]
+    },
+    {
+      "code": "GL095",
+      "id": 26206,
+      "previousName": "Versace Blue Gradient Gold-Temple Rimless Sunglasses",
+      "name": "VERSACE VE2275 RIMLESS SQUARE SUNGLASSES (BLUE / GOLD)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://pretavoir.us/products/versace-2275-100280",
+      "lensMatches": [
+        {
+          "title": "InstagramPhotos by Kanishop\ud83c\uddf2\ud83c\udde6 (@kani_shop_3) \u00b7 September 16, 2026",
+          "url": "https://www.instagram.com/p/DdWQW3DCOmw/"
+        },
+        {
+          "title": "Sunglasses Versace Men's VE2275",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnsI4yX0e-gqAX4W-eJGtj6C3CoR-g:1792509168035&q=Sunglasses+Versace+Men%27s+VE2275&kgmid=/g/11w4mjpfyl&sa=X&ved=2ahUKEwiimd6B8ciXAxWpM0QIHS_ZKCMQ9_gLKAB6BQjxAhAB"
+        },
+        {
+          "title": "PRETAVOIR.USVersace 2275 100280 Sunglasses - USIn stock",
+          "url": "https://pretavoir.us/products/versace-2275-100280"
+        },
+        {
+          "title": "EyespecsVersace VE2275 100287 Sunglasses Men's Gold/Dark Grey Square ...In stock",
+          "url": "https://www.eyespecs.com/Versace-VE2275-Sunglasses-Men-s-Square-Shape-531909160.html"
+        },
+        {
+          "title": "Sunglass HutVersace VE2296 XL (60 - 14) with Grey lenses and Gold frame ...In stock",
+          "url": "https://www.sunglasshut.com/us/versace/ve2296-8056262814154"
+        }
+      ]
+    },
+    {
+      "code": "GL096",
+      "id": 26207,
+      "previousName": "Chanel Black Gold Shield Sunglasses",
+      "name": "CHANEL BLACK GOLD SHIELD SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "EtsyChanel Vintage Visor Sunglasses Made in Italy. Womens ...4.7(1,632)\u00b7In stock",
+          "url": "https://www.etsy.com/listing/4329715301/chanel-vintage-visor-sunglasses-made-in"
+        },
+        {
+          "title": "www.kanbkam.com\u0633\u0639\u0631 a new collection of sunglasses inspired by CHANEL \u0641\u0649 \u0645\u0635\u0631 ...",
+          "url": "https://www.kanbkam.com/eg/ar/a-new-collection-of-sunglasses-inspired-by-chanel-ZB9AAABA3435F9080E27FZ"
+        },
+        {
+          "title": "DHgateLuxury Designer Sunglasses Pilot Goggles Designer For ...",
+          "url": "https://in.dhgate.com/product/luxury-designer-sunglasses-pilot-goggles/1113548230.html"
+        },
+        {
+          "title": "The RealRealChanel Interlocking CC Logo Shield Sunglasses - Black ...",
+          "url": "https://www.therealreal.com/products/women/accessories/sunglasses/chanel-interlocking-cc-logo-shield-sunglasses-uz6um"
+        },
+        {
+          "title": "DHgateDesigner Metal Frame Sunglasses with UV400 Polarized Lens ...",
+          "url": "https://in.dhgate.com/goods/1075023708.html"
+        }
+      ]
+    },
+    {
+      "code": "GL097",
+      "id": 26208,
+      "previousName": "Chanel Brown Rimless Wood-Temple Sunglasses",
+      "name": "CHANEL BROWN RIMLESS WOOD-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Vintage Frames CompanyChanel 4007 101 78 \u2013 Vintage Frames CompanyIn stock",
+          "url": "https://www.vintageframescompany.com/products/chanel-4007-101-78"
+        },
+        {
+          "title": "DepopCHANEL rimless womens sunglasses. (4134 c.125/13 66... | Depop",
+          "url": "https://www.depop.com/products/officialbellasboutique-chanel-rimless-womens-sunglasses-4134/"
+        },
+        {
+          "title": "The RealRealRoberto Cavalli Oversize Gradient Sunglasses - Silver ...In stock",
+          "url": "https://www.therealreal.com/products/women/accessories/sunglasses/roberto-cavalli-oversize-gradient-sunglasses-vdb6q"
+        },
+        {
+          "title": "Vintage Frames CompanyChanel 4007 101 77 \u2013 Vintage Frames CompanyIn stock",
+          "url": "https://www.vintageframescompany.com/products/chanel-4007-101-77"
+        },
+        {
+          "title": "eBayChanel Eye Sun Glasses 4171-B 296/3B. 65  13 Brown Gray ...In stock",
+          "url": "https://www.ebay.com/itm/387912697237"
+        }
+      ]
+    },
+    {
+      "code": "GL098",
+      "id": 26209,
+      "previousName": "Chanel Black Rimless Quilted-Temple Sunglasses",
+      "name": "CHANEL BLACK RIMLESS QUILTED-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Sunglass HutMiu Miu MU 54YS L (80 - 14) with Grey lenses and Gold frame ...",
+          "url": "https://www.sunglasshut.com/us/miu-miu/mu-54ys-8056597895644"
+        },
+        {
+          "title": "Miu Women's Miu 54YS Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQns_NSiMcKqNCZnpm2F_Fs2WQj-rQQ:1792509190783&q=Miu+Women%27s+Miu+54YS+Sunglasses&kgmid=/g/11vrl_35mv&sa=X&ved=2ahUKEwjoiMqM8ciXAxXvH0QIHfUKArkQ9_gLKAB6BQiUAhAB"
+        },
+        {
+          "title": "Bassol opticMiu Miu MU 54YS 5AK5S0 80 Sunglasses | Bassol Optic United ...",
+          "url": "https://www.opticabassol.com/en-us/products/miu-miu-mu-54ys-5ak5s0-80"
+        },
+        {
+          "title": "Neiman MarcusBVLGARI Serpenti Forever 58mm Square Sunglasses | Neiman Marcus",
+          "url": "https://www.neimanmarcus.com/p/bvlgari-serpenti-forever-58mm-square-sunglasses-prod284830063"
+        },
+        {
+          "title": "FarfetchMiu Miu Eyewear Runway Frameless Sunglasses | Gold ...",
+          "url": "https://www.farfetch.com/bn/shopping/women/miu-miu-eyewear-runway-frameless-sunglasses-item-20251645.aspx"
+        }
+      ]
+    },
+    {
+      "code": "GL099",
+      "id": 26210,
+      "previousName": "Chanel Brown Gradient Round Wood-Temple Sunglasses",
+      "name": "CHANEL BROWN GRADIENT ROUND WOOD-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Barton PerreiraDesigner Quinn Glasses - Rimless Sunglasses",
+          "url": "https://bartonperreira.com/products/quinn"
+        },
+        {
+          "title": "Amazon.comAmazon.com: Prive Revaux DB Touch Rimless Sunglasses ...",
+          "url": "https://www.amazon.com/Prive-Revaux-Touch-Rimless-Sunglasses/dp/B0F4F5Q38K"
+        },
+        {
+          "title": "Cramilo EyewearSolar - Curved Tinted Rimless Rectangle Sunglasses - Cramilo ...In stock",
+          "url": "https://cramilosunglasses.com/products/solar-cramilo-rimless-rectangle-tinted-sunglasses-square-frame-unisex-sun-glasses-uva-uvb-protection-polycarbonate-lens-eyewear"
+        },
+        {
+          "title": "YesglassesRose Gold Titanium Geometric Rimless Gradient Sunglasses ...4.9(106)\u00b7In stock",
+          "url": "https://www.yesglasses.com/shop/gradient-sunglasses/g14704-402"
+        }
+      ]
+    },
+    {
+      "code": "GL100",
+      "id": 26211,
+      "previousName": "Chanel Amber Geometric Square Sunglasses",
+      "name": "CHANEL AMBER GEOMETRIC SQUARE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "InstagramMhaya wa kwanza kumiliki miwani ya CHANEL \ud83d\ude01 @_.niffer._ ...",
+          "url": "https://www.instagram.com/p/DU7ZhLWCKKH/"
+        },
+        {
+          "title": "InstagramCHANEL\ud83d\udc85\ud83c\udffd\ud83d\udc97\u2728\ud83d\udc1a\ud83c\udf38 #palestine #chanel #sunglasses",
+          "url": "https://www.instagram.com/p/DeRPq8hDJg3/"
+        },
+        {
+          "title": "DHgateWomens Square Sunglasses, Designer Acetate Frame With ...",
+          "url": "https://in.dhgate.com/product/designer-women-square-sunglasses-26ss-hollow/1116814519.html"
+        },
+        {
+          "title": "eBayEXCLUSIVE Chrome Hearts Datass sunglasses in Matte Gold w ...",
+          "url": "https://www.ebay.com/itm/177237487253"
+        },
+        {
+          "title": "Mengotti CoutureBuy Chanel Paris CHANEL Butterfly Sunglasses CH4262 | Offici",
+          "url": "https://mengotticouture.com/product/chanel-butterfly-sunglasses-ch4262/"
+        }
+      ]
+    },
+    {
+      "code": "GL101",
+      "id": 26212,
+      "previousName": "Chanel Rose Gradient Cream-Temple Rimless Sunglasses",
+      "name": "CHANEL ROSE GRADIENT CREAM-TEMPLE RIMLESS SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Specs CollectiveMatsuda\u00ae - M5011 | Hexagonal Titanium Rimless Sunglasses",
+          "url": "https://www.specscollective.com/products/matsuda-m5011-sunglasses"
+        },
+        {
+          "title": "Cartier CT0433S Sunglasses Women",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQntdX_Pvb4M_ubP-i913sZ-stoyQLA:1792509223255&q=Cartier+CT0433S+Sunglasses+Women&kgmid=/g/11vbpgpzw6&sa=X&ved=2ahUKEwjfuoic8ciXAxXHKEQIHRZnBK4Q9_gLKAB6BQiWAhAB"
+        },
+        {
+          "title": "PRETAVOIR.USCartier CT0620S 004 Sunglasses - US",
+          "url": "https://pretavoir.us/products/cartier-ct0620s-004"
+        },
+        {
+          "title": "MytheresaPanth\u00e8re de Cartier oval sunglasses in gold - Cartier ...",
+          "url": "https://www.mytheresa.com/us/en/women/cartier-eyewear-collection-panthere-de-cartier-oval-sunglasses-gold-p01100148"
+        },
+        {
+          "title": "Neiman MarcusCartier 56mm Geometric Oval Sunglasses | Neiman Marcus",
+          "url": "https://www.neimanmarcus.com/p/cartier-56mm-geometric-oval-sunglasses-prod286570120"
+        }
+      ]
+    },
+    {
+      "code": "GL102",
+      "id": 26213,
+      "previousName": "Chanel Black Oval Gold-Temple Sunglasses",
+      "name": "CHANEL BLACK OVAL GOLD-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Amazon.comAmazon.com: Unisex Fashion Eyewear adjustable dimming ...",
+          "url": "https://www.amazon.com/adjustable-stepless-rotation-adjustment-ND2-ND400/dp/B0F6C7ZK8J"
+        },
+        {
+          "title": "SILAC | Lunettes de lectureSUN GOLD - Sunglasses",
+          "url": "https://silac.eu/en/sunglasses/753-sun-gold-sunglasses-5400323089037"
+        },
+        {
+          "title": "Linda FarrowFinn Sunglasses in Yellow Gold | LINDA FARROW Luxury EyewearIn stock",
+          "url": "https://lindafarrow.com/en-us/products/finn-oval-sunglasses-in-yellow-gold"
+        },
+        {
+          "title": "WalmartAdjustable Tint Sunglasses, ND-400 Polarized with 1-9 Gear ...",
+          "url": "https://www.walmart.com/ip/Adjustable-Tint-Sunglasses-ND-400-Polarized-1-9-Gear-Dimming-Control-Round-Anti-Glare-UV-Protection-Eyewear-Men-Women-Fishing-Diving-Driving/18031102169"
+        },
+        {
+          "title": "NihaoJewelryWomen's Oval Frame Full Frame Sunglasses with PC Lens ...",
+          "url": "https://www.nihaojewelry.com/womens-oval-full-frame-sunglasses-pc-nh12479957.html"
+        }
+      ]
+    },
+    {
+      "code": "GL103",
+      "id": 26214,
+      "previousName": "Chanel Rose Gold Rimless Red-Temple Sunglasses",
+      "name": "CHANEL ROSE GOLD RIMLESS RED-TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "ChanelCHANEL Sunglasses: Rectangle Sunglasses, metal \u2014 Fashion ...In stock",
+          "url": "https://www.chanel.com/us/eyewear/p/A71757X01060L148858NUNI/rectangle-sunglasses-light-gold/"
+        },
+        {
+          "title": "Sunglasses CHANEL 4295 58 17",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQntkV2S8cCJdca9sxc_KwNAC6k3gvQ:1792509235351&q=Sunglasses+CHANEL+4295+58+17&kgmid=/g/11zczxzxgv&sa=X&ved=2ahUKEwj94uqh8ciXAxW1IEQIHVICFKgQ9_gLKAB6BQiaAhAB"
+        },
+        {
+          "title": "eBayVINTAGE CHRISTIAN DIOR GOLD & RED SLEEK 2000'S SUNGLASSES ...",
+          "url": "https://www.ebay.com/itm/225571776143"
+        },
+        {
+          "title": "PoshmarkCHANEL | Accessories | Chanel 464 Camellia Flower Swarovski ...",
+          "url": "https://poshmark.com/listing/CHANEL-4164-Camellia-Flower-Swarovski-Crystal-CC-Shield-Sunglasses-vintage-2k-66b3e80915ad5467218c0d56"
+        },
+        {
+          "title": "Fashion EyewearCHANEL 4295 Rectangle Sunglasses | Fashion Eyewear",
+          "url": "https://www.fashioneyewear.com/products/chanel-4295"
+        }
+      ]
+    },
+    {
+      "code": "GL104",
+      "id": 26215,
+      "previousName": "Dior Brown Gradient Gold Crystal Butterfly Square Sunglasses",
+      "name": "DIOR BROWN GRADIENT GOLD CRYSTAL BUTTERFLY SQUARE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "InstagramPhoto by Star bloomix (@starbloomixbags) \u00b7 August 17, 2026",
+          "url": "https://www.instagram.com/p/DcIxC9aNXFL/?__d=1%2FA"
+        },
+        {
+          "title": "WalmartLuxury Womens Heavy Rhinestone Bling Rectangle Butterfly ...",
+          "url": "https://www.walmart.com/ip/Luxury-Womens-Heavy-Rhinestone-Bling-Rectangle-Butterfly-Metal-Sunglasses-Gold-Brown-Pink/15135717372?classType=undefined&variantFieldId=actual_color"
+        },
+        {
+          "title": "GeraldBlack.comOversized Rhinestone Butterfly Square Frame UV400 Protection ...In stock",
+          "url": "https://geraldblack.com/he-he/products/oversized-rhinestone-butterfly-square-frame-uv400-protection-sunglasses-for-women-geraldblack"
+        }
+      ]
+    },
+    {
+      "code": "GL105",
+      "id": 26216,
+      "previousName": "Dior Pink Gradient Gold Crystal Butterfly Square Sunglasses",
+      "name": "DIOR PINK GRADIENT GOLD CRYSTAL BUTTERFLY SQUARE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "WalmartLuxury Womens Heavy Rhinestone Bling Rectangle Butterfly ...",
+          "url": "https://www.walmart.com/ip/Luxury-Womens-Heavy-Rhinestone-Bling-Rectangle-Butterfly-Metal-Sunglasses-Gold-Brown-Pink/15135717372?classType=undefined&variantFieldId=actual_color"
+        },
+        {
+          "title": "InstagramPhoto by Star bloomix (@starbloomixbags) \u00b7 August 17, 2026",
+          "url": "https://www.instagram.com/p/DcIxC9aNXFL/?__d=1%2FA"
+        },
+        {
+          "title": "GeraldBlack.comOversized Rhinestone Butterfly Square Frame UV400 Protection ...In stock",
+          "url": "https://geraldblack.com/he-he/products/oversized-rhinestone-butterfly-square-frame-uv400-protection-sunglasses-for-women-geraldblack"
+        },
+        {
+          "title": "Amazon.comAmazon.com: KINGSEVEN Polarized Sunglasses for Women Vintage ...",
+          "url": "https://www.amazon.com/clp/B0D9XFMJRM"
+        },
+        {
+          "title": "Alibaba.comDL Glasses Vintage Oversized Rhinestone Butterfly Decoration ...5.0(43)",
+          "url": "https://www.alibaba.com/product-detail/DL-Glasses-Vintage-Oversized-Rhinestone-Butterfly_1601390701928.html"
+        }
+      ]
+    },
+    {
+      "code": "GL106",
+      "id": 26217,
+      "previousName": "Dior Amber Crystal Cat-Eye Sunglasses",
+      "name": "DIOR AMBER CRYSTAL CAT-EYE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "MercariAnthropologie Rhinestone Deco Wire Sunglasses | Mercari",
+          "url": "https://www.mercari.com/us/item/m99681795555/"
+        },
+        {
+          "title": "eBayRhinestone Luxury Womens Cat Eye Sunglasses, Trendy UVA ...",
+          "url": "https://www.ebay.com/itm/266847084425"
+        },
+        {
+          "title": "SheinLuxurious-Eye Fashion Glasses Women - Gold Frame With ...",
+          "url": "https://us.shein.com/Luxurious-Eye-Fashion-Glasses-Women-Gold-Frame-With-Sparkling-Artificial-Gemstones-Pink-Lenses-Parties-Balls-And-As-A-Stylish-Decorative-Eyewear-Charming-Eye-Makeup-Decorated-With-Rhinestones-Eye-Glasses-Everyday-Wear-p-447002859.html"
+        },
+        {
+          "title": "WalmartWomens Large Rhinestone Show Light Rim Trim Metal Rim ...",
+          "url": "https://www.walmart.com/ip/Womens-Large-Rhinestone-Show-Light-Rim-Trim-Metal-Rim-Butterfly-Sunglasses-Gold-Black-Yellow/15059222723"
+        },
+        {
+          "title": "Alibaba2024 Luxury Diamond Small Frame Women Sunglasses Metal Cat ...3.8(9)",
+          "url": "https://www.alibaba.com/product-detail/2024-Luxury-diamond-small-frame-women_1601004091322.html"
+        }
+      ]
+    },
+    {
+      "code": "GL107",
+      "id": 26218,
+      "previousName": "Dior Blue Crystal Square Sunglasses",
+      "name": "DIOR DIORXPLORER S2I RECTANGULAR SUNGLASSES (BLUE CRYSTAL / BLACK)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://avvenice.com/en/sunglasses/56593-dior-sunglasses-diorxplorer-s2i-blue-dior-eyewear.html",
+      "lensMatches": [
+        {
+          "title": "AvveniceDior - Sunglasses - DiorXplorer S2I - Blue - Dior Eyewear ...",
+          "url": "https://avvenice.com/en/sunglasses/56593-dior-sunglasses-diorxplorer-s2i-blue-dior-eyewear.html"
+        },
+        {
+          "title": "Dior Diorxplorer S2I Sunglasses Men",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnte1mQtABer8zoKh3zqbutHfKqvuA:1792509282262&q=Dior+Diorxplorer+S2I+Sunglasses+Men&kgmid=/g/11y44ycfhn&sa=X&ved=2ahUKEwiqgJq48ciXAxUzJEQIHZmwFoIQ9_gLKAB6BQjlAhAB"
+        },
+        {
+          "title": "InstagramPhotos by maisonselectru \u00b7 October 17, 2026",
+          "url": "https://www.instagram.com/p/Delka-Rgo4E/"
+        }
+      ]
+    },
+    {
+      "code": "GL108",
+      "id": 26219,
+      "previousName": "Dior Pink Oval Silver Crystal Sunglasses",
+      "name": "DIOR PINK OVAL SILVER CRYSTAL SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "AliExpressWomen Fashion Retro Metal Rim Decor Shades New Trendy ...",
+          "url": "https://www.aliexpress.com/item/1005012336458586.html"
+        },
+        {
+          "title": "AliExpressY2K Crystal Shiny Small Oval Sunglasses for Women New ...",
+          "url": "https://www.aliexpress.com/item/1005011831687374.html"
+        },
+        {
+          "title": "DHgateLuxury Designer Metal Sunglasses, Diamond Inlaid Bow... From ...",
+          "url": "https://in.dhgate.com/product/luxury-designer-sunglasses-with-diamond-inlaid/1116451271.html"
+        },
+        {
+          "title": "NihaoJewelryMetal Frame Oval Sunglasses Casual Diamond-encrusted Glasses ...In stock",
+          "url": "https://www.nihaojewelry.com/metal-frame-oval-sunglasses-casual-diamond-encrusted-glasses-unisex-travel-glasses-nh11671198.html"
+        },
+        {
+          "title": "DHgateFashionable Small Frame Oval Stylish Personality For... From ...",
+          "url": "https://in.dhgate.com/product/fashionable-small-frame-oval-stylish-personality/1114633743.html"
+        }
+      ]
+    },
+    {
+      "code": "GL109",
+      "id": 26220,
+      "previousName": "Dior Brown Gold-Chain Wing Sunglasses",
+      "name": "DIOR BROWN GOLD-CHAIN WING SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Amazon.inBuy ZAADRAN Venom Cat Eye Stylish Sunglasses for Women ...",
+          "url": "https://www.amazon.in/Venom-Chic-Designer-Sunglasses-Women/dp/B0H839DJWB"
+        },
+        {
+          "title": "Dolce&Gabbana Women's DG2240 Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnsrrdlUYDamgphL5Bq64iBeA9dkXA:1792509309710&q=Dolce%26Gabbana+Women%27s+DG2240+Sunglasses&kgmid=/g/11y5p2ghdg&sa=X&ved=2ahUKEwiMnKXF8ciXAxXTJ0QIHazpEQoQ9_gLKAB6BQjsAhAB"
+        },
+        {
+          "title": "Jack HaffordVeyara Cat Eye Sunglasses | Jack HaffordIn stock",
+          "url": "https://jackhafford.com/products/veyara-cat-eye-sunglasses"
+        },
+        {
+          "title": "The RealRealDolce & Gabbana Cat-Eye Gradient Sunglasses - Gold ...",
+          "url": "https://www.therealreal.com/products/women/accessories/sunglasses/dolce-gabbana-cat-eye-gradient-sunglasses-wdj8n"
+        },
+        {
+          "title": "Nordstrom RackGucci Crystal Cat Eye Sunglasses (Women) | Nordstromrack",
+          "url": "https://www.nordstromrack.com/s/crystal-cat-eye-sunglasses/9219486"
+        }
+      ]
+    },
+    {
+      "code": "GL110",
+      "id": 26221,
+      "previousName": "Dior Brown Silver Crystal Cat-Eye Sunglasses",
+      "name": "DIOR BROWN SILVER CRYSTAL CAT-EYE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Select EyewearSwarovski SK7011 Sunglasses | Select EyewearIn stock",
+          "url": "https://selecteyewear.com/products/swarovski-sk7011"
+        },
+        {
+          "title": "Swarovski Women's SK7011 Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQns2t6AIkoXDxw8vBDWl3wGKuEedGA:1792509316847&q=Swarovski+Women%27s+SK7011+Sunglasses&kgmid=/g/11y488zs5h&sa=X&ved=2ahUKEwjV4tjI8ciXAxXgIEQIHZ1bAYsQ9_gLKAB6BQiUAhAB"
+        },
+        {
+          "title": "LensCraftersSwarovski SK7011 Sunglasses | LensCraftersIn stock",
+          "url": "https://www.lenscrafters.com/lc-us/swarovski/8056597966634"
+        },
+        {
+          "title": "OtticanetSwarovski Sk 7011 Women Gold Cat Eye Sunglasses \u2013 OtticanetIn stock",
+          "url": "https://www.otticanet.com/products/swarovski-sk-7011-gold-1416608"
+        },
+        {
+          "title": "Amazon.comAmazon.com: Swarovski SK7030 Sunglasses, Gold/Dark Grey, 59 ...",
+          "url": "https://www.amazon.com/Swarovski-womens-Sk7030-Cat-Sunglasses/dp/B0G2CCY97C"
+        },
+        {
+          "title": "Designer DaydreamDior MissDior B1U Sunglasses in Rose Gold Crystal \u2013 Designer ...In stock",
+          "url": "https://designerdaydream.com/products/dior-missdior-b1u-sunglasses-in-rose-gold-crystal"
+        }
+      ]
+    },
+    {
+      "code": "GL111",
+      "id": 26222,
+      "previousName": "Dior Tortoiseshell Round Gold-Logo Temple Sunglasses",
+      "name": "DIOR TORTOISESHELL ROUND GOLD-LOGO TEMPLE SUNGLASSES",
+      "confidence": "descriptive-no-exact-model-confirmed",
+      "reference": null,
+      "lensMatches": [
+        {
+          "title": "Zenni OpticalTortoiseshell Bold Wisdom Glasses #7842225 | Zenni OpticalIn stock",
+          "url": "https://www.zennioptical.com/p/womens-mixed-square-eyeglass-frames/78422/7842225"
+        },
+        {
+          "title": "Sunglasses Valentino Women's VA4101",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnv2Zij-rOCxabvK_R7BPXJHC8CZvQ:1792509323937&q=Sunglasses+Valentino+Women%27s+VA4101&kgmid=/g/11vm0vlxs0&sa=X&ved=2ahUKEwip14nM8ciXAxX1CO8CHfnAOMEQ9_gLKAB6BQj1AhAB"
+        },
+        {
+          "title": "Tory Burch Women's TY9075U Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnv2Zij-rOCxabvK_R7BPXJHC8CZvQ:1792509323937&q=Tory+Burch+Women%27s+TY9075U+Sunglasses&kgmid=/g/11v_5d37yn&sa=X&ved=2ahUKEwip14nM8ciXAxX1CO8CHfnAOMEQ9_gLKAF6BQj1AhAD"
+        },
+        {
+          "title": "Burberry Women's Joni Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnv2Zij-rOCxabvK_R7BPXJHC8CZvQ:1792509323937&q=Burberry+Women%27s+Joni+Sunglasses&kgmid=/g/11y5jb0803&sa=X&ved=2ahUKEwip14nM8ciXAxX1CO8CHfnAOMEQ9_gLKAJ6BQj1AhAF"
+        }
+      ]
+    },
+    {
+      "code": "GL112",
+      "id": 26223,
+      "previousName": "Dior Brown Monogram Shield Sunglasses",
+      "name": "DIOR DIORCLUB M2U OBLIQUE SHIELD SUNGLASSES (BROWN)",
+      "confidence": "visual-model-family-match",
+      "reference": "https://www.mytheresa.com/ca/en/women/dior-eyewear-diorclub-m2u-sunglasses-blue-p00622112",
+      "lensMatches": [
+        {
+          "title": "ModeSensDior Blue Mirror Logo Shield Ladies Sunglasses Club M2u 31b8 ...In stock",
+          "url": "https://modesens.com/product/dior-blue-mirror-logo-shield-ladies-sunglasses-diorclub-m2u-31b8-cd40079-90x-00-116001012/"
+        },
+        {
+          "title": "Dior Women's DiorClub M2U Sunglasses",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnsql4ZjsvFZoysH5PoCv-zNYURrcQ:1792509331339&q=Dior+Women%27s+DiorClub+M2U+Sunglasses&kgmid=/g/11y3cmjsk1&sa=X&ved=2ahUKEwjXqs3P8ciXAxUcJEQIHcVKDpAQ9_gLKAB6BQjkAhAB"
+        },
+        {
+          "title": "DiorClub",
+          "url": "https://www.google.com/search?sca_esv=34651f0857a3a838&lns_surface=26&biw=1363&bih=936&hl=en&sxsrf=APpeQnsql4ZjsvFZoysH5PoCv-zNYURrcQ:1792509331339&q=DiorClub&kgmid=/g/11y9b9mj1n&sa=X&ved=2ahUKEwjXqs3P8ciXAxUcJEQIHcVKDpAQ9_gLKAF6BQjkAhAD"
+        },
+        {
+          "title": "eBayCHRISTIAN DIOR BLUE DIOR LOGO SUNGLASSES | eBayIn stock",
+          "url": "https://www.ebay.com/itm/135509193767"
+        },
+        {
+          "title": "The RealRealChristian Dior Shield Tinted Sunglasses - Blue Sunglasses ...",
+          "url": "https://www.therealreal.com/products/women/accessories/sunglasses/christian-dior-shield-tinted-sunglasses-vt0fa"
+        }
+      ]
+    }
+  ]
+}

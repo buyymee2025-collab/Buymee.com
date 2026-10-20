@@ -1,3 +1,4 @@
+import { normalizeResearchedEyewear } from './eyewearNames.js'
 export const productCategories = ['Women', 'Men', 'Watches', 'Sneakers', 'Shoes', 'Eye Wears', 'Fragrance', 'Accessories']
 export function mergeCatalog(base, rows) {
   const products = new Map(base.map(product => [String(product.id), product]))
@@ -16,7 +17,7 @@ export function mergeCatalog(base, rows) {
       products.set(String(row.id), saved)
     }
   }
-  return [...products.values()].map(normalizeReviewedEyewear)
+  return [...products.values()].map(normalizeReviewedEyewear).map(normalizeResearchedEyewear)
 }
 // These reviewed photographs were previously mislabeled as a single Blue variant.
 // Apply after saved overrides too, so an older admin record cannot mix them again.
