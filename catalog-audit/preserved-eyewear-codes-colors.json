@@ -1,0 +1,793 @@
+[
+  {
+    "id": 26046,
+    "productCode": "GL001",
+    "colors": [
+      "Brown / Gold"
+    ]
+  },
+  {
+    "id": 26047,
+    "productCode": "GL002",
+    "colors": [
+      "Caramel / Gold"
+    ]
+  },
+  {
+    "id": 26048,
+    "productCode": "GL003",
+    "colors": [
+      "Tortoiseshell / Green"
+    ]
+  },
+  {
+    "id": 26049,
+    "productCode": "GL004",
+    "colors": [
+      "Burgundy / Gold"
+    ]
+  },
+  {
+    "id": 26050,
+    "productCode": "GL005",
+    "colors": [
+      "Purple / Pink / Gold"
+    ]
+  },
+  {
+    "id": 26051,
+    "productCode": "GL006",
+    "colors": [
+      "Blue / Amber / Silver"
+    ]
+  },
+  {
+    "id": 26052,
+    "productCode": "GL007",
+    "colors": [
+      "Cream / Gold"
+    ]
+  },
+  {
+    "id": 26053,
+    "productCode": "GL008",
+    "colors": [
+      "Black / Gold"
+    ]
+  },
+  {
+    "id": 26054,
+    "productCode": "GL009",
+    "colors": [
+      "Yellow / Black"
+    ]
+  },
+  {
+    "id": 26055,
+    "productCode": "GL010",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "id": 26056,
+    "productCode": "GL011",
+    "colors": [
+      "White / Burgundy"
+    ]
+  },
+  {
+    "id": 26034,
+    "productCode": "GL012",
+    "colors": [
+      "Blue / Gold"
+    ]
+  },
+  {
+    "id": 26035,
+    "productCode": "GL013",
+    "colors": [
+      "Rose / Gold"
+    ]
+  },
+  {
+    "id": 26036,
+    "productCode": "GL014",
+    "colors": [
+      "Brown / Silver"
+    ]
+  },
+  {
+    "id": 26037,
+    "productCode": "GL015",
+    "colors": [
+      "White / Coral"
+    ]
+  },
+  {
+    "id": 26038,
+    "productCode": "GL016",
+    "colors": [
+      "Rose / Brown / Gold"
+    ]
+  },
+  {
+    "id": 26039,
+    "productCode": "GL017",
+    "colors": [
+      "Black / Gold"
+    ]
+  },
+  {
+    "id": 26040,
+    "productCode": "GL018",
+    "colors": [
+      "Purple / Gold"
+    ]
+  },
+  {
+    "id": 26041,
+    "productCode": "GL019",
+    "colors": [
+      "Black / Silver"
+    ]
+  },
+  {
+    "id": 26042,
+    "productCode": "GL020",
+    "colors": [
+      "Amber / Gold"
+    ]
+  },
+  {
+    "id": 26043,
+    "productCode": "GL021",
+    "colors": [
+      "Brown / Gold"
+    ]
+  },
+  {
+    "id": 26044,
+    "productCode": "GL022",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "id": 26045,
+    "productCode": "GL023",
+    "colors": [
+      "Brown / Gold"
+    ]
+  },
+  {
+    "id": 25206,
+    "productCode": "GL024",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26001,
+    "productCode": "GL025",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26002,
+    "productCode": "GL026",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26003,
+    "productCode": "GL027",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26004,
+    "productCode": "GL028",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26005,
+    "productCode": "GL029",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26006,
+    "productCode": "GL030",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26007,
+    "productCode": "GL031",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26008,
+    "productCode": "GL032",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26009,
+    "productCode": "GL033",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26010,
+    "productCode": "GL034",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26011,
+    "productCode": "GL035",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26012,
+    "productCode": "GL036",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26013,
+    "productCode": "GL037",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26014,
+    "productCode": "GL038",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26015,
+    "productCode": "GL039",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26016,
+    "productCode": "GL040",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26017,
+    "productCode": "GL041",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26018,
+    "productCode": "GL042",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26019,
+    "productCode": "GL043",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26020,
+    "productCode": "GL044",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26021,
+    "productCode": "GL045",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26022,
+    "productCode": "GL046",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26023,
+    "productCode": "GL047",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26024,
+    "productCode": "GL048",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26025,
+    "productCode": "GL049",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26026,
+    "productCode": "GL050",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26027,
+    "productCode": "GL051",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26028,
+    "productCode": "GL052",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26029,
+    "productCode": "GL053",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26030,
+    "productCode": "GL054",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26031,
+    "productCode": "GL055",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26032,
+    "productCode": "GL056",
+    "colors": [
+      "As shown"
+    ]
+  },
+  {
+    "id": 26033,
+    "productCode": "GL057",
+    "colors": [
+      "Blue"
+    ]
+  },
+  {
+    "id": 26100,
+    "productCode": "GL058",
+    "colors": [
+      "Gold / Tortoiseshell"
+    ]
+  },
+  {
+    "id": 26101,
+    "productCode": "GL059",
+    "colors": [
+      "Pink / Gold"
+    ]
+  },
+  {
+    "id": 26102,
+    "productCode": "GL060",
+    "colors": [
+      "Black / Gold"
+    ]
+  },
+  {
+    "id": 26103,
+    "productCode": "GL061",
+    "colors": [
+      "Brown / Gold"
+    ]
+  },
+  {
+    "id": 26104,
+    "productCode": "GL062",
+    "colors": [
+      "Purple / Gold"
+    ]
+  },
+  {
+    "id": 26105,
+    "productCode": "GL063",
+    "colors": [
+      "Rose / Gold"
+    ]
+  },
+  {
+    "id": 26106,
+    "productCode": "GL064",
+    "colors": [
+      "Peach / Gold"
+    ]
+  },
+  {
+    "id": 26107,
+    "productCode": "GL065",
+    "colors": [
+      "Brown"
+    ]
+  },
+  {
+    "id": 26108,
+    "productCode": "GL066",
+    "colors": [
+      "Amber / Gold"
+    ]
+  },
+  {
+    "id": 26109,
+    "productCode": "GL067",
+    "colors": [
+      "Tortoiseshell"
+    ]
+  },
+  {
+    "id": 26110,
+    "productCode": "GL068",
+    "colors": [
+      "Purple / Rose"
+    ]
+  },
+  {
+    "id": 26111,
+    "productCode": "GL069",
+    "colors": [
+      "Brown / Gold"
+    ]
+  },
+  {
+    "id": 26180,
+    "productCode": "GL180",
+    "colors": [
+      "Burgundy / Pink"
+    ]
+  },
+  {
+    "id": 26181,
+    "productCode": "GL070",
+    "colors": [
+      "Blue / Amber / Gold"
+    ]
+  },
+  {
+    "id": 26182,
+    "productCode": "GL071",
+    "colors": [
+      "Purple / Rose / Pink"
+    ]
+  },
+  {
+    "id": 26183,
+    "productCode": "GL072",
+    "colors": [
+      "Black / Gold"
+    ]
+  },
+  {
+    "id": 26184,
+    "productCode": "GL073",
+    "colors": [
+      "Black / Purple"
+    ]
+  },
+  {
+    "id": 26185,
+    "productCode": "GL074",
+    "colors": [
+      "Black / Gold"
+    ]
+  },
+  {
+    "id": 26186,
+    "productCode": "GL075",
+    "colors": [
+      "Caramel / Brown"
+    ]
+  },
+  {
+    "id": 26187,
+    "productCode": "GL076",
+    "colors": [
+      "Purple / Rose / Pink"
+    ]
+  },
+  {
+    "id": 26188,
+    "productCode": "GL077",
+    "colors": [
+      "Tortoiseshell / Yellow"
+    ]
+  },
+  {
+    "id": 26189,
+    "productCode": "GL078",
+    "colors": [
+      "Brown"
+    ]
+  },
+  {
+    "id": 26190,
+    "productCode": "GL079",
+    "colors": [
+      "Rose / Brown"
+    ]
+  },
+  {
+    "id": 26191,
+    "productCode": "GL080",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "id": 26192,
+    "productCode": "GL081",
+    "colors": [
+      "Blue / Black"
+    ]
+  },
+  {
+    "id": 26193,
+    "productCode": "GL082",
+    "colors": [
+      "Grey"
+    ]
+  },
+  {
+    "id": 26194,
+    "productCode": "GL083",
+    "colors": [
+      "Black / Purple / Gold"
+    ]
+  },
+  {
+    "id": 26195,
+    "productCode": "GL084",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "id": 26196,
+    "productCode": "GL085",
+    "colors": [
+      "Pink / Gold"
+    ]
+  },
+  {
+    "id": 26197,
+    "productCode": "GL086",
+    "colors": [
+      "Blue / Amber / Green"
+    ]
+  },
+  {
+    "id": 26198,
+    "productCode": "GL087",
+    "colors": [
+      "Rose / Gold"
+    ]
+  },
+  {
+    "id": 26199,
+    "productCode": "GL088",
+    "colors": [
+      "Brown / Gold"
+    ]
+  },
+  {
+    "id": 26200,
+    "productCode": "GL089",
+    "colors": [
+      "Blue / Black / Gold"
+    ]
+  },
+  {
+    "id": 26201,
+    "productCode": "GL090",
+    "colors": [
+      "Brown / Bronze"
+    ]
+  },
+  {
+    "id": 26202,
+    "productCode": "GL091",
+    "colors": [
+      "Amber / Tortoiseshell / Gold"
+    ]
+  },
+  {
+    "id": 26203,
+    "productCode": "GL092",
+    "colors": [
+      "Black / Gold"
+    ]
+  },
+  {
+    "id": 26204,
+    "productCode": "GL093",
+    "colors": [
+      "Rose / Black"
+    ]
+  },
+  {
+    "id": 26205,
+    "productCode": "GL094",
+    "colors": [
+      "Yellow / Black"
+    ]
+  },
+  {
+    "id": 26206,
+    "productCode": "GL095",
+    "colors": [
+      "Blue / Gold"
+    ]
+  },
+  {
+    "id": 26207,
+    "productCode": "GL096",
+    "colors": [
+      "Black / Purple / Gold"
+    ]
+  },
+  {
+    "id": 26208,
+    "productCode": "GL097",
+    "colors": [
+      "Brown"
+    ]
+  },
+  {
+    "id": 26209,
+    "productCode": "GL098",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "id": 26210,
+    "productCode": "GL099",
+    "colors": [
+      "Brown"
+    ]
+  },
+  {
+    "id": 26211,
+    "productCode": "GL100",
+    "colors": [
+      "Amber"
+    ]
+  },
+  {
+    "id": 26212,
+    "productCode": "GL101",
+    "colors": [
+      "Rose / Cream"
+    ]
+  },
+  {
+    "id": 26213,
+    "productCode": "GL102",
+    "colors": [
+      "Black / Gold"
+    ]
+  },
+  {
+    "id": 26214,
+    "productCode": "GL103",
+    "colors": [
+      "Rose / Red / Gold"
+    ]
+  },
+  {
+    "id": 26215,
+    "productCode": "GL104",
+    "colors": [
+      "Brown / Gold"
+    ]
+  },
+  {
+    "id": 26216,
+    "productCode": "GL105",
+    "colors": [
+      "Pink / Gold"
+    ]
+  },
+  {
+    "id": 26217,
+    "productCode": "GL106",
+    "colors": [
+      "Amber"
+    ]
+  },
+  {
+    "id": 26218,
+    "productCode": "GL107",
+    "colors": [
+      "Blue / Black"
+    ]
+  },
+  {
+    "id": 26219,
+    "productCode": "GL108",
+    "colors": [
+      "Pink / Silver"
+    ]
+  },
+  {
+    "id": 26220,
+    "productCode": "GL109",
+    "colors": [
+      "Brown / Gold"
+    ]
+  },
+  {
+    "id": 26221,
+    "productCode": "GL110",
+    "colors": [
+      "Brown / Silver"
+    ]
+  },
+  {
+    "id": 26222,
+    "productCode": "GL111",
+    "colors": [
+      "Tortoiseshell / Brown"
+    ]
+  },
+  {
+    "id": 26223,
+    "productCode": "GL112",
+    "colors": [
+      "Brown"
+    ]
+  }
+]

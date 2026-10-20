@@ -22,7 +22,7 @@ for(const row of audit.products){
  assert.equal(merged.name,row.name)
  assert.equal(merged.price,79)
 }
-assert.equal(EYEWEAR_PRODUCTS.length,113)
+assert.equal(EYEWEAR_PRODUCTS.length,116)
 const targeted = new Set(audit.products.map(p=>String(p.id)))
 assert.ok(EYEWEAR_PRODUCTS.filter(p=>targeted.has(String(p.id))).every(p=>p.name===p.name.toUpperCase()))
 console.log('Name checks passed: 78 researched updates; uppercase/custom edits, prices, codes and media protected.')

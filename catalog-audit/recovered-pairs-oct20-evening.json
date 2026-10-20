@@ -1,0 +1,649 @@
+{
+  "reviewedAssets": 110,
+  "newPairs": [
+    {
+      "productCode": "GL113",
+      "front": "ChatGPT_Image_Oct_13_2026_09_44_39_AM_edited",
+      "angle": "ChatGPT_Image_Oct_13_2026_09_44_46_AM_edited",
+      "review": "Matching frame outline, frame/lens color and visible hardware. Front view first."
+    },
+    {
+      "productCode": "GL114",
+      "front": "ChatGPT_Image_Oct_13_2026_10_51_55_AM_edited",
+      "angle": "ChatGPT_Image_Oct_13_2026_11_08_39_AM_edited",
+      "review": "Matching frame outline, frame/lens color and visible hardware. Front view first."
+    },
+    {
+      "productCode": "GL115",
+      "front": "ChatGPT_Image_Oct_13_2026_11_08_43_AM_edited",
+      "angle": "ChatGPT_Image_Oct_13_2026_11_10_47_AM_edited",
+      "review": "Matching frame outline, frame/lens color and visible hardware. Front view first."
+    }
+  ],
+  "heldImages": [
+    {
+      "id": "4c508f76f97295dc8a022bb6296c3a8c",
+      "name": "ChatGPT_Image_Oct_12_2026_09_47_18_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486071/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8wOV80N18xOF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 1
+    },
+    {
+      "id": "f89372b46309b189e76bf457ae9d0658",
+      "name": "ChatGPT_Image_Oct_12_2026_09_47_23_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486143/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8wOV80N18yM19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 2
+    },
+    {
+      "id": "04a260d5d8d0946ca64b422b29d8d48b",
+      "name": "ChatGPT_Image_Oct_12_2026_09_48_31_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486059/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8wOV80OF8zMV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 3
+    },
+    {
+      "id": "4998c177b6c4d830d383717b4d7ec7fa",
+      "name": "ChatGPT_Image_Oct_12_2026_09_51_19_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486019/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8wOV81MV8xOV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 4
+    },
+    {
+      "id": "5e165f95c3a812c9c689886ef2d93020",
+      "name": "ChatGPT_Image_Oct_12_2026_09_54_31_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486085/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8wOV81NF8zMV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 5
+    },
+    {
+      "id": "172e73c632643d16fa6f5fb838df8363",
+      "name": "ChatGPT_Image_Oct_12_2026_10_00_53_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486019/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8wMF81M19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 6
+    },
+    {
+      "id": "82b7ce120714ac97f020102385f242ec",
+      "name": "ChatGPT_Image_Oct_12_2026_10_01_01_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486124/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8wMV8wMV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 7
+    },
+    {
+      "id": "19c9c4f9909f63277289637f3e783373",
+      "name": "ChatGPT_Image_Oct_12_2026_10_01_09_PM_edited",
+      "index": 8
+    },
+    {
+      "id": "6eb4a5164781c08d4bb307bf6652ac5d",
+      "name": "ChatGPT_Image_Oct_12_2026_10_04_48_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486091/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8wNF80OF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 9
+    },
+    {
+      "id": "c4e0fb1520380d6ec6692fb1844198ee",
+      "name": "ChatGPT_Image_Oct_12_2026_10_12_27_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486100/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xMl8yN19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 10
+    },
+    {
+      "id": "20914333ea2590462987ca87b80f892b",
+      "name": "ChatGPT_Image_Oct_12_2026_10_12_35_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486102/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xMl8zNV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 11
+    },
+    {
+      "id": "f438c3899e2a769e6301873618b3ec60",
+      "name": "ChatGPT_Image_Oct_12_2026_10_12_43_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486081/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xMl80M19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 12
+    },
+    {
+      "id": "910630a39984f4ca16dd5b33c95fcb9c",
+      "name": "ChatGPT_Image_Oct_12_2026_10_12_49_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486050/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xMl80OV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 13
+    },
+    {
+      "id": "4188259e8d2119b783be957ee30b1cae",
+      "name": "ChatGPT_Image_Oct_12_2026_10_12_57_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486025/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xMl81N19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 14
+    },
+    {
+      "id": "6fda90ab316eb82840751db974a183d6",
+      "name": "ChatGPT_Image_Oct_12_2026_10_13_05_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486020/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xM18wNV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 15
+    },
+    {
+      "id": "c78dec3fea25f3b78e19cf74f95cb896",
+      "name": "ChatGPT_Image_Oct_12_2026_10_13_11_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486131/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xM18xMV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 16
+    },
+    {
+      "id": "499f45681893eeb9f53a0f25cd36ca35",
+      "name": "ChatGPT_Image_Oct_12_2026_10_16_09_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486131/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xNl8wOV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 17
+    },
+    {
+      "id": "16d8398bfae1ddba0e6d0130f2d482aa",
+      "name": "ChatGPT_Image_Oct_12_2026_10_16_24_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486101/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xNl8yNF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 18
+    },
+    {
+      "id": "1739c0d65ee5857693b1917b5685144f",
+      "name": "ChatGPT_Image_Oct_12_2026_10_16_28_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486120/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xNl8yOF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 19
+    },
+    {
+      "id": "4330879f544f6e1a9766f2b6ea5dca91",
+      "name": "ChatGPT_Image_Oct_12_2026_10_18_06_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486134/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8xOF8wNl9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 20
+    },
+    {
+      "id": "f459ec5323180cebd20491c86cd9b557",
+      "name": "ChatGPT_Image_Oct_12_2026_10_22_29_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486122/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8yMl8yOV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 21
+    },
+    {
+      "id": "14a0b05a3eb33a1c8a8e4bba59b035bc",
+      "name": "ChatGPT_Image_Oct_12_2026_10_22_35_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486103/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8yMl8zNV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 22
+    },
+    {
+      "id": "51d14c99aa524d1b838267cdd3529d73",
+      "name": "ChatGPT_Image_Oct_12_2026_10_25_19_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486135/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8yNV8xOV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 23
+    },
+    {
+      "id": "bf8d3af1c50b7b9a333a59bbf499fa64",
+      "name": "ChatGPT_Image_Oct_12_2026_10_25_24_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486029/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8yNV8yNF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 24
+    },
+    {
+      "id": "dc720303c1602af0c0e50895b26614d9",
+      "name": "ChatGPT_Image_Oct_12_2026_10_27_54_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486110/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8yN181NF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 25
+    },
+    {
+      "id": "6d47c402d65e03a2a05f5f4bdf8bb248",
+      "name": "ChatGPT_Image_Oct_12_2026_10_31_52_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486111/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8zMV81Ml9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 26
+    },
+    {
+      "id": "e3d29bac01a4d6401b34e6b5141b0717",
+      "name": "ChatGPT_Image_Oct_12_2026_10_34_20_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486145/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8zNF8yMF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 27
+    },
+    {
+      "id": "fb422731000fc7d273a00995ccf32860",
+      "name": "ChatGPT_Image_Oct_12_2026_10_35_58_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486107/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8zNV81OF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 28
+    },
+    {
+      "id": "0eff4d47827393116dda42246f6b6eb8",
+      "name": "ChatGPT_Image_Oct_12_2026_10_38_13_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486105/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF8zOF8xM19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 29
+    },
+    {
+      "id": "26676028334f2183f6fd67726bd97371",
+      "name": "ChatGPT_Image_Oct_12_2026_10_45_23_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486106/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF80NV8yM19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 30
+    },
+    {
+      "id": "0a15238e4e9b27fa175570eced07fb62",
+      "name": "ChatGPT_Image_Oct_12_2026_10_45_31_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486134/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF80NV8zMV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 31
+    },
+    {
+      "id": "80738b3fc6229e7f63a2283f76164aa1",
+      "name": "ChatGPT_Image_Oct_12_2026_10_45_40_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486108/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF80NV80MF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 32
+    },
+    {
+      "id": "6884693eb9823c4a1912eaa88978df7e",
+      "name": "ChatGPT_Image_Oct_12_2026_10_45_46_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486133/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF80NV80Nl9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 33
+    },
+    {
+      "id": "5c153ccc7e587f3517dc7616a344ea6b",
+      "name": "ChatGPT_Image_Oct_12_2026_10_45_55_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486036/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF80NV81NV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 34
+    },
+    {
+      "id": "ef474815a3c3597f99447389a126cc1e",
+      "name": "ChatGPT_Image_Oct_12_2026_10_53_35_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486035/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF81M18zNV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 35
+    },
+    {
+      "id": "9fd4fc62ca1a637e1c08760e78f21873",
+      "name": "ChatGPT_Image_Oct_12_2026_10_53_54_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486025/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF81M181NF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 36
+    },
+    {
+      "id": "406207b23cb97bbced224911465eca19",
+      "name": "ChatGPT_Image_Oct_12_2026_10_53_59_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486111/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF81M181OV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 37
+    },
+    {
+      "id": "fb21f869f226a3a9f456e809efa46f93",
+      "name": "ChatGPT_Image_Oct_12_2026_10_54_05_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486058/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMF81NF8wNV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 38
+    },
+    {
+      "id": "1d4c9e0d28d66ef9390fd73131be70b2",
+      "name": "ChatGPT_Image_Oct_12_2026_11_04_29_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486121/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wNF8yOV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 39
+    },
+    {
+      "id": "a0a2103e6632c4619067f82de52e4bc1",
+      "name": "ChatGPT_Image_Oct_12_2026_11_04_34_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486138/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wNF8zNF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 40
+    },
+    {
+      "id": "15d59e8e4a39ec66f4770bf90240e600",
+      "name": "ChatGPT_Image_Oct_12_2026_11_04_45_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486140/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wNF80NV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 41
+    },
+    {
+      "id": "026baea749d3bdc7eef142cb340eff9e",
+      "name": "ChatGPT_Image_Oct_12_2026_11_04_51_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486140/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wNF81MV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 42
+    },
+    {
+      "id": "f4c24c3e6028cfe80334910d3b51a681",
+      "name": "ChatGPT_Image_Oct_12_2026_11_04_57_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486137/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wNF81N19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 43
+    },
+    {
+      "id": "c88adc46b339f4f36c1d4144e68e8033",
+      "name": "ChatGPT_Image_Oct_12_2026_11_05_01_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486049/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wNV8wMV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 44
+    },
+    {
+      "id": "4a42de21721f1991f390d233a522878b",
+      "name": "ChatGPT_Image_Oct_12_2026_11_05_06_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486073/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wNV8wNl9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 45
+    },
+    {
+      "id": "a730b08da2b0477e5108fefd46525e87",
+      "name": "ChatGPT_Image_Oct_12_2026_11_05_11_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486095/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wNV8xMV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 46
+    },
+    {
+      "id": "5b2fd497f865e26c09899b9fe2078288",
+      "name": "ChatGPT_Image_Oct_12_2026_11_07_08_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486092/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wN18wOF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 47
+    },
+    {
+      "id": "a571599214ac79818215779428f5569e",
+      "name": "ChatGPT_Image_Oct_12_2026_11_07_14_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486066/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8wN18xNF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 48
+    },
+    {
+      "id": "5ec5d5a4cb1b5208278ef35f710bf41c",
+      "name": "ChatGPT_Image_Oct_12_2026_11_12_40_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486124/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8xMl80MF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 49
+    },
+    {
+      "id": "51488a2d47d9a3e023695f27d94ad247",
+      "name": "ChatGPT_Image_Oct_12_2026_11_14_05_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486139/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8xNF8wNV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 50
+    },
+    {
+      "id": "9ec44bd239eea3eab37683f11cd54625",
+      "name": "ChatGPT_Image_Oct_12_2026_11_14_14_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486118/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8xNF8xNF9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 51
+    },
+    {
+      "id": "5cf3ef15fd57cf8e9c97192f894140b5",
+      "name": "ChatGPT_Image_Oct_12_2026_11_16_16_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486061/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8xNl8xNl9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 52
+    },
+    {
+      "id": "0bd4e91093680e1409d5ae3424fd598b",
+      "name": "ChatGPT_Image_Oct_12_2026_11_16_21_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486145/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8xNl8yMV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 53
+    },
+    {
+      "id": "8283496c9f75d4ded654df2a09ae89cc",
+      "name": "ChatGPT_Image_Oct_12_2026_11_16_35_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486143/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8xNl8zNV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 54
+    },
+    {
+      "id": "18098f9593d1e9e4d5e984fa89e3d800",
+      "name": "ChatGPT_Image_Oct_12_2026_11_17_27_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486146/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8xN18yN19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 55
+    },
+    {
+      "id": "7534291f0b821465e17b3de5de356987",
+      "name": "ChatGPT_Image_Oct_12_2026_11_18_19_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486096/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8xOF8xOV9QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 56
+    },
+    {
+      "id": "a444c0b25611dbe155d3ea897831841f",
+      "name": "ChatGPT_Image_Oct_12_2026_11_19_23_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486101/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV8xOV8yM19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 57
+    },
+    {
+      "id": "eb1be4b8b4c91c3cd8a20d66fbb8c44b",
+      "name": "ChatGPT_Image_Oct_12_2026_11_49_23_PM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486112/Q2hhdEdQVF9JbWFnZV9PY3RfMTJfMjAyNl8xMV80OV8yM19QTV9lZGl0ZWQ=/grid_landscape",
+      "index": 58
+    },
+    {
+      "id": "2914ce058ec5f802a2d5f69a26048b95",
+      "name": "ChatGPT_Image_Oct_13_2026_09_26_16_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486115/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV8yNl8xNl9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 59
+    },
+    {
+      "id": "2730d462e42f8675906b71018eeae488",
+      "name": "ChatGPT_Image_Oct_13_2026_09_26_25_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486147/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV8yNl8yNV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 60
+    },
+    {
+      "id": "caf01b4f4467bbca0eb03b4eae5fa71c",
+      "name": "ChatGPT_Image_Oct_13_2026_09_28_00_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486116/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV8yOF8wMF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 61
+    },
+    {
+      "id": "da2981bd965ecbda8e5885a7189def90",
+      "name": "ChatGPT_Image_Oct_13_2026_09_29_01_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486101/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV8yOV8wMV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 62
+    },
+    {
+      "id": "40498e31a3703e7bb793f8822aeef7bf",
+      "name": "ChatGPT_Image_Oct_13_2026_09_33_02_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486120/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV8zM18wMl9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 63
+    },
+    {
+      "id": "e107b84dcb7502bd979b6ea76378bb70",
+      "name": "ChatGPT_Image_Oct_13_2026_09_36_26_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486015/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV8zNl8yNl9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 64
+    },
+    {
+      "id": "1e977933a1cb275517d845ae05753ecc",
+      "name": "ChatGPT_Image_Oct_13_2026_09_37_24_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486083/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV8zN18yNF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 65
+    },
+    {
+      "id": "7b2ce6c2668d0d0a49908ca2844a2349",
+      "name": "ChatGPT_Image_Oct_13_2026_09_38_57_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486015/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV8zOF81N19BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 66
+    },
+    {
+      "id": "473369bd7582570480129316d25197b8",
+      "name": "ChatGPT_Image_Oct_13_2026_09_44_52_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486015/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV80NF81Ml9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 69
+    },
+    {
+      "id": "2cf6a8a37daaa41fd6fc544d77df42cb",
+      "name": "ChatGPT_Image_Oct_13_2026_09_45_08_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486025/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV80NV8wOF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 70
+    },
+    {
+      "id": "96c3aa7be461d7c319bc39ba07564344",
+      "name": "ChatGPT_Image_Oct_13_2026_09_51_43_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486020/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV81MV80M19BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 71
+    },
+    {
+      "id": "4e52416f970e86f10396527d89e3eb57",
+      "name": "ChatGPT_Image_Oct_13_2026_09_51_49_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486087/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV81MV80OV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 72
+    },
+    {
+      "id": "b339cb4c8fb9d167a46134ce2f2e7dce",
+      "name": "ChatGPT_Image_Oct_13_2026_09_51_53_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486028/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV81MV81M19BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 73
+    },
+    {
+      "id": "8eb8651bebef05b2093639d595bc4e03",
+      "name": "ChatGPT_Image_Oct_13_2026_09_51_58_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486021/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV81MV81OF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 74
+    },
+    {
+      "id": "90c901904c7e35826b36abf3012d531c",
+      "name": "ChatGPT_Image_Oct_13_2026_09_52_04_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486091/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV81Ml8wNF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 75
+    },
+    {
+      "id": "2ef06d058ddbcb9cee0a007c421de48f",
+      "name": "ChatGPT_Image_Oct_13_2026_09_52_09_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486024/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV81Ml8wOV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 76
+    },
+    {
+      "id": "57d2ac885a542ee2ec0a3709abb8b148",
+      "name": "ChatGPT_Image_Oct_13_2026_09_52_19_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486014/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8wOV81Ml8xOV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 77
+    },
+    {
+      "id": "d94f7b28b3abba696e8a71e7f69fd9af",
+      "name": "ChatGPT_Image_Oct_13_2026_10_02_28_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486044/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8wMl8yOF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 78
+    },
+    {
+      "id": "89adc334b0f3616e3091682f3b15d6d6",
+      "name": "ChatGPT_Image_Oct_13_2026_10_02_44_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486020/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8wMl80NF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 79
+    },
+    {
+      "id": "c4e82a0bbbbf4fcb32a23757beaf98ee",
+      "name": "ChatGPT_Image_Oct_13_2026_10_08_12_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486033/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8wOF8xMl9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 80
+    },
+    {
+      "id": "bc7bbd34296dd2300e5328a508890030",
+      "name": "ChatGPT_Image_Oct_13_2026_10_11_02_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486036/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8xMV8wMl9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 81
+    },
+    {
+      "id": "ba31db55b4a9606615c665c69a341780",
+      "name": "ChatGPT_Image_Oct_13_2026_10_11_06_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486030/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8xMV8wNl9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 82
+    },
+    {
+      "id": "ee35425009022b7d99edfcbb3ae9e20b",
+      "name": "ChatGPT_Image_Oct_13_2026_10_15_37_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486036/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8xNV8zN19BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 83
+    },
+    {
+      "id": "7974a212f6db8b59e3a93830090cf3a2",
+      "name": "ChatGPT_Image_Oct_13_2026_10_15_41_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486015/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8xNV80MV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 84
+    },
+    {
+      "id": "c0331a84797f8af3d62fa292a544ab66",
+      "name": "ChatGPT_Image_Oct_13_2026_10_15_46_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486039/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8xNV80Nl9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 85
+    },
+    {
+      "id": "55c69c085a75c9657a6b9dddedbfe446",
+      "name": "ChatGPT_Image_Oct_13_2026_10_17_19_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486043/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8xN18xOV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 86
+    },
+    {
+      "id": "a7f5964f2a2e2d04ed1794ba5b99c9a2",
+      "name": "ChatGPT_Image_Oct_13_2026_10_19_44_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486053/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8xOV80NF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 87
+    },
+    {
+      "id": "7ac70a267e904d3559c6174f959612c2",
+      "name": "ChatGPT_Image_Oct_13_2026_10_22_39_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486060/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8yMl8zOV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 88
+    },
+    {
+      "id": "b82968ad5d9a325b3b2f6ca93ef93304",
+      "name": "ChatGPT_Image_Oct_13_2026_10_24_04_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486094/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8yNF8wNF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 89
+    },
+    {
+      "id": "5334548302459d4da57acd0bce74d6a9",
+      "name": "ChatGPT_Image_Oct_13_2026_10_32_45_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486058/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8zMl80NV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 90
+    },
+    {
+      "id": "9aefbb8e71f8b35175ea4c2577560f8f",
+      "name": "ChatGPT_Image_Oct_13_2026_10_35_23_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486078/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8zNV8yM19BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 91
+    },
+    {
+      "id": "77b075298d8b248d0ae88e665b909dc2",
+      "name": "ChatGPT_Image_Oct_13_2026_10_37_25_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486066/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8zN18yNV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 92
+    },
+    {
+      "id": "635d704ee636de5c246a796fd737d6bb",
+      "name": "ChatGPT_Image_Oct_13_2026_10_38_45_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486054/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF8zOF80NV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 93
+    },
+    {
+      "id": "899ebba7db4c334cf872843dce58ae9f",
+      "name": "ChatGPT_Image_Oct_13_2026_10_40_26_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486090/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF80MF8yNl9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 94
+    },
+    {
+      "id": "725220b5bfe9ea6c9aad303316a6c429",
+      "name": "ChatGPT_Image_Oct_13_2026_10_41_29_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486072/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF80MV8yOV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 95
+    },
+    {
+      "id": "71cca9fc61a8e7ec6b8900d935bf41dd",
+      "name": "ChatGPT_Image_Oct_13_2026_10_42_47_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486065/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF80Ml80N19BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 96
+    },
+    {
+      "id": "9fd961c3f72551c46f9ca1dd3dca7f50",
+      "name": "ChatGPT_Image_Oct_13_2026_10_45_39_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486047/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF80NV8zOV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 97
+    },
+    {
+      "id": "f82ec71381d400c74f4043ed70f2e53c",
+      "name": "ChatGPT_Image_Oct_13_2026_10_48_04_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486042/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF80OF8wNF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 98
+    },
+    {
+      "id": "e39dae4751d7d88d45bc8a59d162ff65",
+      "name": "ChatGPT_Image_Oct_13_2026_10_51_51_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486042/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF81MV81MV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 99
+    },
+    {
+      "id": "390219e65dfb34c87204b5db35eacc80",
+      "name": "ChatGPT_Image_Oct_13_2026_10_54_08_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486053/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF81NF8wOF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 101
+    },
+    {
+      "id": "db36a233f1edcbc33c6bc4d30906a063",
+      "name": "ChatGPT_Image_Oct_13_2026_10_55_43_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486066/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF81NV80M19BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 102
+    },
+    {
+      "id": "edb2a321ed48b9dd964ef43ef70ec029",
+      "name": "ChatGPT_Image_Oct_13_2026_10_58_04_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486063/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMF81OF8wNF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 103
+    },
+    {
+      "id": "578af6f8cdd4c3272d7e447ac69ac6ea",
+      "name": "ChatGPT_Image_Oct_13_2026_11_08_29_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486051/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMV8wOF8yOV9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 104
+    },
+    {
+      "id": "2d46174493d9be5e69b11cae2114bda7",
+      "name": "ChatGPT_Image_Oct_13_2026_11_08_33_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486048/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMV8wOF8zM19BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 105
+    },
+    {
+      "id": "2665e602c448231185bd6ac2e3f3fbcb",
+      "name": "ChatGPT_Image_Oct_13_2026_11_08_47_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486060/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMV8wOF80N19BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 108
+    },
+    {
+      "id": "c5f44fbf3b86ea1cdb8465776b334455",
+      "name": "ChatGPT_Image_Oct_13_2026_11_08_50_AM_edited",
+      "src": "https://res-console.cloudinary.com/hobndbjx/thumbnails/v1/image/upload/v1792486082/Q2hhdEdQVF9JbWFnZV9PY3RfMTNfMjAyNl8xMV8wOF81MF9BTV9lZGl0ZWQ=/grid_landscape",
+      "index": 109
+    }
+  ],
+  "reason": "Other assets remain preserved for further exact matching. Similar colors alone do not establish matching frame/temple shape or color; side-only assets are not new cards."
+}

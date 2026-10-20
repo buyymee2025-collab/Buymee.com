@@ -1,0 +1,60 @@
+{
+  "action": "Append five matching mannequin pairs to existing cards; preserve all names, codes, prices and color fields.",
+  "products": [
+    {
+      "code": "GL099",
+      "existingPair": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3940-front-view",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3941-angle-view"
+      ],
+      "addedViews": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4203",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4202"
+      ]
+    },
+    {
+      "code": "GL100",
+      "existingPair": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3942-front-view",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3943-angle-view"
+      ],
+      "addedViews": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4200",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4201"
+      ]
+    },
+    {
+      "code": "GL101",
+      "existingPair": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3944-front-view",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3945-angle-view"
+      ],
+      "addedViews": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4198",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4199"
+      ]
+    },
+    {
+      "code": "GL102",
+      "existingPair": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3946-front-view",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3947-angle-view"
+      ],
+      "addedViews": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4196",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4197"
+      ]
+    },
+    {
+      "code": "GL103",
+      "existingPair": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3948-front-view",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3949-angle-view"
+      ],
+      "addedViews": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4194",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4195"
+      ]
+    }
+  ]
+}

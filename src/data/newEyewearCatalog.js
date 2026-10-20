@@ -1,3 +1,5 @@
+import { RECOVERED_EYEWEAR_PAIRS } from './recoveredEyewearPairs.js'
+import { appendMatchingMannequinViews } from '../lib/matchingMannequinViews.js'
 import { normalizeResearchedEyewear } from '../lib/eyewearNames.js'
 import { REVIEWED_EYEWEAR_MEDIA, NEW_REVIEWED_EYEWEAR } from './reviewedEyewearOct20.js'
 // Visually reviewed October 16, 2026. Matching product-only front views lead each new pair.
@@ -4352,4 +4354,4 @@ export const EYEWEAR_PRODUCTS = ORIGINAL_EYEWEAR_PRODUCTS.map(product => {
   return { ...product, ...reviewed, gallery, images: gallery, media,
     variants: [{ color, image: gallery[0], media }],
     mediaRevision: '2026-10-20-mannequins-restored-v3' }
-}).concat(NEW_REVIEWED_EYEWEAR).map(normalizeResearchedEyewear)
+}).concat(NEW_REVIEWED_EYEWEAR, RECOVERED_EYEWEAR_PAIRS).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews)
