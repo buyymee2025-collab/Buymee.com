@@ -1,5 +1,5 @@
-// Remote streaming only. Published Pexels renditions and source metadata.
-// Licence: https://www.pexels.com/license/
+// Remote streaming only. Published campaign and Pexels videos with source metadata.
+// Pexels clips: https://www.pexels.com/license/; campaign footage remains owned by its source.
 export const categoryHeroVideos = {
   "/new-in": {
     "clips": [
@@ -23,21 +23,13 @@ export const categoryHeroVideos = {
   "/men": {
     "clips": [
       {
-        "src": "https://videos.pexels.com/video-files/8377877/8377877-hd_1280_720_24fps.mp4",
-        "lowSrc": "https://videos.pexels.com/video-files/8377877/8377877-sd_640_360_24fps.mp4",
-        "duration": 14,
-        "source": "https://www.pexels.com/video/8377877/",
-        "description": "Confident individual in a black suit striking poses indoors, expressing empowerment."
-      },
-      {
-        "src": "https://videos.pexels.com/video-files/8377784/8377784-hd_1280_720_24fps.mp4",
-        "lowSrc": "https://videos.pexels.com/video-files/8377784/8377784-sd_640_360_24fps.mp4",
-        "duration": 27,
-        "source": "https://www.pexels.com/video/8377784/",
-        "description": "Bearded man in casual attire posing indoors with a chair and plant."
+        "src": "https://ver-videos.s3.eu-central-1.amazonaws.com/vacanza-2024-video-190624-hero-desk.mp4",
+        "lowSrc": "https://ver-videos.s3.eu-central-1.amazonaws.com/vacanza-2024-video-190624-hero-mob.mp4",
+        "source": "https://www.versace.com/row/en/stories/advertising-campaigns/la-vacanza-2024.html",
+        "description": "La Vacanza 2024 campaign: printed summer silk shirts and matching shorts. Similar styling; not verified as exact BUYYMEE catalogue pieces."
       }
     ],
-    "src": "https://videos.pexels.com/video-files/8377877/8377877-hd_1280_720_24fps.mp4"
+    "src": "https://ver-videos.s3.eu-central-1.amazonaws.com/vacanza-2024-video-190624-hero-desk.mp4"
   },
   "/women": {
     "clips": [
