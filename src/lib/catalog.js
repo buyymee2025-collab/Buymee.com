@@ -56,6 +56,10 @@ export function validateProduct(product) {
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(product.slug || '')) throw new Error('Use lowercase letters, numbers and hyphens for the product link.')
   if (!productCategories.includes(product.category)) throw new Error('Choose a category.')
   if (!Number.isFinite(product.price) || product.price < 0) throw new Error('Enter a valid price of zero or more.')
+  if (product.compareAt != null && String(product.compareAt).trim() !== '' &&
+    (!Number.isFinite(Number(product.compareAt)) || Number(product.compareAt) <= Number(product.price))) {
+    throw new Error('The original price must be higher than the current price. Leave it blank when there is no discount.')
+  }
   if (!product.image || !(/^(https:\/\/|\/images\/)/.test(product.image))) throw new Error('Add at least one HTTPS product image.')
   for (const item of product.media || []) if (!/^(https:\/\/|\/images\/)/.test(item.src)) throw new Error('Media links must start with https://.')
   return product

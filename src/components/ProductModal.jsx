@@ -1,3 +1,4 @@
+import ProductPrice from './ProductPrice'
 import { purchaseUrl } from '../lib/contact'
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
@@ -40,8 +41,6 @@ function videoPosterSrc(src, width = 1200) {
 
 export default function ProductModal({ product, onClose }) {
   const { currency, formatPrice, addToCart } = useStore()
-  const savedPrice = product.price == null || String(product.price).trim() === '' ? NaN : Number(product.price)
-  const hasPrice = Number.isFinite(savedPrice) && savedPrice >= 0
   const productCode = product.productCode || product.sku || product.id
   const variants = product.variants?.length ? product.variants : [{
     color: product.colors?.[0] || 'As shown',
@@ -352,7 +351,7 @@ export default function ProductModal({ product, onClose }) {
               </div>
             )}
             <h2>{product.name}</h2>
-            <div className="product-modal-price"><span>PRICE</span>{hasPrice ? formatPrice(savedPrice, currency) : 'PRICE ON REQUEST'}</div>
+            <ProductPrice product={product} currency={currency} formatPrice={formatPrice} className="product-modal-price" />
 
             <p className="product-modal-description">{product.description}</p>
 

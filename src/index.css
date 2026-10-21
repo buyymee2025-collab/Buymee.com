@@ -1354,3 +1354,26 @@ h1,h2,h3,h4,h5,h6,[role="heading"],.section-label,.admin-eyebrow,
 [data-category="luxury women silk"] .category-new-hero h1{
   font-size:clamp(42px,7.2vw,104px);line-height:.95;max-width:100%;margin:24px 0;
 }
+
+/* One compact, responsive current/original price layout across product surfaces. */
+.product-pricing{display:flex;align-items:center;flex-wrap:wrap;gap:7px 10px;min-width:0;max-width:100%;box-sizing:border-box}
+.product-pricing .price-values{display:flex;align-items:baseline;flex-wrap:wrap;gap:5px 10px;min-width:0}
+.product-pricing .price-label{font-size:9px;font-weight:800;letter-spacing:.12em;white-space:nowrap}
+.product-pricing .price-current{font:inherit;font-weight:800;color:inherit;overflow-wrap:anywhere}
+.product-pricing .price-original{font-size:.82em;font-weight:500;opacity:.65;white-space:nowrap;text-decoration:line-through;text-decoration-thickness:1px}
+.product-pricing .price-original-placeholder{display:inline-block;min-width:3.5em;text-decoration:none}
+.product-card .product-price-box{width:100%;min-height:46px;gap:5px 9px;align-content:center}
+.product-card .product-price-box .price-values{flex:1}
+.product-card .product-price-box .price-current{font-size:inherit}
+.product-pricing.product-modal-price{width:fit-content}
+.cart-product-price{justify-content:flex-end;font-size:14px}
+.drawer-product-price{font-size:12px;margin:5px 0}
+@media(max-width:600px){
+  .product-card .product-price-box{padding:8px;min-height:56px;align-items:flex-start}
+  .product-card .product-price-box .price-label{width:100%;font-size:8px}
+  .product-card .product-price-box .price-values{gap:4px 7px}
+  .cart-row>.cart-product-price{grid-column:2;justify-content:flex-start}
+  .cart-row>.remove-btn{grid-column:3;grid-row:1}
+}
+
+.product-pricing .price-original{letter-spacing:0;color:inherit}

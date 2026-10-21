@@ -1,3 +1,4 @@
+import ProductPrice from './ProductPrice'
 import { beginModalHistory } from '../lib/modalHistory'
 import SiteImage from './SiteImage'
 import { Link } from 'react-router-dom'
@@ -9,8 +10,6 @@ import ProductModal from './ProductModal'
 
 export default function ProductCard({ product, index = 0 }) {
   const { currency, formatPrice, addToCart } = useStore()
-  const savedPrice = product.price == null || String(product.price).trim() === '' ? NaN : Number(product.price)
-  const hasPrice = Number.isFinite(savedPrice) && savedPrice >= 0
   const productCode = product.productCode || product.sku || product.id || 'ON REQUEST'
   const sizeSystems = Object.entries(product.sizeAvailability || {})
     .filter(([, value]) => value != null && String(value).trim() !== '')
@@ -54,7 +53,7 @@ export default function ProductCard({ product, index = 0 }) {
               <span key={system}>{system.toUpperCase()} {String(value)}</span>
             )) : <span>{sizeValues.length ? `SIZE / ${sizeValues.join(' / ')}` : 'SIZE / ON REQUEST'}</span>}
           </div>
-          <strong className="product-price-box"><span>PRICE</span>{hasPrice ? formatPrice(savedPrice, currency) : 'PRICE ON REQUEST'}</strong>
+          <ProductPrice product={product} currency={currency} formatPrice={formatPrice} className="product-price-box" />
           <Link className="product-view" to={`/product/${product.slug}`} onClick={openProduct}>VIEW DETAILS <span>↗</span></Link>
         </div>
       </Reveal>

@@ -12,7 +12,7 @@ const MotionLink = motion.create(Link)
 const shopItems = [
   { label: 'New In', path: '/new-in', note: 'The latest edit' },
   { label: 'Women', path: '/women', note: 'Make an entrance' },
-  { label: 'Men', path: '/men', note: 'A sharper point of view' },
+  { label: 'LUXURY MEN SILK', path: '/men', note: 'A sharper point of view' },
   { label: 'Watches', path: '/watches' },
   { label: 'Shoes', path: '/shoes' },
   { label: 'Sneakers', path: '/sneakers' },
