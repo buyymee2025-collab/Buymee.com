@@ -1292,3 +1292,24 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
   object-fit: cover;
   object-position: center;
 }
+
+/* Pure-white product card and modal surfaces across every category. */
+.product-card {
+  background: #fff;
+  color: var(--ink);
+}
+.product-card .product-image,
+.product-card .product-image img,
+.product-card .product-meta,
+.product-modal,
+.product-modal .product-modal-header,
+.product-modal .product-modal-info,
+.product-modal .product-modal-media,
+.product-modal .product-modal-main,
+.product-modal .product-modal-media-slide,
+.product-modal .product-modal-thumbs button,
+.product-modal .product-modal-color-map button,
+.product-modal .product-modal-color-map-image,
+.product-modal .product-modal-swatches button {
+  background: #fff;
+}
