@@ -16,7 +16,7 @@ const editorialProducts = products.slice(0, 6)
 const shopAngleCards = [
   { label: 'New In', path: '/new-in', image: products[0]?.image || watchAssets[8], number: '01' },
   { label: 'Women', path: '/women', image: dressAssets[1], number: '02' },
-  { label: 'Men', path: '/men', image: 'https://res.cloudinary.com/hobndbjx/image/upload/v1792594372/exec-ec0b9c1f-6aa7-4be6-a5bd-20b0f493c2c2.png', number: '03' },
+  { label: 'LUXURY MEN SILK', path: '/men', image: 'https://res.cloudinary.com/hobndbjx/image/upload/v1792594372/exec-ec0b9c1f-6aa7-4be6-a5bd-20b0f493c2c2.png', number: '03' },
   { label: 'Watches', path: '/watches', image: watchAssets[2], number: '04' },
   { label: 'Shoes', path: '/shoes', image: categoryProducts.shoes[0]?.image || dressAssets[9], number: '05' },
   { label: 'Sneakers', path: '/sneakers', image: categoryProducts.sneakers[0]?.image || watchAssets[14], number: '06' },
