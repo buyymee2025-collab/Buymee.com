@@ -46,6 +46,20 @@ export function StoreProvider({children}){
  const [currency,setCurrency]=useState(()=>localStorage.getItem('bym-currency')||'USD')
  const [wishlist,setWishlist]=useState(()=>JSON.parse(localStorage.getItem('bym-wishlist')||'[]'))
  const [cart,setCart]=useState(()=>JSON.parse(localStorage.getItem('bym-cart')||'[]'))
+ useEffect(()=>{
+  setCart(previous=>{
+   let changed=false
+   const next=previous.map(item=>{
+    const current=products.find(product=>String(product.id)===String(item.id))
+    if(!current)return item
+    const keys=['price','compareAt','priceOnRequest','discountPricingVersion']
+    if(keys.every(key=>item[key]===current[key]))return item
+    changed=true
+    return {...item,...Object.fromEntries(keys.map(key=>[key,current[key]]))}
+   })
+   return changed?next:previous
+  })
+ },[products])
  const [drawer,setDrawer]=useState(false)
  useEffect(()=>localStorage.setItem('bym-currency',currency),[currency]); useEffect(()=>localStorage.setItem('bym-wishlist',JSON.stringify(wishlist)),[wishlist]); useEffect(()=>localStorage.setItem('bym-cart',JSON.stringify(cart)),[cart])
  const toggleWish=(id)=>setWishlist(w=>w.includes(id)?w.filter(x=>x!==id):[...w,id])

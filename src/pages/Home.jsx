@@ -1,3 +1,4 @@
+import { useStore } from '../context/StoreContext'
 import SiteImage from '../components/SiteImage'
 import { useEffect, useRef } from 'react'
 import { useReducedMotion } from 'framer-motion'
@@ -10,7 +11,7 @@ import { uploadedVideo, dressAssets, watchAssets } from '../data/assets'
 import ProductCard from '../components/ProductCard'
 import { AnimatedHeading, EditorialNumber, Reveal, ScrollAccent, ScrollImage, SectionLabel } from '../components/Primitives'
 
-const editorialProducts = products.slice(0, 6)
+
 
 const shopAngleCards = [
   { label: 'New In', path: '/new-in', image: products[0]?.image || watchAssets[8], number: '01' },
@@ -25,6 +26,8 @@ const shopAngleCards = [
 ]
 
 export default function Home() {
+  const { products: currentProducts } = useStore()
+  const editorialProducts = currentProducts.slice(0, 6)
   const reduced = useReducedMotion()
   const videoRef = useRef(null)
   const carouselRef = useRef(null)
