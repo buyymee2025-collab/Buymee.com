@@ -23,13 +23,12 @@ export const categoryHeroVideos = {
   "/men": {
     "clips": [
       {
-        "src": "https://ver-videos.s3.eu-central-1.amazonaws.com/vacanza-2024-video-190624-hero-desk.mp4",
-        "lowSrc": "https://ver-videos.s3.eu-central-1.amazonaws.com/vacanza-2024-video-190624-hero-mob.mp4",
-        "source": "https://www.versace.com/row/en/stories/advertising-campaigns/la-vacanza-2024.html",
-        "description": "La Vacanza 2024 campaign: printed summer silk shirts and matching shorts. Similar styling; not verified as exact BUYYMEE catalogue pieces."
+        "src": "https://videos.pexels.com/video-files/8628292/8628292-hd_1080_1920_25fps.mp4",
+        "source": "https://www.pexels.com/video/man-looking-straight-to-the-camera-8628292/",
+        "description": "Male model wearing a printed floral shirt against a neutral studio background. Male-only footage; fabric is not verified as silk."
       }
     ],
-    "src": "https://ver-videos.s3.eu-central-1.amazonaws.com/vacanza-2024-video-190624-hero-desk.mp4"
+    "src": "https://videos.pexels.com/video-files/8628292/8628292-hd_1080_1920_25fps.mp4"
   },
   "/women": {
     "clips": [
