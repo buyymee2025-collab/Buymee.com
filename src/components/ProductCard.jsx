@@ -50,7 +50,6 @@ export default function ProductCard({ product, index = 0 }) {
           </button>
         </div>
         <div className="product-meta">
-          <span className="product-card-brand">{product.brand || product.category}</span>
           <Link className="product-card-title" to={`/product/${product.slug}`} onClick={openProduct}>{product.name}</Link>
           <div className="product-card-details">
             <small className="product-card-code">CODE / {productCode}</small>
