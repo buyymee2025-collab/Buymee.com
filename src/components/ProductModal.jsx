@@ -382,6 +382,12 @@ export default function ProductModal({ product, onClose }) {
               )}
             </div>
 
+            {product.category === 'Men' && (
+              <div className="product-modal-option" aria-label={`Sizes for ${product.name}`}>
+                <div><span>SIZES</span><b>{product.sizes?.length ? product.sizes.join(' / ') : 'Contact us for available sizes'}</b></div>
+              </div>
+            )}
+
             {product.category === 'Sneakers' && product.sizeAvailability && (
               <div className="product-modal-size-highlight" aria-label={`Sizes for ${product.name}`}>
                 <div className="product-modal-size-highlight-title">AVAILABLE SIZES</div>
