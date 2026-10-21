@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { ArrowUpRight, Check } from 'lucide-react'
 import { categories } from '../data/categories'
 import { categoryProducts } from '../data/categoryProducts'
+import { WOMENS_PRODUCTS } from '../data/refreshedCatalog'
 import products from '../data/products'
 import { uploadedVideo, dressAssets, watchAssets } from '../data/assets'
 import ProductCard from '../components/ProductCard'
@@ -19,9 +20,9 @@ const shopAngleCards = [
   { label: 'Watches', path: '/watches', image: watchAssets[2], number: '04' },
   { label: 'Shoes', path: '/shoes', image: categoryProducts.shoes[0]?.image || dressAssets[9], number: '05' },
   { label: 'Sneakers', path: '/sneakers', image: categoryProducts.sneakers[0]?.image || watchAssets[14], number: '06' },
-  { label: 'Luxury Eye Wears', path: '/eye-wears', image: 'https://res.cloudinary.com/mdbhqnv7/image/upload/v1792169062/download.jpg', number: '07' },
+  { label: 'Luxury Eye Wears', path: '/eye-wears', image: 'https://res.cloudinary.com/hobndbjx/image/upload/e_trim:10/f_auto,q_auto/v1792601261/ChatGPT_Image_Oct_16_2026_05_13_49_PM.jxl', number: '07' },
   { label: 'Fragrance', path: '/fragrance', image: categoryProducts.fragrance[0]?.image || watchAssets[8], number: '08' },
-  { label: 'Accessories', path: '/accessories', image: categoryProducts.accessories[0]?.image || watchAssets[18], number: '09' },
+  { label: 'Luxury Women Silk', path: '/luxury-women-silk', image: WOMENS_PRODUCTS.find(p => p.subcategory === 'Nightwear').image, number: '09' },
 ]
 
 export default function Home() {
@@ -265,3 +266,4 @@ export default function Home() {
     </div>
   )
 }
+

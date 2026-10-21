@@ -10,7 +10,7 @@ import './motion.css'
 
 const Admin = lazy(() => import('./pages/Admin'))
 
-const categoryPaths = ['/new-in', '/women', '/men', '/watches', '/sneakers', '/shoes', '/eye-wears', '/fragrance', '/accessories']
+const categoryPaths = ['/new-in', '/women', '/men', '/watches', '/sneakers', '/shoes', '/eye-wears', '/fragrance', '/accessories', '/luxury-women-silk']
 
 export default function App() {
   return (
@@ -37,3 +37,4 @@ export default function App() {
     </StoreProvider>
   )
 }
+

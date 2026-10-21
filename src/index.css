@@ -1314,3 +1314,8 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
   object-fit: cover;
   object-position: center top;
 }
+
+/* Center the entire eyewear image inside the moving carousel. */
+.angle-carousel-card[href="/eye-wears"]{background:#fff}
+.angle-carousel-card[href="/eye-wears"] img{object-fit:contain;object-position:center;padding:5%;box-sizing:border-box;filter:none}
+

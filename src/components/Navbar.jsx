@@ -18,7 +18,7 @@ const shopItems = [
   { label: 'Sneakers', path: '/sneakers' },
   { label: 'Luxury Eye Wears', path: '/eye-wears' },
   { label: 'Fragrance', path: '/fragrance' },
-  { label: 'Accessories', path: '/accessories' },
+  { label: 'Luxury Women Silk', path: '/luxury-women-silk' },
 ]
 
 export default function Navbar({ overlay = false }) {
@@ -261,3 +261,4 @@ export default function Navbar({ overlay = false }) {
     </>
   )
 }
+
