@@ -1293,14 +1293,7 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
   object-position: center;
 }
 
-/* Pure-white product card and modal surfaces across every category. */
-.product-card {
-  background: #fff;
-  color: var(--ink);
-}
-.product-card .product-image,
-.product-card .product-image img,
-.product-card .product-meta,
+/* Pure-white modal surfaces across every category. */
 .product-modal,
 .product-modal .product-modal-header,
 .product-modal .product-modal-info,
