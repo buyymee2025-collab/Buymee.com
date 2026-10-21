@@ -44,6 +44,11 @@ export default function ProductCard({ product, index = 0 }) {
             <small className="watch-product-code">PRODUCT CODE / {productCode}</small>
           )}
           <Link to={`/product/${product.slug}`} onClick={openProduct}>{product.name}</Link>
+          {product.category === 'Men' && (
+            <div className="sneaker-size-badge" aria-label={`Sizes for ${product.name}`}>
+              <span>{product.sizes?.length ? `SIZES: ${product.sizes.join(' / ')}` : 'SIZES ON REQUEST'}</span>
+            </div>
+          )}
           {product.category === 'Sneakers' && product.sizeAvailability && (
             <div className="sneaker-size-badge" aria-label={`Sizes for ${product.name}`}>
               <span>UK {product.sizeAvailability.uk}</span>
