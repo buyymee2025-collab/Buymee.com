@@ -1319,3 +1319,14 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 .angle-carousel-card[href="/eye-wears"]{background:#fff}
 .angle-carousel-card[href="/eye-wears"] img{object-fit:contain;object-position:center;padding:5%;box-sizing:border-box;filter:none}
 
+
+/* Fill product-card image areas consistently across all catalogues and grids. */
+.product-card .product-image,
+.product-card .product-image > a{width:100%;padding:0}
+.product-card .product-image img,
+[data-category] .product-card .product-image img{
+  display:block;width:100%;max-width:none;height:100%;padding:0;margin:0;
+  object-fit:cover;object-position:center top;
+}
+.product-card .sneaker-size-badge{min-width:0;max-width:100%;box-sizing:border-box}
+.product-card .sneaker-size-badge span{white-space:normal;overflow-wrap:anywhere}
