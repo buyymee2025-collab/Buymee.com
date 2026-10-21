@@ -1330,3 +1330,19 @@ h1 em,h2 em,h3 em{font-family:var(--serif);font-weight:400;letter-spacing:-.02em
 }
 .product-card .sneaker-size-badge{min-width:0;max-width:100%;box-sizing:border-box}
 .product-card .sneaker-size-badge span{white-space:normal;overflow-wrap:anywhere}
+
+/* Keep every heading, including carousel and product titles, uppercase. */
+h1,h2,h3,h4,h5,h6,[role="heading"],.section-label,.admin-eyebrow,
+.product-meta>a:not(.product-view){text-transform:uppercase}
+
+/* Preserve the complete silk editorial photographs at every carousel width. */
+.angle-carousel-card[href="/men"],
+.angle-carousel-card[href="/luxury-women-silk"]{background:#fff}
+.angle-carousel-card[href="/men"] img,
+.angle-carousel-card[href="/luxury-women-silk"] img{
+  object-fit:contain;object-position:center top;box-sizing:border-box;
+  padding:12px 0 0;filter:none;transform:none;
+}
+.angle-carousel-overlay h3{font-size:clamp(22px,2.1vw,30px);overflow-wrap:normal}
+
+[data-category="luxury women silk"] .category-new-hero-video{object-position:center top}
