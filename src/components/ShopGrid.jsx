@@ -6,6 +6,7 @@ const categories = [
   'all',
   'new in',
   'women',
+  'luxury women silk',
   'men',
   'dresses',
   'watches',
@@ -51,7 +52,7 @@ export default function ShopGrid({ initial = 'all', limit, categoryOnly = false,
         (category === 'new in'
           ? product.newArrival
           : product.category.toLowerCase() === category ||
-            product.subcategory.toLowerCase() === category)
+            (product.subcategory || '').toLowerCase() === category)
 
       const matchesSearch =
         !query || product.name.toLowerCase().includes(query.toLowerCase())
@@ -81,7 +82,7 @@ export default function ShopGrid({ initial = 'all', limit, categoryOnly = false,
               className={category === item ? 'active' : ''}
               onClick={() => setCategory(item)}
             >
-              {item === 'eye wears' ? 'Luxury Eye Wears' : item}
+              {item === 'eye wears' ? 'Luxury Eye Wears' : item === 'luxury women silk' ? 'Luxury Women Silk' : item}
               {category === item && <b>✓</b>}
             </button>
           ))}

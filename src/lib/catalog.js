@@ -1,6 +1,6 @@
 import { appendMatchingMannequinViews } from './matchingMannequinViews.js'
 import { normalizeResearchedEyewear } from './eyewearNames.js'
-export const productCategories = ['Women', 'Men', 'Watches', 'Sneakers', 'Shoes', 'Eye Wears', 'Fragrance', 'Accessories']
+export const productCategories = ['Women', 'Luxury Women Silk', 'Men', 'Watches', 'Sneakers', 'Shoes', 'Eye Wears', 'Fragrance', 'Accessories']
 export function mergeCatalog(base, rows) {
   const products = new Map(base.map(product => [String(product.id), product]))
   for (const row of rows) {
@@ -18,7 +18,7 @@ export function mergeCatalog(base, rows) {
       products.set(String(row.id), saved)
     }
   }
-  return [...products.values()].map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews)
+  return [...products.values()].map(normalizeSilkCategory).map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews)
 }
 // These reviewed photographs were previously mislabeled as a single Blue variant.
 // Apply after saved overrides too, so an older admin record cannot mix them again.
@@ -59,4 +59,11 @@ export function validateProduct(product) {
   if (!product.image || !(/^(https:\/\/|\/images\/)/.test(product.image))) throw new Error('Add at least one HTTPS product image.')
   for (const item of product.media || []) if (!/^(https:\/\/|\/images\/)/.test(item.src)) throw new Error('Media links must start with https://.')
   return product
+}
+
+/* Move legacy women's nightwear into its dedicated storefront/admin category. */
+export function normalizeSilkCategory(product) {
+  return product.category === 'Women' && product.subcategory?.trim().toLowerCase() === 'nightwear'
+    ? { ...product, category: 'Luxury Women Silk' }
+    : product
 }
