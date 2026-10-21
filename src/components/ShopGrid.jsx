@@ -81,7 +81,7 @@ export default function ShopGrid({ initial = 'all', limit, categoryOnly = false,
               className={category === item ? 'active' : ''}
               onClick={() => setCategory(item)}
             >
-              {item}
+              {item === 'eye wears' ? 'Luxury Eyewears' : item}
               {category === item && <b>✓</b>}
             </button>
           ))}
