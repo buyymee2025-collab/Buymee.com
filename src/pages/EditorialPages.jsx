@@ -17,7 +17,7 @@ const config={
  '/watches':{label:'WATCHES / 01',title:<>Time,<br/><em>reconsidered.</em></>,desc:'Exact lines. Quiet confidence.',image:watchAssets[13],video:'https://res.cloudinary.com/mdbhqnv7/video/upload/v1791313609/1006_4.mp4',filter:'watches',dark:true},
  '/sneakers':{label:'SNEAKERS / 01',title:<>Move<br/><em>different.</em></>,desc:'Everyday pairs with more energy and less noise.',image:'https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=1200&q=85',filter:'sneakers'},
  '/shoes':{label:'SHOES / 01',title:<>Step<br/><em>into it.</em></>,desc:'Heels and loafers selected for the full day.',image:'/images/stock-heels.webp',filter:'shoes'},
- '/eye-wears':{label:'LUXURY EYEWEARS / 01',title:<>Luxury<br/><em>Eyewears.</em></>,desc:'Explore the luxury eyewear collection.',image:EYEWEAR_ASSETS[0],filter:'eye wears'},
+ '/eye-wears':{label:'LUXURY EYE WEARS / 01',title:<>Luxury<br/><em>Eye Wears.</em></>,desc:'Explore the luxury eyewear collection.',image:EYEWEAR_ASSETS[0],filter:'eye wears'},
  '/fragrance':{label:'FRAGRANCE / 01',title:<>Leave<br/><em>a trace.</em></>,desc:'Quiet signatures for close conversations and later hours.',image:'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1200&q=85',filter:'fragrance'},
  '/accessories':{label:'ACCESSORIES / 01',title:<>The final<br/><em>detail.</em></>,desc:'Small finishing pieces with a clear point of view.',image:'https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1200&q=85',filter:'accessories'}
 }

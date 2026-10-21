@@ -16,7 +16,7 @@ const shopItems = [
   { label: 'Watches', path: '/watches' },
   { label: 'Shoes', path: '/shoes' },
   { label: 'Sneakers', path: '/sneakers' },
-  { label: 'Luxury Eyewears', path: '/eye-wears' },
+  { label: 'Luxury Eye Wears', path: '/eye-wears' },
   { label: 'Fragrance', path: '/fragrance' },
   { label: 'Accessories', path: '/accessories' },
 ]

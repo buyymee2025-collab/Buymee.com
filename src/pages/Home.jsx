@@ -19,7 +19,7 @@ const shopAngleCards = [
   { label: 'Watches', path: '/watches', image: watchAssets[2], number: '04' },
   { label: 'Shoes', path: '/shoes', image: categoryProducts.shoes[0]?.image || dressAssets[9], number: '05' },
   { label: 'Sneakers', path: '/sneakers', image: categoryProducts.sneakers[0]?.image || watchAssets[14], number: '06' },
-  { label: 'Luxury Eyewears', path: '/eye-wears', image: 'https://res.cloudinary.com/mdbhqnv7/image/upload/v1792169062/download.jpg', number: '07' },
+  { label: 'Luxury Eye Wears', path: '/eye-wears', image: 'https://res.cloudinary.com/mdbhqnv7/image/upload/v1792169062/download.jpg', number: '07' },
   { label: 'Fragrance', path: '/fragrance', image: categoryProducts.fragrance[0]?.image || watchAssets[8], number: '08' },
   { label: 'Accessories', path: '/accessories', image: categoryProducts.accessories[0]?.image || watchAssets[18], number: '09' },
 ]
