@@ -20,7 +20,7 @@ export function mergeCatalog(base, rows) {
       products.set(String(row.id), saved)
     }
   }
-  return appendOct22Eyewear([...products.values()], rows).map(normalizeSilkCategory).map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews).map(applyInitialDiscount)
+  return appendOct22Eyewear([...products.values()], rows).map(normalizeSilkCategory).map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews).map(applyInitialDiscount).map(product => ({ ...product, quantity: product.quantity ?? 1 }))
 }
 // These reviewed photographs were previously mislabeled as a single Blue variant.
 // Apply after saved overrides too, so an older admin record cannot mix them again.
@@ -54,6 +54,7 @@ export function validateEyewearColors(product) {
 
 export function validateProduct(product) {
   validateEyewearColors(product)
+  if (product.quantity != null && (!Number.isSafeInteger(product.quantity) || product.quantity < 0)) throw new Error('Enter a whole-number quantity of zero or more.')
   if (!product.name?.trim()) throw new Error('Enter a product name.')
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(product.slug || '')) throw new Error('Use lowercase letters, numbers and hyphens for the product link.')
   if (!productCategories.includes(product.category)) throw new Error('Choose a category.')
