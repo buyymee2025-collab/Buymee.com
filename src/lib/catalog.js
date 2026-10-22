@@ -20,7 +20,7 @@ export function mergeCatalog(base, rows) {
       products.set(String(row.id), saved)
     }
   }
-  return appendOct22Eyewear([...products.values()], rows).map(normalizeSilkCategory).map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews).map(applyInitialDiscount).map(product => ({ ...product, quantity: product.quantity ?? 1 }))
+  return appendOct22Eyewear([...products.values()], rows).map(normalizeEyewearCategory).map(normalizeSilkCategory).map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews).map(applyInitialDiscount).map(product => ({ ...product, quantity: product.quantity ?? 1 }))
 }
 // These reviewed photographs were previously mislabeled as a single Blue variant.
 // Apply after saved overrides too, so an older admin record cannot mix them again.
@@ -72,5 +72,12 @@ export function validateProduct(product) {
 export function normalizeSilkCategory(product) {
   return product.category === 'Women' && product.subcategory?.trim().toLowerCase() === 'nightwear'
     ? { ...product, category: 'Luxury Women Silk' }
+    : product
+}
+
+// GL codes identify eyewear even when an older Admin record selected another category.
+export function normalizeEyewearCategory(product) {
+  return /^GL\d{3,}$/.test(product.productCode || '') && product.category !== 'Eye Wears'
+    ? { ...product, category: 'Eye Wears', subcategory: /optical/i.test(product.name || '') ? 'Optical Frames' : 'Sunglasses' }
     : product
 }

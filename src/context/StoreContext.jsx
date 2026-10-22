@@ -1,3 +1,4 @@
+import { VACANT_EYEWEAR_CODES } from '../data/oct22Eyewear.js'
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import { adminClient } from '../lib/adminClient'
 import { fetchCatalog } from '../lib/catalogService'
@@ -16,7 +17,7 @@ export function StoreProvider({children}){
   const baseCodes = new Map(originalProducts
     .filter(product => product.category === 'Eye Wears' && /^GL\d{3,}$/.test(product.productCode || ''))
     .map(product => [String(product.id), product.productCode]))
-  const reserved = new Set([...baseCodes.values(), ...merged
+  const reserved = new Set([...VACANT_EYEWEAR_CODES, ...baseCodes.values(), ...merged
     .filter(product => product.category === 'Eye Wears' && /^GL\d{3,}$/.test(product.productCode || ''))
     .map(product => product.productCode)])
   const used = new Set()
