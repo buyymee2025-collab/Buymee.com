@@ -402,7 +402,7 @@ export default function ProductModal({ product, onClose }) {
 
             <div className="product-modal-details">
               <span>THE EDIT</span>
-              <div><Check size={15} /> Carefully selected for the BUYYMEE.com watch edit.</div>
+              <div><Check size={15} /> Carefully selected for the BUYYMEE.com collection.</div>
               <div><Check size={15} /> Worldwide delivery available.</div>
               <div><Check size={15} /> USA / 7–14 days · UK / 7–14 days · Worldwide / 7–20 days.</div>
             </div>
