@@ -13,8 +13,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 366,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_11_16_PM_fdvv0h",
@@ -63,7 +63,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Brown Gold-Triangle Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL001"
+    "productCode": "GL001",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26047,
@@ -74,8 +76,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 489,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_15_05_PM_d8o4uh",
@@ -124,7 +126,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Caramel Gradient Triangle-Temple Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL002"
+    "productCode": "GL002",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26048,
@@ -135,8 +139,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 342,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_19_40_PM_w8gbrx",
@@ -185,7 +189,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Tortoiseshell Green-Lens Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL003"
+    "productCode": "GL003",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26049,
@@ -196,8 +202,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 600,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_46_22_PM_hp17bl",
@@ -246,7 +252,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Burgundy Amber-Lens Gold-Temple Cat-Eye Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL004"
+    "productCode": "GL004",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26050,
@@ -257,8 +265,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 320,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_24_43_PM_mcwtn5",
@@ -307,7 +315,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Purple Gradient Pink-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL005"
+    "productCode": "GL005",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26051,
@@ -318,8 +328,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 400,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_13_25_PM_n2bf1j",
@@ -368,7 +378,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Blue Amber Gradient Silver-Bridge Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL006"
+    "productCode": "GL006",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26052,
@@ -379,8 +391,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 400,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_36_54_PM_tbccvl",
@@ -429,7 +441,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Cream Gold-Logo Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL007"
+    "productCode": "GL007",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26053,
@@ -440,8 +454,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 642,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_18_59_PM_xizsrs",
@@ -490,7 +504,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Black Gold-Accent Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL008"
+    "productCode": "GL008",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26054,
@@ -501,8 +517,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 275,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_02_04_04_PM_alegkd",
@@ -551,7 +567,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Yellow Lens Black Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL009"
+    "productCode": "GL009",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26055,
@@ -562,8 +580,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 455,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_24_25_PM_ynyt4a",
@@ -612,7 +630,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Black Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL010"
+    "productCode": "GL010",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26056,
@@ -623,8 +643,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 457,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_03_30_07_PM_lwuue1",
@@ -673,7 +693,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "White Burgundy Sport Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL011"
+    "productCode": "GL011",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26034,
@@ -684,8 +706,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 1100,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_07_53_PM_dyz8yh",
@@ -734,7 +756,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Blue Gradient Gold-Link Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL012"
+    "productCode": "GL012",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26035,
@@ -745,8 +769,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 430,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_14_51_PM_xf8ouc",
@@ -795,7 +819,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Rose Gradient Gold-Hinge Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL013"
+    "productCode": "GL013",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26036,
@@ -806,8 +832,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 160,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_17_22_PM_jtdmvc",
@@ -856,7 +882,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Brown Gradient Round Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL014"
+    "productCode": "GL014",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26037,
@@ -867,8 +895,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "Dolce & Gabbana",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 410,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_31_09_PM_mnzpy3",
@@ -917,7 +945,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Dolce & Gabbana White Coral Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL015"
+    "productCode": "GL015",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26038,
@@ -928,8 +958,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "Cartier",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 1295,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_10_15_PM_dmrefw",
@@ -978,7 +1008,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Cartier Rose Gradient Wood-Temple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL016"
+    "productCode": "GL016",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26039,
@@ -989,8 +1021,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "Dolce & Gabbana",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 645,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_10_04_03_PM_oo6yby",
@@ -1039,7 +1071,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Dolce & Gabbana Black Gold-Logo Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL017"
+    "productCode": "GL017",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26040,
@@ -1050,8 +1084,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "Dolce & Gabbana",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 530,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_34_34_PM_qjagqx",
@@ -1100,7 +1134,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Dolce & Gabbana Purple Gold-Temple Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL018"
+    "productCode": "GL018",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26041,
@@ -1111,8 +1147,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 1175,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_12_58_34_PM_kkzljd",
@@ -1161,7 +1197,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Black Gradient Linked-Temple Rectangular Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL019"
+    "productCode": "GL019",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26042,
@@ -1172,8 +1210,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 1235,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_33_48_PM_ulwhew",
@@ -1222,7 +1260,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Amber Transparent Gold-Detail Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL020"
+    "productCode": "GL020",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26043,
@@ -1233,8 +1273,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "Fendi",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 450,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_25_08_PM_txdmkg",
@@ -1283,7 +1323,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Fendi Brown Gradient Rimless Square Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL021"
+    "productCode": "GL021",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26044,
@@ -1294,8 +1336,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 1260,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_46_32_PM_u2q8vz",
@@ -1335,7 +1377,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Black Double-Bridge Aviator Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL022"
+    "productCode": "GL022",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26045,
@@ -1346,8 +1390,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "Fendi",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 570,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_16_2026_01_19_16_PM_vsn9yg",
@@ -1396,7 +1440,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Fendi Brown Gradient Letter-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL023"
+    "productCode": "GL023",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 25206,
@@ -1407,8 +1453,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "Dolce & Gabbana",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 646,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_08_18_24_PM_imab5z",
@@ -1457,7 +1503,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Dolce & Gabbana Purple Rimless Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL024"
+    "productCode": "GL024",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26001,
@@ -1468,8 +1516,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 1325,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_11_19_PM_qgnkkn",
@@ -1518,7 +1566,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Grey Gradient Panther-Detail Oval Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL025"
+    "productCode": "GL025",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26002,
@@ -1529,8 +1579,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 363,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_06_44_PM_y9yt6x",
@@ -1579,7 +1629,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Black Gradient Wide-Temple Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL026"
+    "productCode": "GL026",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26003,
@@ -1590,8 +1642,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 295,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_08_55_22_PM_n0xqe4",
@@ -1640,7 +1692,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Black Gold-Monogram Wrap Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL027"
+    "productCode": "GL027",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26004,
@@ -1651,8 +1705,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 400,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_08_39_51_PM_dzpycv",
@@ -1701,7 +1755,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Oversized Full-Shield Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL028"
+    "productCode": "GL028",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26005,
@@ -1712,8 +1768,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 450,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_08_54_50_PM_n7emhi",
@@ -1762,7 +1818,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Brown Full-Shield Visor Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL029"
+    "productCode": "GL029",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26006,
@@ -1773,8 +1831,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 523,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_08_45_26_PM_btwcw8",
@@ -1823,7 +1881,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Gold Decorative Rimless Shield Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL030"
+    "productCode": "GL030",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26007,
@@ -1834,8 +1894,8 @@ const EYEWEAR_CATALOG = [
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
-    "price": null,
-    "priceOnRequest": true,
+    "price": 1345,
+    "priceOnRequest": false,
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/dnvgl9k4i/image/upload/ChatGPT_Image_Oct_15_2026_09_21_15_PM_hr4ric",
@@ -1884,7 +1944,9 @@ const EYEWEAR_CATALOG = [
     "newArrival": true,
     "sale": false,
     "description": "Black Slim Rectangular Metal Sunglasses from the BUYYMEE.com collection. Contact us for price and availability.",
-    "productCode": "GL031"
+    "productCode": "GL031",
+    "discountPricingVersion": 1,
+    "priceRevision": "2026-10-22-owner-prices-v1"
   },
   {
     "id": 26008,

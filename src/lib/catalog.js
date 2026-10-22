@@ -17,6 +17,13 @@ export function mergeCatalog(base, rows) {
           saved[key] = original[key]
         }
       }
+      // Apply the owner's latest price list to older saved records once.
+      // Future Admin saves retain the revision and can change the price normally.
+      if (original?.priceRevision && original.priceRevision !== saved.priceRevision) {
+        for (const key of ['price', 'priceOnRequest', 'compareAt', 'sale', 'discountPricingVersion', 'priceRevision']) {
+          saved[key] = original[key]
+        }
+      }
       products.set(String(row.id), saved)
     }
   }
