@@ -1,4 +1,4 @@
-// Visually reviewed Cloudinary upload batch: 22 October 2026. Existing codes and order are preserved.
+// Rechecked frame shapes, colours and temple hardware. Code GL180 is already reserved by the legacy catalogue.
 export const OCT22_EYEWEAR = [
   {
     "id": 28117,
@@ -219,24 +219,17 @@ export const OCT22_EYEWEAR = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3547-front",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3547-front",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3547-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3547-front"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3547-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3547-front"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3547-front",
-        "color": "Gold / Brown"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle",
         "color": "Gold / Brown"
       }
     ],
@@ -252,11 +245,6 @@ export const OCT22_EYEWEAR = [
             "type": "image",
             "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3547-front",
             "color": "Gold / Brown"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle",
-            "color": "Gold / Brown"
           }
         ]
       }
@@ -270,7 +258,8 @@ export const OCT22_EYEWEAR = [
     "placeholder": false,
     "newArrival": true,
     "sale": false,
-    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements."
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
   },
   {
     "id": 28121,
@@ -287,24 +276,17 @@ export const OCT22_EYEWEAR = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3545-front",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3545-front",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3545-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3545-front"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3545-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3545-front"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3545-front",
-        "color": "Black / Amber"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle",
         "color": "Black / Amber"
       }
     ],
@@ -320,11 +302,6 @@ export const OCT22_EYEWEAR = [
             "type": "image",
             "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3545-front",
             "color": "Black / Amber"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle",
-            "color": "Black / Amber"
           }
         ]
       }
@@ -338,15 +315,16 @@ export const OCT22_EYEWEAR = [
     "placeholder": false,
     "newArrival": true,
     "sale": false,
-    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements."
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
   },
   {
     "id": 28122,
     "parentProductId": 28122,
     "productCode": "GL122",
     "slug": "eye-wears-gl122-pink-crystal-square-sunglasses",
-    "name": "PINK CRYSTAL SQUARE SUNGLASSES",
-    "familyName": "PINK CRYSTAL SQUARE SUNGLASSES",
+    "name": "PINK CRYSTAL BUTTERFLY SUNGLASSES",
+    "familyName": "PINK CRYSTAL BUTTERFLY SUNGLASSES",
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
@@ -355,24 +333,17 @@ export const OCT22_EYEWEAR = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3543-front",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3543-front",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3543-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3543-front"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3543-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3543-front"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3543-front",
-        "color": "Pink"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle",
         "color": "Pink"
       }
     ],
@@ -388,11 +359,6 @@ export const OCT22_EYEWEAR = [
             "type": "image",
             "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3543-front",
             "color": "Pink"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle",
-            "color": "Pink"
           }
         ]
       }
@@ -406,15 +372,16 @@ export const OCT22_EYEWEAR = [
     "placeholder": false,
     "newArrival": true,
     "sale": false,
-    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements."
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
   },
   {
     "id": 28123,
     "parentProductId": 28123,
     "productCode": "GL123",
     "slug": "eye-wears-gl123-silver-oval-floral-temple-sunglasses",
-    "name": "SILVER OVAL FLORAL TEMPLE SUNGLASSES",
-    "familyName": "SILVER OVAL FLORAL TEMPLE SUNGLASSES",
+    "name": "SILVER CAT EYE GRADIENT SUNGLASSES",
+    "familyName": "SILVER CAT EYE GRADIENT SUNGLASSES",
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "",
@@ -423,24 +390,17 @@ export const OCT22_EYEWEAR = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3541-front",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3541-front",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3541-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3541-front"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3541-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3541-front"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3541-front",
-        "color": "Silver / Grey"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle",
         "color": "Silver / Grey"
       }
     ],
@@ -456,11 +416,6 @@ export const OCT22_EYEWEAR = [
             "type": "image",
             "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3541-front",
             "color": "Silver / Grey"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle",
-            "color": "Silver / Grey"
           }
         ]
       }
@@ -474,7 +429,8 @@ export const OCT22_EYEWEAR = [
     "placeholder": false,
     "newArrival": true,
     "sale": false,
-    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements."
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
   },
   {
     "id": 28124,
@@ -491,24 +447,17 @@ export const OCT22_EYEWEAR = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3539-front",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3539-front",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3539-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3539-front"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3539-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3539-front"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3539-front",
-        "color": "Gold / Pink"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle",
         "color": "Gold / Pink"
       }
     ],
@@ -524,11 +473,6 @@ export const OCT22_EYEWEAR = [
             "type": "image",
             "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3539-front",
             "color": "Gold / Pink"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle",
-            "color": "Gold / Pink"
           }
         ]
       }
@@ -542,7 +486,8 @@ export const OCT22_EYEWEAR = [
     "placeholder": false,
     "newArrival": true,
     "sale": false,
-    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements."
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
   },
   {
     "id": 28125,
@@ -1885,8 +1830,8 @@ export const OCT22_EYEWEAR = [
     "parentProductId": 28145,
     "productCode": "GL145",
     "slug": "eye-wears-gl145-celine-gold-polygon-grey-lens-sunglasses",
-    "name": "CELINE GOLD POLYGON GREY LENS SUNGLASSES",
-    "familyName": "CELINE GOLD POLYGON GREY LENS SUNGLASSES",
+    "name": "CELINE GOLD OVAL GREY LENS SUNGLASSES",
+    "familyName": "CELINE GOLD OVAL GREY LENS SUNGLASSES",
     "category": "Eye Wears",
     "subcategory": "Sunglasses",
     "brand": "Celine",
@@ -1895,24 +1840,17 @@ export const OCT22_EYEWEAR = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
-        "color": "Gold / Grey"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
         "color": "Gold / Grey"
       }
     ],
@@ -1928,11 +1866,6 @@ export const OCT22_EYEWEAR = [
             "type": "image",
             "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
             "color": "Gold / Grey"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
-            "color": "Gold / Grey"
           }
         ]
       }
@@ -1946,7 +1879,8 @@ export const OCT22_EYEWEAR = [
     "placeholder": false,
     "newArrival": true,
     "sale": false,
-    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements."
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
   },
   {
     "id": 28146,
@@ -2575,24 +2509,17 @@ export const OCT22_EYEWEAR = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3445-front",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3445-front",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3445-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3445-front"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3445-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3445-front"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3445-front",
-        "color": "Gold / Pink"
-      },
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle",
         "color": "Gold / Pink"
       }
     ],
@@ -2608,11 +2535,6 @@ export const OCT22_EYEWEAR = [
             "type": "image",
             "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3445-front",
             "color": "Gold / Pink"
-          },
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle",
-            "color": "Gold / Pink"
           }
         ]
       }
@@ -2626,7 +2548,8 @@ export const OCT22_EYEWEAR = [
     "placeholder": false,
     "newArrival": true,
     "sale": false,
-    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements."
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
   },
   {
     "id": 28156,
@@ -4047,18 +3970,492 @@ export const OCT22_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements."
+  },
+  {
+    "id": 28179,
+    "parentProductId": 28179,
+    "productCode": "GL179",
+    "slug": "eye-wears-gl179-versace-gold-round-brown-lens-sunglasses",
+    "name": "VERSACE GOLD ROUND BROWN LENS SUNGLASSES",
+    "familyName": "VERSACE GOLD ROUND BROWN LENS SUNGLASSES",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Versace",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle",
+        "color": "Gold / Brown"
+      }
+    ],
+    "colors": [
+      "Gold / Brown"
+    ],
+    "variants": [
+      {
+        "color": "Gold / Brown",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3548-angle",
+            "color": "Gold / Brown"
+          }
+        ]
+      }
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
+  },
+  {
+    "id": 28181,
+    "parentProductId": 28181,
+    "productCode": "GL181",
+    "slug": "eye-wears-gl181-gucci-black-gold-rectangular-brown-lens-sunglasses",
+    "name": "GUCCI BLACK GOLD RECTANGULAR BROWN LENS SUNGLASSES",
+    "familyName": "GUCCI BLACK GOLD RECTANGULAR BROWN LENS SUNGLASSES",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Gucci",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle",
+        "color": "Black / Amber"
+      }
+    ],
+    "colors": [
+      "Black / Amber"
+    ],
+    "variants": [
+      {
+        "color": "Black / Amber",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3546-angle",
+            "color": "Black / Amber"
+          }
+        ]
+      }
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
+  },
+  {
+    "id": 28182,
+    "parentProductId": 28182,
+    "productCode": "GL182",
+    "slug": "eye-wears-gl182-pink-crystal-rectangular-sunglasses",
+    "name": "PINK CRYSTAL RECTANGULAR SUNGLASSES",
+    "familyName": "PINK CRYSTAL RECTANGULAR SUNGLASSES",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle",
+        "color": "Pink"
+      }
+    ],
+    "colors": [
+      "Pink"
+    ],
+    "variants": [
+      {
+        "color": "Pink",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3544-angle",
+            "color": "Pink"
+          }
+        ]
+      }
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
+  },
+  {
+    "id": 28183,
+    "parentProductId": 28183,
+    "productCode": "GL183",
+    "slug": "eye-wears-gl183-silver-round-floral-temple-sunglasses",
+    "name": "SILVER ROUND FLORAL TEMPLE SUNGLASSES",
+    "familyName": "SILVER ROUND FLORAL TEMPLE SUNGLASSES",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle",
+        "color": "Silver / Grey"
+      }
+    ],
+    "colors": [
+      "Silver / Grey"
+    ],
+    "variants": [
+      {
+        "color": "Silver / Grey",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3542-angle",
+            "color": "Silver / Grey"
+          }
+        ]
+      }
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
+  },
+  {
+    "id": 28184,
+    "parentProductId": 28184,
+    "productCode": "GL184",
+    "slug": "eye-wears-gl184-gold-pink-cat-eye-sunglasses",
+    "name": "GOLD PINK CAT EYE SUNGLASSES",
+    "familyName": "GOLD PINK CAT EYE SUNGLASSES",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle",
+        "color": "Gold / Pink"
+      }
+    ],
+    "colors": [
+      "Gold / Pink"
+    ],
+    "variants": [
+      {
+        "color": "Gold / Pink",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3540-angle",
+            "color": "Gold / Pink"
+          }
+        ]
+      }
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
+  },
+  {
+    "id": 28185,
+    "parentProductId": 28185,
+    "productCode": "GL185",
+    "slug": "eye-wears-gl185-celine-gold-hexagon-grey-lens-sunglasses",
+    "name": "CELINE GOLD HEXAGON GREY LENS SUNGLASSES",
+    "familyName": "CELINE GOLD HEXAGON GREY LENS SUNGLASSES",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Celine",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
+        "color": "Gold / Grey"
+      }
+    ],
+    "colors": [
+      "Gold / Grey"
+    ],
+    "variants": [
+      {
+        "color": "Gold / Grey",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
+            "color": "Gold / Grey"
+          }
+        ]
+      }
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
+  },
+  {
+    "id": 28186,
+    "parentProductId": 28186,
+    "productCode": "GL186",
+    "slug": "eye-wears-gl186-gucci-gold-pink-rounded-square-striped-temple-sunglasses",
+    "name": "GUCCI GOLD PINK ROUNDED SQUARE STRIPED TEMPLE SUNGLASSES",
+    "familyName": "GUCCI GOLD PINK ROUNDED SQUARE STRIPED TEMPLE SUNGLASSES",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Gucci",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle",
+        "color": "Gold / Pink"
+      }
+    ],
+    "colors": [
+      "Gold / Pink"
+    ],
+    "variants": [
+      {
+        "color": "Gold / Pink",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3447-angle",
+            "color": "Gold / Pink"
+          }
+        ]
+      }
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
+  },
+  {
+    "id": 28187,
+    "parentProductId": 28187,
+    "productCode": "GL187",
+    "slug": "eye-wears-gl187-celine-burgundy-rounded-cat-eye-sunglasses",
+    "name": "CELINE BURGUNDY ROUNDED CAT EYE SUNGLASSES",
+    "familyName": "CELINE BURGUNDY ROUNDED CAT EYE SUNGLASSES",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "Celine",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3473-front",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3474-angle",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3473-front",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3474-angle"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3473-front",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3474-angle"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3473-front",
+        "color": "Burgundy / Grey"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3474-angle",
+        "color": "Burgundy / Grey"
+      }
+    ],
+    "colors": [
+      "Burgundy / Grey"
+    ],
+    "variants": [
+      {
+        "color": "Burgundy / Grey",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3473-front",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3473-front",
+            "color": "Burgundy / Grey"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3474-angle",
+            "color": "Burgundy / Grey"
+          }
+        ]
+      }
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-visual-recheck-v2"
   }
 ]
 
 const additions = new Set(OCT22_EYEWEAR.map(product => String(product.id)))
-// Merge after owner overrides so every existing card keeps its position.
+// Append after owner overrides; never move or recode an existing card.
 export function appendOct22Eyewear(products, rows = []) {
   const saved = new Map(rows.map(row => [String(row.id), row]))
   return products.filter(product => !additions.has(String(product.id))).concat(
     OCT22_EYEWEAR.flatMap(product => {
       const row = saved.get(String(product.id))
       if (row?.deleted) return []
-      return [{ ...product, ...(row?.payload || {}), id: product.id, productCode: product.productCode }]
+      const merged = { ...product, ...(row?.payload || {}), id: product.id, productCode: product.productCode }
+      // Upgrade a stale saved gallery once; subsequent Admin saves remain editable.
+      if (product.mediaRevision && row?.payload?.mediaRevision !== product.mediaRevision) {
+        for (const key of ['image', 'secondaryImage', 'gallery', 'images', 'media', 'variants', 'colors', 'mediaRevision']) merged[key] = product[key]
+      }
+      return [merged]
     })
   )
 }
+
