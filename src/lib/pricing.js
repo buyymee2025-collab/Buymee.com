@@ -2,12 +2,14 @@ export function getProductPricing(product) {
   const number = value => value == null || String(value).trim() === '' ? NaN : Number(value)
   const current = number(product.price)
   const original = number(product.compareAt)
-  const hasPrice = !product.priceOnRequest && Number.isFinite(current) && current >= 0
+  const hasPrice = Number.isFinite(current) && current >= 0 && (!product.priceOnRequest || current > 0)
   return { current, original, hasPrice, discounted: hasPrice && Number.isFinite(original) && original > current }
 }
 
 /* Stable varied launch discounts; explicit Admin saves are never recalculated. */
 export function applyInitialDiscount(product) {
+  // Older Admin saves could retain the request-only flag after a price was entered.
+  if (product.priceOnRequest && Number(product.price) > 0 && Number.isFinite(Number(product.price))) product = { ...product, priceOnRequest: false }
   if (product.discountPricingVersion === 1) return product
   const original = Number(product.price)
   if (product.price == null || String(product.price).trim() === '' || !Number.isFinite(original) || original <= 0) return product
