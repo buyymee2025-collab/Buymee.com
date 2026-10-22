@@ -82,25 +82,25 @@ export const OCT22_EYEWEAR = [
     "priceOnRequest": true,
     "compareAt": null,
     "currency": "USD",
-    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3551-front",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3552-angle",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/v1792665945/IMG_3551-front.png",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/v1792665949/IMG_3552-angle.png",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3551-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3552-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/v1792665945/IMG_3551-front.png",
+      "https://res.cloudinary.com/hobndbjx/image/upload/v1792665949/IMG_3552-angle.png"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3551-front",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3552-angle"
+      "https://res.cloudinary.com/hobndbjx/image/upload/v1792665945/IMG_3551-front.png",
+      "https://res.cloudinary.com/hobndbjx/image/upload/v1792665949/IMG_3552-angle.png"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3551-front",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/v1792665945/IMG_3551-front.png",
         "color": "Smoke / Silver"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3552-angle",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/v1792665949/IMG_3552-angle.png",
         "color": "Smoke / Silver"
       }
     ],
@@ -110,16 +110,16 @@ export const OCT22_EYEWEAR = [
     "variants": [
       {
         "color": "Smoke / Silver",
-        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3551-front",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/v1792665945/IMG_3551-front.png",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3551-front",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/v1792665945/IMG_3551-front.png",
             "color": "Smoke / Silver"
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3552-angle",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/v1792665949/IMG_3552-angle.png",
             "color": "Smoke / Silver"
           }
         ]
@@ -134,7 +134,8 @@ export const OCT22_EYEWEAR = [
     "placeholder": false,
     "newArrival": true,
     "sale": false,
-    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements."
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "mediaRevision": "2026-10-22-owner-confirmed-views-v3"
   },
   {
     "id": 28119,
@@ -1840,17 +1841,24 @@ export const OCT22_EYEWEAR = [
     "compareAt": null,
     "currency": "USD",
     "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle"
     ],
     "media": [
       {
         "type": "image",
         "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
+        "color": "Gold / Grey"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
         "color": "Gold / Grey"
       }
     ],
@@ -1866,6 +1874,11 @@ export const OCT22_EYEWEAR = [
             "type": "image",
             "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3471-front",
             "color": "Gold / Grey"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
+            "color": "Gold / Grey"
           }
         ]
       }
@@ -1880,7 +1893,7 @@ export const OCT22_EYEWEAR = [
     "newArrival": true,
     "sale": false,
     "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
-    "mediaRevision": "2026-10-22-visual-recheck-v2"
+    "mediaRevision": "2026-10-22-owner-confirmed-views-v3"
   },
   {
     "id": 28146,
@@ -4257,63 +4270,6 @@ export const OCT22_EYEWEAR = [
     "mediaRevision": "2026-10-22-visual-recheck-v2"
   },
   {
-    "id": 28185,
-    "parentProductId": 28185,
-    "productCode": "GL185",
-    "slug": "eye-wears-gl185-celine-gold-hexagon-grey-lens-sunglasses",
-    "name": "CELINE GOLD HEXAGON GREY LENS SUNGLASSES",
-    "familyName": "CELINE GOLD HEXAGON GREY LENS SUNGLASSES",
-    "category": "Eye Wears",
-    "subcategory": "Sunglasses",
-    "brand": "Celine",
-    "price": null,
-    "priceOnRequest": true,
-    "compareAt": null,
-    "currency": "USD",
-    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
-    "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle"
-    ],
-    "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle"
-    ],
-    "media": [
-      {
-        "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
-        "color": "Gold / Grey"
-      }
-    ],
-    "colors": [
-      "Gold / Grey"
-    ],
-    "variants": [
-      {
-        "color": "Gold / Grey",
-        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
-        "media": [
-          {
-            "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_3472-angle",
-            "color": "Gold / Grey"
-          }
-        ]
-      }
-    ],
-    "sizes": [],
-    "tags": [
-      "eye wears",
-      "sunglasses"
-    ],
-    "inStock": true,
-    "placeholder": false,
-    "newArrival": true,
-    "sale": false,
-    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
-    "mediaRevision": "2026-10-22-visual-recheck-v2"
-  },
-  {
     "id": 28186,
     "parentProductId": 28186,
     "productCode": "GL186",
@@ -4438,6 +4394,63 @@ export const OCT22_EYEWEAR = [
     "sale": false,
     "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
     "mediaRevision": "2026-10-22-visual-recheck-v2"
+  },
+  {
+    "id": 29185,
+    "parentProductId": 29185,
+    "productCode": "GL185",
+    "slug": "eye-wears-gl185-black-smoke-brown-sports-shield-sunglasses",
+    "name": "BLACK SMOKE BROWN SPORTS SHIELD SUNGLASSES",
+    "familyName": "BLACK SMOKE BROWN SPORTS SHIELD SUNGLASSES",
+    "category": "Eye Wears",
+    "subcategory": "Sunglasses",
+    "brand": "",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/ChatGPT_Image_Oct_15_2026_11_24_49_AM_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/ChatGPT_Image_Oct_15_2026_11_24_49_AM_edited",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/ChatGPT_Image_Oct_15_2026_11_24_49_AM_edited"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/ChatGPT_Image_Oct_15_2026_11_24_49_AM_edited"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/ChatGPT_Image_Oct_15_2026_11_24_49_AM_edited",
+        "color": "Black / Smoke Brown"
+      }
+    ],
+    "colors": [
+      "Black / Smoke Brown"
+    ],
+    "variants": [
+      {
+        "color": "Black / Smoke Brown",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/ChatGPT_Image_Oct_15_2026_11_24_49_AM_edited",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/ChatGPT_Image_Oct_15_2026_11_24_49_AM_edited",
+            "color": "Black / Smoke Brown"
+          }
+        ]
+      }
+    ],
+    "sizes": [],
+    "tags": [
+      "eye wears",
+      "sunglasses"
+    ],
+    "inStock": true,
+    "placeholder": false,
+    "newArrival": true,
+    "sale": false,
+    "description": "Frame and lens colour as pictured. Contact us for current pricing and measurements.",
+    "quantity": 1
   }
 ]
 
@@ -4445,7 +4458,7 @@ const additions = new Set(OCT22_EYEWEAR.map(product => String(product.id)))
 // Append after owner overrides; never move or recode an existing card.
 export function appendOct22Eyewear(products, rows = []) {
   const saved = new Map(rows.map(row => [String(row.id), row]))
-  return products.filter(product => !additions.has(String(product.id))).concat(
+  return products.filter(product => !additions.has(String(product.id)) && String(product.id) !== '28185').concat(
     OCT22_EYEWEAR.flatMap(product => {
       const row = saved.get(String(product.id))
       if (row?.deleted) return []
