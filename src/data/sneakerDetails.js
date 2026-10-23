@@ -1,15 +1,14 @@
 // Owner-requested SN numbering and researched catalog details, reviewed 2026-10-23.
 // Unverified prices remain untouched. Sources and match limits are in catalog-audit.
-export const SNEAKER_DETAILS_REVISION = 'sneakers-details-2026-10-23-v1'
+export const SNEAKER_DETAILS_REVISION = 'sneakers-details-2026-10-23-v2'
 export const REVIEWED_SNEAKER_DETAILS = [
   {
     "id": 47,
     "productCode": "SN-001",
-    "name": "NIKE AIR FORCE 1 '07 — BLACK",
-    "matchStatus": "official USD product price; visual product match",
-    "source": "https://www.nike.com/t/air-force-1-07-mens-shoes-DZejrQoC/CW2288-001",
-    "price": 115,
-    "manufacturerCode": "CW2288-001"
+    "name": "NIKE AIR FORCE 1 — BLACK PATTERNED SWOOSH",
+    "matchStatus": "model-family only; patterned Swoosh differs from standard CW2288-001",
+    "source": "https://www.nike.com/bg/air-force-1",
+    "resetUnverifiedPrice": true
   },
   {
     "id": 126,
@@ -453,6 +452,7 @@ export function normalizeResearchedSneaker(product) {
   const { name, manufacturerCode } = row
   const updated = { ...numbered, name, familyName: name, manufacturerCode: manufacturerCode || null,
     sneakerDetailsRevision: SNEAKER_DETAILS_REVISION }
+  if (row.resetUnverifiedPrice) Object.assign(updated, { price: null, priceOnRequest: true, compareAt: null, officialPriceSource: null, sale: false })
   if (Number.isFinite(row.price)) Object.assign(updated, {
     price: row.price, priceOnRequest: false, compareAt: null, sale: false,
     discountPricingVersion: 1, currency: 'USD', officialPriceSource: row.source,

@@ -13,16 +13,15 @@
       "Retained white runner ID 129 still has one verified image; matching additional views were not found."
     ]
   },
-  "officialUsdPriceCount": 8,
+  "officialUsdPriceCount": 7,
   "products": [
     {
       "id": 47,
       "productCode": "SN-001",
-      "name": "NIKE AIR FORCE 1 '07 — BLACK",
-      "matchStatus": "official USD product price; visual product match",
-      "source": "https://www.nike.com/t/air-force-1-07-mens-shoes-DZejrQoC/CW2288-001",
-      "price": 115,
-      "manufacturerCode": "CW2288-001"
+      "name": "NIKE AIR FORCE 1 — BLACK PATTERNED SWOOSH",
+      "matchStatus": "model-family only; patterned Swoosh differs from standard CW2288-001",
+      "source": "https://www.nike.com/bg/air-force-1",
+      "resetUnverifiedPrice": true
     },
     {
       "id": 126,
@@ -455,5 +454,8 @@
       "matchStatus": "model-family; exact edition and official USD price unverified",
       "source": null
     }
+  ],
+  "notes": [
+    "SN-001 has a patterned Swoosh and was excluded from the standard CW2288-001 price match during live visual verification."
   ]
 }
