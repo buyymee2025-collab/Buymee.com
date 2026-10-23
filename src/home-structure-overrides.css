@@ -1,3 +1,180 @@
-.home-redesign .angle-carousel-overlay {
-  background: rgba(16, 25, 35, .48);
+/* Refined editorial rhythm for the homepage and About page. */
+.home-redesign .hero-new {
+  box-sizing: border-box;
+  min-height: min(800px, calc(100svh - 74px));
+  padding: clamp(56px, 8vh, 96px) clamp(24px, 8vw, 124px) clamp(72px, 9vh, 108px);
+  grid-template-columns: minmax(0, 1fr) minmax(170px, .38fr);
+  gap: clamp(28px, 4vw, 64px);
+}
+.home-redesign .hero-new-copy {
+  width: min(100%, 700px);
+  max-width: 700px;
+}
+.home-redesign .hero-new-copy h1 {
+  max-width: 6.2ch;
+  margin: 26px 0 20px;
+  font-size: clamp(68px, 8.5vw, 124px);
+  line-height: .9;
+  letter-spacing: -.065em;
+  font-weight: 500;
+}
+.home-redesign .hero-new-copy h1 span {
+  font-weight: 400;
+}
+.home-redesign .hero-new-rail {
+  right: clamp(24px, 4vw, 64px);
+  bottom: 14%;
+}
+.home-redesign .hero-new-caption {
+  left: clamp(24px, 8vw, 124px);
+  bottom: 28px;
+}
+
+/* A consistent section cadence makes the homepage easier to scan. */
+.home-redesign .category-constellation,
+.home-redesign .new-in-new,
+.home-redesign .locations-new {
+  padding-top: clamp(64px, 7vw, 104px);
+  padding-bottom: clamp(64px, 7vw, 104px);
+}
+.home-redesign .dress-story-new {
+  padding: clamp(64px, 7vw, 104px) clamp(24px, 8vw, 124px);
+}
+.home-redesign .feature-copy {
+  padding: clamp(48px, 7vw, 104px);
+}
+.home-redesign .category-constellation h2 em,
+.home-redesign .new-in-new h2 em,
+.home-redesign .manifesto-strip h2 em,
+.home-redesign .feature-copy h2 em,
+.home-redesign .dress-story-copy h2 em,
+.home-redesign .closing-new h2 em,
+.home-redesign .hero-new-copy h1 span,
+.about-new h1 em,
+.about-new h2 em,
+.about-new .principle-grid span {
+  font-weight: 400;
+}
+.home-redesign .hero-new-copy h1 span {
+  color: #e36a3d;
+}
+.home-redesign .manifesto-strip h2 em,
+.home-redesign .category-constellation h2 em,
+.home-redesign .new-in-new h2 em,
+.home-redesign .dress-story-copy h2 em,
+.home-redesign .locations-logo-heading em {
+  color: var(--home-orange);
+}
+.home-redesign .feature-copy h2 em {
+  color: #ef845d;
+}
+
+/* The About hero now has one readable statement and one contained image. */
+.about-new .about-new-hero {
+  box-sizing: border-box;
+  min-height: min(740px, calc(100svh - 74px));
+  padding: clamp(56px, 8vh, 96px) clamp(24px, 8vw, 124px);
+  grid-template-columns: minmax(300px, .82fr) minmax(0, 1.18fr);
+  gap: clamp(36px, 6vw, 92px);
+}
+.about-new .about-new-hero > .about-hero-copy {
+  width: 100%;
+  max-width: 500px;
+}
+.about-new .about-new-hero h1 {
+  margin: 24px 0 22px;
+  font-size: clamp(52px, 5.8vw, 82px);
+  line-height: .98;
+  letter-spacing: -.055em;
+  font-weight: 500;
+  text-transform: none;
+}
+.about-new .about-new-hero h1 em {
+  display: inline-block;
+  color: #ef845d;
+  font-weight: 400;
+}
+.about-new .about-new-hero p {
+  max-width: 390px;
+  margin: 0;
+  font-size: clamp(16px, 1.3vw, 18px);
+  line-height: 1.75;
+}
+.about-new .about-new-hero > .about-hero-image {
+  width: 100%;
+  height: min(56vw, 520px);
+  min-height: 390px;
+  overflow: hidden;
+  background: #e3ded4;
+}
+.about-new .about-new-hero > .about-hero-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: center 42%;
+}
+.about-new .about-hero-edge {
+  right: clamp(24px, 8vw, 124px);
+  bottom: 24px;
+  color: #e5a48c;
+  font-weight: 400;
+}
+.about-new .about-principle h2 em,
+.about-new .about-world-copy h2 em,
+.about-new .about-end h2 em {
+  font-weight: 400;
+}
+.about-new .about-end h2 em { color: var(--about-navy); }
+
+/* Keep the editorial hierarchy intact on tablets and phones. */
+@media (max-width: 900px) {
+  .home-redesign .hero-new {
+    min-height: min(760px, calc(100svh - 68px));
+    padding: 72px 7vw 94px;
+    grid-template-columns: minmax(0, 1fr) 105px;
+    gap: 20px;
+  }
+  .home-redesign .hero-new-copy h1 { font-size: clamp(64px, 10vw, 96px); }
+  .home-redesign .hero-new-rail { right: 7vw; bottom: 12%; }
+  .home-redesign .hero-new-caption { left: 7vw; }
+  .about-new .about-new-hero {
+    min-height: 0;
+    padding: 64px 7vw 82px;
+    grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+    gap: 32px;
+  }
+  .about-new .about-new-hero > .about-hero-image { height: 470px; min-height: 0; }
+}
+@media (max-width: 600px) {
+  .home-redesign .hero-new {
+    min-height: min(760px, calc(100svh - 64px));
+    padding: 68px 8vw 88px;
+    display: flex;
+    align-items: center;
+  }
+  .home-redesign .hero-new-copy { padding-top: 0; }
+  .home-redesign .hero-new-copy h1 {
+    max-width: 5.5ch;
+    margin: 22px 0 18px;
+    font-size: clamp(64px, 18vw, 92px);
+    line-height: .9;
+  }
+  .home-redesign .hero-new-caption { left: 8vw; bottom: 18px; }
+  .home-redesign .category-constellation,
+  .home-redesign .new-in-new,
+  .home-redesign .locations-new { padding-top: 58px; padding-bottom: 58px; }
+  .home-redesign .dress-story-new { padding: 58px 8vw; }
+  .about-new .about-new-hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 26px;
+    min-height: 0;
+    padding: 54px 8vw 78px;
+  }
+  .about-new .about-new-hero h1 { font-size: clamp(48px, 13vw, 68px); }
+  .about-new .about-new-hero > .about-hero-image { height: min(112vw, 500px); }
+  .about-new .about-hero-edge { left: 8vw; right: auto; bottom: 24px; }
 }
