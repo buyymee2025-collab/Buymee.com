@@ -178,3 +178,8 @@
   .about-new .about-new-hero > .about-hero-image { height: min(112vw, 500px); }
   .about-new .about-hero-edge { left: 8vw; right: auto; bottom: 24px; }
 }
+
+/* Keep the category cards clean and solid, without a gradient overlay. */
+.home-redesign .angle-carousel-overlay {
+  background: rgba(16, 25, 35, .48);
+}
