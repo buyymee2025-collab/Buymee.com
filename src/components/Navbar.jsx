@@ -10,15 +10,15 @@ import { watchAssets } from '../data/assets'
 const ease = [0.22, 1, 0.36, 1]
 const MotionLink = motion.create(Link)
 const shopItems = [
-  { label: 'New In', path: '/new-in', note: 'The latest edit' },
-  { label: 'Women', path: '/women', note: 'Make an entrance' },
-  { label: 'LUXURY MEN SILK', path: '/men', note: 'A sharper point of view' },
-  { label: 'Watches', path: '/watches' },
-  { label: 'Shoes', path: '/shoes' },
-  { label: 'Sneakers', path: '/sneakers' },
-  { label: 'Luxury Eye Wears', path: '/eye-wears' },
-  { label: 'Fragrance', path: '/fragrance' },
-  { label: 'Luxury Women Silk', path: '/luxury-women-silk' },
+  { label: 'NEW IN', path: '/new-in', note: 'THE LATEST EDIT' },
+  { label: 'WOMEN', path: '/women', note: 'MAKE AN ENTRANCE' },
+  { label: 'LUXURY MEN SILK', path: '/men', note: 'A SHARPER POINT OF VIEW' },
+  { label: 'WATCHES', path: '/watches' },
+  { label: 'SHOES', path: '/shoes' },
+  { label: 'SNEAKERS', path: '/sneakers' },
+  { label: 'LUXURY EYE WEARS', path: '/eye-wears' },
+  { label: 'FRAGRANCE', path: '/fragrance' },
+  { label: 'LUXURY WOMEN SILK', path: '/luxury-women-silk' },
 ]
 
 export default function Navbar({ overlay = false }) {
@@ -154,9 +154,9 @@ export default function Navbar({ overlay = false }) {
       <header ref={headerRef} className={`navbar ${overlay ? 'overlay' : ''}`} onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setShopOpen(false) }}>
         <Logo light={overlay} />
         <nav className="desktop-nav" aria-label="Main navigation">
-          <NavLink to="/" end>Home</NavLink>
+          <NavLink to="/" end>HOME</NavLink>
           <div className="shop-nav-item" onMouseEnter={openShop} onMouseLeave={closeShop}>
-            <NavLink to="/shop" end className={shopActive ? 'active' : ''}>Shop</NavLink>
+            <NavLink to="/shop" end className={shopActive ? 'active' : ''}>SHOP</NavLink>
             <button
               ref={shopToggleRef}
               type="button"
@@ -171,8 +171,8 @@ export default function Navbar({ overlay = false }) {
               <ChevronDown size={14} />
             </button>
           </div>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/about">ABOUT</NavLink>
+          <NavLink to="/contact">CONTACT</NavLink>
         </nav>
         <div className="nav-actions">
           <button type="button" onClick={() => setDrawer(true)} aria-label="Open shopping bag">
@@ -198,8 +198,8 @@ export default function Navbar({ overlay = false }) {
             >
               <div className="mega-intro">
                 <span className="eyebrow">THE SHOP / YOUR NEXT MOVE</span>
-                <h2>SHOP<br /><em>with intent.</em></h2>
-                <Link to="/shop" className="mega-all" onClick={() => setShopOpen(false)}>Explore all pieces <ArrowUpRight size={16} /></Link>
+                <h2>SHOP<br /><em>WITH INTENT.</em></h2>
+                <Link to="/shop" className="mega-all" onClick={() => setShopOpen(false)}>EXPLORE ALL PIECES <ArrowUpRight size={16} /></Link>
               </div>
               <div className="mega-links" aria-label="Shop categories">
                 {shopItems.map((item, index) => (
@@ -234,24 +234,24 @@ export default function Navbar({ overlay = false }) {
                 <Logo light onClick={closeMobile} />
                 <button ref={closeRef} type="button" className="close" onClick={() => { restoreFocusRef.current = true; closeMobile() }} aria-label="Close menu"><X size={25} /></button>
               </div>
-              <motion.span className="eyebrow" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: reduced ? 0 : 0.15 }}>THE WORLD OF BUYYMEE.com</motion.span>
+              <motion.span className="eyebrow" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: reduced ? 0 : 0.15 }}>THE WORLD OF BUYYMEE.COM</motion.span>
               <motion.nav className="mobile-menu-nav" aria-label="Mobile main navigation" initial="closed" animate="open" variants={{ open: { transition: { staggerChildren: reduced ? 0 : 0.055, delayChildren: reduced ? 0 : 0.1 } } }}>
-                <motion.div variants={menuItem}><NavLink to="/" end onClick={closeMobile}><small>01</small><span>Home</span><b>↗</b></NavLink></motion.div>
+                <motion.div variants={menuItem}><NavLink to="/" end onClick={closeMobile}><small>01</small><span>HOME</span><b>↗</b></NavLink></motion.div>
                 <motion.div variants={menuItem} className="mobile-shop-group">
                   <button type="button" className={`mobile-shop-toggle ${mobileShopOpen ? 'is-open' : ''} ${shopActive ? 'active' : ''}`} onClick={() => setMobileShopOpen((open) => !open)} aria-expanded={mobileShopOpen} aria-controls="mobile-shop-categories">
-                    <small>02</small><span>Shop</span><ChevronDown size={22} />
+                    <small>02</small><span>SHOP</span><ChevronDown size={22} />
                   </button>
                   <div id="mobile-shop-categories" className={`mobile-shop-submenu ${mobileShopOpen ? 'is-open' : ''}`} aria-hidden={!mobileShopOpen}>
                     <div className="mobile-shop-clip">
                       <div className="mobile-shop-links">
-                        <Link className="mobile-shop-all" to="/shop" onClick={closeMobile} tabIndex={mobileShopOpen ? 0 : -1}>Explore all pieces <ArrowUpRight size={16} /></Link>
+                        <Link className="mobile-shop-all" to="/shop" onClick={closeMobile} tabIndex={mobileShopOpen ? 0 : -1}>EXPLORE ALL PIECES <ArrowUpRight size={16} /></Link>
                         {shopItems.map((item, index) => <NavLink key={item.path} to={item.path} onClick={closeMobile} tabIndex={mobileShopOpen ? 0 : -1} style={{ '--item-delay': `${index * 24}ms` }}><span>{item.label}</span><ArrowUpRight size={14} /></NavLink>)}
                       </div>
                     </div>
                   </div>
                 </motion.div>
-                <motion.div variants={menuItem}><NavLink to="/about" onClick={closeMobile}><small>03</small><span>About</span><b>↗</b></NavLink></motion.div>
-                <motion.div variants={menuItem}><NavLink to="/contact" onClick={closeMobile}><small>04</small><span>Contact</span><b>↗</b></NavLink></motion.div>
+                <motion.div variants={menuItem}><NavLink to="/about" onClick={closeMobile}><small>03</small><span>ABOUT</span><b>↗</b></NavLink></motion.div>
+                <motion.div variants={menuItem}><NavLink to="/contact" onClick={closeMobile}><small>04</small><span>CONTACT</span><b>↗</b></NavLink></motion.div>
               </motion.nav>
               <div className="mobile-foot"><span>USA / UK / WORLDWIDE</span><span>YOUR STYLE. YOUR SIGNAL.</span></div>
             </motion.div>
