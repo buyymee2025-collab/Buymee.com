@@ -376,3 +376,5 @@
     border-width: 6px;
   }
 }
+
+.about-new .about-new-hero > .about-hero-image img { object-position: center 20%; }
