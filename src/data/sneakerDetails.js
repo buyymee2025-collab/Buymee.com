@@ -1,0 +1,465 @@
+// Owner-requested SN numbering and researched catalog details, reviewed 2026-10-23.
+// Unverified prices remain untouched. Sources and match limits are in catalog-audit.
+export const SNEAKER_DETAILS_REVISION = 'sneakers-details-2026-10-23-v1'
+export const REVIEWED_SNEAKER_DETAILS = [
+  {
+    "id": 47,
+    "productCode": "SN-001",
+    "name": "NIKE AIR FORCE 1 '07 — BLACK",
+    "matchStatus": "official USD product price; visual product match",
+    "source": "https://www.nike.com/t/air-force-1-07-mens-shoes-DZejrQoC/CW2288-001",
+    "price": 115,
+    "manufacturerCode": "CW2288-001"
+  },
+  {
+    "id": 126,
+    "productCode": "SN-002",
+    "name": "NIKE AIR FORCE 1 '07 — WHITE",
+    "matchStatus": "official USD product price; visual product match",
+    "source": "https://www.nike.com/t/air-force-1-07-mens-shoes-DZejrQoC/CW2288-111",
+    "price": 115,
+    "manufacturerCode": "CW2288-111"
+  },
+  {
+    "id": 127,
+    "productCode": "SN-003",
+    "name": "NIKE AIR FORCE 1 — WHITE / BLUE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 128,
+    "productCode": "SN-004",
+    "name": "NIKE AIR FORCE 1 — WHITE / SILVER",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 48,
+    "productCode": "SN-005",
+    "name": "AIR JORDAN 1 LOW — BLACK ELEPHANT PRINT",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/my/launch/t/air-jordan-1-low-black-cement"
+  },
+  {
+    "id": 49,
+    "productCode": "SN-006",
+    "name": "NIKE P-6000 — BLACK / GREY",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/hu/en/t/p-6000-mens-shoes-1RXlbg1R"
+  },
+  {
+    "id": 50,
+    "productCode": "SN-007",
+    "name": "NIKE AIR MAX 95 — BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 129,
+    "productCode": "SN-008",
+    "name": "NIKE AIR MAX SNEAKERS — WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60001,
+    "productCode": "SN-009",
+    "name": "NIKE RUNNING SNEAKERS — GREEN / WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60002,
+    "productCode": "SN-010",
+    "name": "CONVERSE LOW-TOP SNEAKERS — BLACK / WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60003,
+    "productCode": "SN-011",
+    "name": "NIKE AIR MAX PLUS — BLUE / BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60004,
+    "productCode": "SN-012",
+    "name": "ADIDAS LOW-TOP SNEAKERS — WHITE / RED",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60005,
+    "productCode": "SN-013",
+    "name": "AIR JORDAN 4 RETRO WHITE THUNDER — BLACK / WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/sg/launch/t/air-jordan-4-white-thunder-1",
+    "manufacturerCode": "FQ8138-001"
+  },
+  {
+    "id": 60006,
+    "productCode": "SN-014",
+    "name": "NIKE AIR MAX PLUS — BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60007,
+    "productCode": "SN-015",
+    "name": "NIKE KOBE 5 PROTRO EYBL — GREEN / YELLOW",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60008,
+    "productCode": "SN-016",
+    "name": "AIR JORDAN 4 RETRO WHITE CEMENT — WHITE / GREY",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/ph/launch/t/air-jordan-4-white-cement"
+  },
+  {
+    "id": 60009,
+    "productCode": "SN-017",
+    "name": "AIR JORDAN 4 RETRO WHITE AND BLACK — WHITE / BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/kr/launch/t/air-jordan-4-white-black",
+    "manufacturerCode": "DH6927-111"
+  },
+  {
+    "id": 60010,
+    "productCode": "SN-018",
+    "name": "NIKE AIR VAPORMAX PLUS — BLACK",
+    "matchStatus": "official USD product price; visual product match",
+    "source": "https://www.nike.com/t/air-vapormax-plus-mens-shoes-nC0dzF/924453-004",
+    "price": 179.97,
+    "manufacturerCode": "924453-004"
+  },
+  {
+    "id": 60011,
+    "productCode": "SN-019",
+    "name": "NIKE AIR MAX PLUS — RED / BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60012,
+    "productCode": "SN-020",
+    "name": "LOUIS VUITTON LV ARCHLIGHT SNEAKER — WHITE / BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://nz.louisvuitton.com/eng-nz/products/lv-archlight-sneaker-nvprod810023v/1A43L9"
+  },
+  {
+    "id": 60013,
+    "productCode": "SN-021",
+    "name": "AIR JORDAN 9 RETRO — BLACK / GREY",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60014,
+    "productCode": "SN-022",
+    "name": "MONOGRAM LOW-TOP SNEAKERS — WHITE / NAVY",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60015,
+    "productCode": "SN-023",
+    "name": "ADIDAS YEEZY BOOST 350 V2 — BEIGE / GREY",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60016,
+    "productCode": "SN-024",
+    "name": "BALENCIAGA SPEED 2.0 RECYCLED KNIT SNEAKER — BLACK",
+    "matchStatus": "official USD product price; visual product match",
+    "source": "https://www.balenciaga.com/en-us/speed-2.0-recycled-knit-sneaker-black-617239W2DB11013.html",
+    "price": 995,
+    "manufacturerCode": "617239W2DB11013"
+  },
+  {
+    "id": 60017,
+    "productCode": "SN-025",
+    "name": "LOUIS VUITTON LV TRAINER 2 — PURPLE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.kickscrew.com/products/louis-vuitton-trainer-2-sneakers-purple-1aahdb"
+  },
+  {
+    "id": 60018,
+    "productCode": "SN-026",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — ORANGE / WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60019,
+    "productCode": "SN-027",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60020,
+    "productCode": "SN-028",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — BLUE / WHITE / TEAL",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60021,
+    "productCode": "SN-029",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — WHITE / GREEN",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60022,
+    "productCode": "SN-030",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — DENIM / RED",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60023,
+    "productCode": "SN-031",
+    "name": "AIR JORDAN 4 RETRO THUNDER — BLACK / YELLOW",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/pt/en/launch/t/older-kids-air-jordan-4-thunder-restock-emea"
+  },
+  {
+    "id": 60024,
+    "productCode": "SN-032",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — GREY / ORANGE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60025,
+    "productCode": "SN-033",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — WHITE / GREEN",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60026,
+    "productCode": "SN-034",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — CRYSTAL / BLUE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60027,
+    "productCode": "SN-035",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — GREEN / WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60028,
+    "productCode": "SN-036",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — GREY / BLACK / ORANGE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60029,
+    "productCode": "SN-037",
+    "name": "BIRKENSTOCK BOSTON SHEARLING SUEDE LEATHER — TAN",
+    "matchStatus": "official USD product price; visual product match",
+    "source": "https://www.birkenstock.com/us/boston-shearling-suede-leather/boston-shearling-suedeleather-0-eva-u_491.html",
+    "price": 179.95,
+    "manufacturerCode": null
+  },
+  {
+    "id": 60030,
+    "productCode": "SN-038",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — LIGHT BLUE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60031,
+    "productCode": "SN-039",
+    "name": "AIR JORDAN 11 RETRO SPACE JAM — BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/jordan/air-jordan-11"
+  },
+  {
+    "id": 60032,
+    "productCode": "SN-040",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — MINT / CORAL",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60033,
+    "productCode": "SN-041",
+    "name": "AIR JORDAN 1 LOW — WHITE",
+    "matchStatus": "official USD product price; visual product match",
+    "source": "https://www.nike.com/t/air-jordan-1-low-mens-shoes-w9HO9jOz/553558-136",
+    "price": 120,
+    "manufacturerCode": "553558-136"
+  },
+  {
+    "id": 60034,
+    "productCode": "SN-042",
+    "name": "AIR JORDAN 11 RETRO COOL GREY — GREY",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/vn/launch/t/air-jordan-11-cool-grey",
+    "manufacturerCode": "CT8012-005"
+  },
+  {
+    "id": 60035,
+    "productCode": "SN-043",
+    "name": "BLACK STUDDED LUG-SOLE BOOTS — BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60036,
+    "productCode": "SN-044",
+    "name": "NIKE AIR MAX PLUS — WHITE / SILVER",
+    "matchStatus": "official USD product price; visual product match",
+    "source": "https://www.nike.com/t/air-max-plus-mens-shoes-x9G2xF/604133-139",
+    "price": 190,
+    "manufacturerCode": "604133-139"
+  },
+  {
+    "id": 60037,
+    "productCode": "SN-045",
+    "name": "AIR JORDAN 4 RETRO MIDNIGHT NAVY — WHITE / NAVY",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/sg/launch/t/air-jordan-4-midnight-navy",
+    "manufacturerCode": "DH6927-140"
+  },
+  {
+    "id": 60038,
+    "productCode": "SN-046",
+    "name": "AIR JORDAN 1 LOW — BLACK / PURPLE / TEAL",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60039,
+    "productCode": "SN-047",
+    "name": "AIR JORDAN 3 RETRO — WHITE / BLUE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/jp/launch/t/air-jordan-3-valor-blue"
+  },
+  {
+    "id": 60040,
+    "productCode": "SN-048",
+    "name": "OFF-WHITE OUT OF OFFICE SNEAKERS — BLACK / WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.off---white.com/en-pl/single-day/out-of-office-sneakers-OMIA189C99LEA0061001.html"
+  },
+  {
+    "id": 60041,
+    "productCode": "SN-049",
+    "name": "NIKE NOCTA HOT STEP AIR TERRA — WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60042,
+    "productCode": "SN-050",
+    "name": "ADIDAS YEEZY BOOST 350 V2 — BLACK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  },
+  {
+    "id": 60043,
+    "productCode": "SN-051",
+    "name": "AIR JORDAN 4 RETRO MOTORSPORT — WHITE / ROYAL BLUE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/launch/t/behind-design-air-jordan-4-retro-motorsport"
+  },
+  {
+    "id": 60044,
+    "productCode": "SN-052",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — BLUE / PURPLE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60045,
+    "productCode": "SN-053",
+    "name": "ALEXANDER MCQUEEN OVERSIZED SNEAKER — WHITE / BLACK",
+    "matchStatus": "official USD product price; visual product match",
+    "source": "https://www.alexandermcqueen.com/en-us/pr/oversized-sneaker-553680WIAIG9061.html",
+    "price": 590,
+    "manufacturerCode": "553680WIAIG9061"
+  },
+  {
+    "id": 60046,
+    "productCode": "SN-054",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — PURPLE / WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60047,
+    "productCode": "SN-055",
+    "name": "PUMA PALERMO SNEAKERS — WHITE / BLUE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://eg.puma.com/en-eg/collections/palermo"
+  },
+  {
+    "id": 60048,
+    "productCode": "SN-056",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — PURPLE / MINT / PINK",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60049,
+    "productCode": "SN-057",
+    "name": "AIR JORDAN 4 X OFF-WHITE SAIL — BEIGE / PALE BLUE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://www.nike.com/jp/launch/t/air-jordan-4-off-white-sail"
+  },
+  {
+    "id": 60050,
+    "productCode": "SN-058",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — BLACK / WHITE",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60051,
+    "productCode": "SN-059",
+    "name": "LOUIS VUITTON LV TRAINER SNEAKER — WHITE / GREY",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": "https://us.louisvuitton.com/eng-us/men/shoes/lv-trainer/_/N-thbekpq"
+  },
+  {
+    "id": 60052,
+    "productCode": "SN-060",
+    "name": "ADIDAS YEEZY BOOST 350 V2 — CREAM",
+    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "source": null
+  }
+]
+const reviewedById = new Map(REVIEWED_SNEAKER_DETAILS.map(row => [String(row.id), row]))
+export function normalizeResearchedSneaker(product) {
+  if (product.category !== 'Sneakers') return product
+  const row = reviewedById.get(String(product.id))
+  if (!row) return product
+  const numbered = { ...product, productCode: row.productCode }
+  if (product.sneakerDetailsRevision === SNEAKER_DETAILS_REVISION) return numbered
+  const { name, manufacturerCode } = row
+  const updated = { ...numbered, name, familyName: name, manufacturerCode: manufacturerCode || null,
+    sneakerDetailsRevision: SNEAKER_DETAILS_REVISION }
+  if (Number.isFinite(row.price)) Object.assign(updated, {
+    price: row.price, priceOnRequest: false, compareAt: null, sale: false,
+    discountPricingVersion: 1, currency: 'USD', officialPriceSource: row.source,
+    officialPriceCheckedAt: '2026-10-23' })
+  if (product.description?.includes('CONTACT BUYYMEE FOR AVAILABLE SIZES AND PRICE')) {
+    updated.description = name + (Number.isFinite(row.price)
+      ? '. CONTACT BUYYMEE FOR AVAILABLE SIZES.' : '. CONTACT BUYYMEE FOR AVAILABLE SIZES AND PRICE.')
+  }
+  return updated
+}

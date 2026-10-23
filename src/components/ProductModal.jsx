@@ -351,6 +351,9 @@ export default function ProductModal({ product, onClose }) {
               </div>
             )}
             <h2>{product.name}</h2>
+            {product.category === 'Sneakers' && product.manufacturerCode && (
+              <div className="product-modal-kicker">MODEL / {product.manufacturerCode}</div>
+            )}
             <ProductPrice product={product} currency={currency} formatPrice={formatPrice} className="product-modal-price" />
 
             <p className="product-modal-description">{product.description}</p>
