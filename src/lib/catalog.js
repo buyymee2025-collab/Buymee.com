@@ -1,4 +1,4 @@
-import { isRetiredSneaker } from '../data/sneakerCatalogRefresh.js'
+import { isRetiredSneaker, RETAINED_SNEAKER_IDS } from '../data/sneakerCatalogRefresh.js'
 import { appendOct22Eyewear } from '../data/oct22Eyewear.js'
 import { applyInitialDiscount } from './pricing.js'
 import { appendMatchingMannequinViews } from './matchingMannequinViews.js'
@@ -7,7 +7,15 @@ export const productCategories = ['Women', 'Luxury Women Silk', 'Men', 'Watches'
 export function mergeCatalog(base, rows) {
   const products = new Map(base.map(product => [String(product.id), product]))
   for (const row of rows) {
-    if (row.deleted) products.delete(String(row.id))
+    if (row.deleted) {
+      const original = products.get(String(row.id))
+      // Restore the eight owner-selected cards from deletions saved before this rebuild.
+      // New admin deletions carry the current media revision and continue to work.
+      const restoreSelected = RETAINED_SNEAKER_IDS.some(id => String(id) === String(row.id)) &&
+        original?.mediaRevision === 'sneakers-rebuild-2026-10-23' &&
+        row.payload?.mediaRevision !== original.mediaRevision
+      if (!restoreSelected) products.delete(String(row.id))
+    }
     else {
       const original = products.get(String(row.id))
       const saved = { ...row.payload, id: original?.id ?? row.id }
