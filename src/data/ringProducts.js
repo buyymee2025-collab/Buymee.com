@@ -86,12 +86,13 @@ export const RING_PRODUCTS = ringPairs.map((ring, index) => {
     id: 70001 + index, parentProductId: 70001 + index,
     productCode: ring.code, slug: 'luxury-rings-' + ring.code.toLowerCase(),
     name: ring.name, familyName: ring.name, category: "Men's Luxury Rings", subcategory: 'Rings',
-    brand: 'BUYYMEE.com', currency: 'USD', price: null, priceOnRequest: true, compareAt: null,
+    brand: 'BUYYMEE.com', currency: 'USD', price: 50, priceOnRequest: false, compareAt: 100,
+    discountPricingVersion: 1, priceRevision: 'rings-owner-prices-2026-10-23-v1',
     image: gallery[0], secondaryImage: gallery[1], gallery, images: gallery, media,
-    variants: [{ color: ring.color, image: gallery[0], media }], colors: [ring.color],
+    variants: [{ color: ring.color, image: gallery[0], media, price: 50 }], colors: [ring.color],
     sizes: [], tags: ['luxury rings', 'rings', 'signet rings'],
-    description: ring.name + '. Contact BUYYMEE for price, available sizes and delivery details.',
-    inStock: true, placeholder: false, featured: false, newArrival: true, sale: false,
+    description: ring.name + '. Contact BUYYMEE for available sizes and delivery details.',
+    inStock: true, placeholder: false, featured: false, newArrival: true, sale: true,
     mediaRevision: 'rings-cloudinary-2026-10-23-v1'
   }
 })

@@ -21,7 +21,7 @@ export default function LuxuryRings() {
       <section id="rings-collection" className="category-new-catalogue section-pad">
         <div className="catalogue-new-intro">
           <div><SectionLabel>THE RING COLLECTION</SectionLabel><h2>The finishing<br /><em>touch.</em></h2></div>
-          <p>Explore each ring from the front and side. Contact us for prices and available sizes.</p>
+          <p>Explore each ring from the front and side. All rings are $50, reduced from $100. Contact us for available sizes.</p>
         </div>
         <ShopGrid initial="men's luxury rings" categoryOnly />
       </section>
