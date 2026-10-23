@@ -4406,6 +4406,34 @@ const ORIGINAL_EYEWEAR_PRODUCTS = PAIRED_EYEWEAR_PRODUCTS.map(product => {
   }
 })
 
+
+
+// Owner-supplied USD prices, October 23, 2026. WhatsApp takes precedence for overlaps.
+const OWNER_EYEWEAR_PRICES = {
+  "GL069": 850,
+  "GL070": 1350,
+  "GL071": 825,
+  "GL072": 1095,
+  "GL073": 610,
+  "GL074": 750,
+  "GL075": 125,
+  "GL076": 825,
+  "GL077": 900,
+  "GL078": 895,
+  "GL079": 950,
+  "GL080": 830,
+  "GL081": 475,
+  "GL082": 520,
+  "GL083": 650,
+  "GL084": 600,
+  "GL085": 825,
+  "GL086": 705,
+  "GL087": 430,
+  "GL088": 395,
+  "GL089": 500,
+  "GL090": 350
+}
+
 // Keep the reviewed product-only pair first, followed by its original mannequin views.
 export const EYEWEAR_PRODUCTS = ORIGINAL_EYEWEAR_PRODUCTS.map(product => {
   const reviewed = REVIEWED_EYEWEAR_MEDIA[String(product.id)]
@@ -4416,4 +4444,11 @@ export const EYEWEAR_PRODUCTS = ORIGINAL_EYEWEAR_PRODUCTS.map(product => {
   return { ...product, ...reviewed, gallery, images: gallery, media,
     variants: [{ color, image: gallery[0], media }],
     mediaRevision: '2026-10-20-mannequins-restored-v3' }
-}).concat(NEW_REVIEWED_EYEWEAR, RECOVERED_EYEWEAR_PAIRS).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews)
+}).concat(NEW_REVIEWED_EYEWEAR, RECOVERED_EYEWEAR_PAIRS).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews).map(product => {
+  const price = OWNER_EYEWEAR_PRICES[product.productCode]
+  if (price === undefined) return product
+  return { ...product, price, priceOnRequest: false, compareAt: null,
+    currency: 'USD', discountPricingVersion: 1,
+    priceRevision: '2026-10-23-owner-prices-v1',
+    variants: product.variants?.map(variant => ({ ...variant, price })) }
+})
