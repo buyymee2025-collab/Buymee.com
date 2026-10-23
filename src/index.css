@@ -1452,17 +1452,17 @@ h1,h2,h3,h4,h5,h6,[role="heading"],.section-label,.admin-eyebrow,
 }
 
 /* Give the brand more presence while keeping navigation and controls clear. */
-.navbar > .logo-image {
+.navbar.navbar > .logo-image {
   width: 200px;
   height: 58px;
   max-width: 46vw;
   flex-shrink: 0;
 }
 @media (max-width: 900px) {
-  .navbar > .logo-image { width: 166px; height: 52px; }
+  .navbar.navbar > .logo-image { width: 166px; height: 52px; }
 }
 @media (max-width: 359px) {
-  .navbar > .logo-image { width: 148px; height: 48px; }
+  .navbar.navbar > .logo-image { width: 148px; height: 48px; }
 }
 /* Keep the complete Women editorial photograph inside both carousel copies. */
 .home-redesign .angle-carousel-card[href="/women"] { background: #f4f2ee; }
