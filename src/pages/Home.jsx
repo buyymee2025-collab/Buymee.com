@@ -1,7 +1,7 @@
 import { useStore } from '../context/StoreContext'
 import '../home-visual-refresh.css'
 import SiteImage from '../components/SiteImage'
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useReducedMotion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { ArrowUpRight, Check } from 'lucide-react'
@@ -27,6 +27,35 @@ const shopAngleCards = [
 ]
 
 const wearTheMomentImage = 'https://res.cloudinary.com/hobndbjx/image/upload/v1792586437/ce78c329-2f3f-4bd3-b580-34a41ec5a0dc.jpg'
+
+
+const styleWords = ['travels.', 'speaks.', 'inspires.', 'lasts.']
+
+function StyleTypingHeading() {
+  const reduced = useReducedMotion()
+  const [typing, setTyping] = useState({ word: 0, count: 0, deleting: false })
+  useEffect(() => {
+    if (reduced) return
+    const word = styleWords[typing.word]
+    const complete = typing.count === word.length
+    const empty = typing.count === 0
+    const delay = typing.deleting ? (empty ? 300 : 65) : (complete ? 1900 : 130)
+    const timer = setTimeout(() => {
+      setTyping(current => {
+        if (!current.deleting && current.count === styleWords[current.word].length)
+          return { ...current, deleting: true }
+        if (current.deleting && current.count === 0)
+          return { word: (current.word + 1) % styleWords.length, count: 0, deleting: false }
+        return { ...current, count: current.count + (current.deleting ? -1 : 1) }
+      })
+    }, delay)
+    return () => clearTimeout(timer)
+  }, [typing, reduced])
+  return <h2 className="style-typing-heading" aria-label="Good style travels.">
+    <span aria-hidden="true">Good style</span>
+    <em aria-hidden="true" className={reduced ? '' : 'style-typing-word'}>{reduced ? styleWords[0] : styleWords[typing.word].slice(0, typing.count)}</em>
+  </h2>
+}
 
 export default function Home() {
   const { products: currentProducts } = useStore()
@@ -186,7 +215,7 @@ export default function Home() {
             <path d="M4 4L20 20M11 20H20V11" vectorEffect="non-scaling-stroke" />
           </svg>
         </ScrollAccent>
-        <div><span className="eyebrow">A SHARP POINT OF VIEW</span><AnimatedHeading lines={['Good style', <em key="travels">travels.</em>]} /></div>
+        <div><span className="eyebrow">A SHARP POINT OF VIEW</span><StyleTypingHeading /></div>
         <p>One tight edit of real watches and dresses. No noise, no filler — just pieces with enough presence to become yours.</p>
         <Link to="/about" className="circle-link">OUR<br />STORY <ArrowUpRight size={17} /></Link>
       </section>
@@ -237,7 +266,6 @@ export default function Home() {
       <section className="dress-story-new dress-story-composed">
         <div className="dress-story-copy">
           <SectionLabel number="04">THE DRESS EDIT</SectionLabel>
-          <div className="entrance-typewriter" aria-label="Make every entrance count"><span aria-hidden="true">MAKE EVERY ENTRANCE COUNT.</span></div>
           <AnimatedHeading lines={['Make an', <em key="entrance">entrance.</em>]} />
           <p>Silhouettes for the version of you that has already decided.</p>
           <Reveal variant="left"><Link to="/women" className="arrow-link">Open the women's edit <span>↗</span></Link></Reveal>

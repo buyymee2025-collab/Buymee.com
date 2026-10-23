@@ -1063,3 +1063,27 @@
   .entrance-typewriter > span { animation: none; clip-path: none; }
   .entrance-typewriter > span::after { display: none; animation: none; }
 }
+
+/* Keep the manifesto steady while its accent word types and clears. */
+.home-redesign .manifesto-strip .style-typing-heading { min-height: 2.2em; }
+.home-redesign .manifesto-strip .style-typing-heading > span,
+.home-redesign .manifesto-strip .style-typing-heading > em {
+  display: block;
+  white-space: nowrap;
+  min-height: 1.1em;
+  line-height: 1.1;
+}
+.style-typing-word::after {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: .78em;
+  margin-left: .1em;
+  vertical-align: -.03em;
+  background: currentColor;
+  animation: style-typing-caret .85s step-end infinite;
+}
+@keyframes style-typing-caret { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .style-typing-word::after { display: none; animation: none; }
+}
