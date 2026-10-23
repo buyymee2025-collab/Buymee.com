@@ -258,7 +258,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="dress-story-new dress-story-composed">
+      <section className="dress-story-new">
         <div className="dress-story-copy">
           <SectionLabel number="04">THE DRESS EDIT</SectionLabel>
           <AnimatedHeading lines={['Make an', <em key="entrance">entrance.</em>]} />
