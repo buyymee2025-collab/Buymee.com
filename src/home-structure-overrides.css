@@ -562,3 +562,152 @@
     line-height: .96;
   }
 }
+
+
+/* Return the opening home sections to a crisp white canvas. */
+.home-redesign .manifesto-strip,
+.home-redesign .category-constellation,
+.home-redesign .new-in-new {
+  background: #fff;
+}
+.home-redesign .new-in-stage {
+  background: #faf9f6;
+  border-color: #e5e2dc;
+  box-shadow: 0 8px 24px #1823330d;
+}
+
+/* Give the phone layout a clear, repeatable editorial grid. */
+@media (max-width: 600px) {
+  .home-redesign .hero-new {
+    min-height: min(760px, calc(100svh - var(--nav-height, 64px)));
+    padding: 44px 24px 76px;
+  }
+  .home-redesign .hero-new-copy h1 {
+    max-width: 5.2ch;
+    font-size: clamp(60px, 16.5vw, 72px);
+  }
+
+  .home-redesign .manifesto-strip {
+    padding: 42px 24px;
+    gap: 12px 14px;
+  }
+  .home-redesign .manifesto-strip::before { width: 3px; }
+  .home-redesign .manifesto-strip h2 {
+    font-size: clamp(34px, 9.5vw, 42px);
+    line-height: 1;
+  }
+  .home-redesign .manifesto-strip .circle-link {
+    min-height: 36px;
+    padding: 0;
+  }
+
+  .home-redesign .category-constellation,
+  .home-redesign .new-in-new {
+    padding: 56px 24px;
+  }
+  .home-redesign .category-constellation .asym-heading,
+  .home-redesign .new-in-new .asym-heading {
+    gap: 12px;
+    margin-bottom: 22px;
+  }
+  .home-redesign .category-constellation .asym-heading h2,
+  .home-redesign .new-in-new .asym-heading h2 {
+    max-width: 10ch;
+    margin-top: 12px;
+    font-size: clamp(38px, 10vw, 48px);
+    line-height: .98;
+  }
+  .home-redesign .angle-carousel {
+    margin-right: -24px;
+    overflow: hidden;
+  }
+  .home-redesign .angle-carousel-card {
+    min-height: 390px;
+  }
+  .home-redesign .new-in-stage {
+    padding: 12px;
+  }
+  .home-redesign .product-stage-grid {
+    gap: 22px 10px;
+  }
+
+  .home-redesign .feature-copy {
+    padding: 42px 24px 50px;
+  }
+  .home-redesign .dress-story-new {
+    gap: 20px;
+    padding: 56px 24px 62px;
+  }
+  .home-redesign .dress-story-copy h2 {
+    font-size: clamp(46px, 11.5vw, 56px);
+  }
+  .home-redesign .dress-story-image {
+    height: min(106vw, 400px);
+  }
+  .home-redesign .dress-story-small {
+    right: 38px;
+    bottom: 74px;
+    width: clamp(126px, 35vw, 150px);
+    height: clamp(170px, 46vw, 196px);
+  }
+
+  .home-redesign .locations-new {
+    padding: 56px 24px;
+    gap: 26px;
+  }
+}
+
+/* On small screens, let the About hero breathe and keep its image in proportion. */
+@media (max-width: 600px) {
+  .about-new .about-new-hero {
+    box-sizing: border-box;
+    display: grid;
+    height: auto;
+    min-height: calc(100svh - var(--nav-height, 64px));
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    align-content: center;
+    gap: 20px;
+    padding: 28px 24px 54px;
+  }
+  .about-new .about-new-hero > .about-hero-copy {
+    width: 100%;
+    max-width: 460px;
+  }
+  .about-new .about-new-hero h1 {
+    max-width: 100%;
+    margin: 16px 0 14px;
+    font-size: clamp(38px, 10.6vw, 46px);
+    line-height: .98;
+    letter-spacing: -.06em;
+  }
+  .about-new .about-new-hero h1 em {
+    white-space: normal;
+  }
+  .about-new .about-new-hero p {
+    max-width: 36ch;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .about-new .about-new-hero > .about-hero-image {
+    width: 100%;
+    height: clamp(230px, 40svh, 350px);
+    min-height: 0;
+    max-height: none;
+    overflow: hidden;
+  }
+  .about-new .about-new-hero > .about-hero-image img {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+  .about-new .about-hero-edge {
+    left: 24px;
+    right: auto;
+    bottom: 18px;
+  }
+}
