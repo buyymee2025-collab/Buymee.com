@@ -1,3 +1,4 @@
+import { applyOwnerEyewearPrice } from '../data/newEyewearCatalog.js'
 import { isFragranceDemo } from '../data/fragranceProducts.js'
 import { normalizeResearchedSneaker } from '../data/sneakerDetails.js'
 import { isRetiredSneaker, RETAINED_SNEAKER_IDS } from '../data/sneakerCatalogRefresh.js'
@@ -38,7 +39,7 @@ export function mergeCatalog(base, rows) {
       products.set(String(row.id), saved)
     }
   }
-  return appendOct22Eyewear([...products.values()].filter(product => !isRetiredSneaker(product) && !isFragranceDemo(product)), rows).map(normalizeEyewearCategory).map(normalizeSilkCategory).map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews).map(normalizeResearchedSneaker).map(applyInitialDiscount).map(product => ({ ...product, quantity: product.quantity ?? 1 }))
+  return appendOct22Eyewear([...products.values()].filter(product => !isRetiredSneaker(product) && !isFragranceDemo(product)), rows).map(normalizeEyewearCategory).map(normalizeSilkCategory).map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews).map(normalizeResearchedSneaker).map(applyOwnerEyewearPrice).map(applyInitialDiscount).map(product => ({ ...product, quantity: product.quantity ?? 1 }))
 }
 // These reviewed photographs were previously mislabeled as a single Blue variant.
 // Apply after saved overrides too, so an older admin record cannot mix them again.
