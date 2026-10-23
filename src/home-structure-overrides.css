@@ -1087,3 +1087,15 @@
 @media (prefers-reduced-motion: reduce) {
   .style-typing-word::after { display: none; animation: none; }
 }
+
+/* A clean opening statement without the decorative arrow or edge stripe. */
+.home-redesign .manifesto-strip::before { display: none; content: none; }
+.home-redesign .manifesto-strip {
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr) 110px;
+}
+.home-redesign .manifesto-strip > div,
+.home-redesign .manifesto-strip p,
+.home-redesign .manifesto-strip .circle-link { grid-column: auto; grid-row: auto; }
+@media (max-width: 900px) {
+  .home-redesign .manifesto-strip { grid-template-columns: minmax(0, 1fr); }
+}
