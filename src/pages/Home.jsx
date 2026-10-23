@@ -212,7 +212,7 @@ export default function Home() {
       <section className="manifesto-strip">
         <div><span className="eyebrow">A SHARP POINT OF VIEW</span><StyleTypingHeading /></div>
         <p>One tight edit of real watches and dresses. No noise, no filler — just pieces with enough presence to become yours.</p>
-        <Link to="/about" className="circle-link">OUR<br />STORY <ArrowUpRight size={17} /></Link>
+        
       </section>
 
       <section className="category-constellation section-pad">
