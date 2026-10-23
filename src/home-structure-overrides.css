@@ -922,3 +922,66 @@
 .home-redesign .new-in-stage .product-stage-grid .product-card--editorial .quick-add span {
   color: inherit;
 }
+
+/* Section 03: a photographic backdrop with a separate readable text layer. */
+.home-redesign .feature-split-new.feature-watch-background {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  min-height: 620px;
+  overflow: hidden;
+  background: #101b29;
+}
+.feature-watch-background .feature-watch-photo {
+  position: absolute;
+  inset: -10px;
+  z-index: -2;
+  pointer-events: none;
+}
+.feature-watch-background .feature-watch-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 46%;
+  filter: blur(3px);
+  opacity: .65;
+}
+.home-redesign .feature-watch-background::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(8,18,31,.9), rgba(8,18,31,.72) 48%, rgba(8,18,31,.3));
+  pointer-events: none;
+}
+.home-redesign .feature-watch-background .feature-copy {
+  position: relative;
+  width: min(100%, 760px);
+  max-width: 760px;
+  box-sizing: border-box;
+  padding: 84px clamp(24px, 7vw, 108px) 110px;
+  color: #fff;
+}
+.home-redesign .feature-watch-background .feature-copy h2 {
+  font-size: clamp(48px, 6vw, 86px);
+  line-height: 1;
+  margin: 24px 0;
+  max-width: 10ch;
+}
+.home-redesign .feature-watch-background .feature-copy p { color: #f1f3f5; max-width: 38ch; }
+.home-redesign .feature-watch-background .section-label { color: #e4e9ee; }
+.home-redesign .feature-watch-background .feature-foot {
+  left: clamp(24px, 7vw, 108px);
+  right: clamp(24px, 7vw, 108px);
+  bottom: 38px;
+  color: #d8e1e9;
+}
+@media (max-width: 767px) {
+  .home-redesign .feature-split-new.feature-watch-background { min-height: 540px; }
+  .home-redesign .feature-watch-background .feature-copy { padding: 60px 24px 100px; }
+  .home-redesign .feature-watch-background .feature-copy h2 { font-size: clamp(42px, 11vw, 64px); }
+  .feature-watch-background .feature-watch-photo img { object-position: 56% center; filter: blur(2px); }
+  .home-redesign .feature-watch-background::after { background: rgba(8,18,31,.69); }
+}

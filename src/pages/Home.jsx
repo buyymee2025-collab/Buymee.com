@@ -221,11 +221,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="feature-split-new">
-        <Reveal className="feature-visual" variant="image">
-          <ScrollImage src={wearTheMomentImage} alt="Luxury watch from the BUYYMEE watch edit" distance={30} rotate={3} loading="lazy" />
-          <span className="feature-vertical">WATCH EDIT / A.M. TO P.M.</span>
-        </Reveal>
+      <section className="feature-split-new feature-watch-background">
+        <div className="feature-watch-photo" aria-hidden="true">
+          <SiteImage src={wearTheMomentImage} alt="" imageWidth={1920} />
+        </div>
         <div className="feature-copy">
           <SectionLabel number="03">TIME, RECONSIDERED</SectionLabel>
           <AnimatedHeading lines={['Wear', <em key="moment">the moment.</em>]} />
