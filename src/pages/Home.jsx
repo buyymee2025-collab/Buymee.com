@@ -234,9 +234,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="dress-story-new">
+      <section className="dress-story-new dress-story-composed">
         <div className="dress-story-copy">
           <SectionLabel number="04">THE DRESS EDIT</SectionLabel>
+          <div className="entrance-typewriter" aria-label="Make every entrance count"><span aria-hidden="true">MAKE EVERY ENTRANCE COUNT.</span></div>
           <AnimatedHeading lines={['Make an', <em key="entrance">entrance.</em>]} />
           <p>Silhouettes for the version of you that has already decided.</p>
           <Reveal variant="left"><Link to="/women" className="arrow-link">Open the women's edit <span>↗</span></Link></Reveal>
