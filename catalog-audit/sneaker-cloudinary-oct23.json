@@ -3,13 +3,14 @@
   "cloud": "hobndbjx",
   "observedLibraryAssetCount": 1089,
   "sneakerPhotoCount": 281,
-  "includedPhotoCount": 234,
-  "duplicatePhotoCount": 47,
+  "includedPhotoCount": 281,
+  "duplicatePhotoCount": 0,
   "retainedCards": 8,
   "replacementCards": 52,
   "notes": [
-    "Different angles of one shoe/style remain together. Repeat uploads do not create duplicate product cards.",
-    "Retained card 129 has only a front view available."
+    "Owner explicitly requested repeated photo sets as separate product cards after the initial deduplicated rebuild.",
+    "Every one of the 281 observed sneaker photos is now represented. Repeat cards use the matching product details and side-view covers.",
+    "Three-photo galleries are accepted as complete. Retained card 129 still has only one verified front view."
   ],
   "images": [
     {
@@ -80,12 +81,18 @@
     {
       "publicId": "IMG_4334_edited",
       "status": "included",
-      "listing": "SN044"
+      "listing": "SN044",
+      "repeatListings": [
+        "SN-070"
+      ]
     },
     {
       "publicId": "IMG_4335_edited",
       "status": "included",
-      "listing": "SN044"
+      "listing": "SN044",
+      "repeatListings": [
+        "SN-070"
+      ]
     },
     {
       "publicId": "IMG_4336_edited",
@@ -229,8 +236,11 @@
     },
     {
       "publicId": "IMG_4357_4_edited",
-      "status": "duplicate-view",
-      "listing": "SN044"
+      "status": "included-repeat-set",
+      "listing": "SN-070",
+      "repeatListings": [
+        "SN-070"
+      ]
     },
     {
       "publicId": "289098b7-9c53-4298-9e19-139d72437a59",
@@ -249,8 +259,11 @@
     },
     {
       "publicId": "e822b9a8-4fe3-4f41-9d2c-9b4daf2aa7a3",
-      "status": "duplicate-view",
-      "listing": "SN052"
+      "status": "included-repeat-set",
+      "listing": "SN-071",
+      "repeatListings": [
+        "SN-071"
+      ]
     },
     {
       "publicId": "c212b375-9864-40dd-983d-acf6966584aa",
@@ -259,13 +272,19 @@
     },
     {
       "publicId": "e253be8d-385d-4d5c-a387-59924eaeb2c2",
-      "status": "duplicate-view",
-      "listing": "SN052"
+      "status": "included-repeat-set",
+      "listing": "SN-071",
+      "repeatListings": [
+        "SN-071"
+      ]
     },
     {
       "publicId": "0b92e274-19cb-4cf5-afc6-7b325caa4bde",
-      "status": "duplicate-view",
-      "listing": "SN052"
+      "status": "included-repeat-set",
+      "listing": "SN-071",
+      "repeatListings": [
+        "SN-071"
+      ]
     },
     {
       "publicId": "e2448b16-aeed-4e23-a7e6-ba358505bf0e",
@@ -289,38 +308,59 @@
     },
     {
       "publicId": "a5473b60-2334-4a17-b18c-c442c7fac6ce",
-      "status": "duplicate-view",
-      "listing": "SN053"
+      "status": "included-repeat-set",
+      "listing": "SN-072",
+      "repeatListings": [
+        "SN-072"
+      ]
     },
     {
       "publicId": "915b1faf-aaf4-4780-86f0-c4a09430321b",
-      "status": "duplicate-view",
-      "listing": "SN053"
+      "status": "included-repeat-set",
+      "listing": "SN-072",
+      "repeatListings": [
+        "SN-072"
+      ]
     },
     {
       "publicId": "a5309200-e625-41b2-8396-40495fd11cc6",
-      "status": "duplicate-view",
-      "listing": "SN053"
+      "status": "included-repeat-set",
+      "listing": "SN-072",
+      "repeatListings": [
+        "SN-072"
+      ]
     },
     {
       "publicId": "cb99a898-5c0c-4b53-91fe-691a1a843037",
-      "status": "duplicate-view",
-      "listing": "SN053"
+      "status": "included-repeat-set",
+      "listing": "SN-072",
+      "repeatListings": [
+        "SN-072"
+      ]
     },
     {
       "publicId": "9fb7df29-2781-4f3a-9086-6e7374d36f53",
-      "status": "duplicate-view",
-      "listing": "SN053"
+      "status": "included-repeat-set",
+      "listing": "SN-073",
+      "repeatListings": [
+        "SN-073"
+      ]
     },
     {
       "publicId": "fdc309ff-5100-4f03-bc82-5b260513d28c",
-      "status": "duplicate-view",
-      "listing": "SN053"
+      "status": "included-repeat-set",
+      "listing": "SN-073",
+      "repeatListings": [
+        "SN-073"
+      ]
     },
     {
       "publicId": "9a6391c7-04fd-42c4-8984-08015afe61e1",
-      "status": "duplicate-view",
-      "listing": "SN053"
+      "status": "included-repeat-set",
+      "listing": "SN-073",
+      "repeatListings": [
+        "SN-073"
+      ]
     },
     {
       "publicId": "IMG_4298_edited",
@@ -404,23 +444,35 @@
     },
     {
       "publicId": "IMG_4367_edited",
-      "status": "duplicate-view",
-      "listing": "SN012"
+      "status": "included-repeat-set",
+      "listing": "SN-061",
+      "repeatListings": [
+        "SN-061"
+      ]
     },
     {
       "publicId": "IMG_4368_edited",
-      "status": "duplicate-view",
-      "listing": "SN012"
+      "status": "included-repeat-set",
+      "listing": "SN-061",
+      "repeatListings": [
+        "SN-061"
+      ]
     },
     {
       "publicId": "IMG_4369_edited",
-      "status": "duplicate-view",
-      "listing": "SN012"
+      "status": "included-repeat-set",
+      "listing": "SN-061",
+      "repeatListings": [
+        "SN-061"
+      ]
     },
     {
       "publicId": "IMG_4370_edited",
-      "status": "duplicate-view",
-      "listing": "SN012"
+      "status": "included-repeat-set",
+      "listing": "SN-061",
+      "repeatListings": [
+        "SN-061"
+      ]
     },
     {
       "publicId": "IMG_4371_edited",
@@ -444,23 +496,35 @@
     },
     {
       "publicId": "IMG_4375_edited",
-      "status": "duplicate-view",
-      "listing": "SN014"
+      "status": "included-repeat-set",
+      "listing": "SN-062",
+      "repeatListings": [
+        "SN-062"
+      ]
     },
     {
       "publicId": "IMG_4376_edited",
-      "status": "duplicate-view",
-      "listing": "SN014"
+      "status": "included-repeat-set",
+      "listing": "SN-062",
+      "repeatListings": [
+        "SN-062"
+      ]
     },
     {
       "publicId": "IMG_4377_edited",
-      "status": "duplicate-view",
-      "listing": "SN014"
+      "status": "included-repeat-set",
+      "listing": "SN-062",
+      "repeatListings": [
+        "SN-062"
+      ]
     },
     {
       "publicId": "IMG_4378_edited",
-      "status": "duplicate-view",
-      "listing": "SN014"
+      "status": "included-repeat-set",
+      "listing": "SN-062",
+      "repeatListings": [
+        "SN-062"
+      ]
     },
     {
       "publicId": "IMG_4379_edited",
@@ -744,23 +808,35 @@
     },
     {
       "publicId": "IMG_4437_edited",
-      "status": "duplicate-view",
-      "listing": "SN026"
+      "status": "included-repeat-set",
+      "listing": "SN-063",
+      "repeatListings": [
+        "SN-063"
+      ]
     },
     {
       "publicId": "IMG_4438_edited",
-      "status": "duplicate-view",
-      "listing": "SN026"
+      "status": "included-repeat-set",
+      "listing": "SN-063",
+      "repeatListings": [
+        "SN-063"
+      ]
     },
     {
       "publicId": "IMG_4439_edited",
-      "status": "duplicate-view",
-      "listing": "SN026"
+      "status": "included-repeat-set",
+      "listing": "SN-063",
+      "repeatListings": [
+        "SN-063"
+      ]
     },
     {
       "publicId": "IMG_4440_edited",
-      "status": "duplicate-view",
-      "listing": "SN026"
+      "status": "included-repeat-set",
+      "listing": "SN-063",
+      "repeatListings": [
+        "SN-063"
+      ]
     },
     {
       "publicId": "IMG_4441_edited",
@@ -784,23 +860,35 @@
     },
     {
       "publicId": "IMG_4445_edited",
-      "status": "duplicate-view",
-      "listing": "SN036"
+      "status": "included-repeat-set",
+      "listing": "SN-068",
+      "repeatListings": [
+        "SN-068"
+      ]
     },
     {
       "publicId": "IMG_4446_edited",
-      "status": "duplicate-view",
-      "listing": "SN036"
+      "status": "included-repeat-set",
+      "listing": "SN-068",
+      "repeatListings": [
+        "SN-068"
+      ]
     },
     {
       "publicId": "IMG_4447_edited",
-      "status": "duplicate-view",
-      "listing": "SN036"
+      "status": "included-repeat-set",
+      "listing": "SN-068",
+      "repeatListings": [
+        "SN-068"
+      ]
     },
     {
       "publicId": "IMG_4448_edited",
-      "status": "duplicate-view",
-      "listing": "SN036"
+      "status": "included-repeat-set",
+      "listing": "SN-068",
+      "repeatListings": [
+        "SN-068"
+      ]
     },
     {
       "publicId": "IMG_4449_edited",
@@ -904,23 +992,35 @@
     },
     {
       "publicId": "IMG_4470_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-064",
+      "repeatListings": [
+        "SN-064"
+      ]
     },
     {
       "publicId": "IMG_4471_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-064",
+      "repeatListings": [
+        "SN-064"
+      ]
     },
     {
       "publicId": "IMG_4473_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-064",
+      "repeatListings": [
+        "SN-064"
+      ]
     },
     {
       "publicId": "IMG_4474_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-064",
+      "repeatListings": [
+        "SN-064"
+      ]
     },
     {
       "publicId": "IMG_4476_edited",
@@ -1004,43 +1104,67 @@
     },
     {
       "publicId": "IMG_4495_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-065",
+      "repeatListings": [
+        "SN-065"
+      ]
     },
     {
       "publicId": "IMG_4496_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-065",
+      "repeatListings": [
+        "SN-065"
+      ]
     },
     {
       "publicId": "IMG_4497_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-065",
+      "repeatListings": [
+        "SN-065"
+      ]
     },
     {
       "publicId": "IMG_4498_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-065",
+      "repeatListings": [
+        "SN-065"
+      ]
     },
     {
       "publicId": "IMG_4500_edited",
-      "status": "duplicate-view",
-      "listing": "SN034"
+      "status": "included-repeat-set",
+      "listing": "SN-067",
+      "repeatListings": [
+        "SN-067"
+      ]
     },
     {
       "publicId": "IMG_4501_edited",
-      "status": "duplicate-view",
-      "listing": "SN034"
+      "status": "included-repeat-set",
+      "listing": "SN-067",
+      "repeatListings": [
+        "SN-067"
+      ]
     },
     {
       "publicId": "IMG_4502_edited",
-      "status": "duplicate-view",
-      "listing": "SN034"
+      "status": "included-repeat-set",
+      "listing": "SN-067",
+      "repeatListings": [
+        "SN-067"
+      ]
     },
     {
       "publicId": "IMG_4503_edited",
-      "status": "duplicate-view",
-      "listing": "SN034"
+      "status": "included-repeat-set",
+      "listing": "SN-067",
+      "repeatListings": [
+        "SN-067"
+      ]
     },
     {
       "publicId": "IMG_4504_edited",
@@ -1104,23 +1228,35 @@
     },
     {
       "publicId": "IMG_4519_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-066",
+      "repeatListings": [
+        "SN-066"
+      ]
     },
     {
       "publicId": "IMG_4520_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-066",
+      "repeatListings": [
+        "SN-066"
+      ]
     },
     {
       "publicId": "IMG_4521_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-066",
+      "repeatListings": [
+        "SN-066"
+      ]
     },
     {
       "publicId": "IMG_4522_edited",
-      "status": "duplicate-view",
-      "listing": "SN028"
+      "status": "included-repeat-set",
+      "listing": "SN-066",
+      "repeatListings": [
+        "SN-066"
+      ]
     },
     {
       "publicId": "IMG_4523_edited",
@@ -1144,23 +1280,35 @@
     },
     {
       "publicId": "IMG_4529_edited",
-      "status": "duplicate-view",
-      "listing": "SN036"
+      "status": "included-repeat-set",
+      "listing": "SN-069",
+      "repeatListings": [
+        "SN-069"
+      ]
     },
     {
       "publicId": "IMG_4530_edited",
-      "status": "duplicate-view",
-      "listing": "SN036"
+      "status": "included-repeat-set",
+      "listing": "SN-069",
+      "repeatListings": [
+        "SN-069"
+      ]
     },
     {
       "publicId": "IMG_4531_edited",
-      "status": "duplicate-view",
-      "listing": "SN036"
+      "status": "included-repeat-set",
+      "listing": "SN-069",
+      "repeatListings": [
+        "SN-069"
+      ]
     },
     {
       "publicId": "IMG_4532_edited",
-      "status": "duplicate-view",
-      "listing": "SN036"
+      "status": "included-repeat-set",
+      "listing": "SN-069",
+      "repeatListings": [
+        "SN-069"
+      ]
     },
     {
       "publicId": "IMG_4533_edited",
@@ -1417,5 +1565,9 @@
       "status": "included",
       "listing": "SN060"
     }
-  ]
+  ],
+  "repeatedPhotoCount": 47,
+  "repeatedCards": 13,
+  "totalCards": 73,
+  "displayedPhotoReferences": 283
 }

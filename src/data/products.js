@@ -1,3 +1,4 @@
+import { appendRepeatedSneakerSets } from './repeatedSneakerSets.js'
 import { normalizeResearchedSneaker } from './sneakerDetails.js'
 import { isRetiredSneaker, refreshRetainedSneaker, NEW_STUDIO_SNEAKERS } from './sneakerCatalogRefresh.js'
 // Product data, including the reviewed October 2026 catalogue refresh.
@@ -898,4 +899,6 @@ export const MENSWEAR_ASSETS = MENSWEAR_PRODUCTS.flatMap(product => product.gall
 export const EYEWEAR_EXCLUDED_IMAGE_NUMBERS = []
 export const EYEWEAR_UNPAIRED_IMAGE_NUMBERS = []
 products.push(...WOMENS_PRODUCTS, ...EYEWEAR_PRODUCTS, ...MENSWEAR_PRODUCTS)
-export default [...products.filter(product => !isRetiredSneaker(product)).map(refreshRetainedSneaker), ...NEW_STUDIO_SNEAKERS].map(normalizeResearchedSneaker)
+const refreshedCatalog = [...products.filter(product => !isRetiredSneaker(product)).map(refreshRetainedSneaker), ...NEW_STUDIO_SNEAKERS].map(normalizeResearchedSneaker)
+
+export default appendRepeatedSneakerSets(refreshedCatalog)

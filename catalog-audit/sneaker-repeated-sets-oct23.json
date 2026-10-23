@@ -1,0 +1,147 @@
+{
+  "addedCards": 13,
+  "totalCards": 73,
+  "includedUniqueCloudinaryPhotos": 281,
+  "added": [
+    {
+      "id": 61001,
+      "productCode": "SN-061",
+      "sourceProductId": 60004,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4368_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4367_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4369_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4370_edited"
+      ]
+    },
+    {
+      "id": 61002,
+      "productCode": "SN-062",
+      "sourceProductId": 60006,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4376_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4375_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4377_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4378_edited"
+      ]
+    },
+    {
+      "id": 61003,
+      "productCode": "SN-063",
+      "sourceProductId": 60018,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4438_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4437_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4439_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4440_edited"
+      ]
+    },
+    {
+      "id": 61004,
+      "productCode": "SN-064",
+      "sourceProductId": 60020,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4471_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4470_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4473_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4474_edited"
+      ]
+    },
+    {
+      "id": 61005,
+      "productCode": "SN-065",
+      "sourceProductId": 60020,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4496_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4495_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4497_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4498_edited"
+      ]
+    },
+    {
+      "id": 61006,
+      "productCode": "SN-066",
+      "sourceProductId": 60020,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4520_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4519_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4521_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4522_edited"
+      ]
+    },
+    {
+      "id": 61007,
+      "productCode": "SN-067",
+      "sourceProductId": 60026,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4501_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4500_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4502_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4503_edited"
+      ]
+    },
+    {
+      "id": 61008,
+      "productCode": "SN-068",
+      "sourceProductId": 60028,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4446_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4445_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4447_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4448_edited"
+      ]
+    },
+    {
+      "id": 61009,
+      "productCode": "SN-069",
+      "sourceProductId": 60028,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4530_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4529_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4531_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4532_edited"
+      ]
+    },
+    {
+      "id": 61010,
+      "productCode": "SN-070",
+      "sourceProductId": 60036,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4334_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4335_edited",
+        "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4357_4_edited"
+      ]
+    },
+    {
+      "id": 61011,
+      "productCode": "SN-071",
+      "sourceProductId": 60044,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/e253be8d-385d-4d5c-a387-59924eaeb2c2",
+        "https://res.cloudinary.com/hobndbjx/image/upload/e822b9a8-4fe3-4f41-9d2c-9b4daf2aa7a3",
+        "https://res.cloudinary.com/hobndbjx/image/upload/0b92e274-19cb-4cf5-afc6-7b325caa4bde"
+      ]
+    },
+    {
+      "id": 61012,
+      "productCode": "SN-072",
+      "sourceProductId": 60045,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/915b1faf-aaf4-4780-86f0-c4a09430321b",
+        "https://res.cloudinary.com/hobndbjx/image/upload/a5309200-e625-41b2-8396-40495fd11cc6",
+        "https://res.cloudinary.com/hobndbjx/image/upload/a5473b60-2334-4a17-b18c-c442c7fac6ce",
+        "https://res.cloudinary.com/hobndbjx/image/upload/cb99a898-5c0c-4b53-91fe-691a1a843037"
+      ]
+    },
+    {
+      "id": 61013,
+      "productCode": "SN-073",
+      "sourceProductId": 60045,
+      "gallery": [
+        "https://res.cloudinary.com/hobndbjx/image/upload/9fb7df29-2781-4f3a-9086-6e7374d36f53",
+        "https://res.cloudinary.com/hobndbjx/image/upload/fdc309ff-5100-4f03-bc82-5b260513d28c",
+        "https://res.cloudinary.com/hobndbjx/image/upload/9a6391c7-04fd-42c4-8984-08015afe61e1"
+      ]
+    }
+  ]
+}
