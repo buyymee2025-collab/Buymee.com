@@ -59,7 +59,10 @@ function StyleTypingHeading() {
 
 export default function Home() {
   const { products: currentProducts } = useStore()
-  const editorialProducts = currentProducts.slice(0, 6)
+  const eyewearPicks = currentProducts.filter(product => product.category === 'Eye Wears').slice(0, 2)
+  const firstWatch = currentProducts.find(product => product.category === 'Watches')
+  const silkPick = currentProducts.find(product => product.category === 'Men')
+  const editorialProducts = [eyewearPicks[0], firstWatch, eyewearPicks[1], silkPick].filter(Boolean)
   const reduced = useReducedMotion()
   const videoRef = useRef(null)
   const carouselRef = useRef(null)
@@ -236,11 +239,11 @@ export default function Home() {
       <section className="new-in-new section-pad">
         <div className="asym-heading">
           <div><SectionLabel number="02">THE DROP</SectionLabel><AnimatedHeading lines={['Right', <em key="now">now.</em>]} /></div>
-          <p>Small quantities, strong point of view.<br />Prices from $73 to $250.</p>
+          <p>Luxury eyewear, a signature watch,<br />and a standout silk piece.</p>
           <Link to="/new-in" className="arrow-link">See all new in <span>↗</span></Link>
         </div>
         <div className="new-in-stage">
-          <div className="stage-note"><span>THE CURRENT EDIT</span><strong>04 / 06</strong><i>↘</i></div>
+          <div className="stage-note"><span>THE CURRENT EDIT</span><strong>04 / 04</strong><i>↘</i></div>
           <div className="product-stage-grid">{editorialProducts.slice(0, 4).map((product, index) => <ProductCard key={product.id} product={product} index={index} />)}</div>
         </div>
       </section>
