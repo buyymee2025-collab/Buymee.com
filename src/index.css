@@ -1439,3 +1439,14 @@ h1,h2,h3,h4,h5,h6,[role="heading"],.section-label,.admin-eyebrow,
 .shop-new .search-field input,
 .shop-new .tool-right select { background-color:#fff; }
 .shop-new .product-card { color:#171717; }
+
+/* Make all product discount percentages easy to identify. */
+.product-card .product-card-discount,
+.home-redesign .product-stage-grid .product-card-discount {
+  color: #b4232d;
+  background: #fff1f2;
+}
+.product-pricing .price-values .price-reduction,
+.product-card--editorial .product-price-box .price-reduction {
+  color: #b4232d;
+}
