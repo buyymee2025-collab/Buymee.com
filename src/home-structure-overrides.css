@@ -742,20 +742,14 @@
   }
 
   .home-redesign .manifesto-strip {
-    grid-template-columns: 34px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
     gap: 12px 14px;
     padding: 34px 22px 36px;
     border-bottom: 1px solid #d9d9d6;
   }
-  .home-redesign .manifesto-mark {
-    grid-column: 1;
-    grid-row: 1;
-    width: 32px;
-    height: 32px;
-    margin-top: 2px;
-  }
+  .home-redesign .manifesto-mark { display: none; }
   .home-redesign .manifesto-strip > div {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
   }
   .home-redesign .manifesto-strip h2 {
@@ -766,14 +760,14 @@
     letter-spacing: -.045em;
   }
   .home-redesign .manifesto-strip p {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 2;
     max-width: 34ch;
     font-size: 14px;
     line-height: 1.55;
   }
   .home-redesign .manifesto-strip .circle-link {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 3;
     justify-self: start;
     display: inline-flex;
