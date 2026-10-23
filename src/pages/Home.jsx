@@ -26,6 +26,8 @@ const shopAngleCards = [
   { label: 'Luxury Women Silk', path: '/luxury-women-silk', image: 'https://res.cloudinary.com/hobndbjx/image/upload/v1792603680/exec-d029802d-46b8-4f62-aca7-6451810d5331.png', number: '09' },
 ]
 
+const featuredWatch = products.find((product) => product.category === 'Watches')
+
 export default function Home() {
   const { products: currentProducts } = useStore()
   const editorialProducts = currentProducts.slice(0, 6)
@@ -221,7 +223,7 @@ export default function Home() {
 
       <section className="feature-split-new">
         <Reveal className="feature-visual" variant="image">
-          <ScrollImage src={watchAssets[13]} alt="Tissot-inspired watch from the uploaded edit" distance={30} rotate={3} loading="lazy" />
+          <ScrollImage src={featuredWatch?.image || watchAssets[0]} alt={featuredWatch?.name || "Luxury watch from the BUYYMEE watch edit"} distance={30} rotate={3} loading="lazy" />
           <span className="feature-vertical">WATCH EDIT / A.M. TO P.M.</span>
         </Reveal>
         <div className="feature-copy">
