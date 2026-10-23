@@ -1,3 +1,4 @@
+import { RING_PRODUCTS } from './ringProducts.js'
 import { appendRepeatedSneakerSets, scatterSneakerSets } from './repeatedSneakerSets.js'
 import { normalizeResearchedSneaker } from './sneakerDetails.js'
 import { isRetiredSneaker, refreshRetainedSneaker, NEW_STUDIO_SNEAKERS } from './sneakerCatalogRefresh.js'
@@ -898,7 +899,7 @@ export const EYEWEAR_ASSETS = EYEWEAR_PRODUCTS.flatMap(product => product.galler
 export const MENSWEAR_ASSETS = MENSWEAR_PRODUCTS.flatMap(product => product.gallery)
 export const EYEWEAR_EXCLUDED_IMAGE_NUMBERS = []
 export const EYEWEAR_UNPAIRED_IMAGE_NUMBERS = []
-products.push(...WOMENS_PRODUCTS, ...EYEWEAR_PRODUCTS, ...MENSWEAR_PRODUCTS)
+products.push(...WOMENS_PRODUCTS, ...EYEWEAR_PRODUCTS, ...MENSWEAR_PRODUCTS, ...RING_PRODUCTS)
 const refreshedCatalog = [...products.filter(product => !isRetiredSneaker(product)).map(refreshRetainedSneaker), ...NEW_STUDIO_SNEAKERS].map(normalizeResearchedSneaker)
 
 export default scatterSneakerSets(appendRepeatedSneakerSets(refreshedCatalog))

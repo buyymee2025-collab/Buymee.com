@@ -5,7 +5,7 @@ import { appendOct22Eyewear } from '../data/oct22Eyewear.js'
 import { applyInitialDiscount } from './pricing.js'
 import { appendMatchingMannequinViews } from './matchingMannequinViews.js'
 import { normalizeResearchedEyewear } from './eyewearNames.js'
-export const productCategories = ['Women', 'Luxury Women Silk', 'Men', 'Watches', 'Sneakers', 'Shoes', 'Eye Wears', 'Fragrance', 'Accessories']
+export const productCategories = ['Women', 'Luxury Women Silk', 'Men', 'Watches', 'Sneakers', 'Shoes', 'Eye Wears', 'Fragrance', "Men's Luxury Rings", 'Accessories']
 export function mergeCatalog(base, rows) {
   const products = new Map(base.map(product => [String(product.id), product]))
   for (const row of rows) {

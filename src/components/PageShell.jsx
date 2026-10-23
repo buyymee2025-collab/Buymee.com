@@ -12,6 +12,7 @@ const pageNames = {
   '/': 'Home', '/about': 'About', '/shop': 'Shop', '/new-in': 'New In',
   '/women': 'Women', '/men': 'Men', '/watches': 'Watches', '/sneakers': 'Sneakers',
   '/shoes': 'Shoes', '/eye-wears': 'Luxury Eye Wears', '/fragrance': 'Luxury Fragrance',
+  '/mens-luxury-rings': "Men's Luxury Rings",
   '/luxury-women-silk': 'Luxury Women Silk', '/accessories': 'Accessories', '/cart': 'Your Bag', '/wishlist': 'Wishlist', '/contact': 'Contact',
 }
 
