@@ -1,6 +1,6 @@
 // Owner-requested SN numbering and researched catalog details, reviewed 2026-10-23.
 // Unverified prices remain untouched. Sources and match limits are in catalog-audit.
-export const SNEAKER_DETAILS_REVISION = 'sneakers-details-2026-10-23-v2'
+export const SNEAKER_DETAILS_REVISION = 'sneakers-details-2026-10-23-v3'
 export const REVIEWED_SNEAKER_DETAILS = [
   {
     "id": 47,
@@ -64,15 +64,15 @@ export const REVIEWED_SNEAKER_DETAILS = [
   {
     "id": 60001,
     "productCode": "SN-009",
-    "name": "NIKE RUNNING SNEAKERS — GREEN / WHITE",
-    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "name": "NIKE BAILLELI",
+    "matchStatus": "owner-supplied name, October 23, 2026",
     "source": null
   },
   {
     "id": 60002,
     "productCode": "SN-010",
-    "name": "CONVERSE LOW-TOP SNEAKERS — BLACK / WHITE",
-    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "name": "MAISON MIHARA YASUHIRO PETERSON OG",
+    "matchStatus": "owner-supplied name, October 23, 2026",
     "source": null
   },
   {
@@ -313,8 +313,8 @@ export const REVIEWED_SNEAKER_DETAILS = [
   {
     "id": 60035,
     "productCode": "SN-043",
-    "name": "BLACK STUDDED LUG-SOLE BOOTS — BLACK",
-    "matchStatus": "model-family; exact edition and official USD price unverified",
+    "name": "FASHION BULLDOZER LACE-UP BOOTS",
+    "matchStatus": "owner-supplied name, October 23, 2026",
     "source": null
   },
   {
