@@ -378,3 +378,187 @@
 }
 
 .about-new .about-new-hero > .about-hero-image img { object-position: center 20%; }
+
+
+/* Mobile home pass: align each editorial section to one calm, consistent rhythm. */
+@media (max-width: 600px) {
+  .home-redesign .hero-new {
+    box-sizing: border-box;
+    min-height: min(760px, calc(100svh - 64px));
+    padding: 48px 24px 78px;
+    display: flex;
+    align-items: center;
+  }
+  .home-redesign .hero-new-copy {
+    width: 100%;
+    max-width: 440px;
+    padding: 0;
+  }
+  .home-redesign .hero-new-copy h1 {
+    max-width: 5.4ch;
+    margin: 20px 0 16px;
+    font-size: clamp(62px, 17vw, 76px);
+    line-height: .91;
+  }
+  .home-redesign .hero-new-copy p {
+    max-width: 31ch;
+    margin: 0 0 22px;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+  .home-redesign .hero-new-actions {
+    align-items: center;
+    gap: 14px 18px;
+  }
+  .home-redesign .hero-new-actions .button {
+    min-height: 48px;
+    padding-inline: 18px;
+  }
+  .home-redesign .hero-new-caption {
+    left: 24px;
+    bottom: 18px;
+  }
+
+  .home-redesign .manifesto-strip {
+    grid-template-columns: 28px minmax(0, 1fr);
+    gap: 14px 16px;
+    padding: 46px 24px;
+  }
+  .home-redesign .manifesto-strip > div {
+    min-width: 0;
+  }
+  .home-redesign .manifesto-strip h2 {
+    max-width: 10ch;
+    margin: 12px 0 0;
+    font-size: clamp(36px, 10vw, 46px);
+    line-height: .98;
+  }
+  .home-redesign .manifesto-strip p,
+  .home-redesign .manifesto-strip .circle-link {
+    grid-column: 2;
+    justify-self: start;
+  }
+  .home-redesign .manifesto-strip p {
+    max-width: 34ch;
+    margin: 0;
+    line-height: 1.65;
+  }
+
+  .home-redesign .category-constellation,
+  .home-redesign .new-in-new,
+  .home-redesign .locations-new {
+    padding: 64px 24px;
+  }
+  .home-redesign .category-constellation .asym-heading,
+  .home-redesign .new-in-new .asym-heading {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+  .home-redesign .category-constellation .asym-heading > div,
+  .home-redesign .new-in-new .asym-heading > div {
+    min-width: 0;
+  }
+  .home-redesign .category-constellation .asym-heading > p,
+  .home-redesign .new-in-new .asym-heading > p {
+    grid-column: 1;
+    max-width: 34ch;
+    margin: 0;
+    line-height: 1.6;
+  }
+  .home-redesign .category-constellation .asym-heading > .editorial-number {
+    display: none;
+  }
+  .home-redesign .new-in-new .asym-heading .arrow-link {
+    justify-self: start;
+    margin-top: 2px;
+  }
+  .home-redesign .new-in-stage {
+    padding: 0;
+  }
+  .home-redesign .product-stage-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px 12px;
+  }
+
+  .home-redesign .feature-split-new {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .home-redesign .feature-visual {
+    min-height: 0;
+    height: min(112vw, 420px);
+  }
+  .home-redesign .feature-copy {
+    padding: 48px 24px 56px;
+  }
+  .home-redesign .feature-copy h2 {
+    max-width: 10ch;
+    margin: 16px 0 18px;
+    font-size: clamp(42px, 11vw, 54px);
+    line-height: .98;
+  }
+  .home-redesign .feature-copy p {
+    max-width: 34ch;
+    line-height: 1.65;
+  }
+
+  .home-redesign .dress-story-new {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+    padding: 64px 24px;
+  }
+  .home-redesign .dress-story-copy {
+    max-width: 38ch;
+  }
+  .home-redesign .dress-story-copy h2 {
+    max-width: 8.5ch;
+    margin: 16px 0 16px;
+    font-size: clamp(48px, 12vw, 60px);
+    line-height: .96;
+  }
+  .home-redesign .dress-story-copy p {
+    max-width: 32ch;
+    margin-bottom: 20px;
+    line-height: 1.65;
+  }
+  .home-redesign .dress-story-image {
+    grid-column: 1;
+    grid-row: 2;
+    height: min(112vw, 430px);
+  }
+  .home-redesign .dress-story-small {
+    right: 38px;
+    bottom: 76px;
+    width: clamp(132px, 36vw, 158px);
+    height: clamp(178px, 48vw, 206px);
+    border-width: 6px;
+  }
+
+  .home-redesign .locations-new {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 30px;
+  }
+  .home-redesign .location-copy {
+    max-width: 36ch;
+  }
+  .home-redesign .locations-logo-heading {
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+  }
+  .home-redesign .location-list > div {
+    min-height: 58px;
+    grid-template-columns: 30px minmax(0, 1fr) auto 18px;
+    gap: 10px;
+  }
+
+  .home-redesign .closing-new {
+    min-height: 0;
+    padding: 78px 24px 82px;
+  }
+  .home-redesign .closing-new h2 {
+    margin: 18px 0 26px;
+    font-size: clamp(48px, 13vw, 64px);
+    line-height: .96;
+  }
+}
