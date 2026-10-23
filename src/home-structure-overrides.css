@@ -913,3 +913,18 @@
   }
   .home-redesign .feature-vertical { display: none; }
 }
+
+
+/* Keep the homepage quick-add label legible over product imagery. */
+.home-redesign .new-in-stage .product-stage-grid .product-card--editorial .quick-add,
+.home-redesign .new-in-stage .product-stage-grid .product-card--editorial .quick-add:hover,
+.home-redesign .new-in-stage .product-stage-grid .product-card--editorial .quick-add:focus-visible,
+.home-redesign .new-in-stage .product-stage-grid .product-card--editorial .quick-add:active {
+  background: var(--home-navy);
+  border-color: var(--home-navy);
+  color: #fff;
+}
+.home-redesign .new-in-stage .product-stage-grid .product-card--editorial .quick-add svg,
+.home-redesign .new-in-stage .product-stage-grid .product-card--editorial .quick-add span {
+  color: inherit;
+}
