@@ -7,6 +7,7 @@ import { About, Shop, CategoryPage } from './pages/EditorialPages'
 import { ProductDetail, Wishlist, Cart, Contact, NotFound } from './pages/CommercePages'
 import './index.css'
 import './motion.css'
+import './balance.css'
 
 const Admin = lazy(() => import('./pages/Admin'))
 
