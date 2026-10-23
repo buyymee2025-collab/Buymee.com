@@ -1,0 +1,1421 @@
+{
+  "reviewDate": "2026-10-23",
+  "cloud": "hobndbjx",
+  "observedLibraryAssetCount": 1089,
+  "sneakerPhotoCount": 281,
+  "includedPhotoCount": 234,
+  "duplicatePhotoCount": 47,
+  "retainedCards": 8,
+  "replacementCards": 52,
+  "notes": [
+    "Different angles of one shoe/style remain together. Repeat uploads do not create duplicate product cards.",
+    "Retained card 129 has only a front view available."
+  ],
+  "images": [
+    {
+      "publicId": "IMG_4321_edited",
+      "status": "included",
+      "listing": "SN041"
+    },
+    {
+      "publicId": "IMG_4322_edited",
+      "status": "included",
+      "listing": "SN041"
+    },
+    {
+      "publicId": "IMG_4323_edited",
+      "status": "included",
+      "listing": "SN041"
+    },
+    {
+      "publicId": "IMG_4324_edited",
+      "status": "included",
+      "listing": "SN041"
+    },
+    {
+      "publicId": "IMG_4325_edited",
+      "status": "included",
+      "listing": "SN042"
+    },
+    {
+      "publicId": "IMG_4326_edited",
+      "status": "included",
+      "listing": "SN042"
+    },
+    {
+      "publicId": "IMG_4327_edited",
+      "status": "included",
+      "listing": "SN042"
+    },
+    {
+      "publicId": "IMG_4328_edited",
+      "status": "included",
+      "listing": "SN042"
+    },
+    {
+      "publicId": "IMG_4329_edited",
+      "status": "included",
+      "listing": "SN043"
+    },
+    {
+      "publicId": "IMG_4330_edited",
+      "status": "included",
+      "listing": "SN043"
+    },
+    {
+      "publicId": "IMG_4331_edited",
+      "status": "included",
+      "listing": "SN043"
+    },
+    {
+      "publicId": "IMG_4332_edited",
+      "status": "included",
+      "listing": "SN043"
+    },
+    {
+      "publicId": "IMG_4333_edited",
+      "status": "included",
+      "listing": "retained-id-129"
+    },
+    {
+      "publicId": "IMG_4334_edited",
+      "status": "included",
+      "listing": "SN044"
+    },
+    {
+      "publicId": "IMG_4335_edited",
+      "status": "included",
+      "listing": "SN044"
+    },
+    {
+      "publicId": "IMG_4336_edited",
+      "status": "included",
+      "listing": "SN044"
+    },
+    {
+      "publicId": "IMG_4337_edited",
+      "status": "included",
+      "listing": "SN045"
+    },
+    {
+      "publicId": "IMG_4338_edited",
+      "status": "included",
+      "listing": "SN045"
+    },
+    {
+      "publicId": "IMG_4339_edited",
+      "status": "included",
+      "listing": "SN045"
+    },
+    {
+      "publicId": "IMG_4340_edited",
+      "status": "included",
+      "listing": "SN045"
+    },
+    {
+      "publicId": "IMG_4341_edited",
+      "status": "included",
+      "listing": "SN046"
+    },
+    {
+      "publicId": "IMG_4342_edited",
+      "status": "included",
+      "listing": "SN046"
+    },
+    {
+      "publicId": "IMG_4344_edited",
+      "status": "included",
+      "listing": "SN046"
+    },
+    {
+      "publicId": "IMG_4345_edited",
+      "status": "included",
+      "listing": "SN046"
+    },
+    {
+      "publicId": "IMG_4346_edited",
+      "status": "included",
+      "listing": "SN047"
+    },
+    {
+      "publicId": "IMG_4347_edited",
+      "status": "included",
+      "listing": "SN047"
+    },
+    {
+      "publicId": "IMG_4348_edited",
+      "status": "included",
+      "listing": "SN047"
+    },
+    {
+      "publicId": "IMG_4349_edited",
+      "status": "included",
+      "listing": "SN047"
+    },
+    {
+      "publicId": "IMG_4351_edited",
+      "status": "included",
+      "listing": "SN048"
+    },
+    {
+      "publicId": "IMG_4352_edited",
+      "status": "included",
+      "listing": "SN048"
+    },
+    {
+      "publicId": "IMG_4353_edited",
+      "status": "included",
+      "listing": "SN048"
+    },
+    {
+      "publicId": "IMG_4354_edited",
+      "status": "included",
+      "listing": "SN048"
+    },
+    {
+      "publicId": "IMG_4355_edited",
+      "status": "included",
+      "listing": "SN049"
+    },
+    {
+      "publicId": "IMG_4356_edited",
+      "status": "included",
+      "listing": "SN049"
+    },
+    {
+      "publicId": "IMG_4357_edited",
+      "status": "included",
+      "listing": "SN049"
+    },
+    {
+      "publicId": "IMG_4358_edited",
+      "status": "included",
+      "listing": "SN050"
+    },
+    {
+      "publicId": "IMG_4359_edited",
+      "status": "included",
+      "listing": "SN050"
+    },
+    {
+      "publicId": "IMG_4360_edited",
+      "status": "included",
+      "listing": "SN050"
+    },
+    {
+      "publicId": "IMG_4361_edited",
+      "status": "included",
+      "listing": "SN050"
+    },
+    {
+      "publicId": "IMG_4363_edited",
+      "status": "included",
+      "listing": "SN051"
+    },
+    {
+      "publicId": "IMG_4364_edited",
+      "status": "included",
+      "listing": "SN051"
+    },
+    {
+      "publicId": "IMG_4365_edited",
+      "status": "included",
+      "listing": "SN051"
+    },
+    {
+      "publicId": "IMG_4366_edited",
+      "status": "included",
+      "listing": "SN051"
+    },
+    {
+      "publicId": "IMG_4357_4_edited",
+      "status": "duplicate-view",
+      "listing": "SN044"
+    },
+    {
+      "publicId": "289098b7-9c53-4298-9e19-139d72437a59",
+      "status": "included",
+      "listing": "SN052"
+    },
+    {
+      "publicId": "43d66533-5b23-4b5c-9433-edf9400d03e0",
+      "status": "included",
+      "listing": "SN052"
+    },
+    {
+      "publicId": "6b669de2-5b2b-4750-964b-e81ba99886fe",
+      "status": "included",
+      "listing": "SN052"
+    },
+    {
+      "publicId": "e822b9a8-4fe3-4f41-9d2c-9b4daf2aa7a3",
+      "status": "duplicate-view",
+      "listing": "SN052"
+    },
+    {
+      "publicId": "c212b375-9864-40dd-983d-acf6966584aa",
+      "status": "included",
+      "listing": "SN052"
+    },
+    {
+      "publicId": "e253be8d-385d-4d5c-a387-59924eaeb2c2",
+      "status": "duplicate-view",
+      "listing": "SN052"
+    },
+    {
+      "publicId": "0b92e274-19cb-4cf5-afc6-7b325caa4bde",
+      "status": "duplicate-view",
+      "listing": "SN052"
+    },
+    {
+      "publicId": "e2448b16-aeed-4e23-a7e6-ba358505bf0e",
+      "status": "included",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "b283dfd3-c4f1-427d-8219-f4935d4fbfb8",
+      "status": "included",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "b582a2e6-2c09-48fa-868a-ba120610e0df",
+      "status": "included",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "fdcbc6a6-aed5-47ef-be55-b91f04905632",
+      "status": "included",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "a5473b60-2334-4a17-b18c-c442c7fac6ce",
+      "status": "duplicate-view",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "915b1faf-aaf4-4780-86f0-c4a09430321b",
+      "status": "duplicate-view",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "a5309200-e625-41b2-8396-40495fd11cc6",
+      "status": "duplicate-view",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "cb99a898-5c0c-4b53-91fe-691a1a843037",
+      "status": "duplicate-view",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "9fb7df29-2781-4f3a-9086-6e7374d36f53",
+      "status": "duplicate-view",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "fdc309ff-5100-4f03-bc82-5b260513d28c",
+      "status": "duplicate-view",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "9a6391c7-04fd-42c4-8984-08015afe61e1",
+      "status": "duplicate-view",
+      "listing": "SN053"
+    },
+    {
+      "publicId": "IMG_4298_edited",
+      "status": "included",
+      "listing": "retained-id-48"
+    },
+    {
+      "publicId": "IMG_4299_edited",
+      "status": "included",
+      "listing": "retained-id-48"
+    },
+    {
+      "publicId": "IMG_4300_edited",
+      "status": "included",
+      "listing": "retained-id-48"
+    },
+    {
+      "publicId": "IMG_4301_edited",
+      "status": "included",
+      "listing": "retained-id-48"
+    },
+    {
+      "publicId": "IMG_4303_edited",
+      "status": "included",
+      "listing": "SN009"
+    },
+    {
+      "publicId": "IMG_4305_edited",
+      "status": "included",
+      "listing": "SN009"
+    },
+    {
+      "publicId": "IMG_4306_edited",
+      "status": "included",
+      "listing": "SN009"
+    },
+    {
+      "publicId": "IMG_4307_edited",
+      "status": "included",
+      "listing": "SN009"
+    },
+    {
+      "publicId": "IMG_4308_edited",
+      "status": "included",
+      "listing": "SN010"
+    },
+    {
+      "publicId": "IMG_4309_edited",
+      "status": "included",
+      "listing": "SN010"
+    },
+    {
+      "publicId": "IMG_4310_edited",
+      "status": "included",
+      "listing": "SN010"
+    },
+    {
+      "publicId": "IMG_4311_edited",
+      "status": "included",
+      "listing": "SN010"
+    },
+    {
+      "publicId": "IMG_4312_edited",
+      "status": "included",
+      "listing": "SN011"
+    },
+    {
+      "publicId": "IMG_4314_edited",
+      "status": "included",
+      "listing": "SN011"
+    },
+    {
+      "publicId": "IMG_4315_edited",
+      "status": "included",
+      "listing": "SN011"
+    },
+    {
+      "publicId": "IMG_4316_4_edited",
+      "status": "included",
+      "listing": "SN011"
+    },
+    {
+      "publicId": "IMG_4367_edited",
+      "status": "duplicate-view",
+      "listing": "SN012"
+    },
+    {
+      "publicId": "IMG_4368_edited",
+      "status": "duplicate-view",
+      "listing": "SN012"
+    },
+    {
+      "publicId": "IMG_4369_edited",
+      "status": "duplicate-view",
+      "listing": "SN012"
+    },
+    {
+      "publicId": "IMG_4370_edited",
+      "status": "duplicate-view",
+      "listing": "SN012"
+    },
+    {
+      "publicId": "IMG_4371_edited",
+      "status": "included",
+      "listing": "SN013"
+    },
+    {
+      "publicId": "IMG_4372_edited",
+      "status": "included",
+      "listing": "SN013"
+    },
+    {
+      "publicId": "IMG_4373_edited",
+      "status": "included",
+      "listing": "SN013"
+    },
+    {
+      "publicId": "IMG_4374_edited",
+      "status": "included",
+      "listing": "SN013"
+    },
+    {
+      "publicId": "IMG_4375_edited",
+      "status": "duplicate-view",
+      "listing": "SN014"
+    },
+    {
+      "publicId": "IMG_4376_edited",
+      "status": "duplicate-view",
+      "listing": "SN014"
+    },
+    {
+      "publicId": "IMG_4377_edited",
+      "status": "duplicate-view",
+      "listing": "SN014"
+    },
+    {
+      "publicId": "IMG_4378_edited",
+      "status": "duplicate-view",
+      "listing": "SN014"
+    },
+    {
+      "publicId": "IMG_4379_edited",
+      "status": "included",
+      "listing": "SN015"
+    },
+    {
+      "publicId": "IMG_4380_edited",
+      "status": "included",
+      "listing": "SN015"
+    },
+    {
+      "publicId": "IMG_4381_edited",
+      "status": "included",
+      "listing": "SN015"
+    },
+    {
+      "publicId": "IMG_4382_edited",
+      "status": "included",
+      "listing": "SN015"
+    },
+    {
+      "publicId": "IMG_4383_edited",
+      "status": "included",
+      "listing": "SN016"
+    },
+    {
+      "publicId": "IMG_4384_edited",
+      "status": "included",
+      "listing": "SN016"
+    },
+    {
+      "publicId": "IMG_4385_edited",
+      "status": "included",
+      "listing": "SN016"
+    },
+    {
+      "publicId": "IMG_4386_edited",
+      "status": "included",
+      "listing": "SN016"
+    },
+    {
+      "publicId": "IMG_4387_edited",
+      "status": "included",
+      "listing": "SN017"
+    },
+    {
+      "publicId": "IMG_4388_edited",
+      "status": "included",
+      "listing": "SN017"
+    },
+    {
+      "publicId": "IMG_4389_edited",
+      "status": "included",
+      "listing": "SN017"
+    },
+    {
+      "publicId": "IMG_4390_edited",
+      "status": "included",
+      "listing": "SN017"
+    },
+    {
+      "publicId": "IMG_4391_edited",
+      "status": "included",
+      "listing": "SN014"
+    },
+    {
+      "publicId": "IMG_4392_edited",
+      "status": "included",
+      "listing": "SN014"
+    },
+    {
+      "publicId": "IMG_4393_edited",
+      "status": "included",
+      "listing": "SN014"
+    },
+    {
+      "publicId": "IMG_4394_edited",
+      "status": "included",
+      "listing": "SN014"
+    },
+    {
+      "publicId": "IMG_4395_edited",
+      "status": "included",
+      "listing": "retained-id-49"
+    },
+    {
+      "publicId": "IMG_4396_edited",
+      "status": "included",
+      "listing": "retained-id-49"
+    },
+    {
+      "publicId": "IMG_4397_edited",
+      "status": "included",
+      "listing": "retained-id-49"
+    },
+    {
+      "publicId": "IMG_4398_edited",
+      "status": "included",
+      "listing": "retained-id-49"
+    },
+    {
+      "publicId": "IMG_4399_edited",
+      "status": "included",
+      "listing": "SN012"
+    },
+    {
+      "publicId": "IMG_4400_edited",
+      "status": "included",
+      "listing": "SN012"
+    },
+    {
+      "publicId": "IMG_4401_edited",
+      "status": "included",
+      "listing": "SN012"
+    },
+    {
+      "publicId": "IMG_4402_edited",
+      "status": "included",
+      "listing": "SN012"
+    },
+    {
+      "publicId": "IMG_4403_edited",
+      "status": "included",
+      "listing": "SN018"
+    },
+    {
+      "publicId": "IMG_4404_edited",
+      "status": "included",
+      "listing": "SN018"
+    },
+    {
+      "publicId": "IMG_4405_edited",
+      "status": "included",
+      "listing": "SN018"
+    },
+    {
+      "publicId": "IMG_4406_edited",
+      "status": "included",
+      "listing": "SN018"
+    },
+    {
+      "publicId": "IMG_4407_edited",
+      "status": "included",
+      "listing": "SN019"
+    },
+    {
+      "publicId": "IMG_4408_edited",
+      "status": "included",
+      "listing": "SN019"
+    },
+    {
+      "publicId": "IMG_4409_edited",
+      "status": "included",
+      "listing": "SN019"
+    },
+    {
+      "publicId": "IMG_4410_edited",
+      "status": "included",
+      "listing": "SN019"
+    },
+    {
+      "publicId": "IMG_4411_edited",
+      "status": "included",
+      "listing": "retained-id-128"
+    },
+    {
+      "publicId": "IMG_4412_edited",
+      "status": "included",
+      "listing": "retained-id-128"
+    },
+    {
+      "publicId": "IMG_4413_edited",
+      "status": "included",
+      "listing": "retained-id-128"
+    },
+    {
+      "publicId": "IMG_4414_edited",
+      "status": "included",
+      "listing": "retained-id-128"
+    },
+    {
+      "publicId": "IMG_4416_edited",
+      "status": "included",
+      "listing": "SN020"
+    },
+    {
+      "publicId": "IMG_4417_edited",
+      "status": "included",
+      "listing": "SN020"
+    },
+    {
+      "publicId": "IMG_4418_edited",
+      "status": "included",
+      "listing": "SN020"
+    },
+    {
+      "publicId": "IMG_4419_edited",
+      "status": "included",
+      "listing": "SN020"
+    },
+    {
+      "publicId": "IMG_4420_edited",
+      "status": "included",
+      "listing": "retained-id-50"
+    },
+    {
+      "publicId": "IMG_4421_edited",
+      "status": "included",
+      "listing": "retained-id-50"
+    },
+    {
+      "publicId": "IMG_4422_edited",
+      "status": "included",
+      "listing": "retained-id-50"
+    },
+    {
+      "publicId": "IMG_4423_edited",
+      "status": "included",
+      "listing": "retained-id-50"
+    },
+    {
+      "publicId": "IMG_4424_edited",
+      "status": "included",
+      "listing": "SN021"
+    },
+    {
+      "publicId": "IMG_4425_edited",
+      "status": "included",
+      "listing": "SN021"
+    },
+    {
+      "publicId": "IMG_4426_edited",
+      "status": "included",
+      "listing": "SN021"
+    },
+    {
+      "publicId": "IMG_4427_edited",
+      "status": "included",
+      "listing": "SN021"
+    },
+    {
+      "publicId": "IMG_4428_edited",
+      "status": "included",
+      "listing": "retained-id-127"
+    },
+    {
+      "publicId": "IMG_4429_edited",
+      "status": "included",
+      "listing": "retained-id-127"
+    },
+    {
+      "publicId": "IMG_4430_4_edited",
+      "status": "included",
+      "listing": "retained-id-127"
+    },
+    {
+      "publicId": "IMG_4430_edited",
+      "status": "included",
+      "listing": "retained-id-127"
+    },
+    {
+      "publicId": "IMG_4433_edited",
+      "status": "included",
+      "listing": "SN022"
+    },
+    {
+      "publicId": "IMG_4434_edited",
+      "status": "included",
+      "listing": "SN022"
+    },
+    {
+      "publicId": "IMG_4435_edited",
+      "status": "included",
+      "listing": "SN022"
+    },
+    {
+      "publicId": "IMG_4436_edited",
+      "status": "included",
+      "listing": "SN022"
+    },
+    {
+      "publicId": "IMG_4437_edited",
+      "status": "duplicate-view",
+      "listing": "SN026"
+    },
+    {
+      "publicId": "IMG_4438_edited",
+      "status": "duplicate-view",
+      "listing": "SN026"
+    },
+    {
+      "publicId": "IMG_4439_edited",
+      "status": "duplicate-view",
+      "listing": "SN026"
+    },
+    {
+      "publicId": "IMG_4440_edited",
+      "status": "duplicate-view",
+      "listing": "SN026"
+    },
+    {
+      "publicId": "IMG_4441_edited",
+      "status": "included",
+      "listing": "SN023"
+    },
+    {
+      "publicId": "IMG_4442_edited",
+      "status": "included",
+      "listing": "SN023"
+    },
+    {
+      "publicId": "IMG_4443_edited",
+      "status": "included",
+      "listing": "SN023"
+    },
+    {
+      "publicId": "IMG_4444_edited",
+      "status": "included",
+      "listing": "SN023"
+    },
+    {
+      "publicId": "IMG_4445_edited",
+      "status": "duplicate-view",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4446_edited",
+      "status": "duplicate-view",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4447_edited",
+      "status": "duplicate-view",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4448_edited",
+      "status": "duplicate-view",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4449_edited",
+      "status": "included",
+      "listing": "SN024"
+    },
+    {
+      "publicId": "IMG_4450_edited",
+      "status": "included",
+      "listing": "SN024"
+    },
+    {
+      "publicId": "IMG_4451_edited",
+      "status": "included",
+      "listing": "SN024"
+    },
+    {
+      "publicId": "IMG_4452_edited",
+      "status": "included",
+      "listing": "SN024"
+    },
+    {
+      "publicId": "IMG_4453_edited",
+      "status": "included",
+      "listing": "SN025"
+    },
+    {
+      "publicId": "IMG_4454_edited",
+      "status": "included",
+      "listing": "SN025"
+    },
+    {
+      "publicId": "IMG_4455_edited",
+      "status": "included",
+      "listing": "SN025"
+    },
+    {
+      "publicId": "IMG_4456_edited",
+      "status": "included",
+      "listing": "SN025"
+    },
+    {
+      "publicId": "IMG_4457_edited",
+      "status": "included",
+      "listing": "retained-id-126"
+    },
+    {
+      "publicId": "IMG_4458_edited",
+      "status": "included",
+      "listing": "retained-id-126"
+    },
+    {
+      "publicId": "IMG_4459_edited",
+      "status": "included",
+      "listing": "retained-id-126"
+    },
+    {
+      "publicId": "IMG_4460_edited",
+      "status": "included",
+      "listing": "retained-id-126"
+    },
+    {
+      "publicId": "IMG_4461_edited",
+      "status": "included",
+      "listing": "SN026"
+    },
+    {
+      "publicId": "IMG_4462_edited",
+      "status": "included",
+      "listing": "SN026"
+    },
+    {
+      "publicId": "IMG_4463_edited",
+      "status": "included",
+      "listing": "SN026"
+    },
+    {
+      "publicId": "IMG_4464_edited",
+      "status": "included",
+      "listing": "SN026"
+    },
+    {
+      "publicId": "IMG_4466_edited",
+      "status": "included",
+      "listing": "SN027"
+    },
+    {
+      "publicId": "IMG_4467_edited",
+      "status": "included",
+      "listing": "SN027"
+    },
+    {
+      "publicId": "IMG_4468_edited",
+      "status": "included",
+      "listing": "SN027"
+    },
+    {
+      "publicId": "IMG_4469_edited",
+      "status": "included",
+      "listing": "SN027"
+    },
+    {
+      "publicId": "IMG_4470_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4471_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4473_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4474_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4476_edited",
+      "status": "included",
+      "listing": "SN029"
+    },
+    {
+      "publicId": "IMG_4477_edited",
+      "status": "included",
+      "listing": "SN029"
+    },
+    {
+      "publicId": "IMG_4478_edited",
+      "status": "included",
+      "listing": "SN029"
+    },
+    {
+      "publicId": "IMG_4481_edited",
+      "status": "included",
+      "listing": "SN029"
+    },
+    {
+      "publicId": "IMG_4483_edited",
+      "status": "included",
+      "listing": "retained-id-47"
+    },
+    {
+      "publicId": "IMG_4484_edited",
+      "status": "included",
+      "listing": "retained-id-47"
+    },
+    {
+      "publicId": "IMG_4485_edited",
+      "status": "included",
+      "listing": "retained-id-47"
+    },
+    {
+      "publicId": "IMG_4486_edited",
+      "status": "included",
+      "listing": "retained-id-47"
+    },
+    {
+      "publicId": "IMG_4487_edited",
+      "status": "included",
+      "listing": "SN030"
+    },
+    {
+      "publicId": "IMG_4488_edited",
+      "status": "included",
+      "listing": "SN030"
+    },
+    {
+      "publicId": "IMG_4489_edited",
+      "status": "included",
+      "listing": "SN030"
+    },
+    {
+      "publicId": "IMG_4490_edited",
+      "status": "included",
+      "listing": "SN030"
+    },
+    {
+      "publicId": "IMG_4491_edited",
+      "status": "included",
+      "listing": "SN031"
+    },
+    {
+      "publicId": "IMG_4492_edited",
+      "status": "included",
+      "listing": "SN031"
+    },
+    {
+      "publicId": "IMG_4493_edited",
+      "status": "included",
+      "listing": "SN031"
+    },
+    {
+      "publicId": "IMG_4494_edited",
+      "status": "included",
+      "listing": "SN031"
+    },
+    {
+      "publicId": "IMG_4495_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4496_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4497_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4498_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4500_edited",
+      "status": "duplicate-view",
+      "listing": "SN034"
+    },
+    {
+      "publicId": "IMG_4501_edited",
+      "status": "duplicate-view",
+      "listing": "SN034"
+    },
+    {
+      "publicId": "IMG_4502_edited",
+      "status": "duplicate-view",
+      "listing": "SN034"
+    },
+    {
+      "publicId": "IMG_4503_edited",
+      "status": "duplicate-view",
+      "listing": "SN034"
+    },
+    {
+      "publicId": "IMG_4504_edited",
+      "status": "included",
+      "listing": "SN032"
+    },
+    {
+      "publicId": "IMG_4505_edited",
+      "status": "included",
+      "listing": "SN032"
+    },
+    {
+      "publicId": "IMG_4506_edited",
+      "status": "included",
+      "listing": "SN032"
+    },
+    {
+      "publicId": "IMG_4507_edited",
+      "status": "included",
+      "listing": "SN032"
+    },
+    {
+      "publicId": "IMG_4508_edited",
+      "status": "included",
+      "listing": "SN033"
+    },
+    {
+      "publicId": "IMG_4509_edited",
+      "status": "included",
+      "listing": "SN033"
+    },
+    {
+      "publicId": "IMG_4510_edited",
+      "status": "included",
+      "listing": "SN033"
+    },
+    {
+      "publicId": "IMG_4511_edited",
+      "status": "included",
+      "listing": "SN033"
+    },
+    {
+      "publicId": "IMG_4513_edited",
+      "status": "included",
+      "listing": "SN034"
+    },
+    {
+      "publicId": "IMG_4514_edited",
+      "status": "included",
+      "listing": "SN034"
+    },
+    {
+      "publicId": "IMG_4515_edited",
+      "status": "included",
+      "listing": "SN034"
+    },
+    {
+      "publicId": "IMG_4516_edited",
+      "status": "included",
+      "listing": "SN034"
+    },
+    {
+      "publicId": "IMG_4519_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4520_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4521_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4522_edited",
+      "status": "duplicate-view",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4523_edited",
+      "status": "included",
+      "listing": "SN035"
+    },
+    {
+      "publicId": "IMG_4524_edited",
+      "status": "included",
+      "listing": "SN035"
+    },
+    {
+      "publicId": "IMG_4525_edited",
+      "status": "included",
+      "listing": "SN035"
+    },
+    {
+      "publicId": "IMG_4526_edited",
+      "status": "included",
+      "listing": "SN035"
+    },
+    {
+      "publicId": "IMG_4529_edited",
+      "status": "duplicate-view",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4530_edited",
+      "status": "duplicate-view",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4531_edited",
+      "status": "duplicate-view",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4532_edited",
+      "status": "duplicate-view",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4533_edited",
+      "status": "included",
+      "listing": "SN037"
+    },
+    {
+      "publicId": "IMG_4534_edited",
+      "status": "included",
+      "listing": "SN037"
+    },
+    {
+      "publicId": "IMG_4535_edited",
+      "status": "included",
+      "listing": "SN037"
+    },
+    {
+      "publicId": "IMG_4538_edited",
+      "status": "included",
+      "listing": "SN038"
+    },
+    {
+      "publicId": "IMG_4539_edited",
+      "status": "included",
+      "listing": "SN038"
+    },
+    {
+      "publicId": "IMG_4540_edited",
+      "status": "included",
+      "listing": "SN038"
+    },
+    {
+      "publicId": "IMG_4541_edited",
+      "status": "included",
+      "listing": "SN038"
+    },
+    {
+      "publicId": "IMG_4542_edited",
+      "status": "included",
+      "listing": "SN039"
+    },
+    {
+      "publicId": "IMG_4543_edited",
+      "status": "included",
+      "listing": "SN039"
+    },
+    {
+      "publicId": "IMG_4544_edited",
+      "status": "included",
+      "listing": "SN039"
+    },
+    {
+      "publicId": "IMG_4545_edited",
+      "status": "included",
+      "listing": "SN039"
+    },
+    {
+      "publicId": "IMG_4546_edited",
+      "status": "included",
+      "listing": "SN040"
+    },
+    {
+      "publicId": "IMG_4547_edited",
+      "status": "included",
+      "listing": "SN040"
+    },
+    {
+      "publicId": "IMG_4548_edited",
+      "status": "included",
+      "listing": "SN040"
+    },
+    {
+      "publicId": "IMG_4549_edited",
+      "status": "included",
+      "listing": "SN040"
+    },
+    {
+      "publicId": "IMG_4554_edited",
+      "status": "included",
+      "listing": "SN054"
+    },
+    {
+      "publicId": "IMG_4555_edited",
+      "status": "included",
+      "listing": "SN054"
+    },
+    {
+      "publicId": "IMG_4556_edited",
+      "status": "included",
+      "listing": "SN054"
+    },
+    {
+      "publicId": "IMG_4557_edited",
+      "status": "included",
+      "listing": "SN054"
+    },
+    {
+      "publicId": "IMG_4559_edited",
+      "status": "included",
+      "listing": "SN055"
+    },
+    {
+      "publicId": "IMG_4560_edited",
+      "status": "included",
+      "listing": "SN055"
+    },
+    {
+      "publicId": "IMG_4561_edited",
+      "status": "included",
+      "listing": "SN055"
+    },
+    {
+      "publicId": "IMG_4562_edited",
+      "status": "included",
+      "listing": "SN055"
+    },
+    {
+      "publicId": "IMG_4563_edited",
+      "status": "included",
+      "listing": "SN056"
+    },
+    {
+      "publicId": "IMG_4564_edited",
+      "status": "included",
+      "listing": "SN056"
+    },
+    {
+      "publicId": "IMG_4565_edited",
+      "status": "included",
+      "listing": "SN056"
+    },
+    {
+      "publicId": "IMG_4566_edited",
+      "status": "included",
+      "listing": "SN056"
+    },
+    {
+      "publicId": "IMG_4567_edited",
+      "status": "included",
+      "listing": "SN057"
+    },
+    {
+      "publicId": "IMG_4568_edited",
+      "status": "included",
+      "listing": "SN057"
+    },
+    {
+      "publicId": "IMG_4569_edited",
+      "status": "included",
+      "listing": "SN057"
+    },
+    {
+      "publicId": "IMG_4570_edited",
+      "status": "included",
+      "listing": "SN057"
+    },
+    {
+      "publicId": "IMG_4571_edited",
+      "status": "included",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4572_edited",
+      "status": "included",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4573_4_edited",
+      "status": "included",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4573_edited",
+      "status": "included",
+      "listing": "SN036"
+    },
+    {
+      "publicId": "IMG_4574_edited",
+      "status": "included",
+      "listing": "SN058"
+    },
+    {
+      "publicId": "IMG_4575_edited",
+      "status": "included",
+      "listing": "SN058"
+    },
+    {
+      "publicId": "IMG_4576_edited",
+      "status": "included",
+      "listing": "SN058"
+    },
+    {
+      "publicId": "IMG_4577_edited",
+      "status": "included",
+      "listing": "SN058"
+    },
+    {
+      "publicId": "IMG_4579_edited",
+      "status": "included",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4580_edited",
+      "status": "included",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4581_edited",
+      "status": "included",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4582_edited",
+      "status": "included",
+      "listing": "SN028"
+    },
+    {
+      "publicId": "IMG_4584_edited",
+      "status": "included",
+      "listing": "SN059"
+    },
+    {
+      "publicId": "IMG_4585_edited",
+      "status": "included",
+      "listing": "SN059"
+    },
+    {
+      "publicId": "IMG_4586_edited",
+      "status": "included",
+      "listing": "SN059"
+    },
+    {
+      "publicId": "IMG_4587_edited",
+      "status": "included",
+      "listing": "SN059"
+    },
+    {
+      "publicId": "IMG_4588_edited",
+      "status": "included",
+      "listing": "SN060"
+    },
+    {
+      "publicId": "IMG_4589_edited",
+      "status": "included",
+      "listing": "SN060"
+    },
+    {
+      "publicId": "IMG_4590_edited",
+      "status": "included",
+      "listing": "SN060"
+    },
+    {
+      "publicId": "IMG_4591_edited",
+      "status": "included",
+      "listing": "SN060"
+    }
+  ]
+}

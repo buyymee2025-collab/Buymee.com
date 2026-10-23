@@ -1899,59 +1899,59 @@ export const NEW_STUDIO_SNEAKERS = [
     "id": 60020,
     "parentProductId": 60020,
     "name": "LOUIS VUITTON TRAINERS \u2014 BLUE / WHITE / TEAL",
-    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4520_edited",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4519_edited",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4580_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4579_edited",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4520_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4519_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4521_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4522_edited"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4580_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4579_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4581_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4582_edited"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4520_edited",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4580_edited",
         "color": "Blue / White / Teal"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4519_edited",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4579_edited",
         "color": "Blue / White / Teal"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4521_edited",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4581_edited",
         "color": "Blue / White / Teal"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4522_edited",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4582_edited",
         "color": "Blue / White / Teal"
       }
     ],
     "variants": [
       {
         "color": "Blue / White / Teal",
-        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4520_edited",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4580_edited",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4520_edited",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4580_edited",
             "color": "Blue / White / Teal"
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4519_edited",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4579_edited",
             "color": "Blue / White / Teal"
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4521_edited",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4581_edited",
             "color": "Blue / White / Teal"
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4522_edited",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4582_edited",
             "color": "Blue / White / Teal"
           }
         ]
@@ -1961,10 +1961,10 @@ export const NEW_STUDIO_SNEAKERS = [
       "Blue / White / Teal"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4520_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4519_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4521_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4522_edited"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4580_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4579_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4581_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4582_edited"
     ],
     "mediaRevision": "sneakers-rebuild-2026-10-23"
   },
@@ -2659,59 +2659,59 @@ export const NEW_STUDIO_SNEAKERS = [
     "id": 60028,
     "parentProductId": 60028,
     "name": "LOUIS VUITTON TRAINERS \u2014 GREY / BLACK / ORANGE",
-    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4530_edited",
-    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4529_edited",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4572_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4571_edited",
     "gallery": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4530_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4529_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4531_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4532_edited"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4572_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4571_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4573_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4573_4_edited"
     ],
     "media": [
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4530_edited",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4572_edited",
         "color": "Grey / Black / Orange"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4529_edited",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4571_edited",
         "color": "Grey / Black / Orange"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4531_edited",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4573_edited",
         "color": "Grey / Black / Orange"
       },
       {
         "type": "image",
-        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4532_edited",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4573_4_edited",
         "color": "Grey / Black / Orange"
       }
     ],
     "variants": [
       {
         "color": "Grey / Black / Orange",
-        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4530_edited",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4572_edited",
         "media": [
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4530_edited",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4572_edited",
             "color": "Grey / Black / Orange"
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4529_edited",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4571_edited",
             "color": "Grey / Black / Orange"
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4531_edited",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4573_edited",
             "color": "Grey / Black / Orange"
           },
           {
             "type": "image",
-            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4532_edited",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4573_4_edited",
             "color": "Grey / Black / Orange"
           }
         ]
@@ -2721,10 +2721,10 @@ export const NEW_STUDIO_SNEAKERS = [
       "Grey / Black / Orange"
     ],
     "images": [
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4530_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4529_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4531_edited",
-      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4532_edited"
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4572_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4571_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4573_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4573_4_edited"
     ],
     "mediaRevision": "sneakers-rebuild-2026-10-23"
   },
@@ -4304,6 +4304,671 @@ export const NEW_STUDIO_SNEAKERS = [
       "https://res.cloudinary.com/hobndbjx/image/upload/b283dfd3-c4f1-427d-8219-f4935d4fbfb8",
       "https://res.cloudinary.com/hobndbjx/image/upload/fdcbc6a6-aed5-47ef-be55-b91f04905632",
       "https://res.cloudinary.com/hobndbjx/image/upload/b582a2e6-2c09-48fa-868a-ba120610e0df"
+    ],
+    "mediaRevision": "sneakers-rebuild-2026-10-23"
+  },
+  {
+    "productCode": "SN054",
+    "category": "Sneakers",
+    "brand": "BUYYMEE.com",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "description": "LOUIS VUITTON TRAINERS \u2014 PURPLE / WHITE. CONTACT BUYYMEE FOR AVAILABLE SIZES AND PRICE.",
+    "sizes": [],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "sale": false,
+    "slug": "sneakers-studio-sn054",
+    "familyName": "LOUIS VUITTON TRAINERS",
+    "subcategory": "Sneakers",
+    "tags": [
+      "footwear",
+      "sneakers",
+      "sneakers"
+    ],
+    "newArrival": true,
+    "id": 60046,
+    "parentProductId": 60046,
+    "name": "LOUIS VUITTON TRAINERS \u2014 PURPLE / WHITE",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4555_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4554_edited",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4555_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4554_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4556_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4557_edited"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4555_edited",
+        "color": "Purple / White"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4554_edited",
+        "color": "Purple / White"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4556_edited",
+        "color": "Purple / White"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4557_edited",
+        "color": "Purple / White"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Purple / White",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4555_edited",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4555_edited",
+            "color": "Purple / White"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4554_edited",
+            "color": "Purple / White"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4556_edited",
+            "color": "Purple / White"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4557_edited",
+            "color": "Purple / White"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Purple / White"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4555_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4554_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4556_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4557_edited"
+    ],
+    "mediaRevision": "sneakers-rebuild-2026-10-23"
+  },
+  {
+    "productCode": "SN055",
+    "category": "Sneakers",
+    "brand": "BUYYMEE.com",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "description": "PUMA LOW-TOP SNEAKERS \u2014 WHITE / BLUE. CONTACT BUYYMEE FOR AVAILABLE SIZES AND PRICE.",
+    "sizes": [],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "sale": false,
+    "slug": "sneakers-studio-sn055",
+    "familyName": "PUMA LOW-TOP SNEAKERS",
+    "subcategory": "Sneakers",
+    "tags": [
+      "footwear",
+      "sneakers",
+      "sneakers"
+    ],
+    "newArrival": true,
+    "id": 60047,
+    "parentProductId": 60047,
+    "name": "PUMA LOW-TOP SNEAKERS \u2014 WHITE / BLUE",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4560_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4559_edited",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4560_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4559_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4561_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4562_edited"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4560_edited",
+        "color": "White / Blue"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4559_edited",
+        "color": "White / Blue"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4561_edited",
+        "color": "White / Blue"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4562_edited",
+        "color": "White / Blue"
+      }
+    ],
+    "variants": [
+      {
+        "color": "White / Blue",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4560_edited",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4560_edited",
+            "color": "White / Blue"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4559_edited",
+            "color": "White / Blue"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4561_edited",
+            "color": "White / Blue"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4562_edited",
+            "color": "White / Blue"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "White / Blue"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4560_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4559_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4561_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4562_edited"
+    ],
+    "mediaRevision": "sneakers-rebuild-2026-10-23"
+  },
+  {
+    "productCode": "SN056",
+    "category": "Sneakers",
+    "brand": "BUYYMEE.com",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "description": "LOUIS VUITTON TRAINERS \u2014 PURPLE / MINT / PINK. CONTACT BUYYMEE FOR AVAILABLE SIZES AND PRICE.",
+    "sizes": [],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "sale": false,
+    "slug": "sneakers-studio-sn056",
+    "familyName": "LOUIS VUITTON TRAINERS",
+    "subcategory": "Sneakers",
+    "tags": [
+      "footwear",
+      "sneakers",
+      "sneakers"
+    ],
+    "newArrival": true,
+    "id": 60048,
+    "parentProductId": 60048,
+    "name": "LOUIS VUITTON TRAINERS \u2014 PURPLE / MINT / PINK",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4564_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4563_edited",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4564_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4563_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4565_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4566_edited"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4564_edited",
+        "color": "Purple / Mint / Pink"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4563_edited",
+        "color": "Purple / Mint / Pink"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4565_edited",
+        "color": "Purple / Mint / Pink"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4566_edited",
+        "color": "Purple / Mint / Pink"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Purple / Mint / Pink",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4564_edited",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4564_edited",
+            "color": "Purple / Mint / Pink"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4563_edited",
+            "color": "Purple / Mint / Pink"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4565_edited",
+            "color": "Purple / Mint / Pink"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4566_edited",
+            "color": "Purple / Mint / Pink"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Purple / Mint / Pink"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4564_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4563_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4565_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4566_edited"
+    ],
+    "mediaRevision": "sneakers-rebuild-2026-10-23"
+  },
+  {
+    "productCode": "SN057",
+    "category": "Sneakers",
+    "brand": "BUYYMEE.com",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "description": "NIKE SNEAKERS \u2014 BEIGE / PALE BLUE. CONTACT BUYYMEE FOR AVAILABLE SIZES AND PRICE.",
+    "sizes": [],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "sale": false,
+    "slug": "sneakers-studio-sn057",
+    "familyName": "NIKE SNEAKERS",
+    "subcategory": "Sneakers",
+    "tags": [
+      "footwear",
+      "sneakers",
+      "sneakers"
+    ],
+    "newArrival": true,
+    "id": 60049,
+    "parentProductId": 60049,
+    "name": "NIKE SNEAKERS \u2014 BEIGE / PALE BLUE",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4568_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4567_edited",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4568_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4567_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4569_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4570_edited"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4568_edited",
+        "color": "Beige / Pale Blue"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4567_edited",
+        "color": "Beige / Pale Blue"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4569_edited",
+        "color": "Beige / Pale Blue"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4570_edited",
+        "color": "Beige / Pale Blue"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Beige / Pale Blue",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4568_edited",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4568_edited",
+            "color": "Beige / Pale Blue"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4567_edited",
+            "color": "Beige / Pale Blue"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4569_edited",
+            "color": "Beige / Pale Blue"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4570_edited",
+            "color": "Beige / Pale Blue"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Beige / Pale Blue"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4568_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4567_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4569_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4570_edited"
+    ],
+    "mediaRevision": "sneakers-rebuild-2026-10-23"
+  },
+  {
+    "productCode": "SN058",
+    "category": "Sneakers",
+    "brand": "BUYYMEE.com",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "description": "LOUIS VUITTON MONOGRAM TRAINERS \u2014 BLACK / WHITE. CONTACT BUYYMEE FOR AVAILABLE SIZES AND PRICE.",
+    "sizes": [],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "sale": false,
+    "slug": "sneakers-studio-sn058",
+    "familyName": "LOUIS VUITTON MONOGRAM TRAINERS",
+    "subcategory": "Sneakers",
+    "tags": [
+      "footwear",
+      "sneakers",
+      "sneakers"
+    ],
+    "newArrival": true,
+    "id": 60050,
+    "parentProductId": 60050,
+    "name": "LOUIS VUITTON MONOGRAM TRAINERS \u2014 BLACK / WHITE",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4575_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4574_edited",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4575_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4574_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4576_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4577_edited"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4575_edited",
+        "color": "Black / White"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4574_edited",
+        "color": "Black / White"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4576_edited",
+        "color": "Black / White"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4577_edited",
+        "color": "Black / White"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Black / White",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4575_edited",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4575_edited",
+            "color": "Black / White"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4574_edited",
+            "color": "Black / White"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4576_edited",
+            "color": "Black / White"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4577_edited",
+            "color": "Black / White"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Black / White"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4575_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4574_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4576_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4577_edited"
+    ],
+    "mediaRevision": "sneakers-rebuild-2026-10-23"
+  },
+  {
+    "productCode": "SN059",
+    "category": "Sneakers",
+    "brand": "BUYYMEE.com",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "description": "LOUIS VUITTON TRAINERS \u2014 WHITE / GREY. CONTACT BUYYMEE FOR AVAILABLE SIZES AND PRICE.",
+    "sizes": [],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "sale": false,
+    "slug": "sneakers-studio-sn059",
+    "familyName": "LOUIS VUITTON TRAINERS",
+    "subcategory": "Sneakers",
+    "tags": [
+      "footwear",
+      "sneakers",
+      "sneakers"
+    ],
+    "newArrival": true,
+    "id": 60051,
+    "parentProductId": 60051,
+    "name": "LOUIS VUITTON TRAINERS \u2014 WHITE / GREY",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4585_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4584_edited",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4585_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4584_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4586_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4587_edited"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4585_edited",
+        "color": "White / Grey"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4584_edited",
+        "color": "White / Grey"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4586_edited",
+        "color": "White / Grey"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4587_edited",
+        "color": "White / Grey"
+      }
+    ],
+    "variants": [
+      {
+        "color": "White / Grey",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4585_edited",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4585_edited",
+            "color": "White / Grey"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4584_edited",
+            "color": "White / Grey"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4586_edited",
+            "color": "White / Grey"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4587_edited",
+            "color": "White / Grey"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "White / Grey"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4585_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4584_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4586_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4587_edited"
+    ],
+    "mediaRevision": "sneakers-rebuild-2026-10-23"
+  },
+  {
+    "productCode": "SN060",
+    "category": "Sneakers",
+    "brand": "BUYYMEE.com",
+    "price": null,
+    "priceOnRequest": true,
+    "compareAt": null,
+    "currency": "USD",
+    "description": "KNIT SNEAKERS \u2014 CREAM. CONTACT BUYYMEE FOR AVAILABLE SIZES AND PRICE.",
+    "sizes": [],
+    "inStock": true,
+    "placeholder": false,
+    "featured": false,
+    "sale": false,
+    "slug": "sneakers-studio-sn060",
+    "familyName": "KNIT SNEAKERS",
+    "subcategory": "Sneakers",
+    "tags": [
+      "footwear",
+      "sneakers",
+      "sneakers"
+    ],
+    "newArrival": true,
+    "id": 60052,
+    "parentProductId": 60052,
+    "name": "KNIT SNEAKERS \u2014 CREAM",
+    "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4589_edited",
+    "secondaryImage": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4588_edited",
+    "gallery": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4589_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4588_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4590_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4591_edited"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4589_edited",
+        "color": "Cream"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4588_edited",
+        "color": "Cream"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4590_edited",
+        "color": "Cream"
+      },
+      {
+        "type": "image",
+        "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4591_edited",
+        "color": "Cream"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Cream",
+        "image": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4589_edited",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4589_edited",
+            "color": "Cream"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4588_edited",
+            "color": "Cream"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4590_edited",
+            "color": "Cream"
+          },
+          {
+            "type": "image",
+            "src": "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4591_edited",
+            "color": "Cream"
+          }
+        ]
+      }
+    ],
+    "colors": [
+      "Cream"
+    ],
+    "images": [
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4589_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4588_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4590_edited",
+      "https://res.cloudinary.com/hobndbjx/image/upload/IMG_4591_edited"
     ],
     "mediaRevision": "sneakers-rebuild-2026-10-23"
   }
