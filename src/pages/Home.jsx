@@ -22,7 +22,7 @@ const shopAngleCards = [
   { label: 'Shoes', path: '/shoes', image: categoryProducts.shoes[0]?.image || dressAssets[9], number: '05' },
   { label: 'Sneakers', path: '/sneakers', image: categoryProducts.sneakers[0]?.image || watchAssets[14], number: '06' },
   { label: 'Luxury Eye Wears', path: '/eye-wears', image: 'https://res.cloudinary.com/hobndbjx/image/upload/e_trim:10/f_auto,q_auto/v1792601261/ChatGPT_Image_Oct_16_2026_05_13_49_PM.jxl', number: '07' },
-  { label: 'Fragrance', path: '/fragrance', image: categoryProducts.fragrance[0]?.image || watchAssets[8], number: '08' },
+  { label: 'Luxury Fragrance', path: '/fragrance', image: categoryProducts.fragrance[0]?.image || watchAssets[8], number: '08' },
   { label: 'Luxury Women Silk', path: '/luxury-women-silk', image: 'https://res.cloudinary.com/hobndbjx/image/upload/v1792603680/exec-d029802d-46b8-4f62-aca7-6451810d5331.png', number: '09' },
 ]
 

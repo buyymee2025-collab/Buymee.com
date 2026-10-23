@@ -342,7 +342,7 @@ export default function ProductModal({ product, onClose }) {
           </div>
 
           <div className="product-modal-info" tabIndex={0} role="region" aria-label="Product information">
-            <div className="product-modal-kicker">{product.category} / {product.subcategory}</div>
+            <div className="product-modal-kicker">{product.category === 'Fragrance' ? 'Luxury Fragrance' : product.category} / {product.subcategory}</div>
             {productCode != null && (
               <div className="product-modal-identity" aria-label={`Product identity ${productCode}`}>
                 <span className="product-modal-identity-label">PRODUCT CODE</span>

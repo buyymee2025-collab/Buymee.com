@@ -1,3 +1,4 @@
+import { FRAGRANCE_PRODUCTS } from './fragranceProducts.js'
 
 const LV_TRAINER_SIZE_CHART = [
   ['4','5','38'],['4.5','5.5','38.5'],['5','6','39'],['5.5','6.5','40'],
@@ -3198,11 +3199,7 @@ export const categoryProducts = {
       "sale": false
     }
   ],
-  fragrance: [
-    makeProduct({ id: 141, slug: 'fragrance-edit-1', name: 'First Light', category: 'Fragrance', subcategory: 'Eau de parfum', price: 96, imageUrl: 'photo-1541643600914-78b084683601', description: 'A quiet fragrance with a clear, memorable trail.', sizes: ['50ml'] }),
-    makeProduct({ id: 142, slug: 'fragrance-edit-2', name: 'After Rain', category: 'Fragrance', subcategory: 'Eau de parfum', price: 112, imageUrl: '/images/stock-perfume.webp', description: 'Fresh, close, and designed to stay with you.', sizes: ['50ml'] }),
-    makeProduct({ id: 143, slug: 'fragrance-edit-3', name: 'Night Signal', category: 'Fragrance', subcategory: 'Eau de parfum', price: 128, imageUrl: 'photo-1594035910387-fea47794261f', description: 'A deeper, warmer scent for the later hours.', sizes: ['50ml'] }),
-  ],
+  fragrance: FRAGRANCE_PRODUCTS,
   accessories: [
     makeProduct({ id: 151, slug: 'accessory-edit-1', name: 'Fine Line', category: 'Accessories', subcategory: 'Jewellery', price: 78, imageUrl: 'photo-1515562141207-7a88fb7ce338', description: 'A small finishing detail with a clear point of view.', sizes: ['OS'] }),
     makeProduct({ id: 152, slug: 'accessory-edit-2', name: 'Soft Gold', category: 'Accessories', subcategory: 'Jewellery', price: 86, imageUrl: '/images/accessory-gold-chain.webp', description: 'A warm accent made for everyday wear.', sizes: ['OS'] }),

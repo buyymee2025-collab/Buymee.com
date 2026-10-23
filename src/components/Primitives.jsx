@@ -68,5 +68,5 @@ export function ScrollAccent({ children, className = '', rotation = 0, distance 
 export const SectionLabel = ({ children, number }) => <div className="section-label"><span className="accent-line" />{number && <span className="label-number">{number} /</span>}<span>{children}</span></div>
 export const ArrowLink = ({ children, to = '#', className = '' }) => <a className={`arrow-link ${className}`} href={to}>{children}<span>↗</span></a>
 export const BagFrame = ({ children, className = '' }) => <div className={`bag-frame ${className}`}>{children}</div>
-export const Marquee = () => <div className="marquee"><div className="marquee-track">WATCHES <b>✓</b> DRESSES <b>✓</b> SNEAKERS <b>✓</b> FRAGRANCE <b>✓</b> SHOES <b>✓</b> BAGS <b>✓</b> WATCHES <b>✓</b> DRESSES <b>✓</b></div></div>
+export const Marquee = () => <div className="marquee"><div className="marquee-track">WATCHES <b>✓</b> DRESSES <b>✓</b> SNEAKERS <b>✓</b> LUXURY FRAGRANCE <b>✓</b> SHOES <b>✓</b> BAGS <b>✓</b> WATCHES <b>✓</b> DRESSES <b>✓</b></div></div>
 export const EditorialNumber = ({ children }) => <div className="editorial-number" aria-hidden="true">{children}</div>

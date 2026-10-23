@@ -11,7 +11,7 @@ import { editorialEase } from './Primitives'
 const pageNames = {
   '/': 'Home', '/about': 'About', '/shop': 'Shop', '/new-in': 'New In',
   '/women': 'Women', '/men': 'Men', '/watches': 'Watches', '/sneakers': 'Sneakers',
-  '/shoes': 'Shoes', '/eye-wears': 'Luxury Eye Wears', '/fragrance': 'Fragrance',
+  '/shoes': 'Shoes', '/eye-wears': 'Luxury Eye Wears', '/fragrance': 'Luxury Fragrance',
   '/luxury-women-silk': 'Luxury Women Silk', '/accessories': 'Accessories', '/cart': 'Your Bag', '/wishlist': 'Wishlist', '/contact': 'Contact',
 }
 

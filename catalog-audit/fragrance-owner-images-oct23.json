@@ -1,0 +1,64 @@
+{
+  "totalUniqueImages": 11,
+  "products": [
+    {
+      "code": "FR-001",
+      "name": "EMPORIO ARMANI STRONGER WITH YOU TOBACCO",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778590/exec-673fdd77-b68e-4405-a6cc-8777ad2744da.png"
+    },
+    {
+      "code": "FR-002",
+      "name": "MAISON FRANCIS KURKDJIAN BACCARAT ROUGE 540",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778592/exec-24257d27-c23b-4080-ac49-664555a8bf34.png"
+    },
+    {
+      "code": "FR-003",
+      "name": "BYREDO FRAGRANCE",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778302/exec-baea7a62-e20b-4e29-b4ce-ed1a74958236.png"
+    },
+    {
+      "code": "FR-004",
+      "name": "GIORGIO ARMANI PRIVÉ NOIR KOGANE",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778315/exec-b3ca7e20-716b-4a71-a9b6-3b12e7675acd.png"
+    },
+    {
+      "code": "FR-005",
+      "name": "CHRISTIAN DIOR ROSE STAR",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778565/exec-2a3a76e5-4795-4f6a-a3e5-9f3663ba2b24.png"
+    },
+    {
+      "code": "FR-006",
+      "name": "AMOUAGE GUIDANCE 46",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778678/exec-7c6c06ed-21f2-4b03-bd36-94e900204919.png"
+    },
+    {
+      "code": "FR-007",
+      "name": "CLIVE CHRISTIAN C — PRIVATE COLLECTION",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778722/exec-af8ebd59-58d9-484e-92ce-4fd43ca997cc.png"
+    },
+    {
+      "code": "FR-008",
+      "name": "TOM FORD CHERRY SMOKE",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778751/exec-9d6997d0-2185-4380-bf57-d5e9fea7593d.png"
+    },
+    {
+      "code": "FR-009",
+      "name": "CHANEL N°5 L’EAU",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778791/exec-f593c259-cfbf-462e-ae3b-c4a8d671141b.png"
+    },
+    {
+      "code": "FR-010",
+      "name": "INITIO PSYCHEDELIC LOVE",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778844/exec-93548996-f274-4808-a913-bea27021caa4.png"
+    },
+    {
+      "code": "FR-011",
+      "name": "MAISON CRIVELLI OUD STALLION",
+      "source": "https://res.cloudinary.com/hobndbjx/image/upload/v1792778853/exec-5e64d469-c49f-4e2e-9eca-a37b96b4417e.png"
+    }
+  ],
+  "duplicatesInPastedLinksIgnored": [
+    "exec-af8ebd59-58d9-484e-92ce-4fd43ca997cc",
+    "exec-93548996-f274-4808-a913-bea27021caa4"
+  ]
+}
