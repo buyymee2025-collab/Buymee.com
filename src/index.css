@@ -1422,3 +1422,20 @@ h1,h2,h3,h4,h5,h6,[role="heading"],.section-label,.admin-eyebrow,
 .product-card--editorial .product-meta a.product-card-title{min-height:2.8em}
 .product-card--editorial .product-meta .product-price-box{margin-top:auto}
 @media(max-width:600px){.product-card--editorial .product-meta{padding:10px 5px 4px}}
+
+/* Keep the complete shop catalogue white from the filters through every card. */
+.shop-new,
+.shop-new .category-new-catalogue,
+.shop-new .shop-tools,
+.shop-new .product-grid,
+.shop-new .no-results,
+.shop-new .product-card,
+.shop-new .product-image,
+.shop-new .product-image > a,
+.shop-new .product-image img,
+.shop-new .product-meta,
+.shop-new .product-price-box,
+.shop-new .search-field,
+.shop-new .search-field input,
+.shop-new .tool-right select { background-color:#fff; }
+.shop-new .product-card { color:#171717; }
