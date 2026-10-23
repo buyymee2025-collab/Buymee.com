@@ -241,3 +241,14 @@ h1 em,h2 em,h3 em{letter-spacing:-.025em}
   .mobile-shop-links{padding-left:0;column-gap:12px}
 }
 
+
+/* Keep calls to action distinct from dark media and remove visual noise in the filters. */
+.hero-new-actions .button.orange{background:var(--orange);color:#fff}
+.hero-new-actions .button.orange:hover{background:#914b32}
+.feature-copy .button.dark{background:#fff;color:var(--navy)}
+.category-scroll{scrollbar-width:none}
+.category-scroll::-webkit-scrollbar{display:none}
+@media(max-width:767px){
+  .product-card--editorial .product-card-details{display:grid;grid-template-columns:minmax(0,1fr);gap:2px;min-height:34px}
+  .product-card--editorial .product-meta a.product-card-title{min-height:4.5em}
+}
