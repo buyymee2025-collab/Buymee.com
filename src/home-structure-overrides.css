@@ -183,3 +183,13 @@
 .home-redesign .angle-carousel-overlay {
   background: rgba(16, 25, 35, .48);
 }
+
+/* Clear legacy inner spacing from the new About hero grid cells. */
+.about-new .about-new-hero > .about-hero-copy,
+.about-new .about-new-hero > .about-hero-image {
+  box-sizing: border-box;
+  padding: 0;
+}
+.about-new .about-new-hero h1 em {
+  font-weight: 300;
+}
