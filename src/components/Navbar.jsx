@@ -17,7 +17,7 @@ const shopItems = [
   { label: 'SHOES', path: '/shoes' },
   { label: 'SNEAKERS', path: '/sneakers' },
   { label: 'LUXURY EYE WEARS', path: '/eye-wears' },
-  { label: 'LUXURY RINGS', path: '/luxury-rings' },
+  { label: "MEN'S LUXURY RINGS", path: '/mens-luxury-rings' },
   { label: 'LUXURY FRAGRANCE', path: '/fragrance' },
   { label: 'LUXURY WOMEN SILK', path: '/luxury-women-silk' },
 ]

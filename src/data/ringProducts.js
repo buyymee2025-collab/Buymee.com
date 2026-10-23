@@ -42,6 +42,41 @@ const ringPairs = [
     "color": "Silver / Green",
     "front": "exec-62112cf5-b420-45eb-8515-07b893a50914",
     "side": "exec-5f4e5b15-89de-4708-b1fe-38821ef64e06"
+  },
+  {
+    "code": "RG-007",
+    "name": "YELLOW RECTANGULAR STONE TEXTURED GOLD-TONE SIGNET RING",
+    "color": "Gold / Yellow",
+    "front": "exec-f3b94a34-7718-40be-9baa-074b053e44cf",
+    "side": "exec-c7f3c7e4-2598-4604-8be3-040b0a5cd074"
+  },
+  {
+    "code": "RG-008",
+    "name": "GOLD-TONE SCROLL HEXAGONAL SIGNET RING",
+    "color": "Silver / Gold / Black",
+    "front": "exec-c165782a-bbed-4faa-96a8-1a34d3e38d47",
+    "side": "exec-427420fc-a3b0-4875-9719-6cd70f20f4dd"
+  },
+  {
+    "code": "RG-009",
+    "name": "CLEAR RECTANGULAR STONE GREEK-KEY SIGNET RING",
+    "color": "Silver / Clear",
+    "front": "exec-cc73a272-4d22-4193-bc5e-6ade0413c716",
+    "side": "exec-194ec4f1-f18d-436e-bf95-37048eeea40f"
+  },
+  {
+    "code": "RG-010",
+    "name": "RED OVAL STONE ORNATE GOLD-TONE RING",
+    "color": "Gold / Red / Black",
+    "front": "exec-acc3a694-5cae-4cae-ad8c-237d210f4581",
+    "side": "exec-070437ad-9010-4449-883f-eb8c45a386d5"
+  },
+  {
+    "code": "RG-011",
+    "name": "BLACK OVAL STONE TEXTURED GOLD-TONE SIGNET RING",
+    "color": "Gold / Black",
+    "front": "exec-f7fe4da2-5efd-4889-981b-0b011b9b100d",
+    "side": "exec-17e3e838-c3ec-4398-8c39-f1a86e7b0b71"
   }
 ]
 export const RING_PRODUCTS = ringPairs.map((ring, index) => {
@@ -50,7 +85,7 @@ export const RING_PRODUCTS = ringPairs.map((ring, index) => {
   return {
     id: 70001 + index, parentProductId: 70001 + index,
     productCode: ring.code, slug: 'luxury-rings-' + ring.code.toLowerCase(),
-    name: ring.name, familyName: ring.name, category: 'Luxury Rings', subcategory: 'Rings',
+    name: ring.name, familyName: ring.name, category: "Men's Luxury Rings", subcategory: 'Rings',
     brand: 'BUYYMEE.com', currency: 'USD', price: null, priceOnRequest: true, compareAt: null,
     image: gallery[0], secondaryImage: gallery[1], gallery, images: gallery, media,
     variants: [{ color: ring.color, image: gallery[0], media }], colors: [ring.color],

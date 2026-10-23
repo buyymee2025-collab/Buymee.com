@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { StoreProvider } from './context/StoreContext'
 import PageShell from './components/PageShell'
 import Home from './pages/Home'
@@ -25,7 +25,8 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/shop" element={<Shop />} />
-            <Route path="/luxury-rings" element={<LuxuryRings />} />
+            <Route path="/mens-luxury-rings" element={<LuxuryRings />} />
+            <Route path="/luxury-rings" element={<Navigate to="/mens-luxury-rings" replace />} />
             {categoryPaths.map((path) => <Route key={path} path={path} element={<CategoryPage path={path} />} />)}
             <Route path="/product/:slug" element={<ProductDetail />} />
             <Route path="/wishlist" element={<Wishlist />} />
