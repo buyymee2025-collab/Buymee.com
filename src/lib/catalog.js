@@ -1,3 +1,4 @@
+import { isRetiredSneaker } from '../data/sneakerCatalogRefresh.js'
 import { appendOct22Eyewear } from '../data/oct22Eyewear.js'
 import { applyInitialDiscount } from './pricing.js'
 import { appendMatchingMannequinViews } from './matchingMannequinViews.js'
@@ -27,7 +28,7 @@ export function mergeCatalog(base, rows) {
       products.set(String(row.id), saved)
     }
   }
-  return appendOct22Eyewear([...products.values()], rows).map(normalizeEyewearCategory).map(normalizeSilkCategory).map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews).map(applyInitialDiscount).map(product => ({ ...product, quantity: product.quantity ?? 1 }))
+  return appendOct22Eyewear([...products.values()].filter(product => !isRetiredSneaker(product)), rows).map(normalizeEyewearCategory).map(normalizeSilkCategory).map(normalizeReviewedEyewear).map(normalizeResearchedEyewear).map(appendMatchingMannequinViews).map(applyInitialDiscount).map(product => ({ ...product, quantity: product.quantity ?? 1 }))
 }
 // These reviewed photographs were previously mislabeled as a single Blue variant.
 // Apply after saved overrides too, so an older admin record cannot mix them again.

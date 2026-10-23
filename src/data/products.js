@@ -1,3 +1,4 @@
+import { isRetiredSneaker } from './sneakerCatalogRefresh.js'
 // Product data, including the reviewed October 2026 catalogue refresh.
 
 const cloud = 'https://res.cloudinary.com/dnvgl9k4i/';
@@ -896,4 +897,4 @@ export const MENSWEAR_ASSETS = MENSWEAR_PRODUCTS.flatMap(product => product.gall
 export const EYEWEAR_EXCLUDED_IMAGE_NUMBERS = []
 export const EYEWEAR_UNPAIRED_IMAGE_NUMBERS = []
 products.push(...WOMENS_PRODUCTS, ...EYEWEAR_PRODUCTS, ...MENSWEAR_PRODUCTS)
-export default products
+export default products.filter(product => !isRetiredSneaker(product))
