@@ -4408,7 +4408,8 @@ const ORIGINAL_EYEWEAR_PRODUCTS = PAIRED_EYEWEAR_PRODUCTS.map(product => {
 
 
 
-// Owner-supplied USD prices, October 23, 2026. WhatsApp takes precedence for overlaps.
+// Owner-supplied USD prices, October 23, 2026. Clear amounts from the latest notebook take precedence.
+// GL075, GL088, GL094 and GL100 were explicitly confirmed by the owner.
 const OWNER_EYEWEAR_PRICES = {
   "GL069": 850,
   "GL070": 1350,
@@ -4416,12 +4417,12 @@ const OWNER_EYEWEAR_PRICES = {
   "GL072": 1095,
   "GL073": 610,
   "GL074": 750,
-  "GL075": 125,
+  "GL075": 660,
   "GL076": 825,
-  "GL077": 900,
-  "GL078": 895,
-  "GL079": 950,
-  "GL080": 830,
+  "GL077": 325,
+  "GL078": 200,
+  "GL079": 500,
+  "GL080": 795,
   "GL081": 475,
   "GL082": 520,
   "GL083": 650,
@@ -4429,9 +4430,27 @@ const OWNER_EYEWEAR_PRICES = {
   "GL085": 825,
   "GL086": 705,
   "GL087": 430,
-  "GL088": 395,
+  "GL088": 325,
   "GL089": 500,
-  "GL090": 350
+  "GL090": 350,
+  "GL091": 400,
+  "GL092": 584,
+  "GL093": 200,
+  "GL094": 425,
+  "GL095": 500,
+  "GL096": 530,
+  "GL097": 400,
+  "GL098": 400,
+  "GL099": 800,
+  "GL100": 480,
+  "GL101": 400,
+  "GL102": 500,
+  "GL103": 650,
+  "GL104": 1200,
+  "GL105": 1200,
+  "GL106": 1230,
+  "GL107": 550,
+  "GL108": 550
 }
 
 // Keep the reviewed product-only pair first, followed by its original mannequin views.
@@ -4449,6 +4468,6 @@ export const EYEWEAR_PRODUCTS = ORIGINAL_EYEWEAR_PRODUCTS.map(product => {
   if (price === undefined) return product
   return { ...product, price, priceOnRequest: false, compareAt: null,
     currency: 'USD', discountPricingVersion: 1,
-    priceRevision: '2026-10-23-owner-prices-v1',
+    priceRevision: '2026-10-23-owner-prices-v2',
     variants: product.variants?.map(variant => ({ ...variant, price })) }
 })
