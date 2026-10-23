@@ -8,6 +8,7 @@ import { ArrowUpRight, Check } from 'lucide-react'
 import { categories } from '../data/categories'
 import { categoryProducts } from '../data/categoryProducts'
 import products from '../data/products'
+import { RING_PRODUCTS } from '../data/ringProducts'
 import { uploadedVideo, dressAssets, watchAssets } from '../data/assets'
 import ProductCard from '../components/ProductCard'
 import { AnimatedHeading, EditorialNumber, Reveal, ScrollAccent, ScrollImage, SectionLabel } from '../components/Primitives'
@@ -24,6 +25,7 @@ const shopAngleCards = [
   { label: 'Luxury Eye Wears', path: '/eye-wears', image: 'https://res.cloudinary.com/hobndbjx/image/upload/e_trim:10/f_auto,q_auto/v1792601261/ChatGPT_Image_Oct_16_2026_05_13_49_PM.jxl', number: '07' },
   { label: 'Luxury Fragrance', path: '/fragrance', image: categoryProducts.fragrance[0]?.image || watchAssets[8], number: '08' },
   { label: 'Luxury Women Silk', path: '/luxury-women-silk', image: 'https://res.cloudinary.com/hobndbjx/image/upload/v1792603680/exec-d029802d-46b8-4f62-aca7-6451810d5331.png', number: '09' },
+  { label: 'Luxury Rings', path: '/luxury-rings', image: RING_PRODUCTS[0].image, number: '10' },
 ]
 
 const wearTheMomentImage = 'https://res.cloudinary.com/hobndbjx/image/upload/v1792586437/ce78c329-2f3f-4bd3-b580-34a41ec5a0dc.jpg'

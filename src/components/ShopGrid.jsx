@@ -14,6 +14,7 @@ const categories = [
   'shoes',
   'eye wears',
   'fragrance',
+  'luxury rings',
   'accessories',
 ]
 
@@ -82,7 +83,7 @@ export default function ShopGrid({ initial = 'all', limit, categoryOnly = false,
               className={category === item ? 'active' : ''}
               onClick={() => setCategory(item)}
             >
-              {item === 'fragrance' ? 'Luxury Fragrance' : item === 'eye wears' ? 'Luxury Eye Wears' : item === 'luxury women silk' ? 'Luxury Women Silk' : item}
+              {item === 'luxury rings' ? 'Luxury Rings' : item === 'fragrance' ? 'Luxury Fragrance' : item === 'eye wears' ? 'Luxury Eye Wears' : item === 'luxury women silk' ? 'Luxury Women Silk' : item}
               {category === item && <b>✓</b>}
             </button>
           ))}
