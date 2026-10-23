@@ -1,0 +1,447 @@
+{
+  "firstCloudinaryAssetCount": 281,
+  "matchedWebsiteAssetCount": 281,
+  "missingAssets": [],
+  "cards": 73,
+  "minimumPositionGapForSeparateSets": 8,
+  "order": [
+    {
+      "position": 1,
+      "code": "SN-001",
+      "id": 47,
+      "sourceProductId": null
+    },
+    {
+      "position": 2,
+      "code": "SN-002",
+      "id": 126,
+      "sourceProductId": null
+    },
+    {
+      "position": 3,
+      "code": "SN-003",
+      "id": 127,
+      "sourceProductId": null
+    },
+    {
+      "position": 4,
+      "code": "SN-004",
+      "id": 128,
+      "sourceProductId": null
+    },
+    {
+      "position": 5,
+      "code": "SN-005",
+      "id": 48,
+      "sourceProductId": null
+    },
+    {
+      "position": 6,
+      "code": "SN-006",
+      "id": 49,
+      "sourceProductId": null
+    },
+    {
+      "position": 7,
+      "code": "SN-007",
+      "id": 50,
+      "sourceProductId": null
+    },
+    {
+      "position": 8,
+      "code": "SN-008",
+      "id": 129,
+      "sourceProductId": null
+    },
+    {
+      "position": 9,
+      "code": "SN-009",
+      "id": 60001,
+      "sourceProductId": null
+    },
+    {
+      "position": 10,
+      "code": "SN-010",
+      "id": 60002,
+      "sourceProductId": null
+    },
+    {
+      "position": 11,
+      "code": "SN-011",
+      "id": 60003,
+      "sourceProductId": null
+    },
+    {
+      "position": 12,
+      "code": "SN-012",
+      "id": 60004,
+      "sourceProductId": null
+    },
+    {
+      "position": 13,
+      "code": "SN-063",
+      "id": 61003,
+      "sourceProductId": 60018
+    },
+    {
+      "position": 14,
+      "code": "SN-013",
+      "id": 60005,
+      "sourceProductId": null
+    },
+    {
+      "position": 15,
+      "code": "SN-014",
+      "id": 60006,
+      "sourceProductId": null
+    },
+    {
+      "position": 16,
+      "code": "SN-015",
+      "id": 60007,
+      "sourceProductId": null
+    },
+    {
+      "position": 17,
+      "code": "SN-016",
+      "id": 60008,
+      "sourceProductId": null
+    },
+    {
+      "position": 18,
+      "code": "SN-064",
+      "id": 61004,
+      "sourceProductId": 60020
+    },
+    {
+      "position": 19,
+      "code": "SN-017",
+      "id": 60009,
+      "sourceProductId": null
+    },
+    {
+      "position": 20,
+      "code": "SN-018",
+      "id": 60010,
+      "sourceProductId": null
+    },
+    {
+      "position": 21,
+      "code": "SN-019",
+      "id": 60011,
+      "sourceProductId": null
+    },
+    {
+      "position": 22,
+      "code": "SN-020",
+      "id": 60012,
+      "sourceProductId": null
+    },
+    {
+      "position": 23,
+      "code": "SN-061",
+      "id": 61001,
+      "sourceProductId": 60004
+    },
+    {
+      "position": 24,
+      "code": "SN-021",
+      "id": 60013,
+      "sourceProductId": null
+    },
+    {
+      "position": 25,
+      "code": "SN-022",
+      "id": 60014,
+      "sourceProductId": null
+    },
+    {
+      "position": 26,
+      "code": "SN-023",
+      "id": 60015,
+      "sourceProductId": null
+    },
+    {
+      "position": 27,
+      "code": "SN-024",
+      "id": 60016,
+      "sourceProductId": null
+    },
+    {
+      "position": 28,
+      "code": "SN-062",
+      "id": 61002,
+      "sourceProductId": 60006
+    },
+    {
+      "position": 29,
+      "code": "SN-025",
+      "id": 60017,
+      "sourceProductId": null
+    },
+    {
+      "position": 30,
+      "code": "SN-026",
+      "id": 60018,
+      "sourceProductId": null
+    },
+    {
+      "position": 31,
+      "code": "SN-027",
+      "id": 60019,
+      "sourceProductId": null
+    },
+    {
+      "position": 32,
+      "code": "SN-028",
+      "id": 60020,
+      "sourceProductId": null
+    },
+    {
+      "position": 33,
+      "code": "SN-068",
+      "id": 61008,
+      "sourceProductId": 60028
+    },
+    {
+      "position": 34,
+      "code": "SN-029",
+      "id": 60021,
+      "sourceProductId": null
+    },
+    {
+      "position": 35,
+      "code": "SN-030",
+      "id": 60022,
+      "sourceProductId": null
+    },
+    {
+      "position": 36,
+      "code": "SN-031",
+      "id": 60023,
+      "sourceProductId": null
+    },
+    {
+      "position": 37,
+      "code": "SN-032",
+      "id": 60024,
+      "sourceProductId": null
+    },
+    {
+      "position": 38,
+      "code": "SN-070",
+      "id": 61010,
+      "sourceProductId": 60036
+    },
+    {
+      "position": 39,
+      "code": "SN-033",
+      "id": 60025,
+      "sourceProductId": null
+    },
+    {
+      "position": 40,
+      "code": "SN-034",
+      "id": 60026,
+      "sourceProductId": null
+    },
+    {
+      "position": 41,
+      "code": "SN-035",
+      "id": 60027,
+      "sourceProductId": null
+    },
+    {
+      "position": 42,
+      "code": "SN-036",
+      "id": 60028,
+      "sourceProductId": null
+    },
+    {
+      "position": 43,
+      "code": "SN-065",
+      "id": 61005,
+      "sourceProductId": 60020
+    },
+    {
+      "position": 44,
+      "code": "SN-037",
+      "id": 60029,
+      "sourceProductId": null
+    },
+    {
+      "position": 45,
+      "code": "SN-038",
+      "id": 60030,
+      "sourceProductId": null
+    },
+    {
+      "position": 46,
+      "code": "SN-039",
+      "id": 60031,
+      "sourceProductId": null
+    },
+    {
+      "position": 47,
+      "code": "SN-040",
+      "id": 60032,
+      "sourceProductId": null
+    },
+    {
+      "position": 48,
+      "code": "SN-071",
+      "id": 61011,
+      "sourceProductId": 60044
+    },
+    {
+      "position": 49,
+      "code": "SN-041",
+      "id": 60033,
+      "sourceProductId": null
+    },
+    {
+      "position": 50,
+      "code": "SN-042",
+      "id": 60034,
+      "sourceProductId": null
+    },
+    {
+      "position": 51,
+      "code": "SN-043",
+      "id": 60035,
+      "sourceProductId": null
+    },
+    {
+      "position": 52,
+      "code": "SN-044",
+      "id": 60036,
+      "sourceProductId": null
+    },
+    {
+      "position": 53,
+      "code": "SN-072",
+      "id": 61012,
+      "sourceProductId": 60045
+    },
+    {
+      "position": 54,
+      "code": "SN-045",
+      "id": 60037,
+      "sourceProductId": null
+    },
+    {
+      "position": 55,
+      "code": "SN-046",
+      "id": 60038,
+      "sourceProductId": null
+    },
+    {
+      "position": 56,
+      "code": "SN-047",
+      "id": 60039,
+      "sourceProductId": null
+    },
+    {
+      "position": 57,
+      "code": "SN-048",
+      "id": 60040,
+      "sourceProductId": null
+    },
+    {
+      "position": 58,
+      "code": "SN-066",
+      "id": 61006,
+      "sourceProductId": 60020
+    },
+    {
+      "position": 59,
+      "code": "SN-049",
+      "id": 60041,
+      "sourceProductId": null
+    },
+    {
+      "position": 60,
+      "code": "SN-050",
+      "id": 60042,
+      "sourceProductId": null
+    },
+    {
+      "position": 61,
+      "code": "SN-051",
+      "id": 60043,
+      "sourceProductId": null
+    },
+    {
+      "position": 62,
+      "code": "SN-052",
+      "id": 60044,
+      "sourceProductId": null
+    },
+    {
+      "position": 63,
+      "code": "SN-067",
+      "id": 61007,
+      "sourceProductId": 60026
+    },
+    {
+      "position": 64,
+      "code": "SN-053",
+      "id": 60045,
+      "sourceProductId": null
+    },
+    {
+      "position": 65,
+      "code": "SN-054",
+      "id": 60046,
+      "sourceProductId": null
+    },
+    {
+      "position": 66,
+      "code": "SN-055",
+      "id": 60047,
+      "sourceProductId": null
+    },
+    {
+      "position": 67,
+      "code": "SN-056",
+      "id": 60048,
+      "sourceProductId": null
+    },
+    {
+      "position": 68,
+      "code": "SN-069",
+      "id": 61009,
+      "sourceProductId": 60028
+    },
+    {
+      "position": 69,
+      "code": "SN-057",
+      "id": 60049,
+      "sourceProductId": null
+    },
+    {
+      "position": 70,
+      "code": "SN-058",
+      "id": 60050,
+      "sourceProductId": null
+    },
+    {
+      "position": 71,
+      "code": "SN-059",
+      "id": 60051,
+      "sourceProductId": null
+    },
+    {
+      "position": 72,
+      "code": "SN-060",
+      "id": 60052,
+      "sourceProductId": null
+    },
+    {
+      "position": 73,
+      "code": "SN-073",
+      "id": 61013,
+      "sourceProductId": 60045
+    }
+  ]
+}

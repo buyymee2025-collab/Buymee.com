@@ -34,3 +34,39 @@ export function appendRepeatedSneakerSets(catalog) {
   })
   return [...catalog, ...repeated]
 }
+
+// Preserve the selected first eight cards, then distribute the separate photo sets.
+// A stable order keeps each product's SN code and gallery attached to its identity.
+export function scatterSneakerSets(catalog) {
+  const sneakers = catalog.filter(product => product.category === 'Sneakers')
+  const extras = sneakers.filter(product => product.sourceProductId != null)
+  if (!extras.length) return catalog
+  const original = sneakers.filter(product => product.sourceProductId == null)
+  const layout = []
+  for (let index = 0; index < original.length; index++) {
+    layout.push(original[index])
+    if (index >= 11 && (index - 11) % 4 === 0 && layout.filter(item => item === null).length < extras.length) layout.push(null)
+  }
+  while (layout.filter(item => item === null).length < extras.length) layout.push(null)
+  const slots = layout.flatMap((item, index) => item === null ? [index] : [])
+  const sourcePositions = new Map(layout.flatMap((item, index) => item ? [[String(item.id), index]] : []))
+  const assigned = []
+  const place = (slotIndex, remaining) => {
+    if (slotIndex === slots.length) return true
+    const position = slots[slotIndex]
+    for (let index = 0; index < remaining.length; index++) {
+      const product = remaining[index]
+      const source = String(product.sourceProductId)
+      if (Math.abs(position - sourcePositions.get(source)) < 8) continue
+      if (assigned.some(item => String(item.product.sourceProductId) === source && Math.abs(position - item.position) < 8)) continue
+      assigned.push({ position, product })
+      if (place(slotIndex + 1, remaining.filter((_, candidate) => candidate !== index))) return true
+      assigned.pop()
+    }
+    return false
+  }
+  if (!place(0, extras)) throw new Error('Unable to distribute sneaker sets with sufficient spacing')
+  for (const { position, product } of assigned) layout[position] = product
+  let next = 0
+  return catalog.map(product => product.category === 'Sneakers' ? layout[next++] : product)
+}
