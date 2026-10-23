@@ -209,3 +209,14 @@
   font-style: normal;
   font-weight: 400;
 }
+
+/* Keep the About headline to its intended two-line composition. */
+.about-new .about-new-hero h1 {
+  font-size: clamp(48px, 5.2vw, 68px);
+}
+.about-new .about-new-hero h1 em {
+  white-space: nowrap;
+}
+@media (max-width: 600px) {
+  .about-new .about-new-hero h1 { font-size: clamp(44px, 12vw, 58px); }
+}
