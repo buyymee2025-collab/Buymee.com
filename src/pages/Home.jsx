@@ -1,4 +1,5 @@
 import { useStore } from '../context/StoreContext'
+import '../home-visual-refresh.css'
 import SiteImage from '../components/SiteImage'
 import { useEffect, useRef } from 'react'
 import { useReducedMotion } from 'framer-motion'
