@@ -193,3 +193,19 @@
 .about-new .about-new-hero h1 em {
   font-weight: 300;
 }
+
+/* Use a lighter, quieter face for the orange display accents. */
+.home-redesign .hero-new-copy h1 span,
+.home-redesign .manifesto-strip h2 em,
+.home-redesign .category-constellation h2 em,
+.home-redesign .new-in-new h2 em,
+.home-redesign .dress-story-copy h2 em,
+.home-redesign .locations-logo-heading em,
+.home-redesign .feature-copy h2 em,
+.about-new .about-new-hero h1 em,
+.about-new .about-principle h2 em,
+.about-new .about-world-copy h2 em {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+}
