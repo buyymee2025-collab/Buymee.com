@@ -1,4 +1,5 @@
-// Visually matched front and side views from the owner's Cloudinary uploads, October 23–24, 2026.
+// All 20 pairs visually audited against the owner's Cloudinary uploads, October 24, 2026.
+// Match stone, setting and band details; upload order does not determine a pair.
 const cloud = 'https://res.cloudinary.com/hobndbjx/image/upload/'
 const ringPairs = [
   {
@@ -125,14 +126,21 @@ const ringPairs = [
     "name": "BLUE SQUARE STONE GREEK-KEY SIGNET RING",
     "color": "Gold / Blue",
     "front": "exec-28d17fba-c05f-4338-8292-d576718339dc",
-    "side": "exec-0e85ebe1-8241-4b5b-a368-3a0270c23728"
+    "side": "exec-fcac40b6-9962-44dd-a93c-0f2f3b144620"
   },
   {
     "code": "RG-019",
     "name": "BROWN SQUARE STONE ORNATE SIGNET RING",
     "color": "Gold / Brown / Black",
     "front": "exec-82dd6a0e-c0e1-4c35-bb18-a1b46ab54f07",
-    "side": "exec-fcac40b6-9962-44dd-a93c-0f2f3b144620"
+    "side": "exec-0e85ebe1-8241-4b5b-a368-3a0270c23728"
+  },
+  {
+    "code": "RG-020",
+    "name": "BLACK RECTANGULAR STONE TRIANGLE-SHOULDER SIGNET RING",
+    "color": "Silver / Gold / Black",
+    "front": "exec-d5b65bbf-c121-4d0e-bc2b-2ff81e87d237",
+    "side": "exec-4e6d6cf1-2ef6-4278-aa9f-8210d80d0900"
   }
 ]
 export const RING_PRODUCTS = ringPairs.map((ring, index) => {
@@ -149,6 +157,6 @@ export const RING_PRODUCTS = ringPairs.map((ring, index) => {
     sizes: [], tags: ['luxury rings', 'rings', 'signet rings'],
     description: ring.name + '. Contact BUYYMEE for available sizes and delivery details.',
     inStock: true, placeholder: false, featured: false, newArrival: true, sale: true,
-    mediaRevision: 'rings-cloudinary-2026-10-23-v1'
+    mediaRevision: 'rings-cloudinary-2026-10-24-v2'
   }
 })
