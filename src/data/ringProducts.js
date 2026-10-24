@@ -1,4 +1,4 @@
-// Visually matched front and side views from the owner's Cloudinary uploads, October 23, 2026.
+// Visually matched front and side views from the owner's Cloudinary uploads, October 23–24, 2026.
 const cloud = 'https://res.cloudinary.com/hobndbjx/image/upload/'
 const ringPairs = [
   {
@@ -77,6 +77,62 @@ const ringPairs = [
     "color": "Gold / Black",
     "front": "exec-f7fe4da2-5efd-4889-981b-0b011b9b100d",
     "side": "exec-17e3e838-c3ec-4398-8c39-f1a86e7b0b71"
+  },
+  {
+    "code": "RG-012",
+    "name": "BLUE RECTANGULAR STONE CREST SIGNET RING",
+    "color": "Gold / Blue",
+    "front": "exec-9be5fdff-3957-4678-9346-a6091cabdb83",
+    "side": "exec-b1c46fb3-1bd5-413f-bd73-7f5791fbaf3c"
+  },
+  {
+    "code": "RG-013",
+    "name": "WHITE OVAL STONE ORNATE SIGNET RING",
+    "color": "Silver / White",
+    "front": "exec-d877689e-4db7-4107-badc-3cfad203066a",
+    "side": "exec-9df9c2bd-a0c9-4e92-906f-d78bd7f6dac1"
+  },
+  {
+    "code": "RG-014",
+    "name": "RED RECTANGULAR STONE FLEUR-DE-LIS RING",
+    "color": "Silver / Red",
+    "front": "exec-a3aa74a3-59f9-4925-bc07-0844d7e6f627",
+    "side": "exec-d9cc7444-6c96-4c91-9ad3-261f7b1f5ddf"
+  },
+  {
+    "code": "RG-015",
+    "name": "EAGLE LATTICE SIGNET RING",
+    "color": "Gold / Silver / Black",
+    "front": "exec-4b0a06f2-2e15-44c7-a3cd-b9355c086cb7",
+    "side": "exec-5b399b32-e83f-481e-9b83-dcc362fc83ef"
+  },
+  {
+    "code": "RG-016",
+    "name": "GREEN RECTANGULAR STONE FLEUR-DE-LIS RING",
+    "color": "Gold / Green / Black",
+    "front": "exec-ef88802d-33ce-4813-a878-8a29e3f3a13b",
+    "side": "exec-d8eab842-a886-4eea-8131-ced2e317e4df"
+  },
+  {
+    "code": "RG-017",
+    "name": "RED OVAL STONE CLASSIC GOLD-TONE RING",
+    "color": "Gold / Red",
+    "front": "exec-0ae8a044-8b8e-4506-b2be-7612fa695ed1",
+    "side": "exec-0430f8b6-f486-4837-976c-de811d2682ea"
+  },
+  {
+    "code": "RG-018",
+    "name": "BLUE SQUARE STONE GREEK-KEY SIGNET RING",
+    "color": "Gold / Blue",
+    "front": "exec-28d17fba-c05f-4338-8292-d576718339dc",
+    "side": "exec-0e85ebe1-8241-4b5b-a368-3a0270c23728"
+  },
+  {
+    "code": "RG-019",
+    "name": "BROWN SQUARE STONE ORNATE SIGNET RING",
+    "color": "Gold / Brown / Black",
+    "front": "exec-82dd6a0e-c0e1-4c35-bb18-a1b46ab54f07",
+    "side": "exec-fcac40b6-9962-44dd-a93c-0f2f3b144620"
   }
 ]
 export const RING_PRODUCTS = ringPairs.map((ring, index) => {
