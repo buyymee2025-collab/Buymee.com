@@ -626,7 +626,21 @@ const RESEARCHED_NAMES = {
   }
 }
 
+// Exact model names supplied by the owner on 23 October 2026.
+const OWNER_CONFIRMED_EYEWEAR_NAMES = {
+  GL114: 'TOM FORD ICON FT1278 GEOMETRIC SUNGLASSES — BLACK',
+  GL167: 'TOM FORD ICON FT1278 GEOMETRIC SUNGLASSES'
+}
+
 export function normalizeResearchedEyewear(product) {
+  const ownerName = product.category === 'Eye Wears' && OWNER_CONFIRMED_EYEWEAR_NAMES[product.productCode]
+  if (ownerName) return {
+    ...product,
+    name: ownerName,
+    familyName: ownerName,
+    brand: 'TOM FORD',
+    description: `${ownerName}. FRAME AND LENS COLOUR AS PICTURED. CONTACT BUYYMEE FOR AVAILABILITY AND DELIVERY DETAILS.`
+  }
   if (product.category !== 'Eye Wears' || !product.name || product.name === product.name.toUpperCase()) return product
   const entry = RESEARCHED_NAMES[String(product.id)]
   if (!entry || ![entry.previousName, entry.baseName].includes(product.name)) return product
